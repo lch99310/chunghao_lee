@@ -21,6 +21,7 @@ As to my hobbies, I am interested in Baseball Analytics, History, Geopolitics an
 * [2022 - 2024] AI Product Manager at Wistron
 * [2020 - 2022] Research Assistent at University of Maryland - College Park
 * [2018 - 2020] Factory PM at Pegatron
+* [2016 - 2017] SMS at International Taoyuan Airport
 
 ## Education 
 * MBA & MSIS, University of Maryland - College Park (2022)
@@ -51,7 +52,7 @@ As to my hobbies, I am interested in Baseball Analytics, History, Geopolitics an
 * Honorably discharged, summa cum laude
 * Received a certificate of merit from the Ministry of the Interior (Taiwan).
 
-### National Tsing Hua University:
+### Tsing Hua University:
 * Dean’s list, 2012 Spring, Recipient
 * Dean’s list, 2011 Fall, Recipient
 * Dean’s list, 2011 Spring, Recipient
