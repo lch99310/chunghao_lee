@@ -4,7 +4,7 @@ title = 'GovHack2025 - Data Center Challenging'
 +++
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="Queensland Aluminium Industry Emissions.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
+    <a href="GovHack 2025_ Australia's AI Future - A Data-Driven Framework for Data Center Siting.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
         📥 Download Portfolio PDF
     </a>
 </div>
@@ -50,8 +50,8 @@ title = 'GovHack2025 - Data Center Challenging'
 ### 📄 Full Portfolio Document
 
 <!-- Option 1: Using iframe embed (works if PDF is in static folder) -->
-<iframe src="Queensland Aluminium Industry Emissions.pdf" class="pdf-embed" type="application/pdf">
-    <p>Your browser doesn't support PDF viewing. Please <a href="Queensland Aluminium Industry Emissions.pdf">download the PDF</a> to view it.</p>
+<iframe src="GovHack 2025_ Australia's AI Future - A Data-Driven Framework for Data Center Siting.pdf" class="pdf-embed" type="application/pdf">
+    <p>Your browser doesn't support PDF viewing. Please <a href="GovHack 2025_ Australia's AI Future - A Data-Driven Framework for Data Center Siting.pdf">download the PDF</a> to view it.</p>
 </iframe>
 
 <!-- Option 2: Using Google Docs Viewer (replace URL with your actual PDF URL) -->
