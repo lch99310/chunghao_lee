@@ -7,23 +7,42 @@ showAuthor = true
 +++
 
 
-Hi, I am Liang-Yao Wang 王亮堯
+Hi, I am Chung-Hao Lee 李崇豪
 
-I received my Ph.D. in ***Astrophysics*** from National Taiwan University (NTU) in 2018. Prior to that, I completed a Master's degree in Astrophysics and earned my undergraduate degree in Physics, both also from NTU.
+I am a Product Operation Manager managing AI/ML products at TikTok. Prior to TikTok, I have 4+ years experiences at Wistron as AI PM and at Pegatron as Factory PM.
 
-Near the end of my Ph.D. studies, I decided to explore the fields of ***machine learning*** and ***data science***. From 2018 to 2024, I worked as a software engineer at Wistron Corporation, where I contributed to a variety of machine learning-related projects. During this time, my interest in software development also grows.
+I received MBA and Master’s in Information Systems dual degrees from University of Maryland, College Park, advised by Dr. Adam Lee and Prof. Suresh Acharya, and Bachelor’s degree from National Tsing Hua University.
 
-In 2025, I have been actively building new skills through platforms like LeetCode and Boot.dev. My goal is to be acquainted with Machine learning System as a whole.
+I bring comprehensive expertise in technology product development, integrating data-driven decision-making to optimize Product Development, Supply Chain Management, and Manufacturing. As to my hobbies, I am interested in Baseball Analytics, History, Geopolitics and Synthetic Biology. In my free time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
 
-## Activity Summaries
+Activity Summaries
 
-- [2012 ~ 2018] Academic research in Astrophysics - [Astrophysics](/astrophysics). 
-- [2018] Transition toward Data Science & Machine Learning - [Toward ML](/2018-toward-dsml).
-- [2018 ~ 2024] Software engineer at Wistron Corporation - [DS/ML Projects](/wistron).
-- [2025] Building software developer skills - [SW Developer skills](/2025-software-skills)
+## Achievements
+### Wistron:
+* Dell Outstanding Leadership & Execution Award, 2023
+* Co-hosted a Dell-Wistron Joint Engineering Workshop, 2023
+* Scrum Master Certification, 2023
+* Anomaly Detection in Driving by Cluster Analysis Twice Published !
 
-## Education
+### University of Maryland, College Park:
+* Smith Fellow scholarship, Recipient
+* UMD Outstanding Graduate Student Award, 2022, Nomination
+* Reported by Maryland Today
+* Baseball Informatics—From MiLB to MLB Debut Published !
+* Impact Consulting Fellowship, Summer 2021, 1st Place
+* ISM Global Case Competition, January 2022
+* UMD Info Challenge, March 2022
+* Bitcamp, April 2022
+* Graduate Research Appreciation Day, April 2022, 2nd Place
+* UMD Smith Analytics Consortium Deloitte datathon, May 2022
+* UMD IS & Hearst Communications Inc. Data Competition, May 2022, 3rd Place
+* Selected as VP for Smith Masters Supply Chain Management Association & APICS Management
 
-* Ph.D., Astrophysics, National Taiwan University (2018)
-* Master, Astrophysics, National Taiwan University (2010) 
-* Bachelor, Physics, National Taiwan University (2008)
+### Substitute Millatary Service:
+* Honorably discharged, summa cum laude
+* Received a certificate of merit from the Ministry of the Interior (Taiwan).
+
+### National Tsing Hua University:
+* Dean’s list, 2012 Spring, Recipient
+* Dean’s list, 2011 Fall, Recipient
+* Dean’s list, 2011 Spring, Recipient
