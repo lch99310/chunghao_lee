@@ -6,7 +6,7 @@ title = 'CH product portfolio at Wiston'
 ## Product Portfolio - Telemetry AI Analyzer
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="/path/to/CHLee_Portfolio.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
+    <a href="CHLee_Portfolio.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
         📥 Download Portfolio PDF
     </a>
 </div>
@@ -52,8 +52,8 @@ title = 'CH product portfolio at Wiston'
 ### 📄 Full Portfolio Document
 
 <!-- Option 1: Using iframe embed (works if PDF is in static folder) -->
-<iframe src="/path/to/CHLee_Portfolio.pdf" class="pdf-embed" type="application/pdf">
-    <p>Your browser doesn't support PDF viewing. Please <a href="/path/to/CHLee_Portfolio.pdf">download the PDF</a> to view it.</p>
+<iframe src="CHLee_Portfolio.pdf" class="pdf-embed" type="application/pdf">
+    <p>Your browser doesn't support PDF viewing. Please <a href="CHLee_Portfolio.pdf">download the PDF</a> to view it.</p>
 </iframe>
 
 <!-- Option 2: Using Google Docs Viewer (replace URL with your actual PDF URL) -->
@@ -100,3 +100,6 @@ An AI system trained on **40+ billion data records** from **30+ million notebook
 - Eliminated "cannot duplicate" issues through predictive analytics
 - Enabled proactive issue resolution before failures occur
 
+---
+*Originally published on LinkedIn; republished here.* <br>
+*文章原發表於 linkedin，後轉移至此*
