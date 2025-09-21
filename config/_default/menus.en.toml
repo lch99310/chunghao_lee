@@ -20,11 +20,6 @@
   pageRef = "Portfolio"
   weight = 11
 
-# [[main]]
-#  name = "Wistron"
-#  pageRef = "wistron"
-#  weight = 12
-
 [[main]]
   name = "Posts"
   pageRef = "posts"
