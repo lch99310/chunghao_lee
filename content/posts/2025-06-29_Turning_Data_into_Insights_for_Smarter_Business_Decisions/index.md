@@ -18,6 +18,7 @@ Specifically, Mobike’s strategic move to integrate directly with WeChat gave i
 - ☝ One‑Click Payments: Leveraging WeChat Pay eliminated the friction of bank transfers and credit‑card sign‑ups that bogged down ofo.
 - ↗️  Outcome: Lower adoption barriers, stronger retention rates, and rapid market penetration.
 
+<br>
 This case reminded me that: 
 - 👉 Data tells us what happened. 
 - 👉 Insight—rooted in strategic vision and thinking—reveals why it mattered.
