@@ -20,20 +20,20 @@
 #  pageRef = "astrophysics"
 #  weight = 11
 
-[[main]]
-  name = "Wistron"
-  pageRef = "wistron"
-  weight = 12
+# [[main]]
+#  name = "Wistron"
+#  pageRef = "wistron"
+#  weight = 12
 
 [[main]]
   name = "Posts"
   pageRef = "posts"
   weight = 20
 
-[[main]]
-  name = "Tags"
-  pageRef = "tags"
-  weight = 30
+# [[main]]
+#  name = "Tags"
+#  pageRef = "tags"
+#  weight = 30
 
 [[main]]
   identifier = "search"
