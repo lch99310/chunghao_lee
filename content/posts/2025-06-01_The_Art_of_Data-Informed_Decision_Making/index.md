@@ -13,18 +13,18 @@ In a project analyzing laptop logs to predict hardware failures, my team identif
 
 ## 🔍 The breakthrough came through collaboration:
 Domain experts revealed this log triggered not just during failures, but also in normal low-battery states while users didn’t plug in chargers.
-The causality flip:
-- → Faulty devices led users to abandon charging (expecting imminent failure).
-- → This behavior massively amplified log generation during low-battery states.
-- → Raw data misinterpreted correlation as causation. <br>
+The causality flip:<br>
+→ Faulty devices led users to abandon charging (expecting imminent failure).<br>
+→ This behavior massively amplified log generation during low-battery states.<br>
+→ Raw data misinterpreted correlation as causation. <br>
 Blind data reliance missed this nuance; human experience reframed the logic.
 Result: Revised models reduced false positives by contextualizing data with behavioral reality.
 
 ## The AI Era’s Unspoken Truth:
-As AI democratizes analytics, polished dashboards and automated reports are table stakes. What separates strategic leaders?
-- ✅ Business acumen to ask why behind the numbers
-- ✅ Domain fluency to separate signals from noise
-- ✅ Judgment to balance data with real-world complexity
+As AI democratizes analytics, polished dashboards and automated reports are table stakes. What separates strategic leaders?<br>
+✅ Business acumen to ask why behind the numbers<br>
+✅ Domain fluency to separate signals from noise<br>
+✅ Judgment to balance data with real-world complexity
 
 ## ✨ Key Takeaway:
 Data illuminate paths, but experience navigates them. The future belongs to professionals who wield analytics not just as technicians, but as translators of insights into actionable strategy.
