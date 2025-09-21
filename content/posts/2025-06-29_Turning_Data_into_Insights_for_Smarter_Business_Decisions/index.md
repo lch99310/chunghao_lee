@@ -13,10 +13,10 @@ On paper, both were burning VC capital at breakneck speed, deploying massive fle
 
 Although data analytics can dissect supply‑chain efficiency, marketing ROI, and operational performance, none of those metrics ultimately decided the outcome. The real inflection point lay not in the spreadsheets but in user‑experience design. 
 Specifically, Mobike’s strategic move to integrate directly with WeChat gave it a game-changing edge:
-<br> 📲 Channel: In China, WeChat is the digital backbone of daily life. Embedding Mobike directly into WeChat opened the door to its 1.4 billion users.
-<br> ⏳ Seamless Onboarding: No separate app download or lengthy registration—users could unlock a bike with a single tap inside WeChat.
-<br> ☝ One‑Click Payments: Leveraging WeChat Pay eliminated the friction of bank transfers and credit‑card sign‑ups that bogged down ofo.
-<br> ↗️  Outcome: Lower adoption barriers, stronger retention rates, and rapid market penetration.
+<br> 📲 **Channel:** In China, WeChat is the digital backbone of daily life. Embedding Mobike directly into WeChat opened the door to its 1.4 billion users.
+<br> ⏳ **Seamless Onboarding:** No separate app download or lengthy registration—users could unlock a bike with a single tap inside WeChat.
+<br> ☝ **One‑Click Payments:** Leveraging WeChat Pay eliminated the friction of bank transfers and credit‑card sign‑ups that bogged down ofo.
+<br> ↗️  **Outcome:** Lower adoption barriers, stronger retention rates, and rapid market penetration.
 
 <br>
 This case reminded me that: 
