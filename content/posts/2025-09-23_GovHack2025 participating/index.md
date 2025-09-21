@@ -13,7 +13,7 @@ I chose to tackle the “data center” challenge. As Scott Farquhar recently no
 
 It was an honor to work on this challenge, and over two intensive days the analytical work may help advance Australia’s digital infrastructure and support the broader community’s technological needs 💡📊
 
-![pic](pic.png)
+![pic](pic.jpeg)
 
 ---
 *Originally published on LinkedIn; republished here.* <br>
