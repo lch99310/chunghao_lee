@@ -9,7 +9,7 @@ title = "CH Lee's Note"
 [params]
   dateFormat = "January 2, 2006"
   # mainSections = ["section1", "section2"]
-  description = "My awesome website"
+  description = "Chung-Hao Lee's Note"
   favicon = "favicon.ico"
 
 [params.author]
