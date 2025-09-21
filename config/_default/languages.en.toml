@@ -15,8 +15,8 @@ title = "CH Lee's Note"
 [params.author]
   name = "Chung-Hao Lee"
   image = "img/author_CHLee.jpg"
-  headline = "Path"
-  bio = "Product @TikTok, MBA & MSIS @Univ of Maryland, College Park"
+  headline = "Links"
+  bio = "AI Product @TikTok, MBA & MSIS @Univ of Maryland, College Park, BS @Tsinghua Univ"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
