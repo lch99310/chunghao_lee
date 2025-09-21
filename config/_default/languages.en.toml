@@ -3,20 +3,20 @@ languageName = "English"
 languageDirection = "ltr"
 weight = 1
 
-title = "LY's Note"
+title = "CH Lee's Note"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
-  dateFormat = "2 January 2006"
+  dateFormat = "January 2, 2006"
   # mainSections = ["section1", "section2"]
   description = "My awesome website"
   favicon = "favicon.ico"
 
 [params.author]
-  name = "Liang-Yao Wang"
+  name = "Chung-Hao Lee"
   image = "img/author_lywang.jpg"
   headline = "Path"
-  bio = "SW/ML engineer. Astrophysics Ph.D."
+  bio = "Product @TikTok, MBA & MSIS @Univ of Maryland, College Park"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -30,7 +30,7 @@ title = "LY's Note"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/lywgit" },
+    { github = "https://github.com/lch99310" },
   #   { gitlab = "https://gitlab.com/username" },
   #   { google = "https://www.google.com/" },
   #   { google-scholar = "https://scholar.google.com/citations?user=user-id" },
@@ -40,7 +40,7 @@ title = "LY's Note"
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { kofi = "https://ko-fi.com/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-    { linkedin = "https://linkedin.com/in/liang-yao-wang/" },
+    { linkedin = "https://www.linkedin.com/in/lch99310/" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { mendeley = "https://www.mendeley.com/" },
