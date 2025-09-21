@@ -1,6 +1,6 @@
 +++
 date = '2025-08-01T00:00:00+08:00'
-title = 'Beyond the Numbers: AI serves as my analytics co‑pilot—steering data, not just processing it'
+title = 'Beyond the Numbers: AI serves as my analytics co‑pilot—steering data, not just processing it 🚢'
 +++
 
 In today’s fast‑moving business environment, AI-driven data analytics isn’t about replacing your expertise—it’s about amplifying it. I treat AI as a high‑performance co‑pilot: I set the destination, define the route, and ensure we stay on course, while AI accelerates every step of the journey.
