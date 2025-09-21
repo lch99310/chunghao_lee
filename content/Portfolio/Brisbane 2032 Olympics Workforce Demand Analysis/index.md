@@ -23,7 +23,7 @@ title = 'Brisbane 2032 Olympics Workforce Demand Analysis'
 
 .pdf-embed {
     width: 100%;
-    height: 600px;
+    height: 1200px;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
