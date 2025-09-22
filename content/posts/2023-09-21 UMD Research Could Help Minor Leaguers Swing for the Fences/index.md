@@ -5,13 +5,13 @@ title = 'UMD Research Could Help Minor Leaguers Swing for the Fences'
 
 ## Media Coverage
 
-**Honored to be featured in ![Maryland Today](https://today.umd.edu/) for our research work!**
+**Honored to be featured in [Maryland Today](https://today.umd.edu/) for our research work!**
 
 <div class="link-preview">
   <a href="https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences" target="_blank" rel="noopener">
     <div class="preview-card">
       <div class="preview-image">
-        <img src="[https://today.umd.edu/sites/default/files/styles/story_image/public/2023-09/Baseball%20photo%20AP.jpg](https://umd-today.transforms.svdcdn.com/production/es/heroes/23262541435723_1920x1080.jpg?w=1920&h=1080&auto=compress%2Cformat&fit=crop&dm=1754704640&s=02fb4beae4d29c61fcc98d93c21a3f93)" alt="Baseball player batting" />
+        <img src="pic.jpg" alt="Baseball player batting" />
       </div>
       <div class="preview-content">
         <h3>UMD Research Could Help Minor Leaguers Swing for the Fences</h3>
