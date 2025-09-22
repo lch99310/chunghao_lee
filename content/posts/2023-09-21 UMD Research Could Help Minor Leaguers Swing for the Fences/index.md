@@ -1,6 +1,6 @@
 +++
 date = '2023-09-21T00:00:00+08:00'
-title = 'UMD Research Could Help Minor Leaguers Swing for the Fences'
+title = 'My research project was featured in Maryland Today !'
 +++
 
 ## Media Coverage
