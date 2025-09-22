@@ -11,7 +11,7 @@ title = 'UMD Research Could Help Minor Leaguers Swing for the Fences'
   <a href="https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences" target="_blank" rel="noopener">
     <div class="preview-card">
       <div class="preview-image">
-        <img src="pic.jpg" alt="Baseball player batting" />
+        <img src="pic2.jpg" alt="Baseball player batting" />
       </div>
       <div class="preview-content">
         <h3>UMD Research Could Help Minor Leaguers Swing for the Fences</h3>
