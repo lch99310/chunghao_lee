@@ -5,7 +5,7 @@ title = 'My research project was featured in Maryland Today !'
 
 ## Media Coverage
 
-**Honored to be featured in [Maryland Today](https://today.umd.edu/) for our research work!**
+**Honored to be featured in [Maryland Today](https://today.umd.edu/) for my research work!**
 
 <div class="link-preview">
   <a href="https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences" target="_blank" rel="noopener">
