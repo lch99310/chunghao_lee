@@ -81,14 +81,14 @@ This paper introduces ADDCAT (Anomaly Detection in Driving by Cluster Analysis T
 
 ## The method involves:
 
-* Data Processing: Sensor data is aggregated into 2-second intervals ("events") and 20 aggregate statistics (AS) are calculated (e.g., mean speed, std of acceleration).
-* Calibration: To remove the confounding effect of vehicle speed on sensor readings, a linear calibration is performed, making the AS speed-independent.
+* **Data Processing:** Sensor data is aggregated into 2-second intervals ("events") and 20 aggregate statistics (AS) are calculated (e.g., mean speed, std of acceleration).
+* **Calibration:** To remove the confounding effect of vehicle speed on sensor readings, a linear calibration is performed, making the AS speed-independent.
 
-* Double Clustering:
+* **Double Clustering:**
 
-**First Clustering:** All 20 calibrated and normalized AS are fed into HDBSCAN to separate events primarily by speed and identify a major "normal" cluster and outliers.
+ * **First Clustering:** All 20 calibrated and normalized AS are fed into HDBSCAN to separate events primarily by speed and identify a major "normal" cluster and outliers.
 
-**Second Clustering:** HDBSCAN is applied again, separately for the X, Y, and Z axes, using only specific subsets of the AS (mainly standard deviations) from the largest cluster and the outlier group identified in the first step.
+ * **Second Clustering:** HDBSCAN is applied again, separately for the X, Y, and Z axes, using only specific subsets of the AS (mainly standard deviations) from the largest cluster and the outlier group identified in the first step.
 Anomaly Identification: An event is classified as an anomaly if it does not belong to the largest cluster in all three axis-specific second clusterings.
 
 Validated on an open dataset containing pothole information, ADDCAT achieved an accuracy of 0.62, successfully identifying 31 out of 79 potholes.
