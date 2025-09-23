@@ -5,7 +5,7 @@ title = '2023 Dell Outstanding Leadership & Execution Award'
 
 I am deeply grateful to my team for their support and dedicated efforts in product development over the past year. It is also a great honor to be recognized by Dell with the 2023 Dell Outstanding Leadership & Execution Award.
 
-![Award](2023 Dell Outstanding Leadership & Execution Award.pdf)
+![Award](pic.jpg)
 
 
 ---
