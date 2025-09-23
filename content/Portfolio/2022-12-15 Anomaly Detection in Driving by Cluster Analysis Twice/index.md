@@ -86,9 +86,9 @@ This paper introduces ADDCAT (Anomaly Detection in Driving by Cluster Analysis T
 
 * **Double Clustering:**
 
-1. **First Clustering:** All 20 calibrated and normalized AS are fed into HDBSCAN to separate events primarily by speed and identify a major "normal" cluster and outliers.
+  * **First Clustering:** All 20 calibrated and normalized AS are fed into HDBSCAN to separate events primarily by speed and identify a major "normal" cluster and outliers.
 
-1. **Second Clustering:** HDBSCAN is applied again, separately for the X, Y, and Z axes, using only specific subsets of the AS (mainly standard deviations) from the largest cluster and the outlier group identified in the first step.
+  * **Second Clustering:** HDBSCAN is applied again, separately for the X, Y, and Z axes, using only specific subsets of the AS (mainly standard deviations) from the largest cluster and the outlier group identified in the first step.
 Anomaly Identification: An event is classified as an anomaly if it does not belong to the largest cluster in all three axis-specific second clusterings.
 
 Validated on an open dataset containing pothole information, ADDCAT achieved an accuracy of 0.62, successfully identifying 31 out of 79 potholes.
