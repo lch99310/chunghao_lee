@@ -1,9 +1,8 @@
 +++
 date = '2025-10-01T00:00:00+08:00'
-title = 'Beyond the Divide: The Two Sides of the Same Coin �'
+title = 'Beyond the Divide: The Two Sides of the Same Coin'
 +++
 
-# Beyond the Divide: The Two Sides of the Same Coin 🔄
 
 *I’ve had the privilege of working as both an engineer and a product manager—and I’m often asked: “Aren’t those roles totally different?” My answer might surprise you: they’re not opposites. They’re complementary lenses on the same mission.*
 
