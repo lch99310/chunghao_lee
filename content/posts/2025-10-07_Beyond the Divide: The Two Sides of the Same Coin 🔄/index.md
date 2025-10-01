@@ -1,5 +1,5 @@
 +++
-date = '2025-10-01T00:00:00+08:00'
+date = '2025-10-07T00:00:00+00:00'
 title = 'Beyond the Divide: The Two Sides of the Same Coin'
 +++
 
