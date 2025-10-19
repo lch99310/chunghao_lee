@@ -6,6 +6,7 @@ showPagination = false
 showAuthor = true
 +++
 
+**Analysis + Action = Product**
 
 Hi, I am Chung-Hao Lee 李崇豪
 
