@@ -49,21 +49,21 @@ There are three aspects of Messenger's quoted replies that I find brilliant:
 ### (1) A Highly Intuitive Interaction
 Unlike other apps, using quoted replies in Messenger doesn't require a long press, waiting for a pop-up, and then selecting the 'reply' option. You simply **swipe left or right on the message you want to quote** (depending on whether it's your message or your friend's). This is incredibly intuitive and eliminates tedious steps.
 
-![gif1](gif1.GIF)
+<img src="gif1.GIF" alt="Swipe gesture demonstration" width="300" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
 ### (2) The Visual Presentation of the Quoted Reply
 The visual presentation of a quoted reply in Messenger appears as a smaller, lighter-colored container above your reply, displaying the original message (and it even shows a thumbnail for images or links!).
 
 The advantage of this is that the user can **immediately see the context of the reply at a glance**. This avoids the need to scroll up to find the original message, as required in other apps, elevating the user's reading experience and efficiency to another level.
 
-![pic](pic.jpg)
+<img src="pic.jpg" alt="Quoted reply visual example" width="300" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
 ### (3) The Subsequent Interaction of Tapping the Quoted Message
 In Messenger, if a user wants to see the original quoted message, they just need to tap on the small quote container, and **the app automatically scrolls up to the original message's location**.
 
 This allows the user to quickly see the surrounding context of the original message. If the quote is a link, the user can easily return to the original message to click it. This interaction is extremely intuitive and enhances the efficiency of reading messages, significantly improving the user experience.
 
-![gif2](gif2.GIF)
+<img src="gif2.GIF" alt="Tap to scroll interaction demonstration" width="300" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
 ---
 
