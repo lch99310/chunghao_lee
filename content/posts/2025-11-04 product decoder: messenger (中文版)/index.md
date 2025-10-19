@@ -7,6 +7,7 @@ title = "Product Decoder: Messenger 的拆分策略與引用回覆功能解析"
 身為一位PM,我總是喜歡以一位使用者角度來看一個產品。這次想來跟著大家一起來看我心中一個很好的產品 — Messenger。
 
 <img src="pic1.png" alt="logo of messenger" width="80" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
 ---
 
 ## 一、 Messenger從Facebook App中獨立出來
