@@ -4,11 +4,11 @@ title = "Product Decoder: Messenger 的拆分策略與引用回覆功能解析"
 +++
 
 
-身為一位PM,我總是喜歡以一位使用者角度來看一個產品。這次想來跟著大家一起來看我心中一個很好的產品——Messenger。
+身為一位PM,我總是喜歡以一位使用者角度來看一個產品。這次想來跟著大家一起來看我心中一個很好的產品 — Messenger。
 
 ## 一、 Messenger從Facebook App中獨立出來
 
-Messenger 本來是 Facebook 的一個通訊功能,但在 2014-2015 年時被 Facebook 分拆出來,要求用戶單獨下載 App 來做使用。
+Messenger 本來是 Facebook 的一個通訊功能,但在 2015 年時被 Facebook 分拆出來,要求用戶單獨下載 App 來做使用。
 
 坦白說,當時我覺得很麻煩,覺得同樣都是 Facebook,為什麼要分兩個 App 做使用 (Facebook: 主要用來瀏覽動態 / Messenger: 主要用來與人溝通)。
 
