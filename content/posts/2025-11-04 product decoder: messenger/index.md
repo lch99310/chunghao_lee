@@ -1,6 +1,6 @@
 +++
 date = '2025-10-19T00:00:00+00:00'
-title = 'Product Decoder: messenger\'s Unbundling Strategy and Quoted Reply Feature Analysis'
+title = 'Product Decoder: Messenger Unbundling Strategy and Quoted Reply Feature Analysis'
 +++
 
 As a Product Manager, I always like to view products from a user's perspective. This time, I'd like to analyze a product I consider to be excellent—Messenger.
