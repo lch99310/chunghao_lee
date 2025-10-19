@@ -5,7 +5,7 @@ title = "Product Decoder: Messenger's Unbundling Strategy and Quoted Reply Featu
 
 As a PM, I always like to view products from a user's perspective. This time, I'd like to analyze a product I consider to be excellent — Messenger.
 
-<img src="pic1.png" alt="logo of messenger" width="300" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="pic1.png" alt="logo of messenger" width="80" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
 ---
 
