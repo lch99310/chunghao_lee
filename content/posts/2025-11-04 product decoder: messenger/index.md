@@ -9,7 +9,7 @@ As a Product Manager, I always like to view products from a user's perspective. 
 
 ## I. Messenger's Unbundling from the Facebook App
 
-Messenger was originally a messaging feature within Facebook, but around 2014-2015, Facebook unbundled it, requiring users to download a separate app to use it.
+Messenger was originally a messaging feature within Facebook, but around 2015, Facebook unbundled it, requiring users to download a separate app to use it.
 
 Frankly, I found it inconvenient at the time, wondering why I needed two separate apps from the same company (Facebook: mainly for browsing the feed / Messenger: mainly for communication).
 
@@ -65,7 +65,7 @@ This allows the user to quickly see the surrounding context of the original mess
 
 <img src="gif2.GIF" alt="Tap to scroll interaction demonstration" width="300" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 
----
+<br>
 
 For these three reasons, I believe the "quoted reply" is a highly intuitive and well-designed interaction feature that greatly enhances the user experience. It's a major reason why I consider Messenger to be such a great product.
 
