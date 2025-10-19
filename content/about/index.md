@@ -17,7 +17,7 @@ I received MBA and Master’s in Information Systems dual degrees from Universit
 I bring comprehensive expertise in technology product development, integrating data-driven decision-making to optimize Product Development, Supply Chain Management, and Manufacturing. 
 
 I like being an analyst who enjoys exploring diverse areas such as product design, business models, baseball data, and geopolitics.
-I’m passionate about discovering the essence of these subjects and understanding the underlying why, what, and how.
+I’m passionate about discovering the essence of these subjects and understanding the underlying 'why', 'what', and 'how'.
 
 In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
 
