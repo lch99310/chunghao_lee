@@ -14,7 +14,11 @@ I am a Product Operation Manager managing AI/ML products at TikTok. Prior to Tik
 I received MBA and Master’s in Information Systems dual degrees from University of Maryland, College Park and Bachelor’s degree from Tsing Hua University.
 
 I bring comprehensive expertise in technology product development, integrating data-driven decision-making to optimize Product Development, Supply Chain Management, and Manufacturing. 
-As to my hobbies, I am interested in Baseball Analytics, History, Geopolitics and Synthetic Biology. In my free time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
+
+I like being an analyst who enjoys exploring diverse areas such as product design, business models, baseball data, and geopolitics.
+I’m passionate about discovering the essence of these subjects and understanding the underlying why, what, and how.
+
+In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
 
 ## Activity Summaries
 * [2025 - Now] Product Operation Manager, AI Model at TikTok
