@@ -105,6 +105,9 @@ This entire framework was accelerated by AI, which helped synthesize complex geo
 
 🔗 Let’s connect and explore how data-driven site selection can turn Australia into the world’s next AI superpower!
 
+
+For more details, please visit GovHack page https://hackerspace.govhack.org/projects/australia_s_ai_future_a_data_driven_framework_for_data_center_siting 
+
 ---
 *© Chung-Hao Lee. All Rights Reserved.
 All content on this webpage—including but not limited to text, images, design, code, and multimedia materials—is protected under the international copyright treaties. Unauthorized reproduction, modification, distribution, public transmission, or commercial use is strictly prohibited. Legal action will be taken against infringement.* <br>
