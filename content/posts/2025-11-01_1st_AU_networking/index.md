@@ -9,9 +9,9 @@ As a professional who has just relocated from Taiwan to Sydney, this was my firs
 
 A special thanks to George Highfield from Turner & Townsend for his brilliant presentation on two powerful AI applications currently being leveraged:
 
-* AI Agent "Dream Teams": I was particularly impressed by the concept of assembling a "dream team" of specialized AI agents. By dedicating different agents to specific tasks—such as cost management or scheduling master—and having them collaborate, efficiency can be dramatically enhanced.
+* **AI Agent "Dream Teams":** I was particularly impressed by the concept of assembling a "dream team" of specialized AI agents. By dedicating different agents to specific tasks—such as cost management or scheduling master—and having them collaborate, efficiency can be dramatically enhanced.
 
-* RAG for Data-Intensive Roles: The application of Retrieval-Augmented Generation (RAG) is a true game-changer for professions like Quantity Surveying. Historically, a QS would need to manually sift through countless PDFs and spreadsheets to find specific data points from different quotes or schedules. With RAG, they can now use natural language queries to find accurate information instantly. This frees up professionals to focus their time and energy on high-value analysis and strategic decision-making.
+* **RAG for Data-Intensive Roles:** The application of Retrieval-Augmented Generation (RAG) is a true game-changer for professions like Quantity Surveying. Historically, a QS would need to manually sift through countless PDFs and spreadsheets to find specific data points from different quotes or schedules. With RAG, they can now use natural language queries to find accurate information instantly. This frees up professionals to focus their time and energy on high-value analysis and strategic decision-making.
 
 The key takeaway is clear: AI is a powerful tool for augmenting human capability, creating a win-win synergy that drives efficiency and better outcomes.
 
