@@ -18,3 +18,7 @@ The key takeaway is clear: AI is a powerful tool for augmenting human capability
 As a fellow AI professional, I am incredibly excited to be part of Australia's growing AI ecosystem. I am eager to connect, collaborate, and network with more industry leaders here. Let's continue to exchange ideas and build the future of construction together!
 
 #AIinAustralia #Networking #AI #construction
+
+![pic1](pic1.jpeg)
+![pic2](pic2.jpeg)
+![pic3](pic3.jpeg)
