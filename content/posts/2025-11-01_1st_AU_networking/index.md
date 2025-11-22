@@ -1,6 +1,7 @@
 +++
 date = '2025-11-01T00:00:00+00:00'
 title = 'AI-Human Synergy in Project Delivery: Reflections on Australia’s Construction Industry Networking Event'
+tags = ['Sharing', 'Networking']
 +++
 
 I’m truly grateful to The Chartered Institute of Building (CIOB) and Turner & Townsend for hosting such an insightful event on "Transforming Project Delivery with AI". It was a fantastic evening of high-level presentations and invaluable networking.
