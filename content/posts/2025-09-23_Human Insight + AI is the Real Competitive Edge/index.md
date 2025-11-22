@@ -1,6 +1,7 @@
 +++
 date = '2025-09-23T00:00:00+08:00'
 title = 'Beyond the Hype: Human Insight + AI is the Real Competitive Edge 🧠🚀'
+tags = ['Beyond the___', 'using AI']
 +++
 
 It’s easy to get swept up in the daily flood of AI announcements and assume that artificial intelligence is the ultimate solution to everything. But here’s the quiet truth no one’s shouting about: AI is not the destination. It’s the vehicle.
