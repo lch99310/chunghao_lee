@@ -1,6 +1,7 @@
 +++
 date = '2025-06-29T00:00:00+08:00'
 title = 'Beyond the Numbers: Turning Data into Insights for Smarter Business Decisions'
+tags = ['Beyond the___', 'PM']
 +++
 
 In my journey as a PM within AI and technology sectors, I’ve consistently operated at the nexus of execution and strategy—delivering on objectives, aligning multidisciplinary teams, and driving tangible business impact. Yet, behind every milestone lies the same fundamental question: What hidden insights does the data hold—and how can they inform smarter decisions?
