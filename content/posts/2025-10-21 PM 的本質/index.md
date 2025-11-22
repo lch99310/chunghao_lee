@@ -1,6 +1,7 @@
 +++
 date = '2025-10-14T00:00:00+00:00'
 title = 'The Essence of PM: An Integrative Leader and Problem Solver Driving Cross-Functional Collaboration Through Ownership'
+tags = ['PM', '中文']
 +++
 
 **The Essence of PM: An Integrative Leader and Problem Solver Driving Cross-Functional Collaboration Through Ownership**
