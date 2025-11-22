@@ -1,6 +1,7 @@
 +++
 date = '2025-06-01T00:00:00+08:00'
 title = 'Beyond the Numbers: The Art of Data-Informed Decision Making'
+tags = ['Beyond the___', 'PM']
 +++
 
 As a PM, I’ve navigated countless crossroads where data seemed to hold all the answers. But here’s the reality I’ve learned:
