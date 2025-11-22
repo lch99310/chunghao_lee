@@ -1,6 +1,7 @@
 +++
 date = '2025-11-22T00:00:00+00:00'
 title = "Beyond the Job Title: Product Strategy + Operations (The Berkshire Hathaway Advantage) is the Real Moat 📉📈"
+tags = ['Beyond the xxx', 'PM']
 +++
 
 
