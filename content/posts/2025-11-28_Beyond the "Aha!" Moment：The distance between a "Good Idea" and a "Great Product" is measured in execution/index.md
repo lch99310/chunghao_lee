@@ -40,11 +40,9 @@ The path to launch is rarely a straight line. It is a continuous loop of alignme
 🔹 **不懈的迭代精神**  
 產品上市之路極少是直線。它是一個不斷對齊、調整、再對齊的循環過程，需要足夠的韌性去穿越摩擦、阻力與各種突發變數。
 
-> An idea on paper has potential.  
-> An idea executed is value.
+> An idea on paper has potential ; An idea executed is value
 
-> 紙上的點子只有潛力，  
-> 落實的點子才創造價值。
+> 紙上的點子只有潛力 ; 落實的點子才創造價值
 
 Navigating this "messy middle" is exactly why the PM role values.
 
