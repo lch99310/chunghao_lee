@@ -6,7 +6,7 @@ showPagination = false
 showAuthor = true
 +++
 
-**""" Product = Analysis + Program """**
+**" Product = Analysis + Program "**
 
 Hi, I am Chung-Hao Lee 李崇豪
 
