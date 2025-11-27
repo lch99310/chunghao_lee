@@ -21,18 +21,22 @@ To successfully operationalize a vision, three non-negotiable traits are require
 
 🔹 **Crystal-Clear Communication**  
 It is not enough to simply have the vision. You must evangelize it until every stakeholder—from Engineering to Marketing—understands the "why" and the "what" with 100% fidelity.
+
 🔹 **Strategic Agility**  
 No plan survives first contact with reality. Whether it’s technical constraints or team feedback, we must possess the flexibility to adjust the roadmap without losing sight of the core objective.  
 We must be rigid on the vision, but flexible on the details.
+
 🔹 **Relentless Iteration**  
 The path to launch is rarely a straight line. It is a continuous loop of alignment, modification, and re-alignment. It requires the grit to push through friction, resistance, and unexpected variables.
 
 
 🔹 **清晰無誤的溝通**  
 光有願景還不夠。你必須像傳道者一樣反覆宣導，直到每位利害關係人——從工程到行銷——都能百分之百準確理解「為什麼做」與「做什麼」。
+
 🔹 **策略上的敏捷性**  
 沒有一個計畫能在接觸現實後毫髮無傷。無論是技術限制還是團隊回饋，我們都必須保有調整路線圖的彈性，同時緊扣核心目標。  
 願景要堅定，細節要靈活。
+
 🔹 **不懈的迭代精神**  
 產品上市之路極少是直線。它是一個不斷對齊、調整、再對齊的循環過程，需要足夠的韌性去穿越摩擦、阻力與各種突發變數。
 
