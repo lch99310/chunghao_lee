@@ -1,5 +1,5 @@
 +++
-date = '2025-11-28T00:00:00+00:00'
+date = '2025-11-29T00:00:00+00:00'
 title = "Beyond the Aha! Moment: The distance between a -Good Idea- and a -Great Product- is measured in execution."
 tags = ['Beyond the___', 'PM', '中文']
 +++
