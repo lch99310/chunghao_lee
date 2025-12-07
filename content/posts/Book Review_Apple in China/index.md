@@ -45,6 +45,8 @@ Drawing on my own experience in program management, here are my three key takeaw
 + 這句話道盡了歷史的偶然與必然。對於當年的蘋果、台灣廠商以及中國方面而言，大家並非在下一盤地緣政治的大棋，而是在單純地追求各自發展的最優解：蘋果追求效率與成本，台廠追求訂單與規模，中方追求就業穩定與經濟產出。正是這些單純的商業動機，在歷史的經緯線上交織，最終演變成今日三方共同協力完成了在東亞整體科技製造產業的升級；而中國強大的製造能力，又反過來成為蘋果鞏固商業帝國的基石。這是一種互利共生，也是歷史發展的自然趨勢，而非當初的任何設計。
 
 
+![book cover](pic.jpg)
+
 ---
 *© Chung-Hao Lee. All Rights Reserved.
 All content on this webpage—including but not limited to text, images, design, code, and multimedia materials—is protected under the international copyright treaties. Unauthorized reproduction, modification, distribution, public transmission, or commercial use is strictly prohibited. Legal action will be taken against infringement.* <br>
