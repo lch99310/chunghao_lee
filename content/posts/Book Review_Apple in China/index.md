@@ -22,7 +22,8 @@ Drawing on my own experience in program management, here are my three key takeaw
 + 2000年代初，蘋果為追求極致成本與精度，將分散在世界的產線集中至中國。此轉型由台灣EMS巨頭（如富士康、和碩、緯創）協力完成，背後是中國勞動力規模、基建完善性與政策補貼的三重優勢。<br>
 + 書中剖析的「蘋果擠壓」模式，在實務中體現為品牌方工程師駐廠協作：品牌方與供應商共同優化組裝工藝與品質管理一同努力 確保產品能夠被大量高效地生產出來。供應商以微幅毛利換取技術沉澱與產能彈性，蘋果則獲得貼近成本、大規模、高品質的產出。這不僅是供應鏈的地理轉移，更是蘋果, 台廠與中國相互依存、互利共生的演化史。
 
-
+<br>
+<br>
 
 2. **Program as the Moat: Cook’s Absolute Control over the Supply Chain** <br>
 + People often attribute Apple's success solely to Steve Jobs' design genius. However, as a EMS professional, I know that the "Program”—translating blueprints into hundreds of millions of high-quality units—is Apple's true, unreplicable moat. Apple's competitiveness lies in the depth of its "active engagement.” Unlike traditional brands that passively await RfQs, Apple co-develops new technologies and equipment with suppliers and secures advantages through "Capacity Booking." <br>
@@ -32,7 +33,8 @@ Drawing on my own experience in program management, here are my three key takeaw
 + 外界常誤以為蘋果的成功源於賈伯斯的設計天才，但身為在科技製造業從業多年的我來說，深知將設計圖轉化為數億台高品質產品的「流程」（Process），才是蘋果難以被複製的護城河。蘋果的競爭力在於其「主動介入」的深度。不同於傳統品牌廠被動等待報價，蘋果選擇與供應商共同研發新技術與設備，並透過包下產能（Capacity Booking）來鎖定優勢。<br>
 + 這種策略創造了雙贏：對供應商而言： 獲得了蘋果的人才與資金挹注，實現了技術升級（儘管代價是被深度綁定）。對蘋果而言： 這種做法使其能最大程度地壟斷新技術，並因為對製程細節與成本結構瞭若指掌，在議價時擁有絕對的話語權。一支現代智慧型手機，從立項、研發、NPI（新產品導入）、供應鏈佈局、製造執行到物流配送，是一項漫長且繁雜的工程。唯有像蘋果這樣，將每一個環節、每一道工序（Process）都牢牢掌握，才能在確保品質的同時實現商業利益最大化。這種對 Program 設計與執行細節的掌控能力，正是蘋果脫穎而出的關鍵 也是科技製造業管理的精髓所在。
 
-
+<br>
+<br>
 
 3. **Undesigned Plan: The Natural Progression of Commercial Motivation** <br> 
 + The most resonant part of the book for me was a quote from a former Apple VP: "Are you sure you’re not overthinking your thesis? You keep talking about geopolitics, but I was there in the 2000s when we were setting up production in China, and I can tell you, we weren’t thinking about geopolitics at all. Precisely."  <br>
