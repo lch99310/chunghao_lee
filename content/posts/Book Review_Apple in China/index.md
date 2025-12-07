@@ -1,6 +1,6 @@
 +++
 date = '2025-12-06T00:00:00+00:00'
-title = "Book Review: Apple in China"
+title = "Book Review: Apple in China "
 tags = ['Book Review', '中文']
 +++
 
