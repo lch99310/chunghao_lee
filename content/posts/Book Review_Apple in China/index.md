@@ -8,7 +8,7 @@ As 2025 is about to end, I finished reading Apple in China by Patrick McGee. Thi
 For me, a veteran of the Taiwanese EMS industry with hands-on end to end production line management experience spanning SMT (Surface Mount Technology), and FATP (Final Assembly, Test, and Pack), every page felt less like history and more like a return to the factory floor. The book provided a macro retrospective, allowing me to re-examine the environments I once worked in. It illuminated the underlying logic behind production line designs and operations that I often missed while focusing on the daily routine jobs. 
 
 在2025歲末年終之際，我讀完了 Apple in China 這部著作。這本書不僅梳理了過去二十年蘋果的供應鏈佈局，更同步回顧了東亞科技製造業的演進史。 <br>
-身為台灣科技製造業多年從業者、且親歷過從 SMT（表面黏著技術）、MLB（主機板製造）到 FATP（最終組裝、測試與包裝）的完整產線管理，書中的每一頁對我而言不僅是歷史，更是現場。它讓我從後見之明的宏觀視角，重新審視那些我們曾經身處其中、卻因專注於細節而未見全貌規劃 並讓我理解了當年產線設計與操作背後的底層邏輯。
+身為台灣科技製造業多年從業者、且親歷過從 SMT（表面黏著技術）到 FATP（最終組裝、測試與包裝）的完整產線管理，書中的每一頁對我而言不僅是歷史，更是現場。它讓我從後見之明的宏觀視角，重新審視那些我們曾經身處其中、卻因專注於細節而未見全貌規劃 並讓我理解了當年產線設計與操作背後的底層邏輯。
 
 Drawing on my own experience in program management, here are my three key takeaways regarding the supply chain coevolution between Apple, China, and Taiwan. 
 
