@@ -4,7 +4,7 @@ title = 'Australia Space Launch Roadmap: Optimizing Geographic Advantage for Glo
 +++
 
 <div style="text-align: center; margin: 20px 0;">
-    <a href="AI Revolution - Australia Pivotal Role in the Global Mineral Supply Chain.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
+    <a href="Australia Space Launch Roadmap.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
         📥 Download Portfolio PDF
     </a>
 </div>
