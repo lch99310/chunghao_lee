@@ -6,7 +6,7 @@ showPagination = false
 showAuthor = true
 +++
 
-**" Product = Analysis + Program "**
+**" Product = Analysis + Process "**
 
 Hi, I am Chung-Hao Lee 李崇豪
 
@@ -22,7 +22,7 @@ I’m passionate about discovering the essence of these subjects and understandi
 In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
 
 ## Activity Summaries
-* [2025 - Now] Product Operation Manager, AI Model at TikTok
+* [2025 - Now] Product Operation Manager, Model Operation at TikTok
 * [2022 - 2024] AI Product Manager at Wistron
 * [2020 - 2022] Research Assistent at University of Maryland - College Park
 * [2018 - 2020] Factory PM at Pegatron
