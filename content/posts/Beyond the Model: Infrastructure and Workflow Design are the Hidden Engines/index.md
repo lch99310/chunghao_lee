@@ -17,13 +17,13 @@ In today’s era of rapid AI evolution, many fixate on model architecture and al
 
 **💡 實戰案例：筆電異常檢測模型**
 
-Take, for example, a project involving an AI model for detecting laptop hardware anomalies. When the model underperformed during a validation run, engineers needed to identify the cause immediately. Here, the quality of the infrastructure creates a massive efficiency gap:
+Take, for example, a project involving an AI model for detecting laptop anomalies. When the model underperformed during a validation run, engineers needed to identify the cause immediately. Here, the quality of the infrastructure creates a massive efficiency gap:
 * **High Efficiency Scenario:** With robust infrastructure, engineers can view all relevant data via a **one-stop dashboard**, potentially resolving the issue in minutes.
-* **Low Efficiency Scenario:** If data is scattered across different systems, requiring manual extraction from databases, log files, and third-party platforms, the preparation alone could take half a day—even before cross-analysis begins.
+* **Low Efficiency Scenario:** If data is scattered across different systems, requiring manual extraction from databases, run SQL, log files, and third-party platforms, the preparation alone could take half a day—even before cross-analysis begins.
 
 舉個例子，之前開發一個用於檢測筆電硬體異常的 AI 模型。當模型在某次驗證中表現不如預期時，工程師需要快速找出原因。這時，Infra 的好壞決定了效率的天壤之別：
 * **高效場景：** 如果基礎設施夠好，工程師能在同一個儀表板上 **一站式查看所有相關數據**，問題可能幾分鐘內就水落石出。
-* **低效場景：** 如果數據散落在不同系統，需要手動從資料庫、log 檔、第三方平台逐一撈取，光是前置準備就可能耗掉半天，更別提後續的交叉分析。
+* **低效場景：** 如果數據散落在不同系統，需要手動從資料庫、跑SQL、log 檔、第三方平台逐一撈取，光是前置準備就可能耗掉半天，更別提後續的交叉分析。
 
 ---
 
