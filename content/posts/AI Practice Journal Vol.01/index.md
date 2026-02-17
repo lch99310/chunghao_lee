@@ -1,5 +1,5 @@
 +++
-date = '2026-02-24T00:00:00+00:00'
+date = '2026-02-14T00:00:00+00:00'
 title = "【AI Practice Journal Vol.01】Returning to Data Fundamentals: Overcoming Prompt Engineering Bottlenecks through Systematic Error Analysis"
 tags = ['AI Practice Journal', 'Using AI', '中文']
 +++
