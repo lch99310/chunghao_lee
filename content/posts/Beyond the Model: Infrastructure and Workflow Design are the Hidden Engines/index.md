@@ -13,9 +13,9 @@ In today’s era of rapid AI evolution, many fixate on model architecture and al
 
 ---
 
-💡 **Real-World Case: Laptop Hardware Anomaly Detection Model**
+💡 **Real-World Case: Laptop Anomaly Detection Model**
 
-**💡 實戰案例：筆電硬體異常檢測模型**
+**💡 實戰案例：筆電異常檢測模型**
 
 Take, for example, a project involving an AI model for detecting laptop hardware anomalies. When the model underperformed during a validation run, engineers needed to identify the cause immediately. Here, the quality of the infrastructure creates a massive efficiency gap:
 * **High Efficiency Scenario:** With robust infrastructure, engineers can view all relevant data via a **one-stop dashboard**, potentially resolving the issue in minutes.
