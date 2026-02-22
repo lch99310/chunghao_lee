@@ -1,6 +1,7 @@
 +++
 date = '2016-06-29T00:00:00+08:00'
 title = 'Cryopreservation of seeds of blue waterlily (Nymphaea caerulea) using glutathione adding plant vitrification solution, PVS+'
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
