@@ -1,6 +1,7 @@
 +++
 date = '2025-05-27T00:00:00+08:00'
 title = 'Queensland Aluminium Industry Emissions'
+tags = ['Analytics']
 +++
 
 **Queensland Aluminium Industry Emissions:** 2024 Status, 2030 Reduction Targets and Decarbonization Roadmap
