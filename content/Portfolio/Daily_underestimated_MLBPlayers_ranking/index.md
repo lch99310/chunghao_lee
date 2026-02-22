@@ -23,7 +23,7 @@ My dashboard identifies these statistical anomalies in real-time, highlighting h
 
 [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
 
-![pic1](pic1.gif "Concept outcome developed in 2024 Nov")
+![pic2](pic2.png "Concept outcome developed in 2024 Nov")
 
 ![gif1](gif1.gif "Web app developed in 2026 Feb")
 
@@ -42,7 +42,7 @@ The most significant shift isn't just the speed of AI—it’s the **Managerial 
 ### **📈 Case Study: Performance Convergence**
 Using **Tyler O'Neill** as an example: his early-season batting average appeared low, but the analyzer flagged an elite **16.5% Barrel rate** and a massive negative differential. The data suggested his "underperformance" was a result of statistical variance rather than a decline in skill. As predicted, his outcomes eventually converged with his elite contact quality.
 
-![pic1](pic1.jpeg)
+![pic1](pic1.png)
 
 ### **The Takeaway**
 In 2026, the competitive advantage for developers is no longer just "writing code"—it’s **structuring logic and managing agentic execution.** One person with a clear vision and rigorous documentation can now deliver the output of an entire engineering team.
