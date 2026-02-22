@@ -24,10 +24,9 @@ My dashboard identifies these statistical anomalies in real-time, highlighting h
 [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
 
 
-{{< gallery >}}
-  <img src="pic2.png" alt="Concept outcome developed in 2024 Nov" class="grid-column">
-  <img src="gif1.gif" alt="Web app developed in 2026 Feb" class="grid-column">
-{{< /gallery >}}
+![pic2](pic2.png "Concept outcome developed in 2024 Nov")
+![gif1](gif1.gif "Web app developed in 2026 Feb")
+
 
 
 ---
