@@ -1,6 +1,7 @@
 +++
 date = '2023-05-24T00:00:00+08:00'
 title = 'Baseball Informatics—From MiLB to MLB Debut'
+tags = ['Analytics']
 +++
 
 ---
