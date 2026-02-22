@@ -24,25 +24,22 @@ My dashboard identifies these statistical anomalies in real-time, highlighting h
 [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
 
 
-![pic2](pic2.png "Concept outcome developed in 2024 Nov")
-![gif1](gif1.gif "Web app developed in 2026 Feb")
-
 <div style="display: flex; gap: 20px; width: 100%; align-items: flex-start;">
-  
+
   <div style="flex: 1; display: flex; flex-direction: column;">
-    <div style="width: 100%; height: 250px; overflow: hidden; border-radius: 8px;">
-      <img src="pic2.png" alt="Concept outcome" style="width: 100%; height: 100%; object-fit: cover; margin: 0;">
+    <div style="width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.02); border-radius: 8px;">
+      <img src="pic2.png" alt="Concept outcome" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; margin: 0;">
     </div>
-    <p style="margin-top: 10px; text-align: center; font-size: 0.9em; line-height: 1.4; color: #666;">
+    <p style="margin-top: 12px; text-align: center; font-size: 0.85em; font-weight: 500; color: #555; min-height: 3em;">
       Concept outcome developed in 2024 Nov
     </p>
   </div>
 
   <div style="flex: 1; display: flex; flex-direction: column;">
-    <div style="width: 100%; height: 250px; overflow: hidden; border-radius: 8px;">
-      <img src="gif1.gif" alt="Web app" style="width: 100%; height: 100%; object-fit: cover; margin: 0;">
+    <div style="width: 100%; height: 300px; display: flex; align-items: center; justify-content: center; background-color: rgba(0,0,0,0.02); border-radius: 8px;">
+      <img src="gif1.gif" alt="Web app" style="max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; margin: 0;">
     </div>
-    <p style="margin-top: 10px; text-align: center; font-size: 0.9em; line-height: 1.4; color: #666;">
+    <p style="margin-top: 12px; text-align: center; font-size: 0.85em; font-weight: 500; color: #555; min-height: 3em;">
       Web app developed in 2026 Feb
     </p>
   </div>
