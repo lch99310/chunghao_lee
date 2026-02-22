@@ -1,6 +1,7 @@
 +++
 date = '2025-12-13T00:00:00+08:00'
 title = 'Australia Space Launch Roadmap: Optimizing Geographic Advantage for Global Competitiveness🇦🇺 '
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
