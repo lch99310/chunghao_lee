@@ -1,6 +1,7 @@
 +++
 date = '2025-11-22T00:00:00+08:00'
 title = 'AI Revolution - Australia Pivotal Role in the Global Mineral Supply Chain for AI 🇦🇺 '
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
