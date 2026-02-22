@@ -27,7 +27,27 @@ My dashboard identifies these statistical anomalies in real-time, highlighting h
 ![pic2](pic2.png "Concept outcome developed in 2024 Nov")
 ![gif1](gif1.gif "Web app developed in 2026 Feb")
 
+<div style="display: flex; gap: 20px; width: 100%; align-items: flex-start;">
+  
+  <div style="flex: 1; display: flex; flex-direction: column;">
+    <div style="width: 100%; height: 250px; overflow: hidden; border-radius: 8px;">
+      <img src="pic2.png" alt="Concept outcome" style="width: 100%; height: 100%; object-fit: cover; margin: 0;">
+    </div>
+    <p style="margin-top: 10px; text-align: center; font-size: 0.9em; line-height: 1.4; color: #666;">
+      Concept outcome developed in 2024 Nov
+    </p>
+  </div>
 
+  <div style="flex: 1; display: flex; flex-direction: column;">
+    <div style="width: 100%; height: 250px; overflow: hidden; border-radius: 8px;">
+      <img src="gif1.gif" alt="Web app" style="width: 100%; height: 100%; object-fit: cover; margin: 0;">
+    </div>
+    <p style="margin-top: 10px; text-align: center; font-size: 0.9em; line-height: 1.4; color: #666;">
+      Web app developed in 2026 Feb
+    </p>
+  </div>
+
+</div>
 
 ---
 
