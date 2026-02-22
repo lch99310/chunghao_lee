@@ -1,6 +1,7 @@
 +++
 date = '2025-07-20T00:00:00+08:00'
 title = 'Brisbane 2032 Olympics Workforce Demand Analysis'
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
