@@ -16,7 +16,7 @@ tags = ['AI Practice Journal', 'Using AI']
 In real-world baseball, a player's box score results are heavily influenced by external factors—such as defensive positioning, ballpark dimensions, and environmental variance. Consequently, surface-level statistics like **wOBA** often fail to accurately in-time reflect a player's underlying skill set or true performance level during a specific period. To understand how a player is actually performing, a deeper analysis of "Value vs. Outcome" is required:
 
 * **wOBA (Weighted On-Base Average):** This represents a player's actual offensive contribution on the field. It is the "realized" result—the **Outcome**.
-* **xwOBA (Expected wOBA):** Using Statcast data, this calculates what a player's output *should* have been based on the physical characteristics of their hits (Exit Velocity and Launch Angle). This is the **Process**, a pure measure of contact quality independent of defensive shifts or luck.
+* **xwOBA (Expected wOBA):** Using Statcast data, this calculates what a player's output *should* have been based on the physical characteristics of their hits (Exit Velocity and Launch Angle). This is the **Value**, a pure measure of contact quality independent of defensive shifts or luck.
 * **The Differential ($wOBA - xwOBA$):** When realized results significantly lag behind contact quality, a player is **Underestimated**. Statistical history shows that these gaps are usually temporary; eventually, a player's on-field results will **regress to the mean**, aligning with their underlying performance profile.
 
 My dashboard identifies these statistical anomalies in real-time, highlighting hitters who are poised for a significant rebound.
