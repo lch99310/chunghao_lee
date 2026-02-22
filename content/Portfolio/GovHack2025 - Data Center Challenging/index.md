@@ -1,6 +1,7 @@
 +++
 date = '2025-08-30T00:00:00+08:00'
 title = 'GovHack2025 - Data Center Challenging'
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
