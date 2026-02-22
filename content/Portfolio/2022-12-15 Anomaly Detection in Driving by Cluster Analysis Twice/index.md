@@ -1,6 +1,7 @@
 +++
 date = '2022-12-15T00:00:00+08:00'
 title = 'Anomaly Detection in Driving by Cluster Analysis Twice'
+tags = ['Analytics']
 +++
 
 <div style="text-align: center; margin: 20px 0;">
