@@ -33,17 +33,20 @@ In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who lov
 * Bachelor, Tsinghau University (2014)
 
 ## Achievements
+### TikTok:
+* Spot Bonus Award, 2026
+
 ### Wistron:
 * Dell Outstanding Leadership & Execution Award, 2023
 * Co-hosted a Dell-Wistron Joint Engineering Workshop, 2023
 * Scrum Master Certification, 2023
-* Anomaly Detection in Driving by Cluster Analysis Twice Published !
+* Published _Anomaly Detection in Driving by Cluster Analysis Twice_
 
 ### University of Maryland, College Park:
 * Smith Fellow scholarship, Recipient
 * UMD Outstanding Graduate Student Award, 2022, Nomination
 * Reported by Maryland Today
-* Baseball Informatics—From MiLB to MLB Debut Published 
+* Published _Baseball Informatics—From MiLB to MLB Debut_
 * Impact Consulting Fellowship, Summer 2021, 1st Place
 * ISM Global Case Competition, January 2022
 * UMD Info Challenge, March 2022
@@ -55,9 +58,9 @@ In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who lov
 
 ### Substitute Millatary Service:
 * Honorably discharged, summa cum laude
-* Received a certificate of merit from the Ministry of the Interior (Taiwan).
+* Received a certificate of merit from the Ministry of the Interior (Taiwan)
 
 ### Tsing Hua University:
-* Dean’s list, 2012 Spring, Recipient
-* Dean’s list, 2011 Fall, Recipient
-* Dean’s list, 2011 Spring, Recipient
+* Dean’s list, 2012 Spring
+* Dean’s list, 2011 Fall
+* Dean’s list, 2011 Spring
