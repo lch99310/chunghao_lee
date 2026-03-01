@@ -4,6 +4,8 @@ title = '【AI Practice Journal Vol.04】Develop web app of "SciCover Summary"'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 +++
 
+## A web-based application that provide Bilingual Summaries of cover articles from scientific journals
+
 ![Homepage](homepage.png)
 
 ### 🚀 Every week, premier academic journals like *Science*, *Nature*, and *Cell* publish cover stories that reshape our understanding of the world. However, a significant chasm remains between the rigors of academic publishing and general public accessibility.
