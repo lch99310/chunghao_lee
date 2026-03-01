@@ -1,7 +1,7 @@
 +++
 date = '2026-02-21T00:00:00+08:00'
 title = '【AI Practice Journal Vol.02】Develop web app of "Daily Underestimated MLB Player Ranking"'
-tags = ['AI Practice Journal', 'Using AI', 'App']
+tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project']
 +++
 
 
