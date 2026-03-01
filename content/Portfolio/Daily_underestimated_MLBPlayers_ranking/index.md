@@ -13,7 +13,9 @@ tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project']
 
 ### **⚾️ The Project: MLB Underestimated Player Analyzer**
 
-In real-world baseball, a player's box score results are heavily influenced by external factors—such as defensive positioning, ballpark dimensions, and environmental variance. Consequently, surface-level statistics like **wOBA** often fail to accurately in-time reflect a player's underlying skill set or true performance level during a specific period. To understand how a player is actually performing, a deeper analysis of "Value vs. Outcome" is required:
+As an avid baseball fan for over a decade (Go Dodgers!). I’ve spent years diving deep into advanced analytics to fuel my Fantasy Baseball obsession and satisfy my inner "Armchair GM." To take my analysis to the next level, I am looking to develop a streamlined, interactive platform that allows for efficient, one-stop access to real-time data.
+
+The core philosophy behind this project is rooted in the fact that in real-world baseball, a player’s box score results are heavily influenced by external factors—such as defensive positioning, ballpark dimensions, and environmental variance. Consequently, surface-level statistics like wOBA often fail to accurately reflect a player’s underlying skill set or true performance level in real-time. To understand how a player is actually performing, a deeper analysis of “Value vs. Outcome” is required.
 
 * **wOBA (Weighted On-Base Average):** This represents a player's actual offensive contribution on the field. It is the "realized" result—the **Outcome**.
 * **xwOBA (Expected wOBA):** Using Statcast data, this calculates what a player's output *should* have been based on the physical characteristics of their hits (Exit Velocity and Launch Angle). This is the **Value**, a pure measure of contact quality independent of defensive shifts or luck.
