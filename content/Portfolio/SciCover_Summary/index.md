@@ -92,6 +92,12 @@ Scientific progress should not be confined to the lab. My goal with SciCover is 
 
 👉 **Experience SciCover Summary Now / 立即體驗：** [SciCover_Summary](https://lch99310.github.io/SciCover_Summary/)
 
+---
+**🛡️ Commitment to Transparency & Sourcing:** <br>
+The platform strictly aggregates **publicly available metadata** and provides **direct official links** to the original publishers for every article. This ensures full transparency, respects intellectual property, and directs traffic back to the primary academic sources.
+
+**🛡️ 透明度與學術尊重：** <br>
+本平台僅呈現**公開發布的資料與摘要資訊**，並為所有文章提供**指向官方期刊的原始連結**。這不僅確保了資訊的透明度，更體現了對原創學術出版物與智慧財產權的尊重。
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
