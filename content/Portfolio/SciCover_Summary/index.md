@@ -88,9 +88,6 @@ Scientific progress should not be confined to the lab. My goal with SciCover is 
 ### 🌐 願景
 科技的進步不應僅限於實驗室內。我希望透過 SciCover，降低科學知識的獲取門檻，讓忙碌的專業人士與公眾能更高效地觸摸科學前沿。
 
----
-
-👉 **Experience SciCover Summary Now / 立即體驗：** [SciCover_Summary](https://lch99310.github.io/SciCover_Summary/)
 
 ---
 **🛡️ Commitment to Transparency & Sourcing:** <br>
