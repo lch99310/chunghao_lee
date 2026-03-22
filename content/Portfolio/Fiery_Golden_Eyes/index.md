@@ -1,6 +1,6 @@
 +++
 date = '2026-03-22T00:00:00+00:00'
-title = '【AI Side Project Vol.05】Fiery Golden Eyes"'
+title = '【AI Side Project Vol.05】Fiery Golden Eyes'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 +++
 
