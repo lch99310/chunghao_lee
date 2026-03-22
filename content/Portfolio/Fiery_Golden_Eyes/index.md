@@ -71,7 +71,7 @@ As a practitioner focused on delivering actionable insights, I believe this proj
 Explore the tool here: [Fiery Golden Eyes](https://lch99310.github.io/Fiery-Golden-Eyes/) 🚀 <br>
 
 Demo Below👇 <br>
-![](cover-pic.jpeg)
+![cover](cover-pic.jpeg)
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
