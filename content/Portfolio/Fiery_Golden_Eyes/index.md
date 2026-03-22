@@ -4,6 +4,7 @@ title = '【AI Side Project Vol.05】Fiery Golden Eyes'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 +++
 
+
 ## Excited to introduce my latest side project: Fiery Golden Eyes <br>
 Fiery Golden Eyes is an web-based app that has interactive map of property sale prices across Greater Sydney, powered by official NSW Government open data. <br>
 Navigating the Sydney property market requires high-fidelity data and spatial clarity. This platform provides a comprehensive, interactive visualization of sales across Greater Sydney, powered by official NSW Government open data. <br>
@@ -13,7 +14,7 @@ Navigating the Sydney property market requires high-fidelity data and spatial cl
 Fiery Golden Eyes 是一款網頁應用程式，透過互動式地圖呈現大雪梨地區的房產成交價格，數據來源為新南威爾斯州（NSW）政府的官方開放數據。 <br>
 在雪梨房地產市場中穿梭，需要極高精確度的數據與清晰的空間直覺。本平台透過官方開放數據，提供大雪梨地區成交狀況的全面互動式視覺化呈現。 <br>
 
-![cover](cover-pic.jpeg)
+![cover](cover-pic.png)
 
 ---
 
