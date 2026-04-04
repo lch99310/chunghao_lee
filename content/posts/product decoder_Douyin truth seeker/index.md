@@ -1,6 +1,6 @@
 +++
 date = '2026-04-04T00:00:00+00:00'
-title = "Product Decoder: Douyin's "AI Fact-Check" — How a Simple @ Mention Fights Misinformation"
+title = "Product Decoder: Douyin's <AI Fact-Check> — How a Simple @ Mention Fights Misinformation"
 tags = ['Product Decoder', '中文']
 +++
 
