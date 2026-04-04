@@ -1,7 +1,8 @@
 +++
 date = '2025-11-29T00:00:00+00:00'
-title = "Beyond the Aha! Moment: The distance between a -Good Idea- and a -Great Product- is measured in execution."
+title = "Beyond the Aha! Moment: The distance between a 'Good Idea' and a 'Great Product' is measured in execution."
 tags = ['Beyond the___', 'PM', '中文']
+thumbnail = 'pic.png'
 +++
 
 
@@ -16,6 +17,7 @@ The true test of a PM’s value isn't just generating the concept; it is the rig
 
 真正考驗 PM 價值的，從不只是提出概念；而是如何歷經嚴峻且複雜的過程，將它成功落地——尤其是在協調跨職能團隊之時。
 
+![](pic.png)
 
 To successfully operationalize a vision, three non-negotiable traits are required:
 
