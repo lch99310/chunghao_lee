@@ -2,6 +2,7 @@
 date = '2026-02-01T00:00:00+00:00'
 title = "The Two Keywords That Define My Career so far: Analysis and Process"
 tags = ['中文', 'PM']
+thumbnail = 'pic.png'
 +++
 
 # 貫穿我至今職涯的兩個關鍵字：分析 與 流程
@@ -9,6 +10,8 @@ tags = ['中文', 'PM']
 Over the past seven years of my product management journey—spanning diverse industries and roles—I have found that two capabilities consistently determine whether I can deliver results: analytical rigor and process discipline.
 
 在過去七年的PM旅程中，雖然跨越不同產業、承擔過多樣化的職務，但我發現有兩項能力始終決定了我能否把事情做成：分析能力與流程管控。
+
+![](pic.png)
 
 ---
 
