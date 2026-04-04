@@ -2,9 +2,13 @@
 date = '2026-01-24T00:00:00+00:00'
 title = "𝗢𝗻𝗲 𝗬𝗲𝗮𝗿 𝗮𝘁 𝗧𝗶𝗸𝗧𝗼𝗸: 𝗥𝗲𝗳𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗪𝗵𝗮𝘁 𝗜 𝗹𝗲𝗮𝗿𝗻𝗲𝗱"
 tags = ['中文', 'TikTok']
+thumbnail = 'pic.png'
 +++
 
 在 TikTok 的一年：回顧與心得
+
+<img src="pic1.png" alt="logo of TikTok" width="80" style="display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+
 
 This month marks my one-year milestone at TikTok—a chapter filled with intense learning and unexpected growth. Here are some insights that have defined my journey: <br>
 這個月，我在 TikTok 工作滿一周年，這段經歷充滿緊湊的學習和意想不到的成長。以下是我旅程中收穫的深刻體悟：
