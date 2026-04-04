@@ -2,9 +2,12 @@
 date = '2026-02-14T00:00:00+00:00'
 title = "【AI Practice Journal Vol.01】Returning to Data Fundamentals: Overcoming Prompt Engineering Bottlenecks through Systematic Error Analysis"
 tags = ['AI Practice Journal', 'Using AI', '中文']
+thumbnail = 'pic.png'
 +++
 
 ## 【AI 實戰手札 Vol.01】回歸數據本質：透過深度錯誤分析 (Error Analysis) 突破 Prompt Engineering 瓶頸
+
+![](pic.png)
 
 ---
 
