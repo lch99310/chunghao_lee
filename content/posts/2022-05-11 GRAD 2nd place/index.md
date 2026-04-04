@@ -2,6 +2,7 @@
 date = '2022-05-11T00:00:00+08:00'
 title = '2nd Place in UMD GRAD 2022'
 tags = ['Sharing', 'Achievements']
+thumbnail = 'pic1.jpeg'
 +++
 
 **Honored to share my research in UMD GRAD 2022 and recognized as 2nd place**
