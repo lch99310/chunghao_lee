@@ -2,6 +2,7 @@
 date = '2025-11-22T00:00:00+00:00'
 title = "Beyond the Job Title: Product Strategy + Operations (The Berkshire Hathaway Advantage) is the Real Moat 📉📈"
 tags = ['Beyond the___', 'PM', '中文']
+thumbnail = 'pic.png'
 +++
 
 We often treat PM (Product/Program Management) and Operations as separate silos. But here’s the quiet truth: **Value isn't created in a silo.**
@@ -11,6 +12,8 @@ The ultimate metric? A user’s willingness to pay with cash or time. To truly v
 我們常把產品（或專案）管理（PM）與營運視為彼此隔離的孤島。但有一個少有人說破的真相：**價值從來不是在孤島中創造的。**
 
 終極的衡量標準是什麼？就是使用者是否願意付出金錢或時間。要真正驗證這份價值，你就不能只站在旁邊設計——**你必須親自下場當營運者。**
+
+![](pic.png)
 
 ---
 
