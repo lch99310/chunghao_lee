@@ -26,7 +26,7 @@ When browsing Douyin, if a user encounters content that seems questionable, they
 ## Why This Design Is Brilliant
 
 ### (1) Solving a Real Problem at the Right Moment
-Traditional fact-checking requires users to **leave the app** and cross-reference sources manually. That’s too much friction. Douyin embeds fact-checking **directly into the content flow**. The moment of doubt is the moment of action.
+Traditional fact-checking requires users to **leave the app** and cross-reference sources manually. That’s too much friction. Douyin embeds 'AI fact-checking' **directly into the content flow**. The moment of doubt is the moment of action.
 
 ### (2) A Minimalist Interaction: Just @ It
 The interaction leverages an existing behavior: the **@ mention**. There’s no new UI to learn and no forms to fill out. It’s a textbook example of reducing cognitive load by repurposing a familiar interaction for a new use case.
@@ -35,10 +35,10 @@ The interaction leverages an existing behavior: the **@ mention**. There’s no 
 AI verification takes time. Rather than making users wait on a loading screen, the interaction is **fully asynchronous**. Users can keep scrolling, and the system notifies them once the result is posted. This respects the user's "infinite scroll" habit instead of interrupting it.
 
 
-## 為什麼這個設計很精彩？
+## 為什麼這個設計很好？
 
 ### (1) 在正確的時機解決真正的痛點
-傳統的查證流程需要使用者**跳出 App**、打開瀏覽器搜尋並交叉比對，這對大多數人來說門檻太高了。「AI 求真」將查核機制直接**嵌入消費流程**中。在使用者產生懷疑的當下，就能立刻完成操作，不讓資訊落差過夜。
+傳統的查證流程需要使用者**跳出 App**、打開瀏覽器搜尋並交叉比對，這對大多數人來說門檻太高了。「抖音求真」將查核機制直接**嵌入消費流程**中。在使用者產生懷疑的當下，就能立刻完成操作，不讓資訊落差過夜。
 
 ### (2) 極簡互動：一個 @ 就搞定
 它的互動設計極其簡單——就是大家本來就熟悉的 **@ 標記**。不需要學習新介面，也不用填寫複雜表單。這是一個減少「認知負荷」的典範：利用既有的使用者習慣，來承載全新的功能需求。
