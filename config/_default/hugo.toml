@@ -11,9 +11,6 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 0
 
-[params]
-  mainSections = ["posts", "Portfolio"]
-
 [pagination]
   pagerSize = 10
 
