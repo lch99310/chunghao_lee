@@ -2,6 +2,7 @@
 date = '2025-08-15T00:00:00+08:00'
 title = 'Beyond the Numbers: AI’s Real Power Lies in Solving Problems, Not Just Dazzling with Tech🚀'
 tags = ['Beyond the___', 'using AI', '中文']
+thumbnail = 'pic.png'
 +++
 
 ### AI’s purpose isn’t to impress with flashy technology—it’s to solve real business problems 🎯  

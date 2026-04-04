@@ -2,6 +2,7 @@
 date = '2025-12-06T00:00:00+00:00'
 title = "Book Review: Apple in China "
 tags = ['Book Review', '中文']
+thumbnail = 'pic.jpg'
 +++
 
 As 2025 is about to end, I finished reading Apple in China by Patrick McGee. This book is not merely a chronicle of Apple’s supply chain layout over the past two decades; it is a comprehensive retrospective on the coevolution of East Asian tech manufacturing. <br>

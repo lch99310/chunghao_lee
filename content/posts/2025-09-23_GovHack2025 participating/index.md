@@ -2,6 +2,7 @@
 date = '2025-08-30T00:00:00+08:00'
 title = 'GovHack2025 participating'
 tags = ['Sharing']
+thumbnail = 'pic.jpeg'
 +++
 
 **✨ Honored to take part in #GovHack2025 this weekend. Huge thanks to Vikash Kumar for hosting and guiding the event 🙏**

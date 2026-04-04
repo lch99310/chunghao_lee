@@ -2,6 +2,7 @@
 date = '2026-04-04T00:00:00+00:00'
 title = "Product Decoder: Douyin's AI Fact-Check — How a Simple @ Mention Fights Misinformation"
 tags = ['Product Decoder', '中文']
+thumbnail = 'pic.png'
 +++
 
 As a PM, I always like to view products from a user's perspective. This time, I'd like to analyze a feature I find brilliantly designed — Douyin's "AI Fact-Check" (@抖音求真).
