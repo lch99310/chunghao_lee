@@ -2,5 +2,6 @@
 date = '2025-09-26T00:00:00+00:00'
 title = '[External Article] - Why Instagram is Losing Gen Z: We Asked 100 Users to Compare TikTok vs. Reels'
 tags = ['External Article']
+thumbnail = 'pic.png'
 externalUrl = 'https://www.surgehq.ai/blog/tiktok-vs-instagram-reels-personalized-human-evaluation'
 +++
