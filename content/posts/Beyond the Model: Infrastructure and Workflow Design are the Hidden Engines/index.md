@@ -2,10 +2,13 @@
 date = '2026-02-17T00:00:00+00:00'
 title = "Beyond the Model: Infrastructure and Workflow Design are the Hidden Engines of AI Iteration"
 tags = ['Beyond the___', '中文', 'PM']
+thumbnail = 'pic.png'
 +++
 
 
 ## Beyond the Model: 基礎設施與流程設計才是 AI 迭代的隱形引擎
+
+![](pic.png)
 
 In today’s era of rapid AI evolution, many fixate on model architecture and algorithmic innovation. However, the true determinants of iteration speed and competitiveness often lie hidden within the details of **Infrastructure (Infra)** and **Workflow Design**. Why? Because every model evolution relies on high-quality data support, and the collection, processing, and analysis of that data depend heavily on real-time human judgment and intervention. If the infrastructure is flawed or the workflow clunky, the team wastes valuable time "hunting for data," "patching data holes," or "clarifying data issues," making rapid iteration impossible.
 
