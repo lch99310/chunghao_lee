@@ -32,6 +32,7 @@ The most valuable insight from the model was the disconnect between the "ideal" 
 
 <br>
 <br>
+
 **一、Data Center 選址：技術決策背後的商業權衡**
 去年參加 GovHack 2025，我利用 AEMO、BOM、ABS 的公開數據，建構了澳洲資料中心選址的五因子評估框架（電力供應密度、冷卻效率、網路連接性、人才庫、土地取得）。
 
@@ -91,9 +92,9 @@ Without the support of energy, minerals, and infrastructure, even the most advan
 ---
 
 **Further Reading / 延伸閱讀：**
-* GovHack 2025: A Data-Driven Framework for Data Center Siting
-* Powering the AI Revolution: Australia's Pivotal Role in the Global Mineral Supply Chain
-* Queensland Aluminium Industry Emissions: 2024 Status & Decarbonization Roadmap
+* [GovHack 2025: A Data-Driven Framework for Data Center Siting](https://lch99310.github.io/chunghao_lee/portfolio/govhack2025---data-center-challenging/)
+* [AI Revolution: Australia's Pivotal Role in the Global Mineral Supply Chain](https://lch99310.github.io/chunghao_lee/portfolio/2025-11-23-powering-the-ai-revolution-australias-pivotal-role-in-the-global-mineral-supply-chain/)
+* [Queensland Aluminium Industry Emissions: 2024 Status & Decarbonization Roadmap](https://lch99310.github.io/chunghao_lee/portfolio/queensland_aluminum_industry_emissions/)
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
