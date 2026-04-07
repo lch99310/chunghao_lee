@@ -34,6 +34,7 @@ The most valuable insight from the model was the disconnect between the "ideal" 
 <br>
 
 **一、Data Center 選址：技術決策背後的商業權衡**
+
 去年參加 GovHack 2025，我利用 AEMO、BOM、ABS 的公開數據，建構了澳洲資料中心選址的五因子評估框架（電力供應密度、冷卻效率、網路連接性、人才庫、土地取得）。
 
 跑完模型後，最有價值的發現是分數與市場現況的落差。例如，Sydney 在電力潔淨度上並非最佳解，卻承載了全澳洲約 60% 的資料中心容量。決定這個結果的是另一組邏輯：延遲時間、客戶重心、以及光纖骨幹（fibre backbone）的歷史沉澱。這顯示 DC 的選址從來沒有完美解，而是電網條件、商業可行性與 ESG 之間的動態拉鋸。只有最懂這些 trade-off 的人，才能在正確的節點做正確的配置。
