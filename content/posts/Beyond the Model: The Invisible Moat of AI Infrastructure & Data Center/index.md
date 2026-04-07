@@ -13,7 +13,6 @@ At Davos 2026, Jensen Huang described AI as a five-layer cake: Energy, Chips, In
 While most eyes are fixed on the top three layers, I am increasingly fascinated by the foundation. Over the past year, I have conducted deep-dive research into the bottom three layers of Jensen’s cake—**Siting & Deployment, Minerals & Geopolitics, and Energy & Decarbonization**. Viewed together, they point to a singular conclusion: AI’s true moat is quietly forming at the base.
 
 <br>
-<br>
 
 做產品的人，習慣將目光聚焦於用戶體驗與產出。直到我開始深入研究 AI 基礎設施才意識到：市場花了大量時間比較模型的聰明程度與產品的流暢度，卻鮮少有人討論讓這一切得以運作的底層架構。
 
@@ -31,7 +30,6 @@ Last year at GovHack 2025, I utilized public data from AEMO, BOM, and ABS to bui
 The most valuable insight from the model was the disconnect between the "ideal" scores and market reality. For instance, while Sydney is not the optimal solution for grid cleanliness, it carries approximately 60% of Australia’s total data center capacity. This outcome is driven by a different set of logic: latency, customer proximity, and the historical legacy of the fibre backbone. This demonstrates that DC siting has no perfect solution; it is a dynamic tug-of-war between grid conditions, commercial viability, and ESG mandates. Only those who master these trade-offs can execute the right configurations at the right nodes.
 
 <br>
-<br>
 
 **一、Data Center 選址：技術決策背後的商業權衡**
 
@@ -47,7 +45,6 @@ Building a data center relies heavily on critical metals: copper (cooling and wi
 
 Earlier this year, I tracked the role of Australian mineral resources within the AI infrastructure supply chain. Australia is the world’s second-largest holder of copper reserves and a global leader in lithium and rare earths, exporting over $410 billion AUD in resources annually—$152 billion of which goes to China. As AI compute demand grows exponentially, the demand for minerals follows. However, copper supply elasticity is extremely low (new mines take 10–15 years to develop), and the geopolitical concentration of rare earths dictates which nations maintain supply chain sovereignty in the AI arms race. Australia’s position between the U.S. and China makes it both an opportunity and a strategic pawn. Understanding these "underwater" factors is essential to grasping the long-term procurement logic and massive localized bets made by hyperscalers.
 
-<br>
 <br>
 
 **二、基礎設施上游：礦山與地緣政治風險**
@@ -65,7 +62,6 @@ Electricity represents roughly 60–70% of data center operating expenses. With 
 Concurrently, I analyzed the carbon emission structures of the Queensland aluminum industry. In 2024, Rio Tinto’s QLD aluminum chain emissions reached 7.72 Mt CO₂e, leaving a 3.8 Mt gap to meet 2030 reduction targets. While aluminum and data centers seem unrelated, they face identical structural dilemmas: how to decarbonize while maintaining high-intensity baseload power without spiraling costs. The solutions being explored by both industries are nearly identical—long-term PPAs, renewable energy integration, demand response, and behind-the-meter solutions. The decarbonization learning curve is cross-industrial; however, this cross-domain perspective remains scarce in the AI field today.
 
 <br>
-<br>
 
 **三、電力去碳：DC 未來十年最難解的題**
 
@@ -81,7 +77,6 @@ While the industry remains fixated on model parameters and end-user experiences,
 
 Without the support of energy, minerals, and infrastructure, even the most advanced models are merely castles in the air. The moat of AI lies not just in parameter counts, but in a profound understanding of underlying commercial trade-offs, geopolitical landscapes, and energy regulations. The long-term winners in the AI era will be those who can see the technical trends at the top, while mastering the industrial logic at the bottom.
 
-<br>
 <br>
 
 **結論：決定高樓高度的，永遠是地基的深度**
