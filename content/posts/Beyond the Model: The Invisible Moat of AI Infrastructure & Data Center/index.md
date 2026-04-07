@@ -59,7 +59,7 @@ Earlier this year, I tracked the role of Australian mineral resources within the
 
 Electricity represents roughly 60–70% of data center operating expenses. With NSW's 2024 average wholesale electricity price at approximately $130/MWh, a 100MW facility faces annual power costs nearing $100 million AUD. This is not a marginal cost; it is the lifeblood of the business model.
 
-Concurrently, I analyzed the carbon emission structures of the Queensland aluminum industry. In 2024, Rio Tinto’s QLD aluminum chain emissions reached 7.72 Mt CO₂e, leaving a 3.8 Mt gap to meet 2030 reduction targets. While aluminum and data centers seem unrelated, they face identical structural dilemmas: how to decarbonize while maintaining high-intensity baseload power without spiraling costs. The solutions being explored by both industries are nearly identical—long-term PPAs, renewable energy integration, demand response, and behind-the-meter solutions. The decarbonization learning curve is cross-industrial; however, this cross-domain perspective remains scarce in the AI field today.
+Concurrently, I analyzed the carbon emission structures of the Queensland aluminum industry. In 2024, Rio Tinto’s QLD aluminum chain emissions reached 7.72 Mt CO₂e, leaving a 3.8 Mt gap to meet 2030 reduction targets. While aluminum and data centers seem unrelated, they face identical structural dilemmas: how to decarbonize while maintaining high-intensity baseload power without spiraling costs. The solutions being explored by both industries are nearly identical—long-term PPAs, renewable energy integration solutions. The decarbonization learning curve is cross-industrial; however, this cross-domain perspective remains scarce in the AI field today.
 
 <br>
 
@@ -67,7 +67,7 @@ Concurrently, I analyzed the carbon emission structures of the Queensland alumin
 
 電力佔 DC 營運成本高達 60–70%。以 NSW 2024 年批發電價均值約 $130/MWh 計算，一座 100MW 的設施，每年電費接近一億澳幣。這已不是單純的邊際成本，而是商業模型的命脈。
 
-同期，我分析了昆士蘭鋁業的碳排結構（2024 年 Rio Tinto QLD 鋁業鏈排放量達 7.72 Mt CO₂e，距離 2030 減半目標尚缺 3.8 Mt）。鋁業與 DC 表面上毫無交集，卻面臨完全相同的結構性困境：如何在維持高強度基載（baseload）用電的同時達成去碳，並控制成本。雙方摸索出的解法高度一致——長期 PPA、再生能源整合、需量反應（demand response）與表後（behind-the-meter）方案。能源去碳的學習曲線是跨產業共通的，而這種跨域視野在目前的 AI 領域仍極為稀缺。
+同期，我分析了昆士蘭鋁業的碳排結構（2024 年 Rio Tinto QLD 鋁業鏈排放量達 7.72 Mt CO₂e，距離 2030 減半目標尚缺 3.8 Mt）。鋁業與 DC 表面上毫無交集，卻面臨完全相同的結構性困境：如何在維持高強度基載（baseload）用電的同時達成去碳，並控制成本。雙方摸索出的解法高度一致——長期 PPA、再生能源整合...等方案。能源去碳的學習曲線是跨產業共通的，而這種跨域視野在目前的 AI 領域仍極為稀缺。
 
 ---
 
