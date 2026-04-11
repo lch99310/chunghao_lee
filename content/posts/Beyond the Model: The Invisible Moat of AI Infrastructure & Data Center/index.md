@@ -21,7 +21,7 @@ While most eyes are fixed on the top three layers, I am increasingly fascinated 
 多數人的目光停在第三層以上，但我對更基礎的地基更有興趣。過去一年，我針對 Jensen 蛋糕最底部的三層——**選址與部署、礦產與地緣、能源與去碳**——進行了深入研究。將這三者結合來看，指向了一個明確的結論：AI 真正的護城河，正悄悄在底層形成。
 
 
-![]('pic.png')
+![](pic.png)
 
 ---
 
