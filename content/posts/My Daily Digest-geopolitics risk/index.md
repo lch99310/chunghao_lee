@@ -26,10 +26,10 @@ Every morning at 8:00 AM, this tool automatically generates a structured, high-q
 
 ---
 
-🌍 **Focus on Key Regions:** Systematically tracking high-risk hotspots in East Asia, the Middle East, Europe, and the Americas.
+🌍 **Focus on Key Regions:** Systematically tracking high-risk hotspots in East Asia, the Middle East, Europe, and the Americas. <br>
 📉 **Linked Market Insights:** Real-time analysis of the potential impact of these geopolitical events on the supply chain.
 
-🌍 **聚焦關鍵區域：** 結構化追蹤東亞, 中東與歐美等高風險熱點。 
+🌍 **聚焦關鍵區域：** 結構化追蹤東亞, 中東與歐美等高風險熱點。 <br>
 📉 **連動市場判斷：** 即時分析這些地緣風險事件對供應鏈的潛在影響。 
 
 ---
