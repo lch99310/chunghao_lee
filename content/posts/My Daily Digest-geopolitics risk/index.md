@@ -22,12 +22,11 @@ For this reason, I no longer passively consume information. Instead, I have proa
 
 Every morning at 8:00 AM, this tool automatically generates a structured, high-quality geopolitical risk briefing for me. It distills the content I care about most from reliable, world-class media sources such as Reuters, Financial Times, SCMP, Bloomberg, and Nikkei Asia:
 
-這個工具每天早上8點會自動為我生成一份結構化、高品質的地緣風險簡報。它會從路透社、金融時報、南華早報、彭博社、日經新聞等國際一流媒體的可靠來源中，精煉出我最關心的內容：
-
----
-
 🌍 **Focus on Key Regions:** Systematically tracking high-risk hotspots in East Asia, the Middle East, Europe, and the Americas. <br>
 📉 **Linked Market Insights:** Real-time analysis of the potential impact of these geopolitical events on the supply chain.
+
+
+這個工具每天早上8點會自動為我生成一份結構化、高品質的地緣風險簡報。它會從路透社、金融時報、南華早報、彭博社、日經新聞等國際一流媒體的可靠來源中，精煉出我最關心的內容：
 
 🌍 **聚焦關鍵區域：** 結構化追蹤東亞, 中東與歐美等高風險熱點。 <br>
 📉 **連動市場判斷：** 即時分析這些地緣風險事件對供應鏈的潛在影響。 
