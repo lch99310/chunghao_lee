@@ -25,6 +25,7 @@ Every morning at 8:00 AM, this tool automatically generates a structured, high-q
 🌍 **Focus on Key Regions:** Systematically tracking high-risk hotspots in East Asia, the Middle East, Europe, and the Americas. <br>
 📉 **Linked Market Insights:** Real-time analysis of the potential impact of these geopolitical events on the supply chain.
 
+<br>
 
 這個工具每天早上8點會自動為我生成一份結構化、高品質的地緣風險簡報。它會從路透社、金融時報、南華早報、彭博社、日經新聞等國際一流媒體的可靠來源中，精煉出我最關心的內容：
 
