@@ -22,7 +22,7 @@ For this reason, I no longer passively consume information. Instead, I have proa
 
 Every morning at 8:00 AM, this tool automatically generates a structured, high-quality geopolitical risk briefing for me. It distills the content I care about most from reliable, world-class media sources such as Reuters, Financial Times, SCMP, Bloomberg, and Nikkei Asia:
 
-這個工具每天早上8點會自動為我生成一份結構化、高品質的地緣風險簡報。它會從Reuters、Financial Times、SCMP、Bloomberg、Nikkei Asia等國際一流媒體的可靠來源中，精煉出我最關心的內容：
+這個工具每天早上8點會自動為我生成一份結構化、高品質的地緣風險簡報。它會從路透社、金融時報、南華早報、彭博社、日經新聞等國際一流媒體的可靠來源中，精煉出我最關心的內容：
 
 ---
 
