@@ -1,7 +1,7 @@
 +++
 date = '2026-02-01T00:00:00+00:00'
 title = "The Two Keywords That Define My Career so far: Analysis and Process"
-tags = ['中文', 'PM']
+tags = ['中文', 'Self-assessment', 'PM']
 thumbnail = 'pic.png'
 +++
 
