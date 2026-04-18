@@ -25,7 +25,7 @@ This is the core of the "Berkshire Hathaway Advantage." I strongly resonate with
 
 This implies a powerful truth for product leaders: **Dual Identity = Dual Advantage.**
 
----
+<br>
 
 ## 💡 雙重身分：「波克夏優勢」
 
@@ -46,7 +46,7 @@ The best PMs embrace this duality. When you step out of the "designer" role and 
 
 You stop building in a vacuum.
 
----
+<br>
 
 ## 🔄 正向循環：跨界思維者勝出
 
@@ -65,7 +65,7 @@ The most valuable leaders leverage operational friction to refine their strategy
 
 In short: **Don't just build the machine—operate it to find the real insights.**
 
----
+<br>
 
 ## 🎯 策略啟示：別只當建築師，更要成為居住者
 
