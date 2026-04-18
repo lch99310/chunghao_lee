@@ -5,9 +5,7 @@ tags = ['PM', '中文', 'Self-Assessment']
 thumbnail = 'pic.png'
 +++
 
-**The Essence of PM: An Integrative Leader and Problem Solver Driving Cross-Functional Collaboration Through Ownership**
-
-**PM 的本質：以所有權驅動跨職能協作的整合型領導者與問題解決者**
+## PM 的本質：以所有權驅動跨職能協作的整合型領導者與問題解決者
 
 ![](pic.png)
 
