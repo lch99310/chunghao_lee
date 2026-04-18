@@ -72,7 +72,7 @@ thumbnail = 'pic.jpg'
 
 
 ---
-Click the (link)[https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences] for reading the report !
+Click the [link](https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences) for reading the report !
 
 
 ---
