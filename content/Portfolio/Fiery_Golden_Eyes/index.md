@@ -5,6 +5,9 @@ tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 thumbnail = 'pic.png'
 +++
 
+Welcome to visit the site to find out MORE ! [Fiery Golden Eyes](https://lch99310.github.io/Fiery-Golden-Eyes/) 🚀
+
+---
 
 ## Excited to introduce my latest side project: Fiery Golden Eyes <br>
 Fiery Golden Eyes is an web-based app that has interactive map of property sale prices across Greater Sydney, powered by official NSW Government open data. <br>
@@ -72,7 +75,7 @@ NSW Valuer General 以特殊的 .DAT 格式發布數據，其結構包含多層�
 As a practitioner focused on delivering actionable insights, I believe this project demonstrates how AI-driven execution can transform raw open data into high-value professional tools. <br>
 作為一名專注於提供實質見解的實踐者，我相信這個專案充分展示了 AI 驅動的執行力如何將原始的開放數據，轉化為具備高價值的專業工具。 <br>
 
-Explore the tool here: [Fiery Golden Eyes](https://lch99310.github.io/Fiery-Golden-Eyes/) 🚀 <br>
+
 
 
 ---
