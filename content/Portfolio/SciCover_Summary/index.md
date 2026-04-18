@@ -1,6 +1,6 @@
 +++
 date = '2026-03-01T00:00:00+00:00'
-title = '【AI Side Project Vol.04】Develop web app of "SciCover Summary"'
+title = '【AI Side Project Vol.04】Develop web app of "SciCover Summary" 🔬'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 thumbnail = 'homepage.png'
 +++
