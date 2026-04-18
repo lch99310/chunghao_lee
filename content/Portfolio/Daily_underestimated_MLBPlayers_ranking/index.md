@@ -1,12 +1,12 @@
 +++
 date = '2026-02-21T00:00:00+08:00'
-title = '【AI Side Project Vol.02】Develop web app of "Daily Underestimated MLB Player Ranking"'
+title = '【AI Side Project Vol.02】Develop web app of "Daily Underestimated MLB Player Ranking ⚾"'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project']
 thumbnail = 'gif1.gif'
 +++
 
 
-Welcome to visit the site to find out MORE ! [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
+Welcome to visit the site to find out MORE ! [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/) ⚾
 
 ---
 
