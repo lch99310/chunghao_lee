@@ -1,7 +1,7 @@
 +++
 date = '2026-02-17T00:00:00+00:00'
 title = "Beyond the Model: Infrastructure and Workflow Design are the Hidden Engines of AI Iteration"
-tags = ['Beyond the___', '中文', 'PM']
+tags = ['Beyond the___', '中文', 'PM', 'Process']
 thumbnail = 'pic.png'
 +++
 
