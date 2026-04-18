@@ -70,7 +70,9 @@ They’ll be the ones who:
 
 ---
 **In short: The future belongs to hybrid thinkers — those who speak both the language of their industry and the language of AI.**
+
 <br>
+
 **簡言之：未來屬於「跨界思維者」——那些既能流利說出自身產業語言，也能與 AI 對話的人。**
 
 ---
