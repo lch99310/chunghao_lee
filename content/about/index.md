@@ -2,7 +2,7 @@
 title = 'About'
 showDate = false
 showReadingTime = false
-showPagination = false
+showPagination = true
 showAuthor = true
 +++
 
@@ -10,7 +10,7 @@ showAuthor = true
 
 Hi, I am Chung-Hao Lee 李崇豪
 
-I am a Product Operation Manager managing AI/ML products at TikTok. Prior to TikTok, I have 5+ years experiences at Wistron as AI PM and at Pegatron as Factory PM.
+I am a Product Operation Manager managing AI/ML products at TikTok. Prior to TikTok, I have 6+ years experiences at Wistron as AI PM and at Pegatron as Factory PM.
 
 I received MBA and Master’s in Information Systems dual degrees from University of Maryland, College Park and Bachelor’s degree from Tsing Hua University.
 
@@ -21,18 +21,20 @@ I’m passionate about discovering the essence of these subjects and understandi
 
 In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who loves to record beauty of daily life.
 
-## Activity Summaries
+### Activity Summaries
 * [2025 - Now] Product Operation Manager, Model Operation at TikTok
 * [2022 - 2024] AI Product Manager at Wistron
 * [2020 - 2022] Research Assistent at University of Maryland - College Park
 * [2018 - 2020] Factory PM at Pegatron
 * [2016 - 2017] SMS at International Taoyuan Airport
 
-## Education 
+### Education 
 * MBA & MSIS, University of Maryland - College Park (2022)
 * Bachelor, Tsinghau University (2014)
 
-## Achievements
+---
+
+## [Achievements]
 ### TikTok:
 * Spot Bonus Award, 2026
 
