@@ -1,7 +1,7 @@
 +++
 date = '2025-06-29T00:00:00+08:00'
 title = 'Beyond the Numbers: Turning Data into Insights for Smarter Business Decisions'
-tags = ['Beyond the___', 'PM', '中文']
+tags = ['Beyond the___', 'PM', '中文', 'Analytics']
 thumbnail = 'pic.png'
 +++
 
