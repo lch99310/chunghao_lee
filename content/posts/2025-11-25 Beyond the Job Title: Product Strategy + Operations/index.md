@@ -9,6 +9,8 @@ We often treat PM (Product/Program Management) and Operations as separate silos.
 
 The ultimate metric? A user’s willingness to pay with cash or time. To truly validate that value, you must stop designing from the sidelines—**you have to be the operator.**
 
+<br>
+
 我們常把產品（或專案）管理（PM）與營運視為彼此隔離的孤島。但有一個少有人說破的真相：**價值從來不是在孤島中創造的。**
 
 終極的衡量標準是什麼？就是使用者是否願意付出金錢或時間。要真正驗證這份價值，你就不能只站在旁邊設計——**你必須親自下場當營運者。**
