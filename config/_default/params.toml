@@ -53,16 +53,16 @@ fingerprintAlgorithm = "sha256"
   showTableOfContents = false
   showTaxonomies = true
   showWordCount = false
-  showComments = true
+  showComments = false
   sharingLinks = ["facebook", "x-twitter", "linkedin", "email", "threads", "line"]
 
 [list]
   showBreadcrumbs = true
   showSummary = true
-  showTableOfContents = false
+  showTableOfContents = true
   showTaxonomies = true
   groupByYear = true
-  paginationWidth = 1
+  paginationWidth = 2
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
