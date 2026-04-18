@@ -1,6 +1,6 @@
 +++
 date = '2026-04-16T00:00:00+00:00'
-title = "【AI Side Project Vol.06】My Daily Digest - Geopolitics Risk"
+title = "【AI Side Project Vol.06】My Daily Digest - Geopolitics Risk 🌏"
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 thumbnail = 'pic.png'
 +++
