@@ -9,6 +9,8 @@ thumbnail = 'pic.jpg'
 
 **Honored to be featured in [Maryland Today](https://today.umd.edu/) for my research work!**
 
+---
+
 <div class="link-preview">
   <a href="https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences" target="_blank" rel="noopener">
     <div class="preview-card">
@@ -67,6 +69,11 @@ thumbnail = 'pic.jpg'
   color: inherit;
 }
 </style>
+
+
+---
+Click the (link)[https://today.umd.edu/umd-research-could-help-minor-leaguers-swing-for-the-fences] for reading the report !
+
 
 ---
 *Originally published on LinkedIn; republished here.* <br>
