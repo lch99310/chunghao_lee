@@ -6,6 +6,10 @@ thumbnail = 'gif1.gif'
 +++
 
 
+Welcome to visit the site to find out MORE ! [Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
+
+---
+
 **Nov 2024:** I had the vision and the domain expertise, but I faced a technical ceiling. At that time, I could use AI to generate "polished UI mockups," but building a live, data-integrated application as a solo creator required a level of manual engineering that was out of reach.
 
 **Feb 2026:** The landscape has fundamentally changed. By evolving my workflow to manage autonomous AI agents, I have transitioned from "visualizing ideas" to **shipping a production-ready, full-stack web application.**
@@ -24,7 +28,6 @@ The core philosophy behind this project is rooted in the fact that in real-world
 
 My dashboard identifies these statistical anomalies in real-time, highlighting hitters who are poised for a significant rebound.
 
-[Daily Underestomated MLBPlayers Ranking](https://lch99310.github.io/Daily_underestimated_MLBplayer_ranking/)
 
 
 <div style="display: flex; gap: 20px; width: 100%; align-items: flex-start;">
