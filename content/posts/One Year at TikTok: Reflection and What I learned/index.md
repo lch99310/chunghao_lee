@@ -1,7 +1,7 @@
 +++
 date = '2026-01-24T00:00:00+00:00'
 title = "𝗢𝗻𝗲 𝗬𝗲𝗮𝗿 𝗮𝘁 𝗧𝗶𝗸𝗧𝗼𝗸: 𝗥𝗲𝗳𝗹𝗲𝗰𝘁𝗶𝗼𝗻 𝗮𝗻𝗱 𝗪𝗵𝗮𝘁 𝗜 𝗹𝗲𝗮𝗿𝗻𝗲𝗱"
-tags = ['中文', 'TikTok']
+tags = ['中文', 'TikTok', 'Sharing', 'Self-Assessment']
 thumbnail = 'pic1.png'
 +++
 
