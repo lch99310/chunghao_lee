@@ -5,7 +5,7 @@ tags = ['中文', 'Self-assessment', 'PM']
 thumbnail = 'pic.png'
 +++
 
-# 貫穿我至今職涯的兩個關鍵字：分析 與 流程
+## 貫穿我至今職涯的兩個關鍵字：分析 與 流程
 
 Over the past seven years of my product management journey—spanning diverse industries and roles—I have found that two capabilities consistently determine whether I can deliver results: analytical rigor and process discipline.
 
