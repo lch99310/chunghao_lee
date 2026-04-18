@@ -1,6 +1,6 @@
 +++
 date = '2026-02-21T00:00:00+08:00'
-title = '【AI Side Project Vol.03】Develop web app of "Newsletter Manager"'
+title = '【AI Side Project Vol.03】Develop web app of "Newsletter Manager" 📩'
 tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project']
 thumbnail = 'pic1.png'
 +++
