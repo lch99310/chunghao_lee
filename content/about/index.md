@@ -2,7 +2,7 @@
 title = 'About'
 showDate = false
 showReadingTime = false
-showPagination = true
+showPagination = false
 showAuthor = true
 +++
 
@@ -36,7 +36,7 @@ In my spare time, I am an avid LA Dodgers’ fan and I am a photographer who lov
 
 ## [Achievements]
 ### TikTok:
-* Spot Bonus Award, 2026
+* Spot Bonus Award, 2025 Q4
 
 ### Wistron:
 * Dell Outstanding Leadership & Execution Award, 2023
