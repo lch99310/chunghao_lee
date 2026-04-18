@@ -19,7 +19,7 @@ At first glance, the roles appear distinct:
 
 Yet beneath these surface distinctions lies a unified core: **both roles exist to solve problems**. They simply begin from different vantage points.
 
----
+<br>
 
 ## 表面差異，共同使命
 
@@ -46,7 +46,7 @@ When teams operate at their best, engineering and product don’t compete—they
 
 This symbiotic relationship is the engine of high-performing product teams.
 
----
+<br>
 
 ## 🧩 雙重視角，同一使命
 
@@ -77,7 +77,7 @@ This dual fluency unlocks:
 - **Trust** — mutual respect between disciplines  
 - **Innovation** — creative solutions born at the intersection of feasibility and desirability
 
----
+<br>
 
 ## 🚀 策略啟示：「翻譯者」才是真正的 MVP
 
@@ -107,7 +107,7 @@ It belongs to **hybrid thinkers**—those who see the whole picture, bridge the 
 
 > **True innovation lives not in silos, but in the space between.**
 
----
+<br>
 
 ## 培養跨界思維者
 
