@@ -17,7 +17,7 @@ I’ve come to realize that a good business decision isn’t propelled by data a
 我逐漸體悟到：一項優質的商業決策，從不只是靠數據本身驅動，而是靠揭開「為什麼」的深度洞察。熟練 SQL、統計學與儀表板固然不可或缺，但真正讓商業數據分析脫穎而出的關鍵，在於能否將原始數字轉化為具策略價值的見解。
 
 ---
-[](pic.png)
+![](pic.png)
 
 ### 🔍 Here’s an example that cemented this perspective:  
 During my MBA, I conducted a case study comparing China’s two bike‑sharing giants: Mobike and ofo.  
