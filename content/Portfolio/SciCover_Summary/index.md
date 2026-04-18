@@ -5,6 +5,9 @@ tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 thumbnail = 'homepage.png'
 +++
 
+Welcome to visit the site to find out MORE ! [SciCover Summary](https://lch99310.github.io/SciCover_Summary/) 🔬
+
+---
 ## A web-based application that provide Bilingual Summaries of cover articles from scientific journals
 
 ![Homepage](homepage.png)
