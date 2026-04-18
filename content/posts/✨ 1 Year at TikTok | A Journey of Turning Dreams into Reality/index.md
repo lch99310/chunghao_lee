@@ -7,23 +7,28 @@ thumbnail = 'pic.png'
 
 “What does it truly feel like to transform a passion into a profession?”
 
+<br>
+
 「將熱情轉化為職業，究竟是什麼樣的感覺？」
 
-<br>
+---
 As someone who was once a power user spending hours daily on the platform, reaching my one-year milestone at TikTok is more than just a career achievement—it is a dream come true.
 
+<br>
 
 作為曾經每天在平台上投入數小時的重度使用者，能在 TikTok 迎來入職一週年的里程碑，對我而言，這不僅僅是一項職涯成就，更是夢想成真的時刻。
 
-<br>
+---
 Over the past 365 days, I have transitioned from a viewer to a contributor, gaining a deeper understanding of the mechanics behind the content and the vibrant pulse of our global community. I am incredibly grateful for the platform the company has provided and for the opportunity to work alongside such talented colleagues.
 
+<br>
 
 在過去的 365 天裡，我從單純的閱聽觀眾轉變為內容的推動者，不僅深入了解了內容背後的運作機制，更切實感受到全球社群蓬勃發展的脈動。我非常感謝公司提供的平台，也倍感榮幸能與這麼多優秀的同事並肩作戰。
 
-<br>
+---
 Here’s to another year of momentum and growth! 🚀
 
+<br>
 
 期許下一年，持續保持動能，不斷成長！🚀
 
