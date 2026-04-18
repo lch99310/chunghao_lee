@@ -41,7 +41,7 @@ fingerprintAlgorithm = "sha256"
   showDate = true
   showDateUpdated = false
   showAuthor = true
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -57,7 +57,7 @@ fingerprintAlgorithm = "sha256"
   sharingLinks = ["facebook", "x-twitter", "linkedin", "email", "threads", "line"]
 
 [list]
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showSummary = false
   showTableOfContents = false
   showTaxonomies = true

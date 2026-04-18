@@ -11,6 +11,12 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 summaryLength = 0
 
+# Google Analytics 4
+# 1. Go to https://analytics.google.com/ and create a GA4 property for this site
+# 2. Copy your Measurement ID (format: G-XXXXXXXXXX)
+# 3. Replace the value below and uncomment the line to enable tracking
+# googleAnalytics = "G-XXXXXXXXXX"
+
 [pagination]
   pagerSize = 10
 
