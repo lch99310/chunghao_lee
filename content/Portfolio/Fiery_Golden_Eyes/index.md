@@ -5,7 +5,7 @@ tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
 thumbnail = 'pic.png'
 +++
 
-Welcome to visit the site to find out MORE ! [Fiery Golden Eyes](https://lch99310.github.io/Fiery-Golden-Eyes/) 🚀
+Welcome to visit the site to find out MORE ! [Fiery Golden Eyes](https://lch99310.github.io/Fiery-Golden-Eyes/) 🏘️
 
 ---
 
