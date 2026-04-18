@@ -1,6 +1,6 @@
 +++
 date = '2026-04-07T00:00:00+00:00'
-title = "Beyond the Model: The Invisible Moat of AI Infrastructure & Data Center"
+title = "Beyond the Model: The Invisible Moat of AI Infrastructure & Data Center 🏭"
 tags = ['Beyond the___', '中文']
 thumbnail = 'pic.png'
 +++
