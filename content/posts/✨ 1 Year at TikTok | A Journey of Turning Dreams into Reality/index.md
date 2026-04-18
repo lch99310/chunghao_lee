@@ -1,7 +1,7 @@
 +++
 date = '2026-01-06T00:00:00+00:00'
 title = "✨ 1 Year at TikTok | A Journey of Turning Dreams into Reality"
-tags = ['TikTok', '中文', 'Sharing', 'Milestone']
+tags = ['TikTok', '中文', 'Sharing', 'Achievements']
 thumbnail = 'pic.png'
 +++
 
