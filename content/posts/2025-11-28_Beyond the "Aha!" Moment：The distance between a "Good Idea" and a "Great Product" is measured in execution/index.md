@@ -11,6 +11,7 @@ A good idea is important, but I’ve come to realize that the "Aha!" moment is j
 
 The true test of a PM’s value isn't just generating the concept; it is the rigorous, complex challenge of landing it—especially when navigating cross-functional teams.
 
+<br>
 
 身為產品經理，我常發現靈感總在萬籟俱寂的深夜悄然降臨。  
 好點子固然重要，但我逐漸體悟到：「啊哈！」時刻僅僅是起跑線。
@@ -19,6 +20,7 @@ The true test of a PM’s value isn't just generating the concept; it is the rig
 
 ![](pic.png)
 
+---
 To successfully operationalize a vision, three non-negotiable traits are required:
 
 * **Crystal-Clear Communication**  
@@ -29,6 +31,7 @@ We must be rigid on the vision, but flexible on the details.
 * **Relentless Iteration**  
 The path to launch is rarely a straight line. It is a continuous loop of alignment, modification, and re-alignment. It requires the grit to push through friction, resistance, and unexpected variables.
 
+<br>
 
 要將願景成功轉化為現實，有三項不可或缺的特質：
 
@@ -40,10 +43,11 @@ The path to launch is rarely a straight line. It is a continuous loop of alignme
 * **不懈的迭代精神**  
 產品上市之路極少是直線。它是一個不斷對齊、調整、再對齊的循環過程，需要足夠的韌性去穿越摩擦、阻力與各種突發變數。
 
-
+---
 > An idea on paper has potential ; An idea executed is value
 Navigating this "messy middle" is exactly why the PM role values.
 
+<br>
 
 > 紙上的點子只有潛力 ; 落實的點子才創造價值
 穿越這段「混亂的中段地帶」，正是產品經理這個角色的價值所在。
