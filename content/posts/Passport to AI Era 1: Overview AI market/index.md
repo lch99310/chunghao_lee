@@ -15,6 +15,9 @@ In an age of information overload where AI-generated content is ubiquitous, true
 
 AI 時代資訊爆炸、內容到處都是，而人的真正價值就在於把這些海量訊息彙整起來，並整理出真正有用的洞見。本報告先從需求端開始看起，接著檢視供給端，最後分享一些關鍵洞見與後續的研究方向，希望能為大家帶來清晰的參考。
 
+
+![](pic.png)
+
 ---
 
 ## Demand-Side Analysis / 需求端分析
