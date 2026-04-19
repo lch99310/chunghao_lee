@@ -10,7 +10,7 @@ Product professionals naturally focus on user experience and output. It wasn’t
 
 At Davos 2026, Jensen Huang described [AI as a five-layer cake](https://blogs.nvidia.com/blog/ai-5-layer-cake/): Energy, Chips, Infrastructure, Models, and Applications. He emphasized: "Every successful application pulls on every layer beneath it, all the way down to the power plant that keeps it alive."
 
-While most eyes are fixed on the top three layers, I am increasingly fascinated by the foundation. Over the past year, I have conducted deep-dive research into the bottom three layers of Jensen’s cake—**Siting & Deployment, Minerals & Geopolitics, and Energy & Decarbonization**. Viewed together, they point to a singular conclusion: AI’s true moat is quietly forming at the base.
+While most eyes are fixed on the top three layers, I am increasingly fascinated by the foundation. Over the past year, I have conducted deep-dive research into the bottom three layers of Jensen’s cake—**Siting & Deployment, Supply Chain & Geopolitics, and Energy & Decarbonization**. Viewed together, they point to a singular conclusion: AI’s true moat is quietly forming at the base.
 
 <br>
 
@@ -18,7 +18,7 @@ While most eyes are fixed on the top three layers, I am increasingly fascinated 
 
 黃仁勳2026年在達沃斯論壇上提出，[AI 是一個五層蛋糕](https://blogs.nvidia.com/blog/ai-5-layer-cake/)：能源、晶片、基礎設施、模型、應用。他強調：「每一個成功的應用，都牽動著它底下的每一層，一路往下，直到那座讓它活著的發電廠。」
 
-多數人的目光停在第三層以上，但我對更基礎的地基更有興趣。過去一年，我針對 Jensen 蛋糕最底部的三層——**選址與部署、礦產與地緣、能源與去碳**——進行了深入研究。將這三者結合來看，指向了一個明確的結論：AI 真正的護城河，正悄悄在底層形成。
+多數人的目光停在第三層以上，但我對更基礎的地基更有興趣。過去一年，我針對 Jensen 蛋糕最底部的三層——**選址與部署、供應鏈與地緣、能源與去碳**——進行了深入研究。將這三者結合來看，指向了一個明確的結論：AI 真正的護城河，正悄悄在底層形成。
 
 
 ![](pic.png)
