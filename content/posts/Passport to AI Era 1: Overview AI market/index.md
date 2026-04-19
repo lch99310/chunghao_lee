@@ -111,13 +111,13 @@ This current analysis has yet to incorporate other critical markets such as Chin
 
 ## Key Insights and Future Research Directions
 
-Synthesizing both demand and supply-side analyses, it is evident that the APAC region will be the most powerful growth engine for future AI supply and demand. Consequently, subsequent reports in this series will focus squarely on the APAC region (with particular emphasis on Singapore and Sydney). We will conduct deep-dive explorations into critical topics including power supply, cooling systems, clean energy, policy environments, site selection strategies, and supply chain management.
+Synthesizing both demand and supply-side analyses, it is evident that the APAC region will be the most powerful growth engine for future AI supply and demand. Consequently, subsequent reports in this series will focus squarely on the APAC region (with particular emphasis on Singapore and Sydney). I will conduct deep-dive explorations into critical topics including power supply, cooling systems, clean energy, policy environments, site selection strategies, and supply chain.
 
 <br>
 
 ## 關鍵洞見與未來研究方向
 
-綜合需求與供給端的分析，我們可以清楚看到，亞太區域將會是未來 AI 需求與供給最強勁的成長引擎。因此，本系列後續的報告會把焦點放在亞太區域（特別是新加坡與悉尼），進行更深入的專題探討，涵蓋電力供應、冷卻系統、潔淨能源、政策環境、選址策略、供應鏈管理等重要主題。
+綜合需求與供給端的分析，我們可以清楚看到，亞太區域將會是未來 AI 需求與供給最強勁的成長引擎。因此，本系列後續的報告會把焦點放在亞太區域（特別是新加坡與悉尼），進行更深入的專題探討，涵蓋電力供應、冷卻系統、潔淨能源、政策環境、選址策略、供應鏈等重要主題。
 
 ---
 
