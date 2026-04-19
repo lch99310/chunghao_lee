@@ -41,7 +41,7 @@ The most valuable insight from the model was the disconnect between the "ideal" 
 
 ---
 
-### II. Upstream Infrastructure: Mineral and Geopolitical Risks
+### II. Upstream Infrastructure: Supply Chain and Geopolitical Risks
 
 Building a data center relies heavily on critical metals: copper (cooling and wiring, ~25% of hardware material costs), aluminum (racks and casings, 15%), silicon (chips and solar panels, 15%), and various rare earth elements.
 
@@ -49,7 +49,7 @@ Earlier this year, I tracked the role of Australian mineral resources within the
 
 <br>
 
-**二、基礎設施上游：礦山與地緣政治風險**
+**二、基礎設施上游：供應鏈與地緣風險**
 
 建置一座資料中心，高度依賴關鍵金屬：銅（冷卻與配線，佔硬體材料成本約 25%）、鋁（機架與外殼，15%）、矽（晶片與太陽能板，15%），以及多種稀土元素。
 
@@ -57,7 +57,7 @@ Earlier this year, I tracked the role of Australian mineral resources within the
 
 ---
 
-### III. Decarbonizing Power: The Defining Challenge for the Next Decade
+### III. Clean Energy: The increasing Challenge for the Next Decade
 
 Electricity represents roughly 60–70% of data center operating expenses. With NSW's 2024 average wholesale electricity price at approximately $130/MWh, a 100MW facility faces annual power costs nearing $100 million AUD. This is not a marginal cost; it is the lifeblood of the business model.
 
@@ -65,7 +65,7 @@ Concurrently, I analyzed the carbon emission structures of the Queensland alumin
 
 <br>
 
-**三、電力去碳：DC 未來十年最難解的題**
+**三、清潔能源：DC 未來十年越來越重要的挑戰**
 
 電力佔 DC 營運成本高達 60–70%。以 NSW 2024 年批發電價均值約 $130/MWh 計算，一座 100MW 的設施，每年電費接近一億澳幣。這已不是單純的邊際成本，而是商業模型的命脈。
 
