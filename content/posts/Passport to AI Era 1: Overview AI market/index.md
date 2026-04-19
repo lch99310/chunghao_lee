@@ -50,10 +50,10 @@ It is particularly noteworthy that due to the unique characteristics of the Chin
 ### Key Demand-Side Insights / 需求端關鍵洞見
 
 * Global AI demand is experiencing explosive, exponential growth.
-* 從 2024 年開始，亞太區的 AI 需求佔比逐步提升，已成為全球第二大 AI 需求區域。
+* 全球 AI 需求呈現爆炸式的指數型增長。
 
 * Since 2024, APAC's share of AI demand has steadily increased, solidifying its position as the world's second-largest region for AI demand.
-* 全球 AI 需求呈現爆炸式的指數型增長。
+* 從 2024 年開始，亞太區的 AI 需求佔比逐步提升，已成為全球第二大 AI 需求區域。
 
 * The APAC region retains massive potential for future growth in AI demand.
 * 亞太區對 AI 的需求在未來仍有相當大的成長潛力。
@@ -82,7 +82,7 @@ Interestingly, within the APAC region, Sydney's overall vacancy rate dropped sig
 
 有趣的是，在亞太區裡，悉尼的整體空置率在 2025 年相較 2023 年明顯下降，而且降幅高於新加坡、東京等其他主要市場，這顯示悉尼近兩年對 DC 的需求非常旺盛，供給明顯跟不上腳步。
 
-In terms of rental costs, highly populated, land-constrained metropolitan areas (such as Tokyo, Hong Kong, and Singapore) command significantly higher monthly premiums than other regions. Conversely, rental levels across North America, Europe, and Sydney show no substantial disparities.
+In terms of rental costs, highly populated, land-constrained metropolitan areas (such as Tokyo, Hong Kong, and Singapore) command significantly higher monthly pricing than other regions. Conversely, cost levels across North America, Europe, and Sydney show no substantial disparities.
 
 租金成本方面，土地資源有限、人口密集的大型城市（如東京、香港、新加坡）的月租金相對其他地區明顯偏高；而北美、歐洲以及悉尼的租金水準則沒有太大的差距。
 
@@ -101,9 +101,11 @@ In terms of rental costs, highly populated, land-constrained metropolitan areas 
 * Based on monthly rental rates (representing supply costs), densely populated cities with limited footprints (e.g., Singapore, Tokyo, Hong Kong) incur higher DC supply costs due to exorbitant land premiums.
 * 以月租金（也就是供給成本）來看，地小人稠的大型城市（如新加坡、東京、香港）因為土地成本高，DC 的供給成本也相對較高。
 
-**Important Note**: This current analysis has yet to incorporate other critical markets such as China, Malaysia, and Thailand. These regions exhibit equally robust supply pipelines paired with highly advantageous cost structures, making them essential considerations for future analyses.
+#### **Note** / **注意事項**: 
 
-**注意事項**：這份分析目前尚未納入中國、馬來西亞及泰國等其他重要市場。這些地區同樣供給旺盛，而且成本結構相對具有優勢，未來在分析時絕對不能忽略。
+This current analysis has yet to incorporate other critical markets such as China, Malaysia, and Thailand. These regions exhibit equally robust supply pipelines paired with highly advantageous cost structures, making them essential considerations for future analyses.
+<br>
+這份分析目前尚未納入中國、馬來西亞及泰國等其他重要市場。這些地區同樣供給旺盛，而且成本結構相對具有優勢，未來在分析時絕對不能忽略。
 
 ---
 
