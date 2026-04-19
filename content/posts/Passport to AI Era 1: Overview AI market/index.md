@@ -5,7 +5,7 @@ tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
 
-In the AI era, following [my previous deep dive](https://lch99310.github.io/chunghao_lee/posts/beyond-the-model-the-invisible-moat-of-ai-infrastructure--data-center/) into the truly critical strategic moats, this series of reports will guide you through a systematic study of Data Center (DC) analytics. As the inaugural piece of this series, we will take a macro perspective to examine the global DC market landscape, analyzing it primarily through the fundamental framework of supply and demand.
+In the AI era, following [my previous deep dive](https://lch99310.github.io/chunghao_lee/posts/beyond-the-model-the-invisible-moat-of-ai-infrastructure--data-center/) into the truly critical strategic moats, this series of reports will guide you through a systematic study of Data Center (DC) analytics. As the inaugural piece of this series, I will take a macro perspective to examine the global DC market landscape, analyzing it primarily through the fundamental framework of supply and demand.
 
 In an age of information overload where AI-generated content is ubiquitous, true human value lies in synthesizing massive amounts of data to extract valuable insights. This report begins by examining the demand side, moves to the supply side, and concludes with key insights and future research directions, aiming to provide a clear and valuable reference.
 
