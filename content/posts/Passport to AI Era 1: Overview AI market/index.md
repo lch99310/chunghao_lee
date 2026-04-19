@@ -5,13 +5,13 @@ tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
 
-In the AI era, following my previous deep dive into the truly critical strategic moats, this series of reports will guide you through a systematic study of Data Center (DC) issues. As the inaugural piece of this series, we will take a macro perspective to examine the global DC market landscape, analyzing it primarily through the fundamental framework of supply and demand.
+In the AI era, following [my previous deep dive](https://lch99310.github.io/chunghao_lee/posts/beyond-the-model-the-invisible-moat-of-ai-infrastructure--data-center/) into the truly critical strategic moats, this series of reports will guide you through a systematic study of Data Center (DC) analytics. As the inaugural piece of this series, we will take a macro perspective to examine the global DC market landscape, analyzing it primarily through the fundamental framework of supply and demand.
 
-In an age of information overload where AI-generated content is ubiquitous, true human value lies in synthesizing massive amounts of data to extract actionable insights. This report begins by examining the demand side, moves to the supply side, and concludes with key insights and future research directions, aiming to provide a clear and valuable reference.
+In an age of information overload where AI-generated content is ubiquitous, true human value lies in synthesizing massive amounts of data to extract valuable insights. This report begins by examining the demand side, moves to the supply side, and concludes with key insights and future research directions, aiming to provide a clear and valuable reference.
 
 <br>
 
-在 AI 時代，繼先前文章一起深入探討真正重要的護城河之後，本系列報告將陪伴大家系統性地研究資料中心（Data Center，以下簡稱 DC）的各項議題。這篇作為系列的開頭，我們用宏觀的角度來看看全球 DC 市場的全貌，主要從供給與需求的基本框架出發進行分析。
+在 AI 時代，繼[先前文章](https://lch99310.github.io/chunghao_lee/posts/beyond-the-model-the-invisible-moat-of-ai-infrastructure--data-center/)一起深入探討真正重要的護城河之後，本系列報告將陪伴大家系統性地研究資料中心（Data Center，以下簡稱 DC）的各項分析。這篇作為系列的開頭，我們用宏觀的角度來看看全球 DC 市場的全貌，主要從供給與需求的基本框架出發進行分析。
 
 AI 時代資訊爆炸、內容到處都是，而人的真正價值就在於把這些海量訊息彙整起來，並整理出真正有用的洞見。本報告先從需求端開始看起，接著檢視供給端，最後分享一些關鍵洞見與後續的研究方向，希望能為大家帶來清晰的參考。
 
