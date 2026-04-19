@@ -33,7 +33,7 @@ The most valuable insight from the model was the disconnect between the "ideal" 
 
 <br>
 
-**一、Data Center 選址：技術決策背後的商業權衡**
+**一、數據中心選址：技術決策背後的商業權衡**
 
 去年參加 GovHack 2025，我利用 AEMO、BOM、ABS 的公開數據，建構了澳洲資料中心選址的五因子評估框架（電力供應密度、冷卻效率、網路連接性、人才庫、土地取得）。
 
