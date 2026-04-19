@@ -41,13 +41,13 @@ Furthermore, Stanford University's AI Index Report [2] points out that APAC's AI
 
 ![](pic3.png)
 
-It is particularly noteworthy that due to the unique characteristics of the Chinese market, reports from OpenRouter and Stanford often underestimate China's actual contributions. This underlying factor implies that APAC's overall growth momentum is even stronger than it appears on paper.
+It is particularly noteworthy that due to the unique situation of the Chinese market, reports from OpenRouter and Stanford often underestimate China's actual contributions. This underlying factor implies that APAC's overall growth momentum is even stronger than it appears on paper.
 
 特別值得注意的是，由於中國市場的特殊性，OpenRouter 和史丹佛的報告往往會低估中國的實際貢獻，這反而讓亞太區的整體成長動能看起來更強勁。
 
 <br>
 
-### Key Demand-Side Insights / 需求端關鍵洞見
+### Key Demand-Side Insights / 需求端關鍵洞察
 
 * Global AI demand is experiencing explosive, exponential growth.
 * 全球 AI 需求呈現爆炸式的指數型增長。
@@ -66,11 +66,11 @@ According to CBRE's annual trend report [3], markets worldwide have aggressively
 
 根據 CBRE 的年度分析報告[3]，全球各地在過去兩年都積極擴大 DC 的建設規模，2025 年的 DC 供給量相較 2023 年都有大幅增加。其中北美地區的供給增速最高，這也跟前面需求端的分析互相呼應，確實印證北美是近兩年 AI 需求最旺盛的區域。
 
-![](pic4.png)
-
 Meanwhile, supply volumes and growth rates in Europe and the APAC region remain roughly on par with each other.
 
 歐洲與亞太區的供給量和增速則大致相當。
+
+![](pic4.png)
 
 Looking at DC vacancy rates—where lower rates indicate supply struggling to keep pace with demand—North America remains the most intensely constrained market, followed by Europe, and then APAC.
 
