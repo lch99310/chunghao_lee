@@ -59,9 +59,9 @@ The development process has further convinced me that in the AI era, **proactive
 ![](pic1.png)
 
 
-Join the @Daily_geopo_briefing_CH_bot on Telegram to stay informed with real-time insights.
+Join the Telegram Channel [Daily Geopolitics Digest](https://t.me/+hA_68lN-PchkODFl) to stay informed with real-time insights.
 
-歡迎加入在Telegram上的 @Daily_geopo_briefing_CH_bot ，獲取即時新知。
+歡迎加入在Telegram上的頻道[Daily Geopolitics Digest](https://t.me/+hA_68lN-PchkODFl)，獲取即時新知。
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
