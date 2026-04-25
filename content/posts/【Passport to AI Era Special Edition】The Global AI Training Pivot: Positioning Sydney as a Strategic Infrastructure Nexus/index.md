@@ -30,7 +30,7 @@ Reviewing DeepSeek's version evolution reveals a clear trajectory:
 
 翻開 DeepSeek 的版本演進表，一條清晰的曲線浮現：
 
-| Model Version 模型版本 | Release Date 發布時間 | Total Parameters 總參數量 | Pre-training Data Volume 預訓練數據量 |
+| Model Version<br>模型版本 | Release Date<br>發布時間 | Total Parameters<br>總參數量 | Pre-training Data Volume<br>預訓練數據量 |
 |--------------|--------------|-----------------|-------------------------|
 | DeepSeek-V2 | 2024-05-06 | 236B | 8.1T tokens |
 | DeepSeek-V3 | 2024-12-26 | 671B | 14.8T tokens |
@@ -40,9 +40,14 @@ Reviewing DeepSeek's version evolution reveals a clear trajectory:
 Parameters have surged from 236B to 1.6T, while pre-training data has expanded from 8.1T to 33T tokens. This is not merely numerical growth—it represents iterative capability enhancement. This trend resonates intriguingly with findings in neuroscience: the cognitive capacity of primates correlates nearly linearly with neuron count and brain volume [2][3]. In the realm of artificial intelligence, Scale Laws have not only remained valid but continue to raise the compute barrier with even greater force.
 
 參數量從 236B 躍升至 1.6T，預訓練數據量從 8.1T tokens 擴張至 33T tokens。這不僅是數字的膨脹，更是能力的疊代。這與腦科學研究的結論形成有趣呼應：靈長類動物的認知能力，與其神經元數量、腦容量呈現近線性相關[2][3]。在人工智慧的領域，Scale Law 非但沒有失效，反而以更強悍的姿態，持續拉升著算力的壁壘。
+<br>
 
-![](pic2.png) ![](pic3.png)
+<div align="center">
+  <img src="pic2.png" style="vertical-align: middle;" width="40%">
+  <img src="pic3.png" style="vertical-align: middle;" width="25%">
+</div>
 
+<br>
 The stronger the model, the "heavier" the training. This leads to a direct business implication: **resource demands during the training phase are escalating along an exponential curve.**
 
 模型越強，訓練越「重」。這帶來一個直接的商業命題：**訓練階段的資源需求，正在以指數級曲線攀升。**
