@@ -1,6 +1,6 @@
 +++
 date = '2026-04-19T00:00:00+00:00'
-title = "【Passport to AI Era 1】Overview AI Market"
+title = "【Passport to AI Era vol.1】Overview AI Market"
 tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
