@@ -5,6 +5,8 @@ tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
 
+![](pic.png)
+
 The release of DeepSeek V4 has undoubtedly sent shockwaves through the technology community. While most analyses focus on leaps in model capabilities, architectural innovations, or expanded application scenarios, we propose a different perspective: this time, let's shift our gaze from "what the model can provide" to "what is provided to the model."
 
 DeepSeek V4 的發布，無疑在技術圈投下了一顆震撼彈。當多數分析聚焦於模型能力的躍升、架構的創新或應用場景的拓展時，我們想換一個視角：這一次，讓我們把目光從「模型能提供什麼」，轉向「什麼提供給模型」。
