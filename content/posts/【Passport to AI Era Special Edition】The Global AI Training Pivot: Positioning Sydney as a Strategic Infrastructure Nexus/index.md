@@ -41,12 +41,10 @@ Parameters have surged from 236B to 1.6T, while pre-training data has expanded f
 
 參數量從 236B 躍升至 1.6T，預訓練數據量從 8.1T tokens 擴張至 33T tokens。這不僅是數字的膨脹，更是能力的疊代。這與腦科學研究的結論形成有趣呼應：靈長類動物的認知能力，與其神經元數量、腦容量呈現近線性相關[2][3]。在人工智慧的領域，Scale Law 非但沒有失效，反而以更強悍的姿態，持續拉升著算力的壁壘。
 <br>
-
 <div align="center">
-  <img src="pic2.png" style="vertical-align: middle;" width="40%">
-  <img src="pic3.png" style="vertical-align: middle;" width="25%">
+  <img src="pic2.png" style="vertical-align: middle;" height="250px">
+  <img src="pic3.png" style="vertical-align: middle;" height="250px">
 </div>
-
 <br>
 The stronger the model, the "heavier" the training. This leads to a direct business implication: **resource demands during the training phase are escalating along an exponential curve.**
 
