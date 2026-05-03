@@ -2,7 +2,7 @@
 date = '2026-05-03T00:00:00+00:00'
 title = 'Sydney Build Expo 2026: AI and Supply Chain Strength as the Next Competitive Edge'
 tags = ['Sharing', 'Networking']
-thumbnail = 'pic.png'
+thumbnail = 'pic.jpg'
 +++
 
 
@@ -14,7 +14,7 @@ As an industry professional who recently relocated from Taiwan to Sydney, equipp
 
 作為一位從台灣移居悉尼、同時具備 AI 與供應鏈管理背景的產業從業者，我在現場感受到的，不只是建築產業的活力，更是**兩股正在持續改寫產業規則的力量：AI 的實務落地，以及供應鏈聚落所形成的結構性優勢。**
 
-![](pic.png)
+![](pic.jpg)
 
 ---
 
