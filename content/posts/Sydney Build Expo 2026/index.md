@@ -6,7 +6,7 @@ thumbnail = 'pic.jpg'
 +++
 
 
-Attending the Sydney Build Expo 2026 was more than just a visit to an industry trade show for me; it was a profound observation of the future trajectory of the construction and infrastructure sectors.
+Attending the [Sydney Build Expo 2026](https://www.sydneybuildexpo.com/) was more than just a visit to an industry trade show for me; it was a profound observation of the future trajectory of the construction and infrastructure sectors.
 
 這次在 Sydney Build Expo 2026，對我來說不只是一次產業展會的參觀，更像是一場對未來建築產業與基礎設施發展方向的深度觀察。
 
