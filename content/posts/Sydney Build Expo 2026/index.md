@@ -24,11 +24,11 @@ At this year's expo, AI was ubiquitous. From digital tools in the design phase t
 
 這次展會上，AI 幾乎出現在每一個角落。從設計階段的數位工具，到施工現場的智慧監測，許多方案都在嘗試將 AI 帶入建築產業。然而，真正讓我印象深刻的，並不是那些單純強調技術展示的內容，而是那些能夠**明確對應產業痛點、並把 AI 當作解決問題工具的應用**。
 
-> "AI is never the end goal; it is a means to help us achieve our objectives more efficiently, accurately, and intelligently."
+> "AI is not the destination.... AI is... a powerful means to achieve goals more efficiently, accurately, and intelligently.."
 > 
-> 「AI 從來不是目的，而是幫助我們更高效、更精準、更聰明達成目標的手段。」
+> 「AI 從來不是目的....而是幫助我們更高效、更精準、更聰明達成目標的手段。」
 > 
-> — [*Beyond the Hype: Human Insight + AI is the Real Competitive Edge*](https://lch99310.github.io/chunghao_lee/posts/2025-11-01_1st_au_networking/)
+> — [*Beyond the Hype: Human Insight + AI is the Real Competitive Edge*](https://lch99310.github.io/chunghao_lee/posts/2025-09-23_human-insight-+-ai-is-the-real-competitive-edge/)
 
 Only when technology truly comprehends industry workflows, operational bottlenecks, and decision-making logic can its full value be unleashed. This is particularly evident in the construction sector. Whether it's cost control and progress tracking in project management, or risk identification and safety protocols on-site, the real value doesn't stem from the "AI" label itself. Instead, it lies in whether the technology enables teams to **foresee issues earlier, make decisions faster, and allocate limited resources to where they matter most**.
 
