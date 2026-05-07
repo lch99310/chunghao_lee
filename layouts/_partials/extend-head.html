@@ -1,25 +1,61 @@
 {{/*
-  Supplement Open Graph / Twitter Card metadata so social previews
-  (Messenger, LINE, Facebook, etc.) show a thumbnail for posts that
-  declare a `thumbnail` front-matter image but no feature/cover image
-  or `images` param. Hugo's internal opengraph.html already handles
-  the latter cases, so we only fill the gap.
+  Emit og:image / twitter:image with a Hugo-resized derivative of the
+  post's hero image. Many of this site's posts ship a multi-megabyte
+  source image (e.g. 20 MB pic.jpg); social platforms (LINE,
+  Messenger, iMessage) reject oversized og:image URLs and silently
+  fall back to <link rel="apple-touch-icon">, which on this site is a
+  signature graphic — that's why thumbnails were wrong. Resizing to
+  1200x630 keeps the file under a megabyte and matches the standard
+  social-card aspect ratio.
+
+  Resolution order (first match wins):
+    1. .Params.images          (explicit array)
+    2. *feature*.{jpg,png,...} (Congo theme convention)
+    3. *cover*.{jpg,png,...}   (Congo theme convention)
+    4. .Params.thumbnail       (this site's convention)
+    5. *thumb*.{jpg,png,...}
+    6. first image in bundle   (last-resort fallback)
+
+  Uses newScratch so variable assignment survives `with` block scope.
 */}}
-{{ if .IsPage }}
+{{- if .IsPage -}}
   {{- $images := .Resources.ByType "image" -}}
-  {{- $hasInternal := false -}}
-  {{- if .Params.images -}}{{ $hasInternal = true }}{{ end -}}
-  {{- if not $hasInternal -}}
-    {{- with $images.GetMatch "*feature*" -}}{{ $hasInternal = true }}{{- end -}}
+  {{- $sc := newScratch -}}
+  {{- $sc.Set "img" nil -}}
+
+  {{- with .Params.images -}}
+    {{- with $.Resources.GetMatch (index . 0) -}}
+      {{- $sc.Set "img" . -}}
+    {{- end -}}
   {{- end -}}
-  {{- if not $hasInternal -}}
-    {{- with $images.GetMatch "*cover*" -}}{{ $hasInternal = true }}{{- end -}}
+
+  {{- if not ($sc.Get "img") -}}
+    {{- with $images.GetMatch "*feature*" -}}{{- $sc.Set "img" . -}}{{- end -}}
   {{- end -}}
-  {{- if not $hasInternal -}}
-    {{- $thumbName := .Params.thumbnail | default "*thumb*" -}}
-    {{- with $images.GetMatch $thumbName }}
-      <meta property="og:image" content="{{ .Permalink }}" />
-      <meta name="twitter:image" content="{{ .Permalink }}" />
+  {{- if not ($sc.Get "img") -}}
+    {{- with $images.GetMatch "*cover*" -}}{{- $sc.Set "img" . -}}{{- end -}}
+  {{- end -}}
+  {{- if not ($sc.Get "img") -}}
+    {{- with .Params.thumbnail -}}
+      {{- with $images.GetMatch . -}}{{- $sc.Set "img" . -}}{{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if not ($sc.Get "img") -}}
+    {{- with $images.GetMatch "*thumb*" -}}{{- $sc.Set "img" . -}}{{- end -}}
+  {{- end -}}
+  {{- if not ($sc.Get "img") -}}
+    {{- with $images -}}{{- $sc.Set "img" (index . 0) -}}{{- end -}}
+  {{- end -}}
+
+  {{- with $sc.Get "img" -}}
+    {{- $resized := . -}}
+    {{- if ne .MediaType.SubType "svg" -}}
+      {{- $resized = .Fill "1200x630 smart webp q82" -}}
     {{- end }}
+    <meta property="og:image" content="{{ $resized.Permalink }}" />
+    <meta property="og:image:width" content="{{ $resized.Width }}" />
+    <meta property="og:image:height" content="{{ $resized.Height }}" />
+    <meta name="twitter:image" content="{{ $resized.Permalink }}" />
+    <meta name="twitter:card" content="summary_large_image" />
   {{- end -}}
-{{ end }}
+{{- end -}}
