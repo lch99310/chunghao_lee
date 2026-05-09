@@ -30,12 +30,10 @@ This changed in 1984 when Apple launched the Macintosh, bringing the Graphical U
 
 直到 1984 年蘋果推出 Macintosh，將 GUI（圖形使用者介面）帶入大眾視野。因為人類天生更喜歡圖像與直覺式的操作交互，GUI 很快就席捲了整個產業。此後近四十年，整個電腦產業的操作與交互設計幾乎完全朝向 GUI 傾斜，CLI 逐漸淪為開發者與系統管理員的專用工具。
 
-<br>
-<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px;">
-  <img src="CLI.png" alt="Command-Line Interface (CLI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
-  <img src="GUI.png" alt="Graphical User Interface (GUI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px; margin: 1.5em 0;">
+<img src="/posts/beyond-the-interface-designing-a-common-language-for-humans-and-ai/CLI.png" alt="Command-Line Interface (CLI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+<img src="/posts/beyond-the-interface-designing-a-common-language-for-humans-and-ai/GUI.png" alt="Graphical User Interface (GUI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
 </div>
-<br>
 
 ---
 ### The CLI Renaissance: An Unlikely Reversal in the AI Era // AI 時代的 CLI 復興：一場意料之外的逆轉
