@@ -63,11 +63,13 @@ The uniqueness of HTML lies in its dual nature:
 
 HTML 之所以獨特，在於它同時具備兩種屬性：
 
-1. **For AI:** It is structured text that LLMs can easily parse, generate, and modify.
-2. **For Humans:** It can be rendered by a browser into rich images, charts, and interactive interfaces.
+* **For AI:** It is structured text that LLMs can easily parse, generate, and modify.
+* 對 AI 來說，它是結構化的文字，可以被 LLM 輕鬆解析、生成和修改
 
-1. 對 AI 來說，它是結構化的文字，可以被 LLM 輕鬆解析、生成和修改
-2. 對人類來說，它可以被瀏覽器渲染成豐富的圖像、圖表和交互介面
+<br>
+* **For Humans:** It can be rendered by a browser into rich images, charts, and interactive interfaces.
+* 對人類來說，它可以被瀏覽器渲染成豐富的圖像、圖表和交互介面
+
 
 HTML avoids the user-unfriendliness of a raw CLI while bypassing the "black box" complexity of a pure GUI that is difficult for AI to decompose. It sits in the middle as a "bilingual interface"—a single source of truth that the model can understand and execute, but a human can intuitively navigate.
 
