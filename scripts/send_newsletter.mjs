@@ -163,13 +163,16 @@ function isoDateLabel(date = new Date()) {
 }
 
 async function sendPreviewEmail({ apiKey, from, to, subject, html, text }) {
-  // One-off transactional send to a single address — used by the
+  // One-off transactional send to one or more addresses — used by the
   // workflow's `preview_to` input so we can iterate on the design
-  // without touching the audience or the state cursor.
+  // without touching the audience or the state cursor. Accepts either
+  // a single email or a comma-separated list.
+  const recipients = String(to).split(',').map((s) => s.trim()).filter(Boolean);
+  if (recipients.length === 0) throw new Error('preview_to is empty');
   const r = await fetch(`${RESEND_API}/emails`, {
     method: 'POST',
     headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ from, to: [to], subject: `[Preview] ${subject}`, html, text }),
+    body: JSON.stringify({ from, to: recipients, subject: `[Preview] ${subject}`, html, text }),
   });
   if (!r.ok) throw new Error(`Resend preview send failed: ${r.status} ${await r.text()}`);
   return r.json();
@@ -237,7 +240,8 @@ async function main() {
 
   if (previewTo) {
     const r = await sendPreviewEmail({ apiKey, from, to: previewTo, subject, html, text });
-    console.log(`[newsletter] preview email sent to ${previewTo} (id: ${r?.id})`);
+    const recipients = previewTo.split(',').map((s) => s.trim()).filter(Boolean);
+    console.log(`[newsletter] preview email sent to ${recipients.length} recipient(s) — ${recipients.join(', ')} (id: ${r?.id})`);
     return;
   }
 

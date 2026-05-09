@@ -15,7 +15,7 @@ on:
         type: string
         required: false
       preview_to:
-        description: 'Optional: send a one-off transactional preview to this single email address instead of broadcasting to the audience. Use with since_date to dry-run the design end-to-end.'
+        description: 'Optional: send a one-off transactional preview to these addresses (comma-separated, e.g. you@x.com,friend@y.com) instead of broadcasting to the audience.'
         type: string
         required: false
 
