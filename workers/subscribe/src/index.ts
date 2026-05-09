@@ -152,52 +152,80 @@ export default {
     const origin = req.headers.get('Origin');
     const cors = corsHeaders(origin);
 
-    if (req.method === 'OPTIONS') {
-      return new Response(null, { status: 204, headers: cors });
-    }
-
-    if (url.pathname === '/subscribe' && req.method === 'POST') {
-      let body: { email?: string; honeypot?: string };
-      try {
-        body = await req.json();
-      } catch {
-        return json({ ok: false, error: 'bad_request' }, { status: 400, headers: cors });
+    // Wrap the whole handler so any uncaught throw still returns a
+    // CORS-tagged response. Without this, an unexpected error would
+    // surface as Cloudflare's default 500 page (no CORS headers),
+    // which the browser turns into a generic "Network error" / failed
+    // fetch — unhelpful for debugging.
+    try {
+      if (req.method === 'OPTIONS') {
+        return new Response(null, { status: 204, headers: cors });
       }
-      // Honeypot trip → silently succeed so bots don't learn
-      if (body.honeypot && body.honeypot.length > 0) {
+
+      // Lightweight health check: lets you verify the Worker is reachable
+      // and CORS-correct from your browser without triggering a real send.
+      if (url.pathname === '/health' && req.method === 'GET') {
+        return json({ ok: true, service: 'newsletter-subscribe' }, { headers: cors });
+      }
+
+      if (url.pathname === '/subscribe' && req.method === 'POST') {
+        let body: { email?: string; honeypot?: string };
+        try {
+          body = await req.json();
+        } catch {
+          return json({ ok: false, error: 'bad_request' }, { status: 400, headers: cors });
+        }
+        // Honeypot trip → silently succeed so bots don't learn
+        if (body.honeypot && body.honeypot.length > 0) {
+          return json({ ok: true }, { headers: cors });
+        }
+        const email = (body.email || '').trim().toLowerCase();
+        if (!isValidEmail(email)) {
+          return json({ ok: false, error: 'invalid_email' }, { status: 400, headers: cors });
+        }
+
+        // Validate that required secrets are present so misconfigurations
+        // surface as a clear error code rather than a thrown undefined ref.
+        if (!env.RESEND_API_KEY || !env.JWT_SECRET) {
+          console.error('missing secrets', {
+            has_api_key: !!env.RESEND_API_KEY,
+            has_jwt: !!env.JWT_SECRET,
+          });
+          return json({ ok: false, error: 'misconfigured' }, { status: 500, headers: cors });
+        }
+
+        const token = await makeToken(env.JWT_SECRET, email);
+        const confirmUrl = `${url.origin}/confirm?token=${encodeURIComponent(token)}`;
+        const r = await sendConfirmEmail(env, email, confirmUrl);
+        if (!r.ok) {
+          const errText = await r.text().catch(() => '');
+          console.error('resend send failed', r.status, errText);
+          return json({ ok: false, error: 'send_failed', status: r.status, detail: errText.slice(0, 200) }, { status: 502, headers: cors });
+        }
         return json({ ok: true }, { headers: cors });
       }
-      const email = (body.email || '').trim().toLowerCase();
-      if (!isValidEmail(email)) {
-        return json({ ok: false, error: 'invalid_email' }, { status: 400, headers: cors });
-      }
-      const token = await makeToken(env.JWT_SECRET, email);
-      const confirmUrl = `${url.origin}/confirm?token=${encodeURIComponent(token)}`;
-      const r = await sendConfirmEmail(env, email, confirmUrl);
-      if (!r.ok) {
-        const errText = await r.text().catch(() => '');
-        console.error('resend send failed', r.status, errText);
-        return json({ ok: false, error: 'send_failed' }, { status: 502, headers: cors });
-      }
-      return json({ ok: true }, { headers: cors });
-    }
 
-    if (url.pathname === '/confirm' && req.method === 'GET') {
-      const token = url.searchParams.get('token') || '';
-      const email = await verifyToken(env.JWT_SECRET, token);
-      if (!email) {
-        return Response.redirect(`${env.SITE_URL}/subscribed/?error=invalid`, 302);
+      if (url.pathname === '/confirm' && req.method === 'GET') {
+        const token = url.searchParams.get('token') || '';
+        const email = await verifyToken(env.JWT_SECRET, token);
+        if (!email) {
+          return Response.redirect(`${env.SITE_URL}/subscribed/?error=invalid`, 302);
+        }
+        const r = await addToAudience(env, email);
+        // 200/201 = added; 422 typically = already exists. Both are user-success.
+        if (!r.ok && r.status !== 422) {
+          const errText = await r.text().catch(() => '');
+          console.error('resend add contact failed', r.status, errText);
+          return Response.redirect(`${env.SITE_URL}/subscribed/?error=server`, 302);
+        }
+        return Response.redirect(`${env.SITE_URL}/subscribed/`, 302);
       }
-      const r = await addToAudience(env, email);
-      // 200/201 = added; 422 typically = already exists. Both are user-success.
-      if (!r.ok && r.status !== 422) {
-        const errText = await r.text().catch(() => '');
-        console.error('resend add contact failed', r.status, errText);
-        return Response.redirect(`${env.SITE_URL}/subscribed/?error=server`, 302);
-      }
-      return Response.redirect(`${env.SITE_URL}/subscribed/`, 302);
-    }
 
-    return new Response('Not found', { status: 404, headers: cors });
+      return new Response('Not found', { status: 404, headers: cors });
+    } catch (err) {
+      console.error('worker uncaught error', err);
+      const detail = err instanceof Error ? err.message : String(err);
+      return json({ ok: false, error: 'server_error', detail: detail.slice(0, 200) }, { status: 500, headers: cors });
+    }
   },
 };
