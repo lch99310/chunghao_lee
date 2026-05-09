@@ -10,6 +10,14 @@ on:
         description: 'Dry run (do not send via Resend, just log what would be sent)'
         type: boolean
         default: false
+      since_date:
+        description: 'Optional: ISO date (YYYY-MM-DD) to override last_sent_at for this run only. Useful for previewing the email layout without rewinding state file.'
+        type: string
+        required: false
+      preview_to:
+        description: 'Optional: send a one-off transactional preview to this single email address instead of broadcasting to the audience. Use with since_date to dry-run the design end-to-end.'
+        type: string
+        required: false
 
 permissions:
   contents: write
@@ -47,10 +55,15 @@ jobs:
           RSS_URL: https://chunghaolee.com/index.xml
           STATE_FILE: ../data/newsletter_state.json
           DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+          OVERRIDE_SINCE: ${{ inputs.since_date }}
+          PREVIEW_TO: ${{ inputs.preview_to }}
         run: node send_newsletter.mjs
 
+      # Skip the state commit when we did a dry-run OR when this was a
+      # one-off preview send — neither should advance the audience's
+      # "last broadcast received" cursor.
       - name: Commit updated state
-        if: ${{ !inputs.dry_run }}
+        if: ${{ !inputs.dry_run && !inputs.preview_to }}
         run: |
           if git diff --quiet data/newsletter_state.json; then
             echo "No state change — nothing to commit."
