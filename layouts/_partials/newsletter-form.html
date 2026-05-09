@@ -47,32 +47,44 @@
   .newsletter-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
   .newsletter-row input[type="email"] {
     flex: 1 1 14rem; min-width: 0;
-    padding: 0.6rem 0.85rem; font-size: 0.9375rem;
-    border: 2px solid var(--color-primary-500, #2563eb);
-    border-radius: 0.375rem;
-    background: var(--color-neutral-0, #fff); color: #111827;
+    padding: 0.6rem 0.85rem !important;
+    font-size: 0.9375rem !important;
+    border: 2px solid #2563eb !important;
+    border-radius: 0.375rem !important;
+    background: #ffffff !important;
+    color: #111827 !important;
     transition: border-color 0.15s, box-shadow 0.15s;
   }
   .newsletter-row input[type="email"]:focus {
-    outline: none;
-    border-color: var(--color-primary-700, #1d4ed8);
-    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.18);
+    outline: none !important;
+    border-color: #1d4ed8 !important;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25) !important;
   }
-  .newsletter-row input[type="email"]::placeholder { color: #9ca3af; }
-  .dark .newsletter-row input[type="email"] {
-    border-color: var(--color-primary-400, #60a5fa);
-    background: var(--color-neutral-900, #0f172a);
-    color: #f9fafb;
+  .newsletter-row input[type="email"]::placeholder { color: #9ca3af !important; }
+  .dark .newsletter-row input[type="email"],
+  html.dark .newsletter-row input[type="email"] {
+    border-color: #60a5fa !important;
+    background: #0f172a !important;
+    color: #f9fafb !important;
   }
-  .dark .newsletter-row input[type="email"]::placeholder { color: #6b7280; }
+  .dark .newsletter-row input[type="email"]::placeholder,
+  html.dark .newsletter-row input[type="email"]::placeholder { color: #6b7280 !important; }
   .newsletter-row button {
-    padding: 0.5rem 1rem; font-size: 0.875rem; font-weight: 500;
-    background: var(--color-primary-600, #0a66c2); color: #fff;
-    border: 0; border-radius: 0.375rem; cursor: pointer;
-    transition: background 0.15s;
+    padding: 0.6rem 1.25rem !important;
+    font-size: 0.9375rem !important;
+    font-weight: 600 !important;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border: 2px solid #2563eb !important;
+    border-radius: 0.375rem !important;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
   }
-  .newsletter-row button:hover { background: var(--color-primary-700, #084d92); }
-  .newsletter-row button:disabled { opacity: 0.6; cursor: not-allowed; }
+  .newsletter-row button:hover {
+    background: #1d4ed8 !important;
+    border-color: #1d4ed8 !important;
+  }
+  .newsletter-row button:disabled { opacity: 0.6 !important; cursor: not-allowed !important; }
   .newsletter-honeypot { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; }
   .newsletter-status { margin: 0.6rem 0 0; font-size: 0.875rem; min-height: 1.2em; }
   .newsletter-status.is-ok { color: #16a34a; }
