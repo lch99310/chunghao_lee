@@ -90,6 +90,5 @@ fingerprintAlgorithm = "sha256"
 
 [newsletter]
   enabled = true
-  # Replace with your Cloudflare Worker URL after deploying workers/subscribe/.
-  # Example: "https://newsletter-subscribe.your-account.workers.dev/subscribe"
-  subscribeEndpoint = "https://newsletter-subscribe.example.workers.dev/subscribe"
+  # Cloudflare Worker endpoint (deployed from workers/subscribe/).
+  subscribeEndpoint = "https://newsletter-subscribe.lch99310.workers.dev/subscribe"
