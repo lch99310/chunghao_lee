@@ -90,9 +90,17 @@ export function renderSubject(items /* , weekLabel */) {
   return `Chung-Hao Lee Weekly: ${items.length} new updates`;
 }
 
-export function renderHTML({ items, siteUrl, dateLabel }) {
+export function renderHTML({ items, siteUrl, dateLabel, isPreview = false }) {
   const cleanHost = siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');
   const updates = `${items.length} ${items.length === 1 ? 'article' : 'articles'}`;
+  // In a real broadcast Resend rewrites {{{RESEND_UNSUBSCRIBE_URL}}} to
+  // the recipient-specific unsubscribe link. The transactional /emails
+  // endpoint we use for previews does NOT do that substitution, so the
+  // placeholder would leak to the inbox — point at the site's
+  // /unsubscribe/ landing page instead.
+  const unsubscribeHref = isPreview
+    ? `${siteUrl.replace(/\/$/, '')}/unsubscribe/`
+    : '{{{RESEND_UNSUBSCRIBE_URL}}}';
 
   const cards = items
     .map((it) => {
@@ -101,11 +109,11 @@ export function renderHTML({ items, siteUrl, dateLabel }) {
       const date = escapeHtml(fmtDateIso(it.pubDate));
       const desc = escapeHtml(truncatePlain(it.description || '', 280));
       const img = it.thumbnail
-        ? `<a href="${link}" style="text-decoration:none;display:block;margin:0 0 16px"><img src="${escapeHtml(it.thumbnail)}" alt="" width="552" style="display:block;width:100%;max-width:100%;height:auto;border-radius:8px;border:0;outline:none;text-decoration:none"></a>`
+        ? `<a href="${link}" style="text-decoration:none;display:block;margin:0 0 16px"><img src="${escapeHtml(it.thumbnail)}" alt="" width="552" height="290" style="display:block;width:100%;max-width:552px;height:auto;border-radius:8px;border:0;outline:none;text-decoration:none"></a>`
         : '';
       return `
       <tr><td style="padding:0 0 16px">
-        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#ffffff;border:1px solid #e5e7eb;border-radius:12px">
+        <table role="presentation" width="552" cellspacing="0" cellpadding="0" border="0" align="center" style="width:552px;max-width:552px;background:#ffffff;border:1px solid #e5e7eb;border-radius:12px">
           <tr><td style="padding:24px 24px 22px">
             <a href="${link}" style="text-decoration:none;color:#111827;display:block">
               <h2 style="margin:0 0 6px;font-size:19px;line-height:1.35;font-weight:700;color:#111827">${title}</h2>
@@ -121,15 +129,26 @@ export function renderHTML({ items, siteUrl, dateLabel }) {
     .join('\n');
 
   return `<!DOCTYPE html>
-<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
-<body style="margin:0;padding:0;background:#f3f4f6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#111827;-webkit-font-smoothing:antialiased">
-  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f3f4f6">
-    <tr><td align="center" style="padding:24px 12px">
-      <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="max-width:600px;width:100%">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- Critical: tells Apple Mail not to "reformat" (auto-zoom / reflow) -->
+<meta name="x-apple-disable-message-reformatting">
+<meta name="format-detection" content="telephone=no,date=no,address=no,email=no">
+<title>Chung-Hao Lee's Note</title>
+</head>
+<body style="margin:0;padding:0;background:#f3f4f6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#111827;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%">
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#f3f4f6;width:100%">
+    <tr><td align="center" valign="top" style="padding:24px 12px">
+      <!--[if mso]>
+      <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" align="center"><tr><td>
+      <![endif]-->
+      <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="width:600px;max-width:600px;margin:0 auto">
 
         <!-- Header card -->
         <tr><td style="padding:0 0 20px">
-          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background:#111827;border-radius:12px">
+          <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" align="center" style="width:600px;max-width:600px;background:#111827;border-radius:12px">
             <tr><td style="padding:28px 28px">
               <h1 style="margin:0 0 6px;font-size:24px;line-height:1.25;font-weight:700;color:#ffffff;letter-spacing:-0.01em">Chung-Hao Lee's Note</h1>
               <p style="margin:0 0 10px;font-size:14px;color:#9ca3af">${escapeHtml(dateLabel)} Updates · ${updates}</p>
@@ -151,23 +170,27 @@ export function renderHTML({ items, siteUrl, dateLabel }) {
 
         <!-- Footer -->
         <tr><td style="padding:8px 8px 0">
-          <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+          <table role="presentation" width="552" cellspacing="0" cellpadding="0" border="0" align="center" style="width:552px;max-width:552px">
             <tr><td style="padding:20px 0 0;border-top:1px solid #e5e7eb;font-size:12px;line-height:1.6;color:#6b7280">
               <p style="margin:0 0 6px">You're receiving this because you subscribed at <a href="${escapeHtml(siteUrl)}" style="color:#2563eb;text-decoration:none">${escapeHtml(cleanHost)}</a>.</p>
               <p style="margin:0 0 14px">你之所以收到這封信,是因為你曾在 <a href="${escapeHtml(siteUrl)}" style="color:#2563eb;text-decoration:none">${escapeHtml(cleanHost)}</a> 訂閱了 newsletter。</p>
-              <p style="margin:0">{{{RESEND_UNSUBSCRIBE_URL}}}</p>
+              <p style="margin:0"><a href="${unsubscribeHref}" style="color:#6b7280;text-decoration:underline">Unsubscribe / 退訂</a></p>
             </td></tr>
           </table>
         </td></tr>
 
       </table>
+      <!--[if mso]></td></tr></table><![endif]-->
     </td></tr>
   </table>
 </body></html>`;
 }
 
-export function renderText({ items, siteUrl, dateLabel }) {
+export function renderText({ items, siteUrl, dateLabel, isPreview = false }) {
   const cleanHost = siteUrl.replace(/^https?:\/\//, '').replace(/\/$/, '');
+  const unsubscribeUrl = isPreview
+    ? `${siteUrl.replace(/\/$/, '')}/unsubscribe/`
+    : '{{{RESEND_UNSUBSCRIBE_URL}}}';
   const lines = [
     `Chung-Hao Lee's Note`,
     `${dateLabel} Updates · ${items.length} ${items.length === 1 ? 'article' : 'articles'}`,
@@ -192,6 +215,6 @@ export function renderText({ items, siteUrl, dateLabel }) {
   }
   lines.push('—');
   lines.push(`Subscribed at ${cleanHost}`);
-  lines.push(`Unsubscribe: {{{RESEND_UNSUBSCRIBE_URL}}}`);
+  lines.push(`Unsubscribe / 退訂: ${unsubscribeUrl}`);
   return lines.join('\n');
 }

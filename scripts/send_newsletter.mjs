@@ -222,8 +222,9 @@ async function main() {
 
   const subject = renderSubject(enriched);
   const dateLabel = isoDateLabel();
-  const html = renderHTML({ items: enriched, siteUrl, dateLabel });
-  const text = renderText({ items: enriched, siteUrl, dateLabel });
+  const isPreview = !!previewTo;
+  const html = renderHTML({ items: enriched, siteUrl, dateLabel, isPreview });
+  const text = renderText({ items: enriched, siteUrl, dateLabel, isPreview });
 
   console.log(`[newsletter] subject: ${subject}`);
   console.log(`[newsletter] items:`);
