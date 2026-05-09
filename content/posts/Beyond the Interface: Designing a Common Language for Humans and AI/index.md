@@ -34,6 +34,7 @@ This changed in 1984 when Apple launched the Macintosh, bringing the Graphical U
   <img src="GUI.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
 </div>
 <br>
+
 ---
 ### The CLI Renaissance: An Unlikely Reversal in the AI Era // AI 時代的 CLI 復興：一場意料之外的逆轉
 
