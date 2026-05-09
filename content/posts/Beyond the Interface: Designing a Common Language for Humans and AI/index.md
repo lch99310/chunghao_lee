@@ -1,7 +1,7 @@
 +++
 date = '2026-05-09T00:00:00+00:00'
 title = "Beyond the Interface: Designing a Common Language for Humans and AI"
-tags = ['Beyond the___', '中文', 'PM', 'AI']
+tags = ['Beyond the___', '中文', 'PM', 'AI', 'Sharing']
 thumbnail = 'pic.png'
 +++
 
