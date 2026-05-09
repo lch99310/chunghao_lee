@@ -65,6 +65,7 @@ HTML 之所以獨特，在於它同時具備兩種屬性：
 * 對 AI 來說，它是結構化的文字，可以被 LLM 輕鬆解析、生成和修改
 
 <br>
+
 * **For Humans:** It can be rendered by a browser into rich images, charts, and interactive interfaces.
 * 對人類來說，它可以被瀏覽器渲染成豐富的圖像、圖表和交互介面
 
