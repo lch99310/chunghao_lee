@@ -13,6 +13,8 @@ When you strip it down, the essence of both GUI and CLI is the same: data. The o
 
 仔細想想，不論是 GUI 還是 CLI，底層的本質都是資料。差別只在於我們用什麼方式呈現這些資料：人類天生擅長處理圖像資訊，習慣直覺式的操作交互；而 AI 則擅長處理文字，特別是結構化的內容。
 
+![](pic.png)
+
 ---
 ### The Data Remains Constant; The "Observer" Has Changed // 數據沒變，變的是「誰在看」
 
