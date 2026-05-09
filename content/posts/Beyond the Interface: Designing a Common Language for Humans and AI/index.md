@@ -30,8 +30,8 @@ This changed in 1984 when Apple launched the Macintosh, bringing the Graphical U
 
 <br>
 <div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px;">
-  <img src="CLI.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
-  <img src="GUI.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+  <img src="CLI.png" alt="Command-Line Interface (CLI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+  <img src="GUI.png" alt="Graphical User Interface (GUI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
 </div>
 <br>
 
