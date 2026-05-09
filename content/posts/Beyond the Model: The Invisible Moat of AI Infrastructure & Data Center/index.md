@@ -90,9 +90,9 @@ Without the support of energy, minerals, and infrastructure, even the most advan
 ---
 
 **Further Reading / 延伸閱讀：**
-1. [GovHack 2025: A Data-Driven Framework for Data Center Siting](https://lch99310.github.io/chunghao_lee/portfolio/govhack2025---data-center-challenging/)
-2. [AI Revolution: Australia's Pivotal Role in the Global Mineral Supply Chain](https://lch99310.github.io/chunghao_lee/portfolio/2025-11-23-powering-the-ai-revolution-australias-pivotal-role-in-the-global-mineral-supply-chain/)
-3. [Queensland Aluminium Industry Emissions: 2024 Status & Decarbonization Roadmap](https://lch99310.github.io/chunghao_lee/portfolio/queensland_aluminum_industry_emissions/)
+1. [GovHack 2025: A Data-Driven Framework for Data Center Siting](/portfolio/govhack2025---data-center-challenging/)
+2. [AI Revolution: Australia's Pivotal Role in the Global Mineral Supply Chain](/portfolio/2025-11-23-powering-the-ai-revolution-australias-pivotal-role-in-the-global-mineral-supply-chain/)
+3. [Queensland Aluminium Industry Emissions: 2024 Status & Decarbonization Roadmap](/portfolio/queensland_aluminum_industry_emissions/)
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.

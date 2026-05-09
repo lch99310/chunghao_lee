@@ -28,7 +28,7 @@ At this year's expo, AI was ubiquitous. From digital tools in the design phase t
 > 
 > 「AI 從來不是目的....而是幫助我們更高效、更精準、更聰明達成目標的手段。」
 > 
-> — [*Beyond the Hype: Human Insight + AI is the Real Competitive Edge*](https://lch99310.github.io/chunghao_lee/posts/2025-09-23_human-insight-+-ai-is-the-real-competitive-edge/)
+> — [*Beyond the Hype: Human Insight + AI is the Real Competitive Edge*](/posts/2025-09-23_human-insight-+-ai-is-the-real-competitive-edge/)
 
 Only when technology truly comprehends industry workflows, operational bottlenecks, and decision-making logic can its full value be unleashed. This is particularly evident in the construction sector. Whether it's cost control and progress tracking in project management, or risk identification and safety protocols on-site, the real value doesn't stem from the "AI" label itself. Instead, it lies in whether the technology enables teams to **foresee issues earlier, make decisions faster, and allocate limited resources to where they matter most**.
 
