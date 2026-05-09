@@ -97,7 +97,7 @@
   if (!form) return;
   var status = document.getElementById('newsletter-status');
   var btn = form.querySelector('button[type="submit"]');
-  var endpoint = {{ .subscribeEndpoint | jsonify }};
+  var endpoint = {{ .subscribeEndpoint | jsonify | safeJS }};
 
   function setStatus(msg, kind) {
     status.textContent = msg;
