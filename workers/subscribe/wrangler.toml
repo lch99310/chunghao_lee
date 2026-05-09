@@ -1,0 +1,14 @@
+name = "newsletter-subscribe"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# Public, non-sensitive variables. Edit if you change domain / from address.
+[vars]
+SITE_URL = "https://chunghaolee.com"
+FROM_EMAIL = "newsletter@chunghaolee.com"
+FROM_NAME = "Chung-Hao Lee"
+
+# Secrets (set via `wrangler secret put` — DO NOT put values here):
+#   RESEND_API_KEY
+#   RESEND_AUDIENCE_ID
+#   JWT_SECRET
