@@ -30,10 +30,22 @@ This changed in 1984 when Apple launched the Macintosh, bringing the Graphical U
 
 直到 1984 年蘋果推出 Macintosh，將 GUI（圖形使用者介面）帶入大眾視野。因為人類天生更喜歡圖像與直覺式的操作交互，GUI 很快就席捲了整個產業。此後近四十年，整個電腦產業的操作與交互設計幾乎完全朝向 GUI 傾斜，CLI 逐漸淪為開發者與系統管理員的專用工具。
 
-<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px; margin: 1.5em 0;">
-<img src="pic1.png" alt="Command-Line Interface (CLI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
-<img src="pic2.png" alt="Graphical User Interface (GUI)" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: 16px; margin: 1.5em 0;">
+  
+  <!-- 左邊圖片與說明 -->
+  <figure style="margin: 0; text-align: center; max-width: 48%;">
+    <img src="pic1.png" title="Command-Line Interface (CLI)" alt="CLI 介面" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">Command-Line Interface (CLI)</figcaption>
+  </figure>
+
+  <!-- 右邊圖片與說明 -->
+  <figure style="margin: 0; text-align: center; max-width: 48%;">
+    <img src="pic2.png" title="Graphical User Interface (GUI)" alt="GUI 介面" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">Graphical User Interface (GUI)</figcaption>
+  </figure>
+
 </div>
+
 
 ---
 ### The CLI Renaissance: An Unlikely Reversal in the AI Era // AI 時代的 CLI 復興：一場意料之外的逆轉
