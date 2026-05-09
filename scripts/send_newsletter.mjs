@@ -121,8 +121,58 @@ async function resendSendBroadcast({ apiKey, broadcastId }) {
   return r.json();
 }
 
-function weekLabel(date = new Date()) {
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Taipei' });
+async function fetchOgImage(pageUrl) {
+  // Hugo's default RSS doesn't carry thumbnails, so we fetch the post
+  // page and pull og:image (already injected by extend-head.html as a
+  // 1200x630 webp derivative). One HTTP request per article on a
+  // weekly job is fine; failures fall back to no image.
+  try {
+    const r = await fetch(pageUrl, {
+      headers: { 'User-Agent': 'chunghao-lee-newsletter/1.0' },
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!r.ok) return null;
+    const html = await r.text();
+    const m = html.match(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["']/i)
+      || html.match(/<meta\s+content=["']([^"']+)["']\s+property=["']og:image["']/i)
+      || html.match(/<meta\s+name=["']twitter:image["']\s+content=["']([^"']+)["']/i);
+    return m ? m[1] : null;
+  } catch {
+    return null;
+  }
+}
+
+async function enrichWithThumbnails(items) {
+  // Fan out og:image lookups in parallel; cap concurrency at 6 so we
+  // don't accidentally hammer the origin during a busy week.
+  const results = [];
+  for (let i = 0; i < items.length; i += 6) {
+    const batch = items.slice(i, i + 6);
+    const enriched = await Promise.all(
+      batch.map(async (it) => ({ ...it, thumbnail: it.thumbnail || await fetchOgImage(it.link) })),
+    );
+    results.push(...enriched);
+  }
+  return results;
+}
+
+function isoDateLabel(date = new Date()) {
+  return new Intl.DateTimeFormat('sv-SE', {
+    year: 'numeric', month: '2-digit', day: '2-digit', timeZone: 'Asia/Taipei',
+  }).format(date);
+}
+
+async function sendPreviewEmail({ apiKey, from, to, subject, html, text }) {
+  // One-off transactional send to a single address — used by the
+  // workflow's `preview_to` input so we can iterate on the design
+  // without touching the audience or the state cursor.
+  const r = await fetch(`${RESEND_API}/emails`, {
+    method: 'POST',
+    headers: { Authorization: `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({ from, to: [to], subject: `[Preview] ${subject}`, html, text }),
+  });
+  if (!r.ok) throw new Error(`Resend preview send failed: ${r.status} ${await r.text()}`);
+  return r.json();
 }
 
 async function main() {
@@ -134,6 +184,8 @@ async function main() {
   const rssUrl = env.RSS_URL || `${siteUrl.replace(/\/$/, '')}/index.xml`;
   const stateFile = env.STATE_FILE || 'data/newsletter_state.json';
   const dryRun = env.DRY_RUN === 'true';
+  const overrideSince = (env.OVERRIDE_SINCE || '').trim();
+  const previewTo = (env.PREVIEW_TO || '').trim();
 
   const from = `${fromName} <${fromEmail}>`;
 
@@ -142,8 +194,15 @@ async function main() {
   console.log(`[newsletter] RSS contains ${items.length} items`);
 
   const state = await readState(stateFile);
-  const lastSent = new Date(state.last_sent_at || 0);
-  console.log(`[newsletter] last sent: ${lastSent.toISOString()}`);
+  const lastSent = overrideSince
+    ? new Date(overrideSince)
+    : new Date(state.last_sent_at || 0);
+  if (Number.isNaN(lastSent.getTime())) {
+    console.error(`[newsletter] invalid OVERRIDE_SINCE date: ${overrideSince}`);
+    process.exit(1);
+  }
+  console.log(`[newsletter] last sent: ${lastSent.toISOString()}${overrideSince ? ' (override via since_date input)' : ''}`);
+  if (previewTo) console.log(`[newsletter] PREVIEW MODE → sending only to ${previewTo}`);
 
   const newItems = items
     .filter((it) => it.pubDate && new Date(it.pubDate) > lastSent)
@@ -156,17 +215,28 @@ async function main() {
     return;
   }
 
-  const subject = renderSubject(newItems);
-  const label = weekLabel();
-  const html = renderHTML({ items: newItems, siteUrl, weekLabel: label });
-  const text = renderText({ items: newItems, siteUrl });
+  console.log(`[newsletter] enriching items with og:image thumbnails`);
+  const enriched = await enrichWithThumbnails(newItems);
+  const withImage = enriched.filter((it) => it.thumbnail).length;
+  console.log(`[newsletter] ${withImage}/${enriched.length} items have thumbnails`);
+
+  const subject = renderSubject(enriched);
+  const dateLabel = isoDateLabel();
+  const html = renderHTML({ items: enriched, siteUrl, dateLabel });
+  const text = renderText({ items: enriched, siteUrl, dateLabel });
 
   console.log(`[newsletter] subject: ${subject}`);
   console.log(`[newsletter] items:`);
-  for (const it of newItems) console.log(`  - ${it.title} (${it.link})`);
+  for (const it of enriched) console.log(`  - ${it.title} (${it.link})`);
 
   if (dryRun) {
     console.log('[newsletter] DRY_RUN=true — skipping Resend API calls');
+    return;
+  }
+
+  if (previewTo) {
+    const r = await sendPreviewEmail({ apiKey, from, to: previewTo, subject, html, text });
+    console.log(`[newsletter] preview email sent to ${previewTo} (id: ${r?.id})`);
     return;
   }
 
@@ -188,8 +258,8 @@ async function main() {
       {
         sent_at: now,
         broadcast_id: broadcastId,
-        item_count: newItems.length,
-        items: newItems.map((it) => ({ title: it.title, link: it.link, pubDate: it.pubDate })),
+        item_count: enriched.length,
+        items: enriched.map((it) => ({ title: it.title, link: it.link, pubDate: it.pubDate })),
       },
     ].slice(-50),
   };
