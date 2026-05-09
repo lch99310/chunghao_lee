@@ -73,18 +73,22 @@
     padding: 0.6rem 1.25rem !important;
     font-size: 0.9375rem !important;
     font-weight: 600 !important;
-    background: #2563eb !important;
-    color: #ffffff !important;
-    border: 2px solid #2563eb !important;
+    background: transparent !important;
+    color: #111827 !important;
+    border: 0 !important;
     border-radius: 0.375rem !important;
     cursor: pointer;
-    transition: background 0.15s, border-color 0.15s;
+    transition: opacity 0.15s;
   }
   .newsletter-row button:hover {
-    background: #1d4ed8 !important;
-    border-color: #1d4ed8 !important;
+    opacity: 0.7 !important;
+    text-decoration: underline !important;
   }
-  .newsletter-row button:disabled { opacity: 0.6 !important; cursor: not-allowed !important; }
+  .dark .newsletter-row button,
+  html.dark .newsletter-row button {
+    color: #ffffff !important;
+  }
+  .newsletter-row button:disabled { opacity: 0.4 !important; cursor: not-allowed !important; }
   .newsletter-honeypot { position: absolute !important; left: -9999px !important; width: 1px; height: 1px; opacity: 0; }
   .newsletter-status { margin: 0.6rem 0 0; font-size: 0.875rem; min-height: 1.2em; }
   .newsletter-status.is-ok { color: #16a34a; }
