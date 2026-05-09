@@ -24,10 +24,13 @@ function truncate(s = '', n = 220) {
 }
 
 export function renderSubject(items, weekLabel) {
+  // Plain ASCII, no emoji, no slashes — these tend to lift the spam
+  // score on a fresh sending domain. Bilingual content stays in the
+  // body where it doesn't affect inbox routing.
   if (items.length === 1) {
-    return `📬 Chung-Hao Lee · ${items[0].title}`;
+    return `Chung-Hao Lee Weekly: ${items[0].title}`;
   }
-  return `📬 Chung-Hao Lee · ${items.length} new updates this week / 本週 ${items.length} 則更新`;
+  return `Chung-Hao Lee Weekly: ${items.length} new updates`;
 }
 
 export function renderHTML({ items, siteUrl, weekLabel }) {

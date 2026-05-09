@@ -119,6 +119,31 @@ function confirmEmailHTML(confirmUrl: string): string {
 </body></html>`;
 }
 
+function confirmEmailText(confirmUrl: string): string {
+  return `Hi! Thanks for subscribing to Chung-Hao Lee's newsletter.
+
+Please confirm your email by visiting:
+${confirmUrl}
+
+Once confirmed, I'll send you a weekly digest every Saturday morning
+(Asia/Taipei) whenever there are new posts or portfolio entries.
+
+If you didn't request this, you can safely ignore this email — the
+link expires in 24 hours.
+
+—
+
+嗨!感謝訂閱 Chung-Hao Lee 的 newsletter。
+
+請點擊以下連結確認你的 email:
+${confirmUrl}
+
+確認後,只要有新文章或作品集更新,我會在每週六早上(台灣時間)
+寄送摘要給你。
+
+如果這不是你發起的訂閱,直接忽略此信即可,連結 24 小時後失效。`;
+}
+
 async function sendConfirmEmail(env: Env, email: string, confirmUrl: string): Promise<Response> {
   return fetch(`${RESEND_API}/emails`, {
     method: 'POST',
@@ -128,9 +153,19 @@ async function sendConfirmEmail(env: Env, email: string, confirmUrl: string): Pr
     },
     body: JSON.stringify({
       from: `${env.FROM_NAME} <${env.FROM_EMAIL}>`,
+      reply_to: env.FROM_EMAIL,
       to: [email],
-      subject: 'Confirm your subscription / 確認訂閱',
+      // Plain English subject — emoji and bilingual subjects are
+      // both spam-filter signals on cold-start domains.
+      subject: "Please confirm your subscription to Chung-Hao Lee's newsletter",
       html: confirmEmailHTML(confirmUrl),
+      text: confirmEmailText(confirmUrl),
+      headers: {
+        // Even though confirm emails technically don't need List-Unsubscribe,
+        // Gmail / Yahoo strongly favour senders that always set it.
+        'List-Unsubscribe': `<${env.SITE_URL}/unsubscribe/>`,
+        'List-Unsubscribe-Post': 'List-Unsubscribe=One-Click',
+      },
     }),
   });
 }
