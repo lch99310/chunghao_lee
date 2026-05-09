@@ -87,3 +87,9 @@ fingerprintAlgorithm = "sha256"
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[newsletter]
+  enabled = true
+  # Replace with your Cloudflare Worker URL after deploying workers/subscribe/.
+  # Example: "https://newsletter-subscribe.your-account.workers.dev/subscribe"
+  subscribeEndpoint = "https://newsletter-subscribe.example.workers.dev/subscribe"
