@@ -1,6 +1,8 @@
 +++
 date = '2026-05-21T00:00:00+00:00'
 title = "From the Coolidge Prosperity to the AI Boom: A Century's Echo and the Shadows Beneath the Surge"
+slug = "from-coolidge-prosperity-to-ai-boom"
+aliases = ["/posts/從柯立芝繁榮到-ai-浪潮/"]
 tags = ['AI', 'History as Mirror', '中文']
 thumbnail = 'pic.png'
 +++
