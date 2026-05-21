@@ -19,7 +19,7 @@ On a recent business trip, I rewatched *The Great Gatsby* on the flight. Watchin
 
 The era Fitzgerald immortalized — the so-called "Roaring Twenties" — was precisely the period in American history known as the Coolidge Prosperity. Snapping back to the present, watching Wall Street post record after record on the back of the AI wave, and listening to the tech giants paint their grand visions, I couldn't help but ask: just how closely does today's AI boom resemble the Coolidge Prosperity of a century ago? And what dangerous differences lie hidden beneath the surface this time around?
 
-費茲傑羅筆下那個被稱為「咆哮的二十年代」（Roaring Twenties），正是美國歷史上著名的「柯立芝繁榮」（Coolidge Prosperity）時期。而當我回到現實，看著如今華爾街因為 AI 浪潮而屢創新高的股指，以及科技巨頭們描繪的宏大藍圖，我不禁思考：我們現在所經歷的 AI 繁榮，與一百年前的柯立芝繁榮，究竟有多相似？而現在相較過去，又隱藏著哪些危險的差異？
+費茲傑羅筆下那個被稱為「咆哮的二十年代」，正是美國歷史上著名的「柯立芝繁榮」時期。而當我回到現實，看著如今華爾街因為 AI 浪潮而屢創新高的股指，以及科技巨頭們描繪的宏大藍圖，我不禁思考：我們現在所經歷的 AI 繁榮，與一百年前的柯立芝繁榮，究竟有多相似？而現在相較過去，又隱藏著哪些危險的差異？
 
 
 ![](pic.png)
@@ -37,7 +37,7 @@ Fast-forward to today, and AI is this era's Ford assembly line.
 
 Since the explosion of generative AI at the end of 2022, the script has played out with uncanny familiarity. Large AI models have dramatically lowered the marginal cost of producing knowledge and content, igniting a new productivity revolution. And that revolution has dragged along a sprawling supply-chain boom of its own: from TSMC's leading-edge nodes and NVIDIA's AI accelerators upstream, to server assembly and thermal modules in the middle, all the way down to cloud data centers and the vast power infrastructure they depend on.
 
-從 2022 年底生成式 AI 爆發以來，我們看到了驚人相似的劇本。AI 大模型大幅降低了「知識與內容生產」的邊際成本，引發了新一輪的生產力革命。而這場革命同樣帶動了龐大的供應鏈繁榮：從上游的台積電先進製程、輝達（NVIDIA）的 AI 晶片，到中游的伺服器組裝、散熱模組，再到下游的雲端資料中心與龐大的電力基礎設施。
+從 2022 年底生成式 AI 爆發以來，我們看到了驚人相似的劇本。AI 大模型大幅降低了「知識與內容生產」的邊際成本，引發了新一輪的生產力革命。而這場革命同樣帶動了龐大的供應鏈繁榮：從上游的台積電先進製程、英偉達的 AI 晶片，到中游的伺服器組裝、散熱模組，再到下游的雲端資料中心與龐大的電力基礎設施。
 
 Both eras began with genuine, world-altering technological breakthroughs — and both delivered real, measurable gains in the productivity of the real economy.
 
