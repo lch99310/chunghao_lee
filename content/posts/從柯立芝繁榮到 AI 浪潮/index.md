@@ -97,9 +97,9 @@ There is one brutal historical fact we cannot afford to forget: the Coolidge Pro
 
 我們必須記住一個殘酷的歷史事實：柯立芝繁榮的盡頭，是 1929 年的華爾街大崩盤，隨後引發了長達十年的「經濟大蕭條」。
 
-And the Depression was never merely an economic problem. Prolonged unemployment and poverty incubated the extreme nationalism and fascism that swept across nations, ultimately lighting the fuse of the Second World War. From boom, to collapse, to global war — this is a clear and painful chain of causation.
+And the Depression was never merely an economic problem. Prolonged unemployment and poverty incubated the extreme nationalism that swept across nations, ultimately lighting the fuse of the Second World War. From boom, to collapse, to global war — this is a clear and painful chain of causation.
 
-而大蕭條並不僅僅是經濟問題。長期的失業與貧困，催生了各國極端的民族主義與法西斯主義，最終點燃了第二次世界大戰的引信。從繁榮到崩潰，再到全球戰火，這是一條清晰且慘痛的因果鏈。
+而大蕭條並不僅僅是經濟問題。長期的失業與貧困，催生了各國極端的民族主義，最終點燃了第二次世界大戰的引信。從繁榮到崩潰，再到全球戰火，這是一條清晰且慘痛的因果鏈。
 
 I don't recount this to spread panic. The reason "taking history as a mirror" has endured as wisdom is precisely that mirrors do not predict the future — they show us, in real time, what we look like *right now*, so that we still have time to change course.
 
