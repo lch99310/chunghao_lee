@@ -1,7 +1,7 @@
 +++
 date = '2026-05-23T00:00:00+00:00'
 title = "Beyond the Legacy Mindset: How Atoms and Tokens Are Redefining Industrial Power"
-tags = ['AI', 'History as Mirror', '中文']
+tags = ['AI', 'Beyond The___', 'Supply Chain', '中文']
 thumbnail = 'pic.png'
 +++
  
