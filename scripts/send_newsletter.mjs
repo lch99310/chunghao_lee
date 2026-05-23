@@ -187,6 +187,7 @@ async function main() {
   const rssUrl = env.RSS_URL || `${siteUrl.replace(/\/$/, '')}/index.xml`;
   const stateFile = env.STATE_FILE || 'data/newsletter_state.json';
   const dryRun = env.DRY_RUN === 'true';
+  const force = env.FORCE === 'true';
   const overrideSince = (env.OVERRIDE_SINCE || '').trim();
   const previewTo = (env.PREVIEW_TO || '').trim();
 
@@ -216,6 +217,24 @@ async function main() {
   if (newItems.length === 0) {
     console.log('[newsletter] no new content — skipping email send');
     return;
+  }
+
+  // Idempotency gate: the workflow now has four cron triggers on
+  // Saturday (09:00 / 09:30 / 10:00 / 21:00 Asia/Taipei) so that a
+  // single delayed/skipped run on GitHub's busy scheduler doesn't
+  // make us miss the week. The downside is multiple attempts could
+  // race to broadcast — block any send that lands within 4 days of
+  // the previous successful send. Bypassed explicitly by:
+  //   - `force=true`         (manual catch-up via workflow_dispatch)
+  //   - `since_date`         (intentional window override)
+  //   - `preview_to`         (preview send doesn't touch the cursor)
+  if (!force && !overrideSince && !previewTo) {
+    const realLastSent = new Date(state.last_sent_at || 0);
+    const daysSince = (Date.now() - realLastSent.getTime()) / 86400000;
+    if (daysSince < 4) {
+      console.log(`[newsletter] last broadcast was ${daysSince.toFixed(2)} days ago (< 4d threshold) — skipping to avoid a duplicate send from a retry cron. Use the 'force' workflow input to override.`);
+      return;
+    }
   }
 
   console.log(`[newsletter] enriching items with og:image thumbnails`);

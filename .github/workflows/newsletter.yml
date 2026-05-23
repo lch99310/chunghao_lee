@@ -2,12 +2,24 @@ name: Send Weekly Newsletter
 
 on:
   schedule:
-    # Saturday 01:00 UTC = Saturday 09:00 Asia/Taipei
-    - cron: '0 1 * * 6'
+    # GitHub Actions scheduled workflows are best-effort — on busy
+    # Saturday mornings they often get queued long enough to be
+    # skipped entirely. Fire four attempts spread across the morning
+    # so any one of them succeeding is enough; the script's 4-day
+    # idempotency gate prevents duplicate broadcasts when more than
+    # one attempt manages to run.
+    - cron: '0 1 * * 6'    # Sat 09:00 Asia/Taipei
+    - cron: '30 1 * * 6'   # Sat 09:30 Asia/Taipei (retry)
+    - cron: '0 2 * * 6'    # Sat 10:00 Asia/Taipei (retry)
+    - cron: '0 13 * * 6'   # Sat 21:00 Asia/Taipei (last-resort backup)
   workflow_dispatch:
     inputs:
       dry_run:
         description: 'Dry run (do not send via Resend, just log what would be sent)'
+        type: boolean
+        default: false
+      force:
+        description: 'Force send even if a broadcast was sent within the last 4 days (bypasses the idempotency gate). Use when manually catching up a missed Saturday cron.'
         type: boolean
         default: false
       since_date:
@@ -55,6 +67,7 @@ jobs:
           RSS_URL: https://chunghaolee.com/index.xml
           STATE_FILE: ../data/newsletter_state.json
           DRY_RUN: ${{ inputs.dry_run && 'true' || 'false' }}
+          FORCE: ${{ inputs.force && 'true' || 'false' }}
           OVERRIDE_SINCE: ${{ inputs.since_date }}
           PREVIEW_TO: ${{ inputs.preview_to }}
         run: node send_newsletter.mjs
