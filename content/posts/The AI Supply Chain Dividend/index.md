@@ -1,6 +1,6 @@
 +++
 date = '2026-05-29T00:00:00+00:00'
-title = "【Passport to AI Era Special Edition】The AI Supply Chain Dividend: The Great Wealth Transfer from Tech Giants"
+title = "【Passport to AI Era】The AI Supply Chain Dividend: The Great Wealth Transfer from Tech Giants"
 tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
@@ -67,7 +67,7 @@ After moving at high velocity through the IT hardware layer, this capital eventu
 
 The market once anticipated that improvements in model efficiency (such as DeepSeek drastically lowering the cost per token) would curb infrastructure demand. However, the **"Jevons Paradox"** has proven true once again: as the unit cost of computation drops, it triggers a tipping point for large-scale enterprise deployment of AI agents, causing total demand for compute and energy to increase rather than decrease.
 
-市場曾預期，模型效率的提升（如 DeepSeek 大幅壓低單 token 成本）將抑制基礎設施需求。然而，**「傑文斯悖論（Jevons Paradox）」**再次應驗：單位運算成本的下降，反而觸發企業大規模部署 Agent 的臨界點，導致總算力與總能耗需求不減反增。
+市場曾預期，模型效率的提升（如 DeepSeek 大幅壓低單 token 成本）將抑制基礎設施需求。然而，**傑文斯悖論(Jevons Paradox)** 再次應驗：單位運算成本的下降，反而觸發企業大規模部署 Agent 的臨界點，導致總算力與總能耗需求不減反增。
 
 By 2030, global data center power capacity is projected to expand from 60 GW in 2023 to between 171 and 219 GW. The true bottleneck of this trillion-dollar gamble shifted in late 2025 from semiconductor nodes to physical power grids and heavy electrical equipment. Consider the "Stargate" project—a $500 billion, 10 GW collaboration between OpenAI, Oracle, and SoftBank. Its massive capital is currently forced into a long queue in the physical world.
 
@@ -92,7 +92,7 @@ Traditional energy and heavy industry giants are seeing an unprecedented windfal
 
 As this capital flows through chip designs, advanced packaging, liquid cooling pipes, gas turbines, and transformer factories, it finally reaches the end of the supply chain, where the "virtual" and "high-margin" labels of the tech industry are stripped away. It transforms into tangible profit and compensation within the real economy.
 
-當這塊錢穿透了晶片設計、異質封裝、液冷管線、重型燃氣輪機與變壓器工廠，最終落到供應鏈末端時，它已經徹底洗去了「科技業」高毛利、虛擬化的代碼色彩。它轉化成了實體經濟中最真實的利潤與報酬：
+當這塊錢穿透了晶片設計、先進封裝、液冷管線、重型燃氣輪機與變壓器工廠，最終落到供應鏈末端時，它已經徹底洗去了「科技業」高毛利、虛擬化的代碼色彩。它轉化成了實體經濟中最真實的利潤與報酬：
 
 * The night-shift wages of an electrical worker in Texas rushing to complete a "Behind-the-Meter" power plant.
 * 德州工人在 Behind-the-Meter 自建電廠徹夜趕工的夜班薪水。
