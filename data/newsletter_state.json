@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-05-23T04:31:04.927Z",
+  "last_sent_at": "2026-05-30T02:41:56.702Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -286,6 +286,18 @@
           "title": "[External Article] - 低價與信任之間，京東的另一種嘗試",
           "link": "https://chunghaolee.com/posts/external-article---%E4%BD%8E%E4%BB%B7%E4%B8%8E%E4%BF%A1%E4%BB%BB%E4%B9%8B%E9%97%B4%E4%BA%AC%E4%B8%9C%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E5%B0%9D%E8%AF%95/",
           "pubDate": "2026-05-17T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-05-30T02:41:56.702Z",
+      "broadcast_id": "8140543f-29f3-47b6-91eb-f376a36d8e36",
+      "item_count": 1,
+      "items": [
+        {
+          "title": "【Passport to AI Era】The AI Supply Chain Dividend: The Great Wealth Transfer from Tech Giants",
+          "link": "https://chunghaolee.com/posts/the-ai-supply-chain-dividend/",
+          "pubDate": "2026-05-29T00:00:00.000Z"
         }
       ]
     }
