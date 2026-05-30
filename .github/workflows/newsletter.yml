@@ -2,16 +2,28 @@ name: Send Weekly Newsletter
 
 on:
   schedule:
-    # GitHub Actions scheduled workflows are best-effort — on busy
-    # Saturday mornings they often get queued long enough to be
-    # skipped entirely. Fire four attempts spread across the morning
-    # so any one of them succeeding is enough; the script's 4-day
-    # idempotency gate prevents duplicate broadcasts when more than
-    # one attempt manages to run.
-    - cron: '0 1 * * 6'    # Sat 09:00 Asia/Taipei
-    - cron: '30 1 * * 6'   # Sat 09:30 Asia/Taipei (retry)
-    - cron: '0 2 * * 6'    # Sat 10:00 Asia/Taipei (retry)
-    - cron: '0 13 * * 6'   # Sat 21:00 Asia/Taipei (last-resort backup)
+    # GitHub Actions schedule events are best-effort and routinely
+    # dropped at *peak* times — the start of every hour and every
+    # half hour are the worst. The previous version of this workflow
+    # had four attempts that all sat on :00 or :30, so when GHA shed
+    # load at the top of the hour they tended to drop together and
+    # the whole Saturday got skipped (5/16 and 5/30 both missed).
+    #
+    # Mitigation:
+    #   1. Schedule on off-peak odd minutes (avoid :00 / :30 / :15 / :45).
+    #   2. Spread attempts widely across Saturday so a regional
+    #      GHA hot patch can't take them all out at once.
+    #   3. Add a Sunday-morning safety net — if every Saturday slot
+    #      is dropped, this still catches the week before Monday.
+    #
+    # send_newsletter.mjs has a 4-day idempotency gate, so multiple
+    # attempts landing in the same window are safe (the second one
+    # logs "< 4d threshold" and exits without broadcasting).
+    - cron: '7 1 * * 6'    # Sat 09:07 Asia/Taipei (primary)
+    - cron: '23 2 * * 6'   # Sat 10:23 Asia/Taipei (mid-morning retry)
+    - cron: '47 5 * * 6'   # Sat 13:47 Asia/Taipei (afternoon retry)
+    - cron: '13 13 * * 6'  # Sat 21:13 Asia/Taipei (evening retry)
+    - cron: '37 1 * * 0'   # Sun 09:37 Asia/Taipei (Sunday safety net)
   workflow_dispatch:
     inputs:
       dry_run:
