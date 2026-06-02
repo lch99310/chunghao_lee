@@ -2,7 +2,7 @@
 date = 2026-06-02T00:00:00+00:00
 title = "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become"
 tags = ["AI", "Passport to AI Era", "中文"]
-thumbnail = "pic.png"
+thumbnail = "pic1.png"
 math = true
 draft = false
 +++
