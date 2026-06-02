@@ -1,11 +1,11 @@
----
-date: 2026-06-02T00:00:00+00:00
-title: "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become"
-tags: ["AI", "Passport to AI Era", "中文"]
-thumbnail: "pic.png"
-math: true
-draft: false
----
++++
+date = 2026-06-02T00:00:00+00:00
+title = "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become"
+tags = ["AI", "Passport to AI Era", "中文"]
+thumbnail = "pic.png"
+math = true
+draft = false
++++
 
 ## 當智慧成為大宗商品：估算 2030 的詞元經濟，取決於 2030 年的大眾模型會聰明到什麼程度
 
@@ -26,6 +26,7 @@ Commodity markets share a distinct characteristic: **their scale can be estimate
 
 而大眾商品市場有一個特性：**規模可以被估算**。一邊是量、一邊是價。高盛給了我們其中一條曲線，而過去五年五十個模型的發布定價給了我們另一條。兩者相乘，再扣掉成本後剩下的那層電費（也就是大眾商品市場真正的邊際成本），就是一個可以估算的市場規模。而結論，比你預期的小。
 
+![](pic1.png)
 ---
 
 ## The Engine of Volume: 120 Quadrillion Tokens per Month // 量的引擎:每月 120 千兆 token
@@ -110,6 +111,7 @@ Two lines, one structure: **$0.45/M vs. $0.18/M, a 2.5× spread**. This ratio is
 
 兩條線、一個雙軌結構：**\$0.45/M vs. \$0.18/M，差 2.5 倍**。這個比例就是 2030 年推理市場的核心幾何。
 
+![](pic3.png)
 ---
 
 ## Three Scenario Calculations: Deriving the Revenue Pool // 三個情境算式:營收池的推導
@@ -164,6 +166,7 @@ The three scenarios converge into a defensible range: **$259B to $648B, baseline
 
 三個情境收斂在合理區間：**\$259B 到 \$648B，基準估計 \$337B**。對標 Bain & Company 2024 年估算（2027 年 AI TAM \$780–990 B，含整個應用層）[⁵]，與 McKinsey 廣義 GenAI 經濟價值（每年 \$2.6–4.4 兆，含生產力收益）[⁶]——我們算的是「**純詞元帶來的營收**」（**TAM, Total Addressable Market** 中對應推理層的子集）。
 
+![](pic4.png)
 ---
 
 ## The Power Floor: What Remains After Stripping Down Costs // 電力底線:把成本拆解剩下的那一層
@@ -338,6 +341,7 @@ This is why the real question this article asks is not *"How big is the 2030 TAM
 >
 > **兩個數字，差了一個量級。整個矽谷的下半場，賭的就是這條線。**
 
+![](pic2.png)
 ---
 
 ## Sources / 資料來源
