@@ -11,6 +11,8 @@ thumbnail = 'pic.png'
 
 > 「Intelligence is about to be a commodity.」這是 NVIDIA CEO 黃仁勳 2025 年公開講過的一句話 [¹²]。一句話，定義了整個 AI 產業 2030 年的形狀。
 
+![](pic1.png)
+
 For the past two decades, the pricing unit for SaaS has been the subscribed user — Salesforce, Slack, and Microsoft 365 all monetize on a per-user basis. But what Huang meant is that AI's pricing unit isn't the "human"; it's the "token." A token is fundamentally different from a subscription: it is a metered output, akin to a kilowatt-hour of electricity, a cubic meter of natural gas, or a barrel of crude oil. If intelligence truly is a commodity, then the pricing logic of generative AI is essentially that of a public utility, not software subscription.
 
 過去二十年，SaaS 的計價單位是訂閱用戶數——Salesforce 按用戶收錢、Slack 按用戶收錢、Microsoft 365 按用戶收錢。但黃仁勳這句話的意思是：AI 的計價單位不是「人」，是「詞元（token）」。詞元跟訂閱不是同一種東西——它是按量計費的產出，跟度電、跟立方公尺天然氣、跟一桶原油同類。如果 intelligence 真的是大眾商品（commodity），那生成式 AI 的計價邏輯，本質上是一門公用事業的邏輯，不是軟體訂閱。
@@ -103,6 +105,8 @@ Two lines, one dual-track structure: the blended price for frontier models is $0
 
 兩條線、一個雙軌結構：前沿模型的 blended price 是 $0.45/M、大眾模型的 blended price 是 $0.18/M，差 2.5 倍。這個比例就是 2030 年推理市場的核心幾何。
 
+![](pic3.png)
+
 ---
 
 ## Three Scenario Calculations: Deriving the Revenue Pool // 三個情境算式:營收池的推導
@@ -152,6 +156,8 @@ Under this scenario, 20% of tokens run on frontier models (high-value reasoning,
 The three scenarios converge into a reasonable range: **$259B to $648B**, with a baseline estimate of **$337B**. Compared to Bain & Company's 2024 AI market estimate ($780–990B by 2027, including the entire AI application layer) [⁵], and McKinsey's broader estimate of GenAI's economic value ($2.6–4.4 trillion annually, including productivity gains) [⁶], our calculation focuses strictly on "revenue driven by pure tokens" — a subset of the TAM (Total Addressable Market) corresponding specifically to the inference layer. Naturally, it is smaller than these broader TAMs.
 
 三個情境收斂在一個合理區間：**$259B 到 $648B，基準估計 $337B**。對標 Bain & Company 2024 年的 AI 市場估算（2027 年 $780–990 B，含整個 AI 應用層）[⁵]，與 McKinsey 的廣義生成式 AI 經濟價值估算（每年 $2.6–4.4 兆，含生產力收益）[⁶]——我們算的是「純詞元帶來的營收」（TAM, Total Addressable Market 中對應推理層的子集），所以會小於這些更廣義的 TAM。
+
+![](pic4.png)
 
 ---
 
@@ -344,6 +350,8 @@ If the "good enough" waterline drops to the DeepSeek tier — meaning commodity 
 Where this "good enough" line moves fundamentally depends on how high commodity models can push their capabilities before 2030. If open-source MoE architectures, DeepSeek-style training efficiencies, and next-generation budget inference hardware enable commodity models to cover the vast majority of commercial agentic workloads, the market will naturally converge on price. **Pricing power for frontier models will not be held by model vendors; it will be dictated by the capability curve of commodity models.** This is precisely why the real question this article asks is not "How big is the 2030 TAM?", but rather, "How smart will commodity models become by 2030?"
 
 而「夠用線」往哪邊走，本質上取決於大眾模型在 2030 年之前能把能力推到多高。如果開源 MoE 架構、DeepSeek 式的訓練效率，以及下一代平價推理硬體，能讓大眾模型涵蓋大多數商業 agentic 工作負載，市場會自然完成價格收斂——**前沿模型的定價權不會被模型廠商守住，而會被大眾模型的能力曲線替市場決定**。這也是為什麼這篇文章真正在問的，不是「2030 年 TAM 多大」，而是「2030 年的大眾模型，會聰明到什麼程度」。
+
+![](pic2.png)
 
 **Two numbers, separated by an order of magnitude. The entire second half of Silicon Valley's game is betting on this single line.**
 
