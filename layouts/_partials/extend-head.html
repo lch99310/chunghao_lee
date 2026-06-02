@@ -59,3 +59,23 @@
     <meta name="twitter:card" content="summary_large_image" />
   {{- end -}}
 {{- end -}}
+
+{{/*
+  KaTeX loader for posts that opt in via front matter `math: true`.
+  Congo's stock vendor.html only loads KaTeX when the page contains the
+  `katex` shortcode, so `math: true` alone produces unrendered \[ ... \]
+  markup. We mirror Congo's loader here, skipping when the shortcode is
+  present (vendor.html already handled it) to avoid double-loading.
+*/}}
+{{- if and .IsPage .Params.math (not (.HasShortcode "katex")) -}}
+  {{- $algorithm := .Site.Params.fingerprintAlgorithm | default "sha256" -}}
+  {{- $katexCSS := resources.Get "lib/katex/katex.min.css" | resources.Fingerprint $algorithm -}}
+  <link type="text/css" rel="stylesheet" href="{{ $katexCSS.Permalink }}" integrity="{{ $katexCSS.Data.Integrity }}" />
+  {{- $katexJS := resources.Get "lib/katex/katex.min.js" | resources.Fingerprint $algorithm -}}
+  <script defer src="{{ $katexJS.Permalink }}" integrity="{{ $katexJS.Data.Integrity }}"></script>
+  {{- $katexRenderJS := resources.Get "lib/katex/auto-render.min.js" | resources.Fingerprint $algorithm -}}
+  <script defer src="{{ $katexRenderJS.Permalink }}" integrity="{{ $katexRenderJS.Data.Integrity }}" onload="renderMathInElement(document.body);"></script>
+  {{- range (resources.Match "lib/katex/fonts/*") -}}
+    {{- .Publish -}}
+  {{- end -}}
+{{- end -}}
