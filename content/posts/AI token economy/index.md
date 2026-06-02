@@ -166,7 +166,7 @@ The three scenarios converge into a defensible range: **$259B to $648B, baseline
 
 三個情境收斂在合理區間：**\$259B 到 \$648B，基準估計 \$337B**。對標 Bain & Company 2024 年估算（2027 年 AI TAM \$780–990 B，含整個應用層）[⁵]，與 McKinsey 廣義 GenAI 經濟價值（每年 \$2.6–4.4 兆，含生產力收益）[⁶]——我們算的是「**純詞元帶來的營收**」（**TAM, Total Addressable Market** 中對應推理層的子集）。
 
-![](pic4.png)
+
 ---
 
 ## The Power Floor: What Remains After Stripping Down Costs // 電力底線:把成本拆解剩下的那一層
@@ -237,49 +237,52 @@ At 120 quadrillion tokens per month, fixed costs amortize to near zero, leaving 
 
 ### Modeling the scenario // 算出這個情境
 
-**Mix:** 95% commodity tokens at $0.08/M (between V4 Flash $0.06 and V4 Pro $0.18) + 5% frontier at $0.45/M
+**Mix:** 95% commodity tokens at the V4 Pro anchor ($0.18/M, consistent with our earlier 2030 commodity assumption) + 5% frontier at $0.45/M
 
-**配比**：95% 跑大眾模型（保守取 \$0.08/M，介於 V4 Flash \$0.06 與 V4 Pro \$0.18 之間）+ 5% 跑前沿（\$0.45/M）
+**配比**：95% 跑大眾模型（沿用前面的 2030 commodity 錨點 $0.18/M，即 DeepSeek V4 Pro 等級）+ 5% 跑前沿（$0.45/M）
 
 \[
-\text{ASP} = 0.95 \times \$0.08 + 0.05 \times \$0.45 = \mathbf{\$0.0985 / \text{M tokens}}
+\text{ASP} = 0.95 \times \$0.18 + 0.05 \times \$0.45 = \$0.171 + \$0.0225 = \mathbf{\$0.1935 / \text{M tokens}}
 \]
 
 \[
-\text{Revenue} = 1.44 \times 10^{12} \times \$0.0985 = \mathbf{\$142 \text{ B / year}}
+\text{Revenue} = 1.44 \times 10^{12} \times \$0.1935 = \mathbf{\$279 \text{ B / year}}
 \]
 
 \[
-\text{Gross profit after power} = \$142 - \$47 = \mathbf{\$95 \text{ B / year}}
+\text{Gross profit after power} = \$279 - \$47 = \mathbf{\$232 \text{ B / year}}
 \]
 
 \[
-\text{Gross margin} = \$95 / \$142 \approx \mathbf{67\%}
+\text{Gross margin} = \$232 / \$279 \approx \mathbf{83\%}
 \]
+
+![](pic4.png)
 
 ### The inflection // 拐點
 
 > **This is the inflection point of the article.**
 > **這就是這篇文章的拐點。**
 
-Goldman's 120 quadrillion token volume × DeepSeek-ified unit price yields a market of just **$142 B**. Strip out electricity, and the net value pool shrinks to **$95 B**. Against the combined 2025 AI CapEx of Microsoft, Google, Meta, and Amazon (already past $300 B/year) [¹¹], this figure cannot support the overarching capital thesis.
+Goldman's 120 quadrillion token volume × a commodity-heavy mix (95% at V4 Pro pricing) yields a market of **$279 B**. Strip out electricity, and the net value pool comes to **$232 B**. Against the combined 2025 AI CapEx of Microsoft, Google, Meta, and Amazon (already past $300 B/year) [¹¹], even this baseline-adjacent scenario falls short of the capital outlay.
 
-高盛的 120 千兆 token 量級 × DeepSeek 化單價，市場規模只有 **\$142 B**。扣掉電費，全產業淨值剩 **\$95 B**。對應今天 Microsoft、Google、Meta、Amazon 四家加起來的 AI 資本支出（2025 年已突破 \$300 B/年）[¹¹]，這個數字撐不起整個資本論點。
+高盛的 120 千兆 token 量級 × commodity 主導的混合（95% 走 V4 Pro 定價），市場規模 **$279 B**。扣掉電費，全產業淨值 **$232 B**。對應今天 Microsoft、Google、Meta、Amazon 四家加起來的 AI 資本支出（2025 年已突破 $300 B/年）[¹¹]，即便這個接近基準的情境，也填不滿資本支出的缺口。
 
-In other words, if the commodity capability curve crosses "good enough" by 2030, **Goldman's 120 quadrillion is not enough**. Reverse-engineering what *would* be required for a $1 trillion market:
+In other words, if commodity capability crosses "good enough" and absorbs 95% of workload by 2030, **Goldman's 120 quadrillion is still not enough**. Reverse-engineering what *would* be required for a $1 trillion market:
 
-換句話說，如果大眾模型的能力曲線真的在 2030 年到了「夠用」這個臨界點，**高盛的 120 千兆是不夠的**。反推 \$1 兆市場需要的條件：
+換句話說，如果大眾模型的能力曲線真的在 2030 年到了「夠用」這個臨界點、吃掉 95% 工作負載，**高盛的 120 千兆仍然不夠**。反推 $1 兆市場需要的條件：
+
 
 ### Reverse engineering for a $1T market // 反推 $1 兆市場
 
-**Reverse 1 — Required volume at DeepSeek ASP ($0.0985/M) // DeepSeek 化單價下的所需量：**
+**Reverse 1 — Required volume at commodity-heavy ASP ($0.1935/M) // commodity 主導單價下的所需量：**
 
 \[
-\$10^{12} \div \$0.0985/\text{M} \times 10^{6} = 1.015 \times 10^{19} \text{ tokens/year}
+\$10^{12} \div \$0.1935/\text{M} \times 10^{6} = 5.17 \times 10^{18} \text{ tokens/year}
 \]
 
 \[
-\Rightarrow \mathbf{846 \text{ Q / month} \approx 7.05\times \text{ Goldman's forecast}}
+\Rightarrow \mathbf{431 \text{ Q / month} \approx 3.59\times \text{ Goldman's forecast}}
 \]
 
 **Reverse 2 — Required volume at 80/20 blended ASP ($0.234/M) // 20/80 法則混合單價下的所需量：**
@@ -318,16 +321,16 @@ The trajectory of the token economy is decided by a tug-of-war: **model capabili
 
 | If "good enough" line lands at... | ASP | Market | Post-power | Margin |
 |---|---:|---:|---:|---:|
-| **GPT-5 / Claude 4** capability tier 等級 | $0.234/M | $337 B | $290 B | 86% |
-| **DeepSeek-class** capability tier 等級 | $0.099/M | $142 B | $95 B | 67% |
+| **GPT-5 / Claude 4** capability tier 等級（20/80 baseline） | $0.234/M | $337 B | $290 B | 86% |
+| **DeepSeek V4 Pro** capability tier 等級（95/5 commodity-heavy） | $0.1935/M | $279 B | $232 B | 83% |
 
 If "good enough" stalls near GPT-5 / Claude 4 — meaning a tangible capability gap remains for true frontier applications (multi-step reasoning, scientific discovery, complex agentic planning) — the 80/20 blended ASP holds above $0.234/M. Goldman's 120 Q volume supports a baseline **$337 B market**, $290 B post-electricity, 86% gross margin. A healthy market, but still some distance from a trillion dollars.
 
 如果「夠用」的水平線在 2030 年之前停在 GPT-5 / Claude 4 這個高度——真正前沿應用跟大眾模型有實質落差，需要使用前沿模型——那 20/80 法則的混合 ASP 維持在 \$0.234/M 以上，高盛的 120 千兆量撐起 **\$337 B 的基準市場**，扣電後 \$290 B，毛利率 86%。健康市場，但跟「兆美元」還有一段距離。
 
-If "good enough" drops to DeepSeek-class — commodity models swallow 95% of commercial agentic workloads — Goldman's volume needs to multiply by 7× just to sustain the trillion-dollar narrative. Otherwise the total market caps at **$142 B**, $95 B post-electricity — a revenue pool smaller than today's SaaS market.
+If "good enough" drops to DeepSeek-class — commodity models swallow 95% of commercial agentic workloads — Goldman's volume still produces a **$279 B market**, $232 B post-electricity, 83% gross margin. Goldman's 120 Q would need to multiply by **~3.6×** to reach a trillion-dollar market under this mix. Otherwise the market settles in the $259–337 B band — a healthy revenue pool, comparable in scale to today's global SaaS market (~$320 B), but persistently below the combined $300 B+ Big Four AI CapEx.
 
-如果「夠用」的水平線降到 DeepSeek 等級——大眾模型的能力涵蓋 95% 的商業 agentic 工作負載——那高盛的量還要再翻 7 倍，才能撐起兆美元的敘事。否則整個市場只有 **\$142 B**，扣電後 \$95 B，是一個比今天 SaaS 市場還小的池子。
+如果「夠用」的水平線降到 DeepSeek 等級——大眾模型吃掉 95% 的商業 agentic 工作負載——高盛的量還是能撐起 **$279 B 的市場**，扣電後 $232 B，毛利率 83%。要走到兆美元規模，量需要再翻 **約 3.6 倍**。否則整個市場停留在 $259–337 B 區間——一個與今日全球 SaaS 市場規模（~$320 B）相當的健康營收池，但持續低於 Big Four 累計 $300 B+ 的 AI 資本支出。
 
 Where the "good enough" line moves fundamentally depends on **how high commodity models can push their capabilities before 2030**. If open-source MoE architectures, DeepSeek-style training efficiency, and next-generation budget inference hardware enable commodity models to cover the vast majority of commercial agentic workloads, the market converges on price naturally. **Frontier pricing power will not be held by model vendors; it will be dictated by the commodity capability curve.**
 
