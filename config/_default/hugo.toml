@@ -1,20 +1,14 @@
 theme = "congo"
 
 # -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
 # https://jpanther.github.io/congo/docs/getting-started/
-
 baseURL = "https://chunghaolee.com/"
 languageCode = "en"
 defaultContentLanguage = "en"
-
 enableRobotsTXT = true
 summaryLength = 70
 
 # Google Analytics 4
-# 1. Go to https://analytics.google.com/ and create a GA4 property for this site
-# 2. Copy your Measurement ID (format: G-XXXXXXXXXX)
-# 3. Replace the value below and uncomment the line to enable tracking
 googleAnalytics = "G-YP9BV0JJRH"
 
 [pagination]
@@ -39,11 +33,18 @@ googleAnalytics = "G-YP9BV0JJRH"
   [caches.images]
     dir = ':cacheDir/images'
 
-[markup.goldmark.renderer]
-  unsafe = true
+# -- Markup / Goldmark / Math passthrough --
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block  = [['\[', '\]'], ['$$', '$$']]
+      inline = [['\(', '\)']]
 
-[markup.goldmark.extensions.passthrough]
-  enable = true
-  [markup.goldmark.extensions.passthrough.delimiters]
-    block = [['\[', '\]']]
-    inline = [['\(', '\)']]
+# -- Congo theme parameters --
+[params]
+  [params.article]
+    math = false   # false = per-page opt-in via front matter (recommended);
+                   # true  = load KaTeX on ALL pages (slower)
