@@ -46,5 +46,8 @@ googleAnalytics = "G-YP9BV0JJRH"
 # -- Congo theme parameters --
 [params]
   [params.article]
-    math = false   # false = per-page opt-in via front matter (recommended);
-                   # true  = load KaTeX on ALL pages (slower)
+    # NOTE: Congo's stock vendor.html only loads KaTeX when a page contains
+    # the `{{< katex >}}` shortcode -- this `math` param is not actually
+    # read by the theme for KaTeX loading. Per-page opt-in via front matter
+    # `math: true` is implemented locally in layouts/_partials/extend-head.html.
+    math = false
