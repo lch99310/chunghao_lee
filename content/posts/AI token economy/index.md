@@ -1,11 +1,11 @@
-+++
-date = 2026-06-02T00:00:00+00:00
-title = "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become"
-tags = ["AI", "Passport to AI Era", "中文"]
-thumbnail = "pic.png"
-math = true
-draft = false
-+++
+---
+date: 2026-06-02T00:00:00+00:00
+title: "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become"
+tags: ["AI", "Passport to AI Era", "中文"]
+thumbnail: "pic.png"
+math: true
+draft: false
+---
 
 ## 當智慧成為大宗商品：估算 2030 的詞元經濟，取決於 2030 年的大眾模型會聰明到什麼程度
 
