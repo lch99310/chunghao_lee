@@ -31,9 +31,9 @@ Commodity markets share a distinct characteristic: **their scale can be estimate
 
 ## The Engine of Volume: 120 Quadrillion Tokens per Month // 量的引擎:每月 120 千兆 token
 
-In May 2026, Goldman Sachs published its Agentic AI investment thesis. The headline figure became the anchor for all downstream calculations in this article: **token consumption will multiply by 24× between 2026 and 2030, reaching 120 quadrillion tokens per month by 2030** — covering the total token volume across all global AI inference scenarios. [¹]
+In May 2026, Goldman Sachs published its Agentic AI analytical report. The headline figure became the anchor for all downstream calculations in this article: **token consumption will multiply by 24× between 2026 and 2030, reaching 120 quadrillion tokens per month by 2030** — covering the total token volume across all global AI inference scenarios. [¹]
 
-高盛在 2026 年 5 月發表它的 Agentic AI 投資論點，標題數字成了這整篇文章所有下游計算的錨點：**詞元消耗量會在 2026 到 2030 年間放大 24 倍，到 2030 年達到每月 120 千兆（quadrillion）個 token**——這涵蓋的是全球所有 AI 推論場景的總 token 量。[¹]
+高盛在 2026 年 5 月發表它的 Agentic AI 分析報告，標題數字成了這整篇文章所有下游計算的錨點：**詞元消耗量會在 2026 到 2030 年間放大 24 倍，到 2030 年達到每月 120 千兆（quadrillion）個 token**——這涵蓋的是全球所有 AI 推論場景的總 token 量。[¹]
 
 **Annualizing the monthly figure // 把月度數字年化：**
 
