@@ -1,7 +1,7 @@
 +++
 date = '2026-06-06T00:00:00+00:00'
-title = 'Multi-Lens Thinking: A Skill That Allows AI to Think From Your Perspective'
-tags = ['AI Practice Journal', 'Using AI', 'App', 'Side_Project', '中文']
+title = '【AI Side Project Vol.07】Multi-Lens Thinking: A Skill That Allows AI to Think From Your Perspective'
+tags = ['AI Practice Journal', 'Using AI', 'SKILL', 'Side_Project', '中文']
 thumbnail = 'pic.png'
 +++
 
