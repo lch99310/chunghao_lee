@@ -6,6 +6,7 @@ description: "A bilingual primer on the data center industry — the five-layer 
 summary: "進入數據中心的第一張地圖：五層架構、產業鏈、生命週期、四大類型。"
 tags: ["Data Center", "Passport to AI Era", "中文", 'Data Center 101']
 series: ["Data Center 101"]
+thumbnail: 'pic.png'
 ---
 
 > Every time someone asks a chatbot a question, posts on Instagram, or streams a Netflix show, the request travels to a building most people have never seen. These buildings — data centers — collectively consume about 3% of global electricity, and that number is climbing roughly 6% per year. The AI boom is accelerating it further.
