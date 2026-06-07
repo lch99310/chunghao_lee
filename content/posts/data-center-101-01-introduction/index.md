@@ -13,6 +13,8 @@ thumbnail: 'pic.png'
 >
 > 每次有人跟 ChatGPT 對話、滑 Instagram、看 Netflix，請求都會跑進一棟大多數人從沒看過的建築 —— 數據中心（Data Center, DC）。這些建築合計消耗全球約 3% 的電力，每年還以約 6% 的速度往上爬。AI 浪潮正在進一步加速這個數字。
 
+![](pic.png)
+
 ---
 
 ## Why You Need the Map First // 為什麼要先看地圖
