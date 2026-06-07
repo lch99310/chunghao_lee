@@ -1,7 +1,7 @@
 ---
 title: "【Data Center 101】Introduction: The Five-Layer Architecture, Industry Chain, Lifecycle & Classification"
 subtitle: "【數據中心 101】入門全景：五層架構、產業鏈、生命週期、四大類型"
-date: 2026-06-08
+date: 2026-06-07
 description: "A bilingual primer on the data center industry — the five-layer architecture, the four-phase industry chain, the 27-month build lifecycle, and the four major types of data centers. 數據中心產業的雙語入門地圖：五層架構、四階段產業鏈、27 個月建設生命週期、四大類型 DC。"
 summary: "進入數據中心的第一張地圖：五層架構、產業鏈、生命週期、四大類型。"
 tags: ["Data Center", "Passport to AI Era", "中文"]
