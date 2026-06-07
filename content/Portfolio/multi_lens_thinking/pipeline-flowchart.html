@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>multi-lens-thinking — Pipeline Architecture</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', sans-serif;
+    background: #f0ede8;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 24px;
+    min-height: 100vh;
+  }
+  .fc-outer {
+    background: #ffffff;
+    border: 1px solid #d8d5cf;
+    width: 100%;
+    max-width: 900px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  }
+  .fc-topbar {
+    background: #0d1f38;
+    padding: 14px 20px 12px;
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+  }
+  .fc-topbar-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  .fc-topbar-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 9.5px;
+    color: #8a9ab8;
+    letter-spacing: 0.8px;
+  }
+  .fc-body { padding: 28px 24px 20px; }
+  .fc-legend {
+    display: flex;
+    gap: 28px;
+    padding: 12px 0 0 2px;
+    border-top: 1px solid #eeece8;
+    margin-top: 12px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 9.5px;
+    color: #888480;
+    letter-spacing: 0.3px;
+  }
+  .legend-solid { width: 24px; height: 1.5px; background: #2a3d58; }
+  .legend-dashed { width: 24px; height: 0; border-top: 1.5px dashed #b8b5b0; }
+</style>
+</head>
+<body>
+<div class="fc-outer">
+  <div class="fc-topbar">
+    <span class="fc-topbar-title">multi-lens-thinking</span>
+    <span class="fc-topbar-sub">Pipeline Architecture · Six-Stage Processing Flow</span>
+  </div>
+  <div class="fc-body">
+  <svg viewBox="0 0 840 570" width="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <marker id="arr-main" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#2a3d58"/>
+      </marker>
+      <marker id="arr-side" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+        <polygon points="0 0, 8 3, 0 6" fill="#b0aaa8"/>
+      </marker>
+      <!-- clip paths for lens left-stripe -->
+      <clipPath id="clip-m"><rect x="48" y="196" width="134" height="74" rx="4"/></clipPath>
+      <clipPath id="clip-p"><rect x="244" y="196" width="134" height="74" rx="4"/></clipPath>
+      <clipPath id="clip-l"><rect x="458" y="196" width="134" height="74" rx="4"/></clipPath>
+      <clipPath id="clip-h"><rect x="658" y="196" width="134" height="74" rx="4"/></clipPath>
+    </defs>
+
+    <!-- ── USER QUESTION oval ── -->
+    <ellipse cx="420" cy="38" rx="120" ry="26" fill="white" stroke="#2a3d58" stroke-width="1.5"/>
+    <text x="420" y="34" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#0d1f38" font-weight="600">User Question</text>
+    <text x="420" y="50" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#9a9690">使用者問題</text>
+
+    <!-- Q → Router -->
+    <line x1="420" y1="64" x2="420" y2="85" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+
+    <!-- ── SIDE INPUTS ── -->
+    <!-- persona.md -->
+    <rect x="12" y="88" width="128" height="44" rx="4" fill="#f8f7f4" stroke="#c8c5bf" stroke-width="1" stroke-dasharray="5,3.5"/>
+    <text x="76" y="107" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#5a5650" font-weight="500">persona.md</text>
+    <text x="76" y="122" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8" fill="#9a9690">Your background &amp; identity</text>
+    <line x1="140" y1="110" x2="240" y2="110" stroke="#b0aaa8" stroke-width="1.1" stroke-dasharray="4.5,3.5" marker-end="url(#arr-side)"/>
+
+    <!-- memory.md -->
+    <rect x="700" y="88" width="128" height="44" rx="4" fill="#f8f7f4" stroke="#c8c5bf" stroke-width="1" stroke-dasharray="5,3.5"/>
+    <text x="764" y="107" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="9.5" fill="#5a5650" font-weight="500">memory.md</text>
+    <text x="764" y="122" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8" fill="#9a9690">Prior judgments &amp; views</text>
+    <line x1="700" y1="110" x2="600" y2="110" stroke="#b0aaa8" stroke-width="1.1" stroke-dasharray="4.5,3.5" marker-end="url(#arr-side)"/>
+
+    <!-- ── ROUTER ── -->
+    <rect x="240" y="85" width="360" height="52" rx="4" fill="#0d1f38"/>
+    <text x="420" y="106" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="13.5" fill="#ffffff" font-weight="600">Router  ·  分流器</text>
+    <text x="420" y="124" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="7.5" fill="#6a82a8">question_type · answer_mode · active_nodes · skip_log</text>
+
+    <!-- Router → fan-out stem -->
+    <line x1="420" y1="137" x2="420" y2="168" stroke="#2a3d58" stroke-width="1.5"/>
+
+    <!-- ── PARALLEL ZONE ── -->
+    <rect x="36" y="170" width="768" height="108" rx="4" fill="#f8f7f4" stroke="#e0ddd8" stroke-width="1"/>
+    <text x="44" y="184" font-family="IBM Plex Mono,monospace" font-size="6.5" fill="#c0bdb8" letter-spacing="1.8" font-weight="500">PARALLEL EXECUTION</text>
+
+    <!-- Fan-out horizontal -->
+    <line x1="115" y1="168" x2="725" y2="168" stroke="#2a3d58" stroke-width="1.5"/>
+    <!-- Drop lines to lenses -->
+    <line x1="115" y1="168" x2="115" y2="194" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+    <line x1="311" y1="168" x2="311" y2="194" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+    <line x1="525" y1="168" x2="525" y2="194" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+    <line x1="725" y1="168" x2="725" y2="194" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+
+    <!-- MACRO box + stripe -->
+    <rect x="48" y="196" width="134" height="74" rx="4" fill="white" stroke="#c8c5bf" stroke-width="1"/>
+    <rect x="48" y="196" width="4" height="74" fill="#1a5c38" clip-path="url(#clip-m)"/>
+    <text x="124" y="220" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#1a3d28" font-weight="600">Macro</text>
+    <text x="124" y="235" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#6a6660">宏觀視角</text>
+    <text x="124" y="251" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Geopolitics · Capital flows</text>
+    <text x="124" y="263" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Central banks · Policy</text>
+
+    <!-- PERSONAL box + stripe -->
+    <rect x="244" y="196" width="134" height="74" rx="4" fill="white" stroke="#c8c5bf" stroke-width="1"/>
+    <rect x="244" y="196" width="4" height="74" fill="#4a2080" clip-path="url(#clip-p)"/>
+    <text x="320" y="220" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#2a1048" font-weight="600">Personal</text>
+    <text x="320" y="235" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#6a6660">個人視角</text>
+    <text x="320" y="251" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Background · Constraints</text>
+    <text x="320" y="263" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Prior judgments  ·  No search</text>
+
+    <!-- LOCAL box + stripe -->
+    <rect x="458" y="196" width="134" height="74" rx="4" fill="white" stroke="#c8c5bf" stroke-width="1"/>
+    <rect x="458" y="196" width="4" height="74" fill="#8c4a10" clip-path="url(#clip-l)"/>
+    <text x="534" y="220" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#4a2808" font-weight="600">Local</text>
+    <text x="534" y="235" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#6a6660">在地視角</text>
+    <text x="534" y="251" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Local markets · Tax &amp; rules</text>
+    <text x="534" y="263" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">On-the-ground instruments</text>
+
+    <!-- HISTORICAL box + stripe -->
+    <rect x="658" y="196" width="134" height="74" rx="4" fill="white" stroke="#c8c5bf" stroke-width="1"/>
+    <rect x="658" y="196" width="4" height="74" fill="#8c1c1c" clip-path="url(#clip-h)"/>
+    <text x="734" y="220" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#4a1010" font-weight="600">Historical</text>
+    <text x="734" y="235" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#6a6660">歷史視角</text>
+    <text x="734" y="251" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Past analogs · Mechanism</text>
+    <text x="734" y="263" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#9a9690">Historical pattern mapping</text>
+
+    <!-- Fan-in verticals -->
+    <line x1="115" y1="270" x2="115" y2="308" stroke="#2a3d58" stroke-width="1.5"/>
+    <line x1="311" y1="270" x2="311" y2="308" stroke="#2a3d58" stroke-width="1.5"/>
+    <line x1="525" y1="270" x2="525" y2="308" stroke="#2a3d58" stroke-width="1.5"/>
+    <line x1="725" y1="270" x2="725" y2="308" stroke="#2a3d58" stroke-width="1.5"/>
+    <!-- Fan-in horizontal -->
+    <line x1="115" y1="308" x2="725" y2="308" stroke="#2a3d58" stroke-width="1.5"/>
+    <!-- → Synthesizer -->
+    <line x1="420" y1="308" x2="420" y2="328" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+
+    <!-- ── SYNTHESIZER ── -->
+    <rect x="240" y="328" width="360" height="52" rx="4" fill="#0d1f38"/>
+    <text x="420" y="349" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="13.5" fill="#ffffff" font-weight="600">Synthesizer  ·  綜合器</text>
+    <text x="420" y="367" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="7.5" fill="#6a82a8">Resolves conflicts · mode-aware · explains skip_log</text>
+
+    <!-- → Reply -->
+    <line x1="420" y1="380" x2="420" y2="400" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+
+    <!-- ── REPLY TO USER ── -->
+    <rect x="288" y="400" width="264" height="50" rx="4" fill="white" stroke="#0d1f38" stroke-width="1.6"/>
+    <text x="420" y="421" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="13" fill="#0d1f38" font-weight="600">Reply to User</text>
+    <text x="420" y="438" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8.5" fill="#9a9690">Situated · tailored · conflict-resolved</text>
+
+    <!-- → Memory Updater -->
+    <line x1="420" y1="450" x2="420" y2="470" stroke="#2a3d58" stroke-width="1.5" marker-end="url(#arr-main)"/>
+
+    <!-- ── MEMORY UPDATER ── -->
+    <rect x="288" y="470" width="264" height="48" rx="4" fill="#f8f7f4" stroke="#c8c5bf" stroke-width="1"/>
+    <text x="420" y="490" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="#4a4a48" font-weight="500">Memory Updater</text>
+    <text x="420" y="507" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="8" fill="#9a9690">記憶更新器  ·  writes candidate patches</text>
+
+    <!-- → patches/ -->
+    <line x1="552" y1="494" x2="596" y2="494" stroke="#b0aaa8" stroke-width="1.1" stroke-dasharray="4.5,3.5" marker-end="url(#arr-side)"/>
+
+    <!-- ── PATCHES/ ── -->
+    <rect x="596" y="472" width="174" height="44" rx="4" fill="#f8f7f4" stroke="#c8c5bf" stroke-width="1" stroke-dasharray="5,3.5"/>
+    <text x="683" y="491" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="10" fill="#7a7870" font-weight="500">patches/</text>
+    <text x="683" y="507" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#b0aaa8">PENDING USER REVIEW</text>
+
+    <!-- Loop arrow (right channel) -->
+    <path d="M 770 472 Q 808 472 808 394 Q 808 328 770 328"
+          fill="none" stroke="#d8d5cf" stroke-width="1.2" stroke-dasharray="4.5,4" marker-end="url(#arr-side)"/>
+    <text font-family="IBM Plex Sans,sans-serif" font-size="7.5" fill="#c0bdb8" text-anchor="middle"
+          transform="translate(824, 400) rotate(90)">Confirmed at next session start  ·  下次對話開始時確認</text>
+
+  </svg>
+
+  <div class="fc-legend">
+    <div class="legend-item"><div class="legend-solid"></div>Main pipeline flow · 主要流程</div>
+    <div class="legend-item"><div class="legend-dashed"></div>Side input / candidate patch · 側向輸入 / 候選補丁</div>
+    <div class="legend-item" style="margin-left:auto; color:#c0bdb8; font-size:8.5px; font-family:'IBM Plex Mono',monospace;">
+      Parallel execution: latency = slowest lens, not sum
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>
