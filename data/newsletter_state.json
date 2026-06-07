@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-05-30T02:41:56.702Z",
+  "last_sent_at": "2026-06-06T04:30:00.000Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -298,6 +298,30 @@
           "title": "【Passport to AI Era】The AI Supply Chain Dividend: The Great Wealth Transfer from Tech Giants",
           "link": "https://chunghaolee.com/posts/the-ai-supply-chain-dividend/",
           "pubDate": "2026-05-29T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-06-06T03:56:15.000Z",
+      "broadcast_id": "6bc99ce8-b942-4898-9d3a-69046294338a",
+      "item_count": 1,
+      "items": [
+        {
+          "title": "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become",
+          "link": "https://chunghaolee.com/posts/ai-token-economy/",
+          "pubDate": "2026-06-02T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-06-06T04:30:00.000Z",
+      "broadcast_id": "d6c28487-5913-4475-995f-4bc4824abbf6",
+      "item_count": 1,
+      "items": [
+        {
+          "title": "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become",
+          "link": "https://chunghaolee.com/posts/ai-token-economy/",
+          "pubDate": "2026-06-02T00:00:00.000Z"
         }
       ]
     }

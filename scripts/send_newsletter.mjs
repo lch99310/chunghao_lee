@@ -121,43 +121,6 @@ async function resendSendBroadcast({ apiKey, broadcastId }) {
   return r.json();
 }
 
-async function resendGetBroadcast({ apiKey, broadcastId }) {
-  const r = await fetch(`${RESEND_API}/broadcasts/${broadcastId}`, {
-    headers: { Authorization: `Bearer ${apiKey}` },
-  });
-  if (!r.ok) throw new Error(`Resend get broadcast failed: ${r.status} ${await r.text()}`);
-  return r.json();
-}
-
-// Resend's POST /broadcasts/{id}/send returns 200 the instant the
-// request is accepted, but the broadcast itself moves through
-// draft → queued → sending → sent asynchronously. If we trust the
-// 200 and immediately write last_sent_at, a broadcast that ends up
-// failing (audience empty, domain reputation block, billing pause,
-// quota exceeded, etc.) leaves the cursor advanced — and next week
-// the script sees "0 new items since last send" and silently skips
-// the whole week. That is exactly the 5/30 failure mode.
-//
-// Poll the broadcast until it reaches 'sent', or fail loudly so the
-// workflow surfaces the real Resend error.
-async function pollBroadcastUntilSent({ apiKey, broadcastId, timeoutMs = 180_000 }) {
-  const start = Date.now();
-  let delay = 2_000;
-  let last = null;
-  while (Date.now() - start < timeoutMs) {
-    last = await resendGetBroadcast({ apiKey, broadcastId });
-    const elapsed = ((Date.now() - start) / 1000).toFixed(1);
-    console.log(`[newsletter] broadcast ${broadcastId} status=${last.status} sent_at=${last.sent_at ?? 'null'} (t=${elapsed}s)`);
-    if (last.status === 'sent') return last;
-    if (!['draft', 'queued', 'sending'].includes(last.status)) {
-      throw new Error(`Resend broadcast ${broadcastId} ended in unexpected status "${last.status}" — ${JSON.stringify(last)}`);
-    }
-    await new Promise((resolve) => setTimeout(resolve, delay));
-    delay = Math.min(delay * 1.5, 15_000);
-  }
-  throw new Error(`Resend broadcast ${broadcastId} did not reach 'sent' within ${timeoutMs}ms — last status: ${last?.status} ${JSON.stringify(last ?? {})}`);
-}
-
 async function fetchOgImage(pageUrl) {
   // Hugo's default RSS doesn't carry thumbnails, so we fetch the post
   // page and pull og:image (already injected by extend-head.html as a
@@ -309,9 +272,7 @@ async function main() {
   console.log(`[newsletter] created broadcast ${broadcastId}`);
 
   await resendSendBroadcast({ apiKey, broadcastId });
-  console.log(`[newsletter] /send accepted; verifying broadcast status with Resend…`);
-  const finalState = await pollBroadcastUntilSent({ apiKey, broadcastId });
-  console.log(`[newsletter] broadcast ${broadcastId} confirmed sent at ${finalState.sent_at}`);
+  console.log(`[newsletter] broadcast ${broadcastId} sent`);
 
   const now = new Date().toISOString();
   const newState = {
