@@ -226,12 +226,12 @@ Getting this distinction right is essential because the same physical building c
 
 ### Quick comparison // 快速對照
 
-| Type | Full name | 中文 | Owner–user relationship // 業主與使用者關係 | Typical scale // 典型規模 |
+| Type | Full name (中文) | Owner–user relationship // 業主與使用者關係 | Typical scale // 典型規模 |
 |---|---|---|---|---|
-| **IDC** | Internet Data Center | 互聯網數據中心 | Owner rents space to others<br>業主出租機櫃 | 1,000–10,000+ cabinets |
-| **EDC** | Enterprise Data Center | 企業數據中心 | Owner builds for own use<br>業主自建自用 | 10s–100s of cabinets |
-| **CDC** | Cloud Data Center | 雲數據中心 | Cloud provider builds to sell cloud services<br>雲服務商自建賣雲服務 | 10,000+ cabinets |
-| **HPC** | High Performance Computing | 高效能運算中心 | Built for scientific computing or AI training<br>為科學運算或 AI 訓練而蓋 | 100s–1,000s of cabinets |
+| **IDC** | Internet Data Center (互聯網數據中心) | Owner rents space to others<br>業主出租機櫃 | 1,000–10,000+ cabinets |
+| **EDC** | Enterprise Data Center (企業數據中心) | Owner builds for own use<br>業主自建自用 | 10s–100s of cabinets |
+| **CDC** | Cloud Data Center (雲數據中心) | Cloud provider builds to sell cloud services<br>雲服務商自建賣雲服務 | 10,000+ cabinets |
+| **HPC** | High Performance Computing (高效能運算中心) | Built for scientific computing or AI training<br>為科學運算或 AI 訓練而蓋 | 100s–1,000s of cabinets |
 
 ---
 
