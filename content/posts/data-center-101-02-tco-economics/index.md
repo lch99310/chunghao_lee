@@ -32,13 +32,10 @@ The industry uses **Total Cost of Ownership (TCO)** as the master KPI — a sing
 \text{TCO} = \text{CAPEX} + \sum_{i=1}^{10} \text{OPEX}_i
 \]
 
-- **CAPEX (Capital Expenditure, 資本支出)** — One-time investment to build the data center: land, civil work, equipment, installation, commissioning.
-- **OPEX (Operating Expenditure, 營運支出)** — Continuous spending after the data center is operational: electricity, labor, maintenance, equipment refresh, financing.
+- **CAPEX (Capital Expenditure, 資本支出)** — One-time investment to build the data center: land, civil work, equipment, installation, commissioning. // 建設數據中心的一次性投資：土地、土建、設備、安裝、調試。
+- **OPEX (Operating Expenditure, 營運支出)** — Continuous spending after the data center is operational: electricity, labor, maintenance, equipment refresh, financing. 數據中心開始運轉後的持續支出：電費、人力、維修、設備更新、資金成本。
 
 ---
-
-- **CAPEX（Capital Expenditure，資本支出）** —— 建設數據中心的一次性投資：土地、土建、設備、安裝、調試。
-- **OPEX（Operating Expenditure，營運支出）** —— 數據中心開始運轉後的持續支出：電費、人力、維修、設備更新、資金成本。
 
 ### Why 10 years? // 為什麼選 10 年？
 
