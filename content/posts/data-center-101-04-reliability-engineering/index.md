@@ -226,12 +226,11 @@ The two systems are typically used together rather than alternatively:
 兩個體系通常是**一起用**而不是**互相替代**：
 
 - **Uptime certification** gives global brand recognition. Buyers in any country recognize "Tier IV certified" instantly.
-- **TIA-942 compliance** gives engineers a complete specification document. It includes detailed requirements for cabling, telecommunications rooms, security zones, and architectural layout that Uptime does not address.
-
----
-
 - **Uptime 認證**給的是全球品牌辨識度。任何國家的買家一聽到「Tier IV 認證」立刻懂。
-- **TIA-942 合規**給的是一份完整的工程規格書。包括 Uptime 沒涵蓋的佈線、電信機房、安全分區、建築布局等詳細要求。
+
+  
+- **TIA-942 compliance** gives engineers a complete specification document. It includes detailed requirements for cabling, telecommunications rooms, security zones, and architectural layout that Uptime does not address.
+- **TIA-942 合規**給的是一份完整的工程規格書。包括 Uptime 沒涵蓋的佈線、電信機房、安全分區、建築布局等詳細要求。 
 
 Most ambitious commercial data center projects pursue both certifications.
 
