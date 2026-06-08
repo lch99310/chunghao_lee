@@ -391,15 +391,9 @@ Partly true and partly dangerous. Hyperscalers really do run Tier II/III data ce
 
 部分為真、部分危險。超大規模業者真的跑 Tier II/III 數據中心、在軟體層補償。但這只有在以下條件下才行：
 
-- The application is genuinely stateless or has been designed for distributed fault tolerance
-- Workloads can be spread across multiple sufficiently distant geographic regions
-- The cost of brief regional outages is acceptable to customers
-
----
-
-- 應用真的是無狀態的，或有為分散式容錯而設計
-- 工作負載可以跨足夠遠的多個地理區域分散
-- 對短暫的 region 停機，客戶可以接受成本
+- The application is genuinely stateless or has been designed for distributed fault tolerance // 應用真的是無狀態的，或有為分散式容錯而設計
+- Workloads can be spread across multiple sufficiently distant geographic regions // 工作負載可以跨足夠遠的多個地理區域分散
+- The cost of brief regional outages is acceptable to customers // 對短暫的 region 停機，客戶可以接受成本
 
 A bank's core ledger or a stock exchange's matching engine does not meet these conditions. For these workloads, software fault tolerance is not a substitute for hardware redundancy — it complements it.
 
