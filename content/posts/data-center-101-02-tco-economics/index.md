@@ -4,6 +4,7 @@ title = "【Data Center 101】TCO Economics: Why Data Centers Are an OPEX-Domina
 slug = "data-center-101-02-tco-economics"
 aliases = ["/posts/data-center-101-tco-economics/", "/posts/數據中心-101-tco-經濟學/"]
 tags = ['Data Center', 'Data Center 101', 'Passport to AI Era', '中文']
+math = true
 thumbnail = 'pic.png'
 +++
 
