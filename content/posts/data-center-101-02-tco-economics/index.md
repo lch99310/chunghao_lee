@@ -336,8 +336,7 @@ Design choices set the structural efficiency:
 - **Natural / evaporative / liquid cooling** — Reduces the energy spent on cooling.
 - **High-density design** — More IT load per square meter improves SUE (Space Usage Effectiveness, 空間使用效率).
 
----
-
+<br>
 - **模組化 / 預製化布局** —— 砍土建成本、縮短上市時間。
 - **高效率 UPS（96%+）** —— 直接降低配電端的電力損失。
 - **自然冷卻 / 蒸發冷卻 / 液冷** —— 降低冷卻能耗。
