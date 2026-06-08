@@ -84,17 +84,10 @@ A quick exercise:
 
 簡單練習：
 
-- "We need to upgrade the UPS (Uninterruptible Power Supply, 不斷電系統)." → **L1**
-- "We need more GPU capacity." → **L2**
-- "We need to migrate to Kubernetes." → **L3**
-- "The website is down." → **L4**
-
----
-
-- 「我們要升級 UPS（Uninterruptible Power Supply，不斷電系統）」 → **L1**
-- 「我們要更多 GPU 算力」 → **L2**
-- 「我們要遷移到 Kubernetes」 → **L3**
-- 「網站掛了」 → **L4**
+- "We need to upgrade the UPS (Uninterruptible Power Supply). // 我們要升級 UPS（不斷電系統）」" → **L1**
+- "We need more GPU capacity. // 我們要更多 GPU 算力" → **L2**
+- "We need to migrate to Kubernetes. // 我們要遷移到 Kubernetes" → **L3**
+- "The website is down. // 網站掛了" → **L4**
 
 ---
 
