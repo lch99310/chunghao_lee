@@ -362,16 +362,17 @@ The replacement options are:
 替代選項：
 
 - **FK-5-1-12 from non-3M producers** (other chemical suppliers continuing the molecule)
-- **FM-200 (HFC-227ea)** — older alternative, much higher Global Warming Potential
-- **Inergen / IG-541** — inert nitrogen-argon-CO₂ blend, requires larger storage volume
-- **Aerosol systems (e.g., Stat-X)** — solid-particle suppression, niche use
-
----
-
 - **非 3M 來源的 FK-5-1-12** —— 其他化學品廠繼續做同一個分子
+  
+- **FM-200 (HFC-227ea)** — older alternative, much higher Global Warming Potential
 - **FM-200（HFC-227ea）** —— 較舊的替代方案，全球暖化潛勢值高很多
+  
+- **Inergen / IG-541** — inert nitrogen-argon-CO₂ blend, requires larger storage volume
 - **Inergen / IG-541** —— 氮、氬、CO₂ 惰性氣體混合，需要更大儲量
+  
+- **Aerosol systems (e.g., Stat-X)** — solid-particle suppression, niche use
 - **氣溶膠系統（如 Stat-X）** —— 固態粉末滅火，利基應用
+
 
 > **Existing facilities that specified Novec are now scrambling to secure decade-long supply contracts, while new builds are reassessing whether to switch chemicals.**
 >
