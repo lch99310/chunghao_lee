@@ -33,7 +33,7 @@ The industry uses **Total Cost of Ownership (TCO)** as the master KPI — a sing
 \]
 
 - **CAPEX (Capital Expenditure, 資本支出)** — One-time investment to build the data center: land, civil work, equipment, installation, commissioning. // 建設數據中心的一次性投資：土地、土建、設備、安裝、調試。
-- **OPEX (Operating Expenditure, 營運支出)** — Continuous spending after the data center is operational: electricity, labor, maintenance, equipment refresh, financing. 數據中心開始運轉後的持續支出：電費、人力、維修、設備更新、資金成本。
+- **OPEX (Operating Expenditure, 營運支出)** — Continuous spending after the data center is operational: electricity, labor, maintenance, equipment refresh, financing. // 數據中心開始運轉後的持續支出：電費、人力、維修、設備更新、資金成本。
 
 ---
 
@@ -47,12 +47,13 @@ The 10-year window is the industry standard for three reasons:
 - **Depreciation schedule** — Most accounting frameworks amortize data center buildings over 10–20 years.
 - **Customer contracts** — Wholesale IDC long leases are typically 5–10 years.
 
----
+
 
 - **設備設計壽命** —— UPS 約 10-15 年、電池 5-10 年、冷水機 10-15 年、機房裝修約 10 年。
 - **折舊年限** —— 大多數會計框架把數據中心建物攤提 10-20 年。
 - **客戶合約** —— Wholesale IDC 的長租合約典型是 5-10 年。
 
+---
 > When someone says "this looks expensive on CAPEX but cheap on OPEX," the correct follow-up is: *"What does the 10-year TCO look like?"* If they can't answer, the analysis isn't complete yet.
 >
 > 當有人說「這個 CAPEX 高但 OPEX 低」，正確的追問永遠是：*「10 年 TCO 看起來怎麼樣？」* 答不出來，分析就還沒完成。
