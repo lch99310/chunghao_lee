@@ -357,8 +357,7 @@ The operations lever is the smallest in absolute impact but the most ongoing:
 - **DCIM (Data Center Infrastructure Management, 數據中心基礎設施管理) platforms** for real-time monitoring
 - **Energy management** including peak-shaving and renewable energy time-shifting
 
----
-
+<br>
 - **AI 驅動冷卻優化**（華為 iCooling、Google DeepMind cooling control）
 - **預測性維護**避免緊急搶修
 - **DCIM（Data Center Infrastructure Management，數據中心基礎設施管理）平台**做即時監控
