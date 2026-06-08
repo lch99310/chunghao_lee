@@ -241,9 +241,7 @@ An **IDC** is the rental property of the data center world. Owners build large f
 
 **IDC** 是數據中心世界的「出租房地產」。業主蓋大型機房，把機櫃出租給多個租戶。
 
-**Examples**: GDS, CHINDATA, Equinix, Digital Realty, NEXTDC, AirTrunk.
-
-**代表業者**：GDS、CHINDATA、Equinix、Digital Realty、NEXTDC、AirTrunk。
+**Examples** // **代表業者**: GDS, CHINDATA, Equinix, Digital Realty, NEXTDC, AirTrunk.
 
 **Tenants** are mid-to-small internet companies, SaaS providers, and enterprises that don't want to build their own. The term "colocation" or "colo" usually refers to this rental relationship.
 
