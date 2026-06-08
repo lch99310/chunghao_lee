@@ -66,6 +66,8 @@ The key mental model: **L2 moves fast, L1 moves slowly, L0 is local, and the ups
 >
 > **新手最貴的錯誤是把數據中心採購當 IT 採購來做。設施層比較像電廠採購，上游層比較像大宗物資交易。**
 
+
+![](pic1.png)
 ---
 
 ## Part 2 — L0: Civil Work and the Grid Connection // L0：土建與電網接入
