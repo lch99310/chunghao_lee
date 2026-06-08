@@ -31,13 +31,12 @@ The map matters because:
 這張地圖之所以重要，是因為：
 
 - **One choke point delays the whole project.** A missing transformer or a cancelled chemical can hold up a $500M facility for years.
-- **Lead times are stretching, not shrinking.** High-voltage transformers, gas turbines, large GPUs, liquid cooling distribution units — every category has lengthened in the last 24 months.
-- **The upstream layer is now a national security topic.** Copper, rare earths, grain-oriented electrical steel, gallium, germanium, and helium have moved from "commodity" to "strategic resource" in less than five years.
-
----
-
 - **單一卡關點延遲整個專案。** 一台缺貨的變壓器、一種被停產的化學品，可能讓 $500M 的機房延宕數年。
+  
+- **Lead times are stretching, not shrinking.** High-voltage transformers, gas turbines, large GPUs, liquid cooling distribution units — every category has lengthened in the last 24 months.
 - **交期在拉長，不是縮短。** 高壓變壓器、燃氣輪機、大型 GPU、液冷分配單元 —— 過去 24 個月每個品類都在拉長。
+  
+- **The upstream layer is now a national security topic.** Copper, rare earths, grain-oriented electrical steel, gallium, germanium, and helium have moved from "commodity" to "strategic resource" in less than five years.
 - **上游層已經是國家安全議題。** 銅、稀土、晶粒取向電工鋼、鎵、鍺、氦 —— 不到 5 年內從「大宗商品」變「戰略資源」。
 
 This article is the map. It works from the bottom of the building up through the IT hardware, then digs one more layer down into the raw materials and finally into the geopolitics.
