@@ -349,55 +349,34 @@ When you encounter a data center project for the first time, five quick question
 
 ### Q1. Who is the actual user? // 真正的使用者是誰？
 
-- **Self-use** → EDC, CDC, or HPC
-- **Rented out** → IDC
-
-- **自用** → EDC、CDC 或 HPC
-- **出租** → IDC
+- **Self-use** // **自用** → EDC, CDC, or HPC
+- **Rented out** // **出租** → IDC
 
 ### Q2. What's the primary workload? // 主要工作負載是什麼？
 
-- **Internal ERP and business systems** → EDC
-- **Public cloud services** → CDC
-- **Hosting other companies' servers** → IDC
-- **Scientific computing or AI training** → HPC
-
-- **內部 ERP 與業務系統** → EDC
-- **對外雲服務** → CDC
-- **託管別人的伺服器** → IDC
-- **科學運算或 AI 訓練** → HPC
+- **Internal ERP and business systems** // **內部 ERP 與業務系統** → EDC
+- **Public cloud services** // **對外雲服務**→ CDC
+- **Hosting other companies' servers** // **託管別人的伺服器** → IDC
+- **Scientific computing or AI training** // **科學運算或 AI 訓練**→ HPC
 
 ### Q3. What's the power density per cabinet? // 單櫃功率密度多少？
 
-- **4–8 kW** → typical EDC or retail IDC
-- **8–12 kW** → wholesale IDC or CDC
-- **20+ kW** → HPC or AI cluster
-
-- **4–8 kW** → 典型 EDC 或零售 IDC
-- **8–12 kW** → 批發 IDC 或 CDC
-- **20+ kW** → HPC 或 AI 集群
+- **4–8 kW** → typical EDC or retail IDC // 典型 EDC 或零售 IDC
+- **8–12 kW** → wholesale IDC or CDC // 批發 IDC 或 CDC
+- **20+ kW** → HPC or AI cluster // HPC 或 AI 集群
 
 ### Q4. What's the scale? // 規模多大？
 
-- **< 100 cabinets** → small EDC or edge DC
-- **100–1,000** → typical EDC or retail IDC
-- **1,000–10,000** → wholesale IDC or CDC
-- **> 10,000** → hyperscale CDC
-
-- **100 機櫃以下** → 小型 EDC 或邊緣 DC
-- **100–1,000** → 典型 EDC 或零售 IDC
-- **1,000–10,000** → 批發 IDC 或 CDC
-- **10,000+** → 超大規模 CDC
+- **< 100 cabinets** // **100 機櫃以下** → small EDC or edge DC // 小型 EDC 或邊緣 DC
+- **100–1,000** → typical EDC or retail IDC // 典型 EDC 或零售 IDC
+- **1,000–10,000** → wholesale IDC or CDC // 批發 IDC 或 CDC
+- **> 10,000** → hyperscale CDC // 超大規模 CDC
 
 ### Q5. What's the required reliability tier? // 要求的可靠性等級是？
 
-- **Tier IV** → financial EDC or customization IDC for hyperscalers
-- **Tier III** → mainstream IDC, CDC, and EDC
-- **Tier II** → some CDCs that rely on software-layer fault tolerance
-
-- **Tier IV** → 金融 EDC 或為 hyperscaler 客製的 IDC
-- **Tier III** → 主流 IDC、CDC、EDC
-- **Tier II** → 部分用軟體層容錯的 CDC
+- **Tier IV** → financial EDC or customization IDC for hyperscalers // 金融 EDC 或為 hyperscaler 客製的 IDC
+- **Tier III** → mainstream IDC, CDC, and EDC // 主流 IDC、CDC、EDC
+- **Tier II** → some CDCs that rely on software-layer fault tolerance // 部分用軟體層容錯的 CDC
 
 ---
 
