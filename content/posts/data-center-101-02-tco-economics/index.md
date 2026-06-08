@@ -428,17 +428,11 @@ Realistic scenario:
 
 實際場景：
 
-- 5 MW IT data center
-- Invest $5M to upgrade equipment (high-efficiency UPS, AHU, hot/cold aisle containment)
-- Expected PUE improvement: 1.5 → 1.3
-- Electricity at $0.10/kWh
+- 5 MW IT data center // 5 MW IT 數據中心
+- Invest $5M to upgrade equipment (high-efficiency UPS, AHU, hot/cold aisle containment) // 投入 $5M 升級設備（高效 UPS、AHU、冷熱通道封閉）
+- Expected PUE improvement: 1.5 → 1.3 // 預期 PUE 改善：1.5 → 1.3
+- Electricity at $0.10/kWh // 電價 $0.10/kWh
 
----
-
-- 5 MW IT 數據中心
-- 投入 $5M 升級設備（高效 UPS、AHU、冷熱通道封閉）
-- 預期 PUE 改善：1.5 → 1.3
-- 電價 $0.10/kWh
 
 The math:
 
