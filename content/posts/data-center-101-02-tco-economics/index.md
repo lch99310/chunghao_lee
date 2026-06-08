@@ -92,17 +92,10 @@ This single fact explains many otherwise-puzzling industry behaviors:
 
 光這一個事實就解釋了很多原本看起來奇怪的產業行為：
 
-- Why Google, Meta, and Microsoft chase data center sites in northern Sweden, Finland, and Iceland — naturally cold air means free cooling and low PUE.
-- Why Microsoft has experimented with underwater data centers (Project Natick) and Google has acquired hydroelectric power directly from utilities.
-- Why hyperscalers are signing decade-long PPAs (Power Purchase Agreements, 購電協議) for nuclear power, including Three Mile Island and small modular reactors.
-- Why the entire industry is racing toward PUE 1.0.
-
----
-
-- 為什麼 Google、Meta、Microsoft 都在找瑞典北部、芬蘭、冰島的選址 —— 天然低溫帶來自然冷卻與低 PUE。
-- 為什麼 Microsoft 試過把數據中心沉到海底（Project Natick）、Google 直接跟電力公司簽長約。
-- 為什麼超大規模業者都在簽十年起跳的 PPA（Power Purchase Agreement，購電協議）綁核能 —— 包括三浬島復役與小型模組化反應爐（SMR）。
-- 為什麼整個產業在拼命衝向 PUE 1.0。
+- Why Google, Meta, and Microsoft chase data center sites in northern Sweden, Finland, and Iceland — naturally cold air means free cooling and low PUE. // 為什麼 Google、Meta、Microsoft 都在找瑞典北部、芬蘭、冰島的選址 —— 天然低溫帶來自然冷卻與低 PUE。
+- Why Microsoft has experimented with underwater data centers (Project Natick) and Google has acquired hydroelectric power directly from utilities. // 為什麼 Microsoft 試過把數據中心沉到海底（Project Natick）、Google 直接跟電力公司簽長約。
+- Why hyperscalers are signing decade-long PPAs (Power Purchase Agreements, 購電協議) for nuclear power, including Three Mile Island and small modular reactors. // 為什麼超大規模業者都在簽十年起跳的 PPA（Power Purchase Agreement，購電協議）綁核能 —— 包括三浬島復役與小型模組化反應爐（SMR）。
+- Why the entire industry is racing toward PUE 1.0. // 為什麼整個產業在拼命衝向 PUE 1.0。
 
 ---
 
