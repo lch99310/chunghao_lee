@@ -108,12 +108,12 @@ Two terms in this table do most of the work and are routinely confused.
 表裡兩個術語做了大部分工作，而且常被混淆。
 
 - **Concurrently maintainable** — any single component can be taken offline for planned maintenance without bringing down the facility. Planned outages are invisible.
-- **Fault tolerant** — any single component can fail unexpectedly without bringing down the facility. Unplanned outages are also invisible.
-
----
-
 - **在線維護（Concurrently maintainable）** —— 任何單一元件可以為了計畫性保養下線，整體運作不會中斷。**計畫性**停機是無感的。
+
+  
+- **Fault tolerant** — any single component can fail unexpectedly without bringing down the facility. Unplanned outages are also invisible.
 - **容錯（Fault tolerant）** —— 任何單一元件可以突然故障，整體運作也不中斷。**意外性**停機同樣是無感的。
+
 
 The difference: Tier III protects you from your own maintenance schedule; Tier IV additionally protects you from random failures during normal operation.
 
