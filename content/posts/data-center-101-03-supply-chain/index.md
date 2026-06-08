@@ -164,7 +164,7 @@ The battery layer has changed more in the last five years than in the previous t
 >
 > **數據中心電池採購現在直接跟電動車搶同一批電芯。每年 Q3–Q4 是最緊的時段。**
 
-### Gensets (柴油發電機)
+### Gensets // 柴油發電機
 
 Diesel gensets are the last-line backup, sized to carry the full data center load for 24 to 72 hours during a grid outage. CAPEX share is 9.8%.
 
@@ -183,7 +183,7 @@ Lead times: 6 to 12 months for medium gensets, sometimes longer for large units 
 
 交期：中型發電機 6 到 12 個月，大型（2 MW 以上）有時更長。業界共識中性價比最高的規格是 **1,800 kW** —— 標準零件、服務支援充足、並聯容易。
 
-### Switchgear (LVSG, MV switchgear)
+### Switchgear (LVSG, MV switchgear) // 開關設備
 
 Switchgear sits at every voltage stepdown between the utility connection and the IT racks. CAPEX share for low-voltage switchgear (LVSG) is 6.77%, and medium-voltage adds another 5–7%.
 
