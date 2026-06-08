@@ -895,15 +895,15 @@ The standard procurement playbook — wait until design is final, then issue pur
 標準採購手冊 —— 等設計定稿再下訂 —— 已經行不通。新規範正在浮現：
 
 - **Reserve before design.** Hyperscalers now reserve transformer slots, GPU allocations, and grid connections years before site plans are signed off.
-- **Multi-source by default.** Single-source contracts are being replaced by frame agreements with two or three suppliers per critical category.
-- **Lock prices long.** With copper, steel, and chemicals all volatile, 5-to-10-year price-linked contracts are returning.
-- **Co-invest upstream.** Some hyperscalers are co-investing in supplier capacity expansions to guarantee allocation.
-
----
-
 - **設計前先卡位。** Hyperscaler 現在會在現場規劃簽核前好幾年就先卡位變壓器、GPU 配額、電網接入。
+
+- **Multi-source by default.** Single-source contracts are being replaced by frame agreements with two or three suppliers per critical category.
 - **多源供應變預設。** 單一來源合約被取代成框架協議（每個關鍵類別 2–3 家供應商）。
+  
+- **Lock prices long.** With copper, steel, and chemicals all volatile, 5-to-10-year price-linked contracts are returning.
 - **長期鎖價。** 銅、鋼、化學品都波動的情況下，5 到 10 年的價格連動合約回來了。
+  
+- **Co-invest upstream.** Some hyperscalers are co-investing in supplier capacity expansions to guarantee allocation.
 - **往上游共同投資。** 部分 hyperscaler 在跟供應商共同投資擴產來保證配額。
 
 ---
