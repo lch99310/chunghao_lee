@@ -154,13 +154,11 @@ The battery layer has changed more in the last five years than in the previous t
 
 電池層在過去 5 年的變化比之前 30 年都大。整個產業正從鉛酸 VRLA 轉到鋰電池。CAPEX 佔 6.77% —— 已經比它服務的 UPS 還高。
 
-**Lead-acid (legacy):** C&D Technologies, EnerSys, Yuasa, Narada.
+**Lead-acid (legacy) // 鉛酸（傳統）:** C&D Technologies, EnerSys, Yuasa, Narada (南都電源).
 
-**鉛酸（傳統）**：C&D Technologies、EnerSys、Yuasa、南都電源。
 
-**Lithium-ion (rising):** CATL, BYD, EVE Energy, Samsung SDI, LG Energy Solution, Panasonic.
+**Lithium-ion (rising) // 鋰電池（崛起）:** CATL（寧德時代）、BYD（比亞迪）、EVE Energy（億緯鋰能）、Samsung SDI、LG Energy Solution、Panasonic。
 
-**鋰電池（崛起）**：CATL（寧德時代）、BYD（比亞迪）、EVE Energy（億緯鋰能）、Samsung SDI、LG Energy Solution、Panasonic。
 
 > **Data center battery procurement now competes directly with electric vehicles for the same cells. Q3–Q4 every year is the tightest window.**
 >
