@@ -31,16 +31,10 @@ This article is that map. It covers four things:
 
 這篇文章就是這張地圖，涵蓋四件事：
 
-- **The five-layer architecture** every conversation maps onto
-- **The industry chain** with its four phases and four roles
-- **The 27-month lifecycle** of building a typical data center
-- **The four major types** of data centers + the three colocation rental models
-
----
-- 所有對話都會落上去的**五層架構**
-- 由四個階段與四個角色組成的**產業鏈**
-- 蓋一座典型 DC 的 **27 個月生命週期**
-- **四大類型 DC** 與三種 Colocation 租賃模式
+- **The five-layer architecture** every conversation maps onto // 所有對話都會落上去的**五層架構**
+- **The industry chain** with its four phases and four roles // 由四個階段與四個角色組成的**產業鏈**
+- **The 27-month lifecycle** of building a typical data center // 蓋一座典型 DC 的 **27 個月生命週期**
+- **The four major types** of data centers + the three colocation rental models // **四大類型 DC** 與三種 Colocation 租賃模式
 
 ---
 
