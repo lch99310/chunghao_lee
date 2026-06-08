@@ -119,6 +119,7 @@ The difference: Tier III protects you from your own maintenance schedule; Tier I
 
 差別在於：Tier III 保護你免於「自家保養排程」造成的中斷；Tier IV 額外保護你免於正常運轉中的隨機故障。
 
+![](pic1.png)
 ---
 
 ### Tier I — Basic Capacity // Tier I：基本機房
