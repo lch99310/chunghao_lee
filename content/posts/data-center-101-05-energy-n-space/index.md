@@ -5,6 +5,7 @@ slug = "data-center-101-05-efficiency"
 aliases = ["/posts/data-center-101-efficiency/", "/posts/數據中心-101-能效與空間/"]
 tags = ['Data Center', 'Data Center 101', 'Passport to AI Era', '中文']
 thumbnail = 'pic.png'
+math = true
 +++
 
 > Every watt of electricity flowing into a data center has only two destinations: it either powers IT equipment doing useful work, or it disappears into cooling, lighting, power conversion, and the long list of "everything else." The ratio between those two destinations is the single most important number in the industry. It has a name (**PUE**), a target (**1.0**), and a price tag that runs into the tens of millions of dollars per year for any operator above 10 MW.
