@@ -1,5 +1,5 @@
 +++
-date = '2026-06-12T00:00:00+00:00'
+date = '2026-06-09T00:00:00+00:00'
 title = "【Data Center 101】Energy Efficiency and Space Economics: The PUE Family, WUE, GUE, and the Impossible Triangle"
 slug = "data-center-101-05-efficiency"
 aliases = ["/posts/data-center-101-efficiency/", "/posts/數據中心-101-能效與空間/"]
