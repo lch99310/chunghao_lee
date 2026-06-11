@@ -1,5 +1,5 @@
 +++
-date = '2026-06-13T00:00:00+00:00'
+date = '2026-06-12T00:00:00+00:00'
 title = "【Data Center 101】Power Systems: From the Utility Connection to the Rack PDU"
 slug = "data-center-101-06-power-systems"
 aliases = ["/posts/data-center-101-power-systems/", "/posts/數據中心-101-電力系統/"]
