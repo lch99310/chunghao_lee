@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-06-06T04:30:00.000Z",
+  "last_sent_at": "2026-06-12T21:02:23.228Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -322,6 +322,43 @@
           "title": "【Passport to AI Era】When Intelligence Becomes a Commodity: Sizing the 2030 Token Economy Depends on How Smart Commodity Models Become",
           "link": "https://chunghaolee.com/posts/ai-token-economy/",
           "pubDate": "2026-06-02T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-06-12T21:02:23.228Z",
+      "broadcast_id": "71533963-1453-451c-adae-2f79ad733447",
+      "item_count": 6,
+      "items": [
+        {
+          "title": "【Data Center 101】Power Systems: From the Utility Connection to the Rack PDU",
+          "link": "https://chunghaolee.com/posts/data-center-101-06-power-systems/",
+          "pubDate": "2026-06-12T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Energy Efficiency and Space Economics: The PUE Family, WUE, GUE, and the Impossible Triangle",
+          "link": "https://chunghaolee.com/posts/data-center-101-05-efficiency/",
+          "pubDate": "2026-06-09T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Reliability Engineering: Uptime Tier, TIA-942, and the Six Redundancy Patterns",
+          "link": "https://chunghaolee.com/posts/data-center-101-04-reliability/",
+          "pubDate": "2026-06-08T01:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】The Data Center Supply Chain: From Copper Mines to AI Clusters",
+          "link": "https://chunghaolee.com/posts/data-center-101-03-supply-chain/",
+          "pubDate": "2026-06-08T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Introduction: The Five-Layer Architecture, Industry Chain, Lifecycle & Classification",
+          "link": "https://chunghaolee.com/posts/data-center-101-01-introduction/",
+          "pubDate": "2026-06-07T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】TCO Economics: Why Data Centers Are an OPEX-Dominated Business",
+          "link": "https://chunghaolee.com/posts/data-center-101-02-tco-economics/",
+          "pubDate": "2026-06-07T00:00:00.000Z"
         }
       ]
     }
