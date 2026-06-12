@@ -77,7 +77,7 @@ The time budgets are unforgiving. The ATS has to detect a failure and switch in 
 
 時間預算毫不留情。ATS 必須在遠少於一秒內偵測故障並切換。UPS 必須在毫秒內接管。發電機必須在約 30 秒內啟動、穩定、同步。任何一個沒抓住時間窗口，鏈條就斷。
 
-![pic1.png]
+![](pic1.png)
 ---
 
 ## Part 2 — Three Power Architectures: UPS, HVDC, Panama // 第二部分：三種電力架構
