@@ -99,16 +99,17 @@ UPS architecture won not because it was technically the most elegant, but becaus
 UPS 架構贏不是因為技術上最優雅，而是因為它的生態系統最完整：
 
 - **Standard AC output** — works with any commodity server power supply
-- **Mature supply chain** — Vertiv, Schneider, Huawei, ABB, Eaton, Delta, Mitsubishi all compete in the same socket
-- **Maintenance bypass available** — facility can be serviced without taking IT offline
-- **Wide engineering talent pool** — anyone trained on electrical systems understands UPS
-
----
-
 - **標準 AC 輸出** —— 跟任何商用伺服器電源相容
+  
+- **Mature supply chain** — Vertiv, Schneider, Huawei, ABB, Eaton, Delta, Mitsubishi all compete in the same socket
 - **成熟供應鏈** —— Vertiv、Schneider、Huawei、ABB、Eaton、Delta、三菱在同一個 socket 競爭
+  
+- **Maintenance bypass available** — facility can be serviced without taking IT offline
 - **可用維修旁路** —— 機房可以保養而不下線 IT
+  
+- **Wide engineering talent pool** — anyone trained on electrical systems understands UPS
 - **廣泛的工程人才池** —— 任何電氣系統訓練過的人都懂 UPS
+
 
 HVDC eliminates one AC/DC conversion stage and is theoretically more efficient, but requires customized server power supplies, breaks the standard supply chain, and offers no compelling overall efficiency advantage in practice. Panama goes further by integrating the medium-voltage transformer with HVDC conversion — interesting on paper, but only deployed in limited Alibaba projects.
 
@@ -132,15 +133,10 @@ Modern data center UPS systems use the **online double-conversion** topology. Th
 
 現代數據中心 UPS 用**在線雙轉換**拓樸。名字描述了兩次轉換：
 
-1. AC from the utility enters a **rectifier** that converts it to DC.
-2. The DC bus feeds an **inverter** that converts it back to AC for the IT load.
-3. In parallel, the same DC bus charges the battery string.
+1. AC from the utility enters a **rectifier** that converts it to DC. // 從電力公司來的 AC 進入**整流器**轉成 DC。
+2. The DC bus feeds an **inverter** that converts it back to AC for the IT load. // DC 母線餵給**逆變器**，把它轉回 AC 給 IT 負載。
+3. In parallel, the same DC bus charges the battery string. // 平行地，同一條 DC 母線充電給電池組。
 
----
-
-1. 從電力公司來的 AC 進入**整流器**轉成 DC。
-2. DC 母線餵給**逆變器**，把它轉回 AC 給 IT 負載。
-3. 平行地，同一條 DC 母線充電給電池組。
 
 When the utility fails, the rectifier stops, the battery instantly takes over feeding the DC bus, and the inverter continues outputting clean AC. From the server's perspective, **nothing happened** — the inverter has been the only power source the IT load has ever seen.
 
@@ -169,12 +165,11 @@ Every UPS has at least one bypass path: a direct connection from the utility inp
 每台 UPS 至少有一條旁路路徑：從市電輸入直接連到輸出，在保養或故障時用。有兩種：
 
 - **Maintenance bypass** — manual switch that lets the UPS be powered down for service while the load continues running off raw utility power
-- **Static bypass** — automatic switch (semiconductor-based) that engages during overload or internal UPS fault
-
----
-
 - **維護旁路** —— 手動開關，讓 UPS 停機保養，同時負載繼續用原始市電
+  
+- **Static bypass** — automatic switch (semiconductor-based) that engages during overload or internal UPS fault
 - **靜態旁路** —— 自動開關（半導體），在過載或 UPS 內部故障時啟動
+
 
 Both are critical to operational continuity. A UPS without maintenance bypass cannot be serviced without taking IT offline, which is why HVDC (which lacks maintenance bypass) is unsuitable for most applications.
 
@@ -254,14 +249,14 @@ Three rules of thumb hold across the industry:
 業界三個經驗法則：
 
 - A single low-voltage genset typically tops out at about **2,400 kW**. Larger single units run at medium voltage.
-- Paralleling more than **10 low-voltage gensets** becomes operationally complex, so the practical ceiling for an LV genset farm is about 24 MW.
-- The cost-per-kW sweet spot for diesel gensets is around **1,800 kW** — standard parts, abundant service support, and easy parallel operation.
-
----
-
 - 單一低壓發電機典型上限約 **2,400 kW**。更大的單機跑中壓。
+  
+- Paralleling more than **10 low-voltage gensets** becomes operationally complex, so the practical ceiling for an LV genset farm is about 24 MW.
 - 並聯超過 **10 台低壓發電機**運轉複雜，所以 LV 發電機群實務上限約 24 MW。
+  
+- The cost-per-kW sweet spot for diesel gensets is around **1,800 kW** — standard parts, abundant service support, and easy parallel operation.
 - 柴油發電機的每 kW 性價比甜蜜點約 **1,800 kW** —— 標準零件、服務支援充足、並聯容易。
+
 
 ### Container-type gensets // 貨櫃式發電機
 
@@ -342,17 +337,11 @@ ACB and MCCB units are usually specified with a "trip unit" that defines what ev
 
 ACB 與 MCCB 通常配「跳脫單元」，定義什麼事件觸發斷路器。標準命名是 **LSIG**：
 
-- **L** — Long-time (overload protection)
-- **S** — Short-time (short-delay)
-- **I** — Instantaneous (short-circuit)
-- **G** — Ground fault
+- **L** — Long-time (overload protection) // 長延時（過載保護）
+- **S** — Short-time (short-delay) // 短延時
+- **I** — Instantaneous (short-circuit) // 瞬時（短路）
+- **G** — Ground fault // 接地故障
 
----
-
-- **L** —— 長延時（過載保護）
-- **S** —— 短延時
-- **I** —— 瞬時（短路）
-- **G** —— 接地故障
 
 A breaker specified as "LSIG" has full four-function protection. Cheaper variants drop one or more letters. For Tier III/IV facilities, LSIG is the standard.
 
@@ -491,15 +480,10 @@ The three components of a smart busbar system:
 
 智能母線系統的三個元件：
 
-- **GIU** (General Input Unit) — Feeds power from the upstream switchgear into the busbar
-- **BTU** (Busbar Trunking Unit) — The continuous overhead bar
-- **PDU tap-off boxes** — Snap onto the bar to feed individual cabinets
+- **GIU** (General Input Unit，進線單元) — Feeds power from the upstream switchgear into the busbar // 從上游開關設備把電送進母線
+- **BTU** (Busbar Trunking Unit，母線槽) — The continuous overhead bar // 連續的頂部母線
+- **PDU tap-off boxes 取電盒** — Snap onto the bar to feed individual cabinets // 卡到母線上餵單一機櫃
 
----
-
-- **GIU**（General Input Unit，進線單元）—— 從上游開關設備把電送進母線
-- **BTU**（Busbar Trunking Unit，母線槽）—— 連續的頂部母線
-- **PDU 取電盒** —— 卡到母線上餵單一機櫃
 
 The advantages over traditional cabling are significant: hot-swappable cabinet additions without de-energizing, far shorter installation time, real-time per-circuit monitoring, fewer cable joints (each of which is a potential failure point), and lower fire risk in the overhead routing zone.
 
