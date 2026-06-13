@@ -1,5 +1,5 @@
 +++
-date = '2026-06-14T00:00:00+00:00'
+date = '2026-06-13T00:00:00+00:00'
 title = "【Data Center 101】Cooling Systems: From Room Air Conditioners to Direct-to-Chip Liquid"
 slug = "data-center-101-07-cooling"
 aliases = ["/posts/data-center-101-cooling/", "/posts/數據中心-101-冷卻系統/"]
