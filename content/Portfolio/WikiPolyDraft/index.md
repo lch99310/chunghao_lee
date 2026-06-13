@@ -49,7 +49,7 @@ The first article I used it on was Barangaroo. The Chinese Wikipedia page for Ba
 
 | ![English](english.png) | ![Chinese](chinese.png) |
 | :---: | :---: |
-| *Barangaroo · English Wikipedia* | *巴蘭加魯（新南威爾斯州）· 中文維基百科* |
+| *Barangaroo · English Wikipedia* | *巴蘭加魯 · 中文維基百科* |
 
 I started with English ↔ Traditional Chinese because those are the two languages I read in. If the flow holds up, it should generalize to other language pairs. The code lives on GitHub: [`lch99310/WikiPolyDraft`](https://github.com/lch99310/WikiPolyDraft/tree/main).
 
