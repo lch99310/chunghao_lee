@@ -1,5 +1,5 @@
 +++
-date = '2026-06-13T00:00:00+00:00'
+date = '2026-06-13T00:05:00+00:00'
 title = '【AI Side Project Vol.08】WikiPolyDraft: An Open-Source Tool for AI-Drafted Wikipedia Translations'
 tags = ['AI Practice Journal', 'Using AI', 'SKILL', 'Side_Project', '中文']
 thumbnail = 'pic.png'
