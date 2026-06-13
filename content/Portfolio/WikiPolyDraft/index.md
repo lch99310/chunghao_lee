@@ -16,6 +16,7 @@ So one weekend I went to find a Chinese Wikipedia link to send them. There wasn'
 That gap is what got me thinking.
 
 <br>
+<br>
 從台灣搬到悉尼之後，Barangaroo 成了我幾乎每天晨跑的地方。它位於 CBD 的西北邊，緊鄰 Darling Harbour（達令港），轉到岬角那段視野一打開，就是悉尼整個港灣最舒服的角度之一。我常常跑到那邊停下來想，下次跟家裡的人聊到悉尼，要怎麼介紹這個地方。
 有一個週末，我想找一個中文維基百科的連結傳給爸媽看。我找不到。不是頁面很短，也不是只有骨架——是根本沒有這一頁。我手機上的英文版有好幾頁的篇幅：殖民時期的碼頭歷史、大蕭條時期「The Hungry Mile（饑餓大道）」上排隊找工的工人、原住民 Cadigal 族在這片土地上的痕跡、2003 年起的重建計劃。中文版完全不存在。
 那個落差，就是我開始想這件事情的起點。
@@ -28,6 +29,7 @@ That asymmetry made sense in the era when translation was the hard part. It make
 In the last two years the bottleneck has moved. A modern language model can render a thousand-word Wikipedia entry from English into Chinese in a few seconds, preserving structure, retaining inline citations, and matching the encyclopedic register. What it can't do — and shouldn't do — is publish. AI translation still hallucinates, still misroutes citations, still quietly flattens the editorial voice an encyclopedia depends on. A Wikipedia article isn't just text. It's a body of references, an editorial style, and a community norm of attribution. The model can do the first pass. A human still has to land it.
 
 <br>
+<br>
 維基百科是人類有史以來最大的參考資料庫，也是少數真正在規模上運作起來的群眾協作案例。但它的覆蓋率是結構性地不平均的，而這個不平均在語言交界處最看得出來。每個人都會優先寫自己熟悉的東西。澳洲在地人會用英文寫澳洲的地方，那一頁中文版的命運，要看當年是不是有某個雙語志工願意翻譯，或者停在自動骨架沒人回來補——再不然就是像 Barangaroo 一樣，根本不存在。反過來也一樣：許多在華語世界資料豐厚、好幾頁起跳的歷史事件，在英文維基上可能只有薄薄一兩段。這不是誰的錯，而是群眾貢獻知識的自然樣貌：人多的地方厚，人少的地方薄。
 這種不對稱在「翻譯本身是難事」的年代是合理的。在現在這個時代，它已經沒那麼合理了。
 過去這一兩年，瓶頸的位置移動了。一個現代的大型語言模型可以在幾秒內把一篇千字的維基條目從英文翻成中文，保留段落結構、保留內嵌引用、語感也能維持百科風格。但它做不到——也不應該做到——的，是「直接發佈」。AI 翻譯仍會幻覺、會把引用接錯、會在不知不覺中把百科賴以為生的編輯語氣磨平。一篇維基條目不只是文字，它是一整套引用體系、一套編輯風格、一個社群對「來源該怎麼標」的長期共識。AI 可以幫忙完成第一稿，最後落地的還是人。
@@ -38,6 +40,8 @@ In the last two years the bottleneck has moved. A modern language model can rend
 <br>
 ### A small tool // 一個小工具：WikiPolyDraft
 
+<br>
+<br>
 So I wrote a small open-source tool I called **WikiPolyDraft**. It takes a Wikipedia article in one language and produces a *draft* in another — preserving section structure, keeping citations linked, and attaching the CC BY-SA attribution Wikipedia requires. The output is explicitly labeled as a draft. It comes with a human-review checklist. It is not — and is not designed to be — a one-click publishing pipeline.
 
 <br>
@@ -49,6 +53,7 @@ So I wrote a small open-source tool I called **WikiPolyDraft**. It takes a Wikip
 The first article I used it on was Barangaroo. The Chinese Wikipedia page for Barangaroo that you can read today is the result: an AI draft, a few rounds of manual editing, citation checks, and a final review inside the Wikipedia editor before I published it. Before that, the page didn't exist at all.
 I started with English ↔ Traditional Chinese because those are the two languages I read in. If the flow holds up, it should generalize to other language pairs. The code lives on GitHub: [`lch99310/WikiPolyDraft`](https://github.com/lch99310/WikiPolyDraft/tree/main).
 
+<br>
 <br>
 我第一篇拿來試的條目就是 Barangaroo。今天大家在中文維基上看到的那一頁，就是這個流程跑出來的結果：先讓 AI 翻一稿、人工編輯幾輪、檢查引用、最後在維基編輯器裡再過一次，才實際送上去。在那之前，這一頁根本不存在。
 我先從英文 ↔ 繁體中文這個語言對開始，因為這是我兩種主要的閱讀語言。如果流程跑得通，其他語言對應該也適用。程式碼放在 GitHub 上：[`lch99310/WikiPolyDraft`](https://github.com/lch99310/WikiPolyDraft/tree/main)。
@@ -79,6 +84,7 @@ If a hundred people used a tool like this to fill in the language gaps on topics
 That is the part that's worth working on. Not a single article — a more transparent global record, built by the people who care about each piece of it.
 The code is on GitHub. If any of this resonates, come build with me.
 
+<br>
 <br>
 我真正想說的，其實不是這個工具，而是這個工具讓什麼事變得可能。
 在 AI 時代，技術已經不是瓶頸了。過去那些卡住一個人不去動手貢獻的瑣事——第一稿翻譯、引用對應、章節結構、語感拿捏——現在 AI 都可以在幾秒內處理完。剩下交還給人的，是這件事一開始就需要人來做的部分：判斷哪些來源可信、核對在不同語言版本之間對不上的事實、規劃一個外國讀者需要哪些背景脈絡、守住編輯的口吻與紀律。AI 不是要取代編輯者，它是要把編輯者從瑣事中釋放出來。
