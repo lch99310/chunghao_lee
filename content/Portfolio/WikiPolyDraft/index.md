@@ -55,6 +55,22 @@ I started with English ↔ Traditional Chinese because those are the two languag
 
 
 <br>
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px;">
+  
+  <div style="text-align: center; max-width: 48%;">
+    <img src="english.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+    <div style="font-size: 14px; color: #666; margin-top: 8px;">Barangaroo in Wikipedia English page </div>
+  </div>
+
+  <div style="text-align: center; max-width: 48%;">
+    <img src="chinese.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+    <div style="font-size: 14px; color: #666; margin-top: 8px;">巴蘭加魯 維基百科中文頁面</div>
+  </div>
+
+</div>
+<br>
+
+<br>
 <br>
 What I really want to say isn't about the tool. It's about what the tool makes possible.
 In the AI era, technology is no longer the bottleneck. The chores that used to block a contribution before it even began — first-pass translation, matching citations to their sources, reconciling structure, getting the tone right — are things a model can now finish in seconds. What's left for the human is the part that always required a human in the first place: deciding which sources are credible, fact-checking the claims that don't match across versions, planning what context a reader from another culture will need, holding the editorial line. AI doesn't replace the editor. It frees the editor.
