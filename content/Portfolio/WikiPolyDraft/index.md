@@ -63,12 +63,12 @@ I started with English ↔ Traditional Chinese because those are the two languag
 <div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; gap: 16px;">
   
   <div style="text-align: center; max-width: 48%;">
-    <img src="english.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+    <img src="english.png" style="height: 250px; width: auto; max-width: 100%; object-fit: contain;">
     <div style="font-size: 14px; color: #666; margin-top: 8px;">Barangaroo in Wikipedia English page </div>
   </div>
 
   <div style="text-align: center; max-width: 48%;">
-    <img src="chinese.png" style="height: 250px; width: auto; max-width: 48%; object-fit: contain;">
+    <img src="chinese.png" style="height: 250px; width: auto; max-width: 100%; object-fit: contain;">
     <div style="font-size: 14px; color: #666; margin-top: 8px;">巴蘭加魯 維基百科中文頁面</div>
   </div>
 
