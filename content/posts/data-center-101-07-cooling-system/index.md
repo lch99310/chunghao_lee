@@ -202,12 +202,11 @@ The trade-off introduced in article 5 between Power Usage Effectiveness and Wate
 第 5 篇介紹過的 PUE 與 WUE 之間的權衡，在蒸發冷卻上有最尖銳的展現：
 
 - Sites using evaporative cooling typically have **WUE between 1.5 and 2.5 L/kWh**.
-- Sites that avoid evaporative cooling can reach **WUE below 0.5 L/kWh** — but at the cost of higher PUE.
-
----
-
 - 用蒸發冷卻的機房 **WUE 典型落在 1.5 到 2.5 L/kWh**。
+  
+- Sites that avoid evaporative cooling can reach **WUE below 0.5 L/kWh** — but at the cost of higher PUE.
 - 避免蒸發冷卻的機房可以達 **WUE 低於 0.5 L/kWh** —— 但代價是較高 PUE。
+
 
 For a 1,000-cabinet facility, this translates to roughly **63,000 tons of water per year** — the annual usage of about 300 households. In water-stressed regions like the United Arab Emirates, central and southern Taiwan, parts of Spain, and Singapore, this number now drives regulatory action and increasingly shapes site selection.
 
