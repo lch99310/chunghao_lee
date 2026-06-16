@@ -6,7 +6,7 @@ showPagination = false
 showAuthor = true
 +++
 
-### Industrial AI PM bridging atom factories and token factories.
+### Bridging atom factories and token factories.
 
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
