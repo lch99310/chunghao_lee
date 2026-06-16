@@ -24,7 +24,7 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 ### At Work
 
 - **TikTok (2025 – present)** — Built **RCA Copilot 0→1**, integrating multi-agent orchestration, hallucination engineering, and dual GUI/CLI interfaces. Lifted adult-content model F1 by **+38%**. Established a three-tier inspection framework achieving **80%+ ground-truth consistency** and **95% model accuracy** across 35 models.
-- **Wistron (2022 – 2024)** — Three-phase industrial AI program (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams. **70% debug efficiency lift, 50% return-to-repair reduction, A$1.2M annual savings.**
+- **Wistron (2022 – 2024)** — Three-phase industrial AI program (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams. **70% debug efficiency lift, 50% return-to-repair reduction, $1.2M annual savings.**
 - **Pegatron (2018 – 2020)** — 15-person team, **2M AIoT units / year**, end-to-end SMT + FATP process control in Suzhou.
 
 
