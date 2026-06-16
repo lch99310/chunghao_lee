@@ -30,8 +30,8 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 ### Built in Public — Extending the Bridge
 
-- **[multi-lens-thinking](https://github.com/lch99310/multi-lens-thinking)** — A six-stage AI reasoning pipeline routing questions through four parallel analytical lenses. The same HITL architecture thinking behind RCA Copilot, in the open.
-- **[WikiPolyDraft](https://github.com/lch99310/WikiPolyDraft)** — Open-source AI-drafted Wikipedia translation tool. First article: **Barangaroo** (Sydney). Same "AI drafts, human lands it" philosophy as RCA Copilot — applied to cross-language civic knowledge.
+- **[multi-lens-thinking](https://github.com/lch99310/multi-lens-thinking)** — A six-stage AI reasoning pipeline routing questions through four parallel analytical lenses.
+- **[WikiPolyDraft](https://github.com/lch99310/WikiPolyDraft)** — Open-source AI-drafted Wikipedia translation tool. First article: **Barangaroo** (Sydney). Same "AI drafts, human lands it" philosophy — applied to cross-language civic knowledge.
 - **[My Daily Digest](https://github.com/lch99310/My_Daily_Digest)** — Automated daily intelligence on AI data center infrastructure (NEXTDC, AirTrunk, Equinix AU, AEMC/AEMO grid signals), geopolitical risk, and AI builder updates. Built to keep my own atom × token thesis live.
 
 
