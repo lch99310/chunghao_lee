@@ -157,16 +157,17 @@ The traditional procurement playbook — wait until design is final, then issue 
 傳統採購手冊 —— 等設計定稿再下訂 —— 已經停止運作。替代手冊有四個要素：
 
 - **Reserve before design.** Slot reservations for transformers, GPU allocations, and grid connections are made years before the final site plan is signed off.
-- **Multi-source by default.** Single-source contracts have largely been replaced by frame agreements with two or three suppliers per critical category.
-- **Lock prices long.** With copper, steel, and chemicals all volatile, 5-to-10-year price-linked contracts are returning to favor.
-- **Co-invest upstream.** Some hyperscalers are co-investing in supplier capacity expansion in exchange for guaranteed allocation.
-
----
-
 - **設計前先卡位。** 變壓器、GPU 配額、電網接入的位置預留在最終場址規劃簽核前幾年就做。
+  
+- **Multi-source by default.** Single-source contracts have largely been replaced by frame agreements with two or three suppliers per critical category.
 - **多源預設。** 單一來源合約大致被框架協議取代，每個關鍵類別有兩到三個供應商。
+  
+- **Lock prices long.** With copper, steel, and chemicals all volatile, 5-to-10-year price-linked contracts are returning to favor.
 - **長期鎖價。** 銅、鋼、化學品都波動的情況下，5 到 10 年的價格連動合約重新流行。
+  
+- **Co-invest upstream.** Some hyperscalers are co-investing in supplier capacity expansion in exchange for guaranteed allocation.
 - **上游共同投資。** 部分超大規模業者跟供應商共投產能擴張以換取保證配額。
+
 
 ---
 
@@ -266,14 +267,15 @@ The framework is most useful when comparing alternative sites for the same proje
 框架在比較同一個專案的替代場址時最有用。三個典型原型：
 
 - **Site A** — Cold, remote, cheap power (e.g., Inner Mongolia, Nordic interior)
-- **Site B** — Urban edge, well-connected, expensive (e.g., Greater Western Sydney, Frankfurt suburb)
-- **Site C** — Established industrial park, balanced (e.g., a Tier-2 city industrial zone)
-
----
-
 - **場址 A** —— 寒冷、偏遠、便宜電力（如內蒙古、北歐內陸）
+  
+- **Site B** — Urban edge, well-connected, expensive (e.g., Greater Western Sydney, Frankfurt suburb)
 - **場址 B** —— 城市邊緣、連線良好、昂貴（如大西雪梨、法蘭克福郊區）
+  
+- **Site C** — Established industrial park, balanced (e.g., a Tier-2 city industrial zone)
 - **場址 C** —— 既有工業園區、平衡（如二線城市的工業區）
+
+
 
 | Criterion | Weight | Site A | Site B | Site C |
 |---|---|---|---|---|
@@ -294,14 +296,15 @@ The framework is most useful when comparing alternative sites for the same proje
 **解讀：**
 
 - Site A wins on raw weighted total (4.20) — strong on the highest-weighted criteria (power, climate, land)
-- Site C is a close second (3.90) — balanced, no weaknesses
-- Site B trails (3.35) — strong network and talent, but weakness on power (the heaviest-weighted criterion) drags the total down
-
----
-
 - 場址 A 在原始加權總分上贏（4.20）—— 在權重最高的準則上強（電力、氣候、土地）
+  
+- Site C is a close second (3.90) — balanced, no weaknesses
 - 場址 C 緊隨第二（3.90）—— 平衡、無弱點
+  
+- Site B trails (3.35) — strong network and talent, but weakness on power (the heaviest-weighted criterion) drags the total down
 - 場址 B 落後（3.35）—— 網路與人才強，但電力（權重最高的準則）弱拖低總分
+
+
 
 The framework also reveals a less obvious insight: Site A scores 5 on community impact (it is so remote that no one will object) but only 2 on talent (it is so remote that no one wants to work there). These two scores are mathematically independent but operationally correlated in opposite directions.
 
@@ -314,16 +317,18 @@ The 25% / 15% / 10% × 4 / 5% × 5 weight pattern is a reasonable starting point
 25% / 15% / 10% × 4 / 5% × 5 的權重模式是合理的起點但非通用。具體專案應該根據其約束調整：
 
 - **AI training cluster** — Power weight may rise to 35–40%; talent and community weights may drop
-- **Financial-services Tier IV** — Disaster resilience and policy weights may rise; community may rise (reputational risk)
-- **Edge data center** — Network weight may rise sharply; land and climate may drop
-- **Highly sustainability-focused build** — Water and green-energy share within Power become disproportionately important; specific weights for these may rise
-
----
-
 - **AI 訓練集群** —— 電力權重可能升到 35–40%；人才與社區權重可能降
+  
+- **Financial-services Tier IV** — Disaster resilience and policy weights may rise; community may rise (reputational risk)
 - **金融服務 Tier IV** —— 災害韌性與政策權重可能升；社區可能升（聲譽風險）
+  
+- **Edge data center** — Network weight may rise sharply; land and climate may drop
 - **邊緣數據中心** —— 網路權重可能急升；土地與氣候可能降
+  
+- **Highly sustainability-focused build** — Water and green-energy share within Power become disproportionately important; specific weights for these may rise
 - **高度永續導向的建設** —— 水與電力內的綠電占比變得不成比例地重要；這些的特定權重可能升
+
+
 
 The framework's value is not in any specific weight set. It is in forcing the evaluation team to make weights explicit, defensible, and consistent across all candidate sites.
 
@@ -385,21 +390,14 @@ Not every piece of equipment receives a formal FAT. The investment is reserved f
 
 不是每個設備都收到正式 FAT。投資保留給關鍵任務、高價值、或難更換的項目：
 
-- Large UPS systems (especially modular units above 500 kVA)
-- Diesel gensets above 1 MW
-- High- and medium-voltage switchgear assemblies
-- Chillers above 200 RT
-- Prefabricated PMDC modules (the whole module is FAT'd as one unit)
-- Custom busbar systems
+- Large UPS systems (especially modular units above 500 kVA) // 大型 UPS 系統（特別是 500 kVA 以上的模組化單元）
+- Diesel gensets above 1 MW // 1 MW 以上的柴油發電機
+- High- and medium-voltage switchgear assemblies // 高壓與中壓開關設備總成
+- Chillers above 200 RT // 200 RT 以上的冷水機
+- Prefabricated PMDC modules (the whole module is FAT'd as one unit) // 預製化 PMDC 模組（整個模組作為一個單元做 FAT）
+- Custom busbar systems // 客製化母線系統
 
----
 
-- 大型 UPS 系統（特別是 500 kVA 以上的模組化單元）
-- 1 MW 以上的柴油發電機
-- 高壓與中壓開關設備總成
-- 200 RT 以上的冷水機
-- 預製化 PMDC 模組（整個模組作為一個單元做 FAT）
-- 客製化母線系統
 
 ### What gets tested // 測試什麼
 
@@ -407,23 +405,15 @@ A typical FAT for a UPS includes:
 
 UPS 的典型 FAT 包括：
 
-- Visual and dimensional verification against specification
-- Full-load operation continuously for 24 to 72 hours
-- Switchover testing (utility ↔ battery ↔ bypass) with sub-millisecond timing verification
-- Harmonic distortion measurement at multiple load points
-- Communication protocol verification (SNMP, Modbus)
-- Software/firmware version verification
-- Extreme-environment validation (−20°C to +50°C for outdoor-rated equipment)
+- Visual and dimensional verification against specification // 視覺與尺寸對規格驗證
+- Full-load operation continuously for 24 to 72 hours // 24 到 72 小時連續滿載運轉
+- Switchover testing (utility ↔ battery ↔ bypass) with sub-millisecond timing verification // 切換測試（市電 ↔ 電池 ↔ 旁路），帶亞毫秒時序驗證
+- Harmonic distortion measurement at multiple load points // 多個負載點的諧波失真量測
+- Communication protocol verification (SNMP, Modbus) // 通訊協定驗證（SNMP、Modbus）
+- Software/firmware version verification // 軟體 / 韌體版本驗證
+- Extreme-environment validation (−20°C to +50°C for outdoor-rated equipment) // 極端環境驗證（戶外等級設備 −20°C 到 +50°C）
 
----
 
-- 視覺與尺寸對規格驗證
-- 24 到 72 小時連續滿載運轉
-- 切換測試（市電 ↔ 電池 ↔ 旁路），帶亞毫秒時序驗證
-- 多個負載點的諧波失真量測
-- 通訊協定驗證（SNMP、Modbus）
-- 軟體 / 韌體版本驗證
-- 極端環境驗證（戶外等級設備 −20°C 到 +50°C）
 
 ### Why FAT is worth the cost // 為什麼 FAT 值得花錢
 
@@ -457,17 +447,12 @@ Common SAT findings:
 
 常見 SAT 發現：
 
-- Shipping damage from vibration or rough handling
-- Wrong serial number (manufacturer shipped the wrong unit)
-- Sea freight humidity damage despite vacuum packing
-- Missing accessories or installation hardware
+- Shipping damage from vibration or rough handling // 來自振動或粗暴搬運的運輸損害
+- Wrong serial number (manufacturer shipped the wrong unit) // 序號錯誤（製造商出錯單元）
+- Sea freight humidity damage despite vacuum packing // 海運濕氣損害（儘管有真空包裝）
+- Missing accessories or installation hardware // 配件或安裝硬體遺失
 
----
-
-- 來自振動或粗暴搬運的運輸損害
-- 序號錯誤（製造商出錯單元）
-- 海運濕氣損害（儘管有真空包裝）
-- 配件或安裝硬體遺失
+ 
 
 ### PFT — Pre-Functional Test // PFT —— 預功能測試
 
@@ -475,21 +460,14 @@ After equipment is installed (mounted, bolted, plumbed, wired) but before it is 
 
 設備安裝（安裝、上栓、配管、配線）後、通電前，**Pre-Functional Test** 驗證安裝本身符合規格。這是 checklist 驅動的檢驗，涵蓋：
 
-- Mechanical fixing (vibration isolators, anti-tip restraints)
-- Electrical termination (correct polarity, tightening torque, labelling)
-- Grounding bonding (continuity, resistance)
-- Piping connections (refrigerant, chilled water, fuel) — pressure tested
-- Cable routing (correct segregation, labelling, slack)
-- Fire-stopping at wall penetrations
+- Mechanical fixing (vibration isolators, anti-tip restraints) // 機械固定（防振、防傾倒約束）
+- Electrical termination (correct polarity, tightening torque, labelling) // 電氣端接（正確極性、扭力、標籤）
+- Grounding bonding (continuity, resistance) // 接地聯結（連續性、電阻）
+- Piping connections (refrigerant, chilled water, fuel) — pressure tested // 管路連接（冷媒、冷凍水、燃油）—— 壓力測試
+- Cable routing (correct segregation, labelling, slack) // 電纜走線（正確分隔、標籤、餘量）
+- Fire-stopping at wall penetrations // 牆穿透防火封堵
 
----
 
-- 機械固定（防振、防傾倒約束）
-- 電氣端接（正確極性、扭力、標籤）
-- 接地聯結（連續性、電阻）
-- 管路連接（冷媒、冷凍水、燃油）—— 壓力測試
-- 電纜走線（正確分隔、標籤、餘量）
-- 牆穿透防火封堵
 
 PFT is the step where the largest number of defects are actually found, because installation involves many trades working in parallel under time pressure. A typical PFT for a mid-size facility produces a "Punch List" of **200 to 800 individual items** requiring rectification before the next step can proceed.
 
@@ -566,15 +544,11 @@ Many owners hesitate to perform IST because the test really can cause damage if 
 
 許多業主猶豫做 IST，因為測試真的可以造成損害如果鏈條任何環節配置錯誤。風險真實：
 
-- A misconfigured ATS could connect generator output to live utility (catastrophic)
-- An undersized UPS battery could fail to hold load through the genset transition window
-- A control linkage bug between subsystems could cascade into a real outage
+- A misconfigured ATS could connect generator output to live utility (catastrophic) // 配置錯誤的 ATS 可能把發電機輸出連到帶電市電（災難性）
+- An undersized UPS battery could fail to hold load through the genset transition window // 規格不足的 UPS 電池可能在發電機過渡窗口期間無法維持負載
+- A control linkage bug between subsystems could cascade into a real outage // 子系統間的控制聯動 bug 可能連鎖到真實停機
 
----
 
-- 配置錯誤的 ATS 可能把發電機輸出連到帶電市電（災難性）
-- 規格不足的 UPS 電池可能在發電機過渡窗口期間無法維持負載
-- 子系統間的控制聯動 bug 可能連鎖到真實停機
 
 But the alternative — not performing IST and discovering these problems in production — is far worse. A facility that has not been IST'd has unknown unknowns in its emergency response chain. A facility that has been IST'd has at least the known knowns. The first category of risk dominates the second by a wide margin.
 
@@ -621,17 +595,12 @@ A Cx Agent provides:
 
 Cx Agent 提供：
 
-- An independent commissioning plan, not influenced by construction schedule
-- Witnessing of every test, with documentation that cannot be amended afterward
-- An independent Punch List, with items prioritized by criticality rather than ease of fix
-- A final certification that has legal weight separate from the construction sign-off
+- An independent commissioning plan, not influenced by construction schedule // 不受施工時程影響的獨立調試計畫
+- Witnessing of every test, with documentation that cannot be amended afterward // 每個測試的見證，文件事後無法修改
+- An independent Punch List, with items prioritized by criticality rather than ease of fix // 獨立的 Punch List，項目按關鍵性（不是修復容易度）排優先級
+- A final certification that has legal weight separate from the construction sign-off // 法律上跟施工簽核分開、有重量的最終認證
 
----
 
-- 不受施工時程影響的獨立調試計畫
-- 每個測試的見證，文件事後無法修改
-- 獨立的 Punch List，項目按關鍵性（不是修復容易度）排優先級
-- 法律上跟施工簽核分開、有重量的最終認證
 
 ### Major Cx Agent firms // 主要 Cx Agent 公司
 
