@@ -1,5 +1,5 @@
 +++
-date = '2026-06-18T00:00:00+00:00'
+date = '2026-06-18T00:05:00+00:00'
 title = "【Data Center 101】Building a Data Center: The 27-Month Process, Site Selection Scoring, and the Five-Step Commissioning"
 slug = "data-center-101-11-construction-commissioning"
 aliases = ["/posts/data-center-101-construction-commissioning/", "/posts/數據中心-101-建設與調試/"]
