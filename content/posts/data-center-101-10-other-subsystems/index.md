@@ -63,14 +63,14 @@ The shock plays out at three time scales:
 衝擊在三個時間尺度上展開：
 
 - **Immediate** — Facilities specified with Novec 1230 are signing decade-long supply contracts to lock in the chemical they have. Pricing volatility is the dominant short-term risk.
-- **Medium term** — New builds in 2025 onward are increasingly evaluating Inergen or non-3M FK-5-1-12. Each carries different room-sizing implications.
-- **Long term** — A shift to Inergen would change building design: inert gas systems require larger storage rooms and more aggressive room sealing because the gas works by reducing oxygen concentration rather than chemically interrupting combustion.
-
----
-
 - **立即** —— 已指定 Novec 1230 的機房正在簽十年期供應合約鎖住現有化學品。定價波動是主導性短期風險。
+  
+- **Medium term** — New builds in 2025 onward are increasingly evaluating Inergen or non-3M FK-5-1-12. Each carries different room-sizing implications.
 - **中期** —— 2025 年起的新建越來越多在評估 Inergen 或非 3M 的 FK-5-1-12。每個有不同的房間規模意涵。
+  
+- **Long term** — A shift to Inergen would change building design: inert gas systems require larger storage rooms and more aggressive room sealing because the gas works by reducing oxygen concentration rather than chemically interrupting combustion.
 - **長期** —— 轉向 Inergen 會改變建物設計：惰性氣體系統需要更大儲存空間、更積極的房間密封，因為氣體靠降低氧氣濃度而不是化學中斷燃燒來運作。
+
 
 > **The 3M decision is one of the cleanest examples of a single corporate policy reshaping a global infrastructure supply chain. It is not unique — similar chemistry-driven shifts have happened with refrigerants (R22 phase-out) and with PFAS more broadly — but the speed and breadth of this one stand out.**
 >
@@ -265,16 +265,18 @@ A handful of design principles that consistently separate good installations fro
 幾個一致地把好的安裝跟有問題的安裝分開的設計原則：
 
 - **Power and data trays run separately**, ideally with at least 300 mm physical separation, to minimize EMI coupling.
-- **Overhead and underfloor runs as parallel systems**, so one can be maintained while the other carries the active load.
-- **Strict labeling**, with labels at both ends and every 5 meters in between.
-- **30% spare capacity reserved** for future expansion. Adding capacity to a fully filled tray is dramatically more expensive than designing the headroom in originally.
-
----
-
 - **電力與資料線槽分開走**，理想上至少 300 mm 物理分隔，以最小化 EMI 耦合。
+  
+- **Overhead and underfloor runs as parallel systems**, so one can be maintained while the other carries the active load.
 - **頂部與地板下走線作為平行系統**，這樣一個可以保養時另一個承載作用負載。
+  
+- **Strict labeling**, with labels at both ends and every 5 meters in between.
 - **嚴格標籤**，兩端與中間每 5 公尺都有標籤。
+  
+- **30% spare capacity reserved** for future expansion. Adding capacity to a fully filled tray is dramatically more expensive than designing the headroom in originally.
 - **預留 30% 餘量**給未來擴充。在已滿的線槽加容量比一開始就設計餘量戲劇性地貴。
+
+
 
 ---
 
@@ -313,18 +315,21 @@ For data center deployments, the modern expectation is:
 對數據中心部署，現代期待是：
 
 - **Recognition time < 1 second**
-- **Recognition distance up to ~3 meters**
-- **Accuracy > 99.6%**
-- **Liveness detection** required (cannot be fooled by a photo or video)
-- **Audit trail** — historical facial-recognition photos retained for traceability
-
----
-
 - **辨識時間 < 1 秒**
+  
+- **Recognition distance up to ~3 meters**
 - **辨識距離可達約 3 公尺**
+  
+- **Accuracy > 99.6%**
 - **準確度 > 99.6%**
+  
+- **Liveness detection** required (cannot be fooled by a photo or video)
 - **活體偵測**必須（不能被照片或影片騙過）
+  
+- **Audit trail** — historical facial-recognition photos retained for traceability
 - **稽核軌跡** —— 歷史人臉辨識照片保留供追溯
+
+
 
 ### Mantraps — the anti-tailgating defense // Mantrap —— 反尾隨防禦
 
@@ -378,20 +383,24 @@ The European Union has since taken a similar but less unified stance — public-
 ### The procurement implications for data centers // 對數據中心採購的意涵
 
 - **US federal data centers** — Cannot use Hikvision or Dahua. Must specify Axis, Bosch, Hanwha, or similar Western brand.
-- **Federal contractor data centers** — Same restriction extends through the supply chain.
-- **EU public-sector and critical-infrastructure** — Increasingly restricted; check local jurisdiction.
-- **Taiwan financial and government** — Self-imposed restrictions broadly mirror US position, though not codified into single legislation.
-- **Australian government facilities** — Removed Chinese-origin surveillance equipment from government sites following 2023 audit.
-- **Commercial colocation in most markets** — Choice remains open, but increasingly customers (especially multinationals) require disclosure of camera vendor.
-
----
-
 - **美國聯邦數據中心** —— 不能用 Hikvision 或 Dahua。必須指定 Axis、Bosch、Hanwha 或類似西方品牌。
+  
+- **Federal contractor data centers** — Same restriction extends through the supply chain.
 - **聯邦承包商數據中心** —— 同樣限制延伸到供應鏈。
+  
+- **EU public-sector and critical-infrastructure** — Increasingly restricted; check local jurisdiction.
 - **歐盟公部門與關鍵基礎設施** —— 越來越受限；查當地司法管轄區。
+  
+- **Taiwan financial and government** — Self-imposed restrictions broadly mirror US position, though not codified into single legislation.
 - **台灣金融與政府** —— 自我設限大致對齊美國立場，雖未編入單一立法。
+  
+- **Australian government facilities** — Removed Chinese-origin surveillance equipment from government sites following 2023 audit.
 - **澳洲政府設施** —— 2023 年稽核後從政府場址移除中國製監控設備。
+  
+- **Commercial colocation in most markets** — Choice remains open, but increasingly customers (especially multinationals) require disclosure of camera vendor.
 - **多數市場的商業 Colocation** —— 選擇仍開放，但客戶（特別是跨國）越來越要求揭露攝影機供應商。
+
+
 
 > **The camera vendor decision is now a geopolitical decision. Procurement teams that did not have to think about it before 2019 now have to think about it explicitly — and the consequences of getting it wrong can include disqualification from US federal contracts for the entire colocation provider.**
 >
@@ -462,18 +471,21 @@ The mistakes that cause real-world incidents are not exotic — they are simple,
 造成現實事件的錯誤不是奇特的 —— 是簡單、可預測、整個產業持續存在的：
 
 - **Grounding grid undersized** — Resistance too high; lightning currents elevate building potential and damage equipment.
-- **Multiple grounding systems not bonded** — Potential differences create destructive ground loops.
-- **SPDs not staged in series** — Single-stage protection lets surge energy through to end equipment.
-- **Cabinet grounding inconsistent** — Some cabinets bonded to the grounding bus, others left floating; static buildup and lightning damage.
-- **Lightning down-conductors broken** — A cable that has degraded over time leaves the lightning rod with no path to ground; the lightning finds another path, often through electrical service lines.
-
----
-
 - **接地網規模不足** —— 電阻太高；雷擊電流抬升建物電位、損壞設備。
+  
+- **Multiple grounding systems not bonded** — Potential differences create destructive ground loops.
 - **多套接地系統未聯結** —— 電位差製造破壞性的接地迴路。
+  
+- **SPDs not staged in series** — Single-stage protection lets surge energy through to end equipment.
 - **SPD 未串聯分階段** —— 單階段保護讓突波能量穿透到末端設備。
+  
+- **Cabinet grounding inconsistent** — Some cabinets bonded to the grounding bus, others left floating; static buildup and lightning damage.
 - **機櫃接地不一致** —— 部分機櫃聯結到接地母線、其他懸浮；靜電累積與雷擊損害。
+  
+- **Lightning down-conductors broken** — A cable that has degraded over time leaves the lightning rod with no path to ground; the lightning finds another path, often through electrical service lines.
 - **避雷引下線斷裂** —— 隨時間衰退的電纜讓避雷針沒有對地路徑；雷擊找另一條路，常常透過電力服務線。
+
+
 
 > **Grounding is the cheapest insurance in the data center, and the most commonly underspecified. It accounts for less than 1% of capital cost but a meaningful fraction of unplanned failures. The cheap-but-critical pattern is consistent across every audit Uptime publishes.**
 >
