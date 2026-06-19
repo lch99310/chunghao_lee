@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-06-12T21:02:23.228Z",
+  "last_sent_at": "2026-06-19T20:26:27.652Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -359,6 +359,43 @@
           "title": "【Data Center 101】TCO Economics: Why Data Centers Are an OPEX-Dominated Business",
           "link": "https://chunghaolee.com/posts/data-center-101-02-tco-economics/",
           "pubDate": "2026-06-07T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-06-19T20:26:27.652Z",
+      "broadcast_id": "eb5dadbe-2a0d-443c-afa8-233ed30dd46f",
+      "item_count": 6,
+      "items": [
+        {
+          "title": "【Data Center 101】Building a Data Center: The 27-Month Process, Site Selection Scoring, and the Five-Step Commissioning",
+          "link": "https://chunghaolee.com/posts/data-center-101-11-construction-commissioning/",
+          "pubDate": "2026-06-18T00:05:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】The Smaller Subsystems: Fire, Cabinets, Cabling, Security, and Grounding",
+          "link": "https://chunghaolee.com/posts/data-center-101-10-other-subsystems/",
+          "pubDate": "2026-06-18T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Root Cause Analysis and Predictive Maintenance: The Closed Loop of Modern Operations",
+          "link": "https://chunghaolee.com/posts/data-center-101-09-rca-pdm/",
+          "pubDate": "2026-06-14T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】DCIM and AI Operations: From Monitoring to Autonomous Data Centers",
+          "link": "https://chunghaolee.com/posts/data-center-101-08-dcim-ai-ops/",
+          "pubDate": "2026-06-13T01:00:00.000Z"
+        },
+        {
+          "title": "【AI Side Project Vol.08】WikiPolyDraft: An Open-Source Tool for AI-Drafted Wikipedia Translations",
+          "link": "https://chunghaolee.com/portfolio/wikipolydraft/",
+          "pubDate": "2026-06-13T00:05:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Cooling Systems: From Room Air Conditioners to Direct-to-Chip Liquid",
+          "link": "https://chunghaolee.com/posts/data-center-101-07-cooling/",
+          "pubDate": "2026-06-13T00:00:00.000Z"
         }
       ]
     }
