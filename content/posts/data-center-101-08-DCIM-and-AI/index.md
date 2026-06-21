@@ -348,12 +348,12 @@ Then it predicts the cooling demand for the next 15–30 minutes and adjusts:
 ### Reported results // 報告效果
 
 - **Huawei iCooling at Qinghai (Hainan, China) renewable-powered campus** — 96 in-row cooling units coordinated, **~8%** reduction in cooling energy, translating to roughly 0.05–0.1 PUE improvement
-- **Google DeepMind cooling control** (widely cited 2016 case) — reinforcement learning controlling one of Google's data centers, reported **40% reduction in cooling energy**, overall PUE improvement of roughly **15%**
-
----
-
 - **華為 iCooling 在青海（中國海南）100% 再生能源園區** —— 96 台行間冷卻單元協同控制，冷卻能耗降低 **約 8%**，對應 PUE 改善約 0.05–0.1
-- **Google DeepMind 冷卻控制**（2016 年廣為引用的案例）—— 用強化學習控制 Google 一座數據中心，報告冷卻能耗降低 **40%**，整體 PUE 改善約 **15%**
+
+  
+- **Google DeepMind cooling control** (widely cited 2016 case) — reinforcement learning controlling one of Google's data centers, reported **40% reduction in cooling energy**, overall PUE improvement of roughly **15%**
+-  **Google DeepMind 冷卻控制**（2016 年廣為引用的案例）—— 用強化學習控制 Google 一座數據中心，報告冷卻能耗降低 **40%**，整體 PUE 改善約 **15%**
+
 
 The Google number is the headline most people quote. The Huawei number is more representative of what a typical new deployment will see — the Google case was an unusually aggressive setup with significant baseline headroom.
 
