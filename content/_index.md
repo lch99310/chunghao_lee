@@ -1,5 +1,5 @@
 ### Bridging atom factories and token factories.
-##### Industrial AI · AI Data Centers · Supply Chain Economics.
+##### AI Application & Operation · Data Centers · Supply Chain Analytics.
 ###### Product = Analysis + Process.
 
 I'm **Chung-Hao (CH) Lee** — based in Sydney.
