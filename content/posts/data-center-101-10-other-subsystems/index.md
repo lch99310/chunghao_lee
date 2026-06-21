@@ -177,6 +177,8 @@ The NVL72 broke the cabinet design conversation in three ways at once: it forced
 
 NVL72 一次在三個方向打破機櫃設計討論：它強迫液冷進入主流、它要求多數既有機房做結構性地板強化、它把網路 fabric 嵌入機架內而非機架之間。
 
+![](nvl72.jpg)
+
 > **The 30-year reign of the 19-inch rack as the universal data center building block is ending. Three standards will coexist for the next decade: 19-inch for traditional enterprise workloads, OCP for hyperscaler cloud workloads, and NVL72-style rack-scale systems for AI training clusters.**
 >
 > **19 吋機架作為通用數據中心建構塊統治 30 年的時代正在結束。未來十年三個標準會共存：19 吋給傳統企業工作負載、OCP 給超大規模雲端工作負載、NVL72 風格的機架級系統給 AI 訓練集群。**
