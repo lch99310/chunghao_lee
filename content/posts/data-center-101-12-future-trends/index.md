@@ -224,17 +224,12 @@ Water-stressed regions are now imposing WUE caps that effectively prohibit evapo
 
 缺水區域現在強加 WUE 上限，實質上禁止蒸發冷卻：
 
-- **United Arab Emirates** — New data center permits subject to WUE limits
-- **Singapore** — Lifted DC moratorium tied to combined PUE/WUE thresholds
-- **Central and southern Taiwan** — Public scrutiny tied to industrial water rationing during recurring droughts
-- **Parts of Spain** — Water restrictions affecting major IDC operators in Madrid region
+- **United Arab Emirates(阿聯酋)** — New data center permits subject to WUE limits // 新數據中心許可受 WUE 限制
+- **Singapore(新加坡)** — Lifted DC moratorium tied to combined PUE/WUE thresholds // 解除 DC 暫停跟合併的 PUE/WUE 門檻綁定
+- **Central and southern Taiwan(台灣中南部)** — Public scrutiny tied to industrial water rationing during recurring droughts // 公眾審視跟反覆乾旱期間的工業限水綁定
+- **Parts of Spain(西班牙部分地區)** — Water restrictions affecting major IDC operators in Madrid region // 水限制影響馬德里區域的主要 IDC 業者
 
----
 
-- **阿聯酋** —— 新數據中心許可受 WUE 限制
-- **新加坡** —— 解除 DC 暫停跟合併的 PUE/WUE 門檻綁定
-- **台灣中南部** —— 公眾審視跟反覆乾旱期間的工業限水綁定
-- **西班牙部分地區** —— 水限制影響馬德里區域的主要 IDC 業者
 
 The structural consequence: dry-climate operators that built their PUE strategy around evaporative cooling are now being forced to rethink. Direct liquid cooling (which uses far less water) and air-cooled chilled water (which uses almost none) are gaining favor in these markets.
 
@@ -250,17 +245,11 @@ Major hyperscaler PPA portfolios (cumulative, as of 2024–2025):
 
 主要超大規模業者 PPA 組合（累計，2024–2025 為止）：
 
-- **Amazon** — Over **33 GW** of renewable PPAs signed globally (the largest corporate buyer of clean energy in the world)
-- **Microsoft** — Over **13 GW** including solar, wind, and emerging nuclear (Three Mile Island restart)
-- **Meta** — Over **15 GW** primarily solar and wind
-- **Google** — Over **12 GW** plus pioneering deals with small modular reactor (SMR) developer Kairos Power
+- **Amazon** — Over **33 GW** of renewable PPAs signed globally (the largest corporate buyer of clean energy in the world) // 全球簽超過 **33 GW** 再生能源 PPA（世界最大的企業潔淨能源買家）
+- **Microsoft** — Over **13 GW** including solar, wind, and emerging nuclear (Three Mile Island restart) // 超過 **13 GW**，含太陽能、風力、與新興核能（三浬島復役）
+- **Meta** — Over **15 GW** primarily solar and wind // 超過 **15 GW**，主要太陽能與風力
+- **Google** — Over **12 GW** plus pioneering deals with small modular reactor (SMR) developer Kairos Power // 超過 **12 GW**，加上跟小型模組化反應爐（SMR）開發商 Kairos Power 的開創性交易
 
----
-
-- **Amazon** —— 全球簽超過 **33 GW** 再生能源 PPA（世界最大的企業潔淨能源買家）
-- **Microsoft** —— 超過 **13 GW**，含太陽能、風力、與新興核能（三浬島復役）
-- **Meta** —— 超過 **15 GW**，主要太陽能與風力
-- **Google** —— 超過 **12 GW**，加上跟小型模組化反應爐（SMR）開發商 Kairos Power 的開創性交易
 
 ### The nuclear comeback // 核能回歸
 
@@ -268,17 +257,11 @@ For AI training workloads — which require **24/7 baseload power, often hundred
 
 對 AI 訓練工作負載 —— 它需要**24/7 基載電力、單一場址常數百 MW、常在太陽能與風力單獨無法可靠提供那個基載的區域** —— 超大規模業者已經開始簽十年前在政治上不可能的核電合約。
 
-- **Microsoft + Constellation Energy** — 20-year PPA reviving the Three Mile Island Unit 1 nuclear plant, dedicated to Microsoft's AI workloads
-- **Amazon + Talen Energy** — Direct grid connection at the Susquehanna nuclear plant for AWS data center
-- **Google + Kairos Power** — Investment in small modular reactor development, with planned 500 MW deployment by 2030
-- **Oracle (Larry Ellison statement)** — Three small modular reactors planned to power AI data center
+- **Microsoft + Constellation Energy** — 20-year PPA reviving the Three Mile Island Unit 1 nuclear plant, dedicated to Microsoft's AI workloads // 20 年 PPA 復活三浬島 1 號核電廠，專用於 Microsoft 的 AI 工作負載
+- **Amazon + Talen Energy** — Direct grid connection at the Susquehanna nuclear plant for AWS data center // 在 Susquehanna 核電廠直接電網接入，給 AWS 數據中心
+- **Google + Kairos Power** — Investment in small modular reactor development, with planned 500 MW deployment by 2030 // 投資小型模組化反應爐開發，計畫 2030 年部署 500 MW
+- **Oracle (Larry Ellison statement)** — Three small modular reactors planned to power AI data center // 計畫三座小型模組化反應爐供電 AI 數據中心
 
----
-
-- **Microsoft + Constellation Energy** —— 20 年 PPA 復活三浬島 1 號核電廠，專用於 Microsoft 的 AI 工作負載
-- **Amazon + Talen Energy** —— 在 Susquehanna 核電廠直接電網接入，給 AWS 數據中心
-- **Google + Kairos Power** —— 投資小型模組化反應爐開發，計畫 2030 年部署 500 MW
-- **Oracle（Larry Ellison 聲明）** —— 計畫三座小型模組化反應爐供電 AI 數據中心
 
 This is the most striking shift in the industry's power-sourcing strategy in fifty years. It reflects a coldly economic calculation: AI infrastructure needs power that renewables alone cannot reliably provide; gas turbines come with carbon liability; nuclear is the remaining option that meets both reliability and carbon constraints.
 
