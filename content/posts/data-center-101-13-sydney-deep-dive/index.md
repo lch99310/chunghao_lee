@@ -26,14 +26,14 @@ Three structural advantages give Sydney its dominant position in Australia's dat
 三個結構性優勢給雪梨在澳洲數據中心市場的主導地位，與在更廣亞太南部有意義的地位。
 
 - **Submarine cable concentration.** Sydney is the dominant submarine cable landing point for the Australian east coast. Major cables include Southern Cross (NEXT, NEXT2), Hawaiki, Indigo West, Australia-Singapore Cable, and several others. Sydney connects to North America, Asia, and the Pacific Islands with minimum-latency paths that Melbourne, Brisbane, and Perth do not match.
-- **Hyperscaler anchor presence.** AWS designated Sydney as its first Australian region in 2012 (ap-southeast-2), Microsoft Azure followed in 2014, Google Cloud in 2017. Each maintains multiple availability zones in the Sydney metropolitan area. Once a region anchor is established, the entire ecosystem of customers, partners, and downstream services concentrates around it.
-- **Financial and government density.** The four major Australian banks (Commonwealth, Westpac, NAB, ANZ) are all headquartered in Sydney or run their core IT operations there. The NSW state government and many federal agencies operate substantial IT estates in the Sydney region. The Australian financial sector's regulatory pressure for in-country data sovereignty makes physical location near customers commercially valuable.
-
----
-
 - **海底電纜集中。** 雪梨是澳洲東岸主導的海底電纜登陸點。主要電纜包括 Southern Cross（NEXT、NEXT2）、Hawaiki、Indigo West、Australia-Singapore Cable、以及其他幾條。雪梨以最小延遲路徑連接北美、亞洲、太平洋島嶼，墨爾本、布里斯本、伯斯比不上。
+  
+- **Hyperscaler anchor presence.** AWS designated Sydney as its first Australian region in 2012 (ap-southeast-2), Microsoft Azure followed in 2014, Google Cloud in 2017. Each maintains multiple availability zones in the Sydney metropolitan area. Once a region anchor is established, the entire ecosystem of customers, partners, and downstream services concentrates around it.
 - **超大規模業者錨定存在。** AWS 在 2012 年指定雪梨為其澳洲首個 region（ap-southeast-2）、Microsoft Azure 2014 年跟進、Google Cloud 2017 年。每家在雪梨大都會區維持多個可用區。一旦 region 錨定建立，整個客戶、合作夥伴、下游服務生態系都集中在它周圍。
+  
+- **Financial and government density.** The four major Australian banks (Commonwealth, Westpac, NAB, ANZ) are all headquartered in Sydney or run their core IT operations there. The NSW state government and many federal agencies operate substantial IT estates in the Sydney region. The Australian financial sector's regulatory pressure for in-country data sovereignty makes physical location near customers commercially valuable.
 - **金融與政府密度。** 澳洲四大銀行（Commonwealth、Westpac、NAB、ANZ）都在雪梨總部或在那裡運轉核心 IT。NSW 州政府與許多聯邦機構在雪梨區域運轉大量 IT 資產。澳洲金融部門對國內資料主權的法規壓力，讓物理上靠近客戶在商業上有價值。
+
 
 These three factors compound. The hyperscalers chose Sydney partly because the cables were there, the financial sector clusters because the hyperscalers are there, the colocation operators expand because both are there. The cluster has positive-feedback dynamics.
 
@@ -64,13 +64,12 @@ Three demand sources are running simultaneously in Australia and especially in S
 三個需求來源在澳洲、特別是雪梨，同時運轉：
 
 - **Hyperscaler region expansion.** AWS, Microsoft, and Google have all announced multi-billion-dollar Australian infrastructure investments. Microsoft committed **AUD 5 billion** in 2024 for cloud and AI infrastructure expansion; AWS announced **AUD 13.2 billion** by 2027 to expand Sydney and Melbourne regions plus new edge sites.
-- **AI training and inference capacity.** Australian financial services, government, healthcare, and education sectors are all building substantial AI capacity, and increasingly demanding sovereign AI options — workloads that run on Australian soil rather than overseas.
-- **Colocation and enterprise migration.** Mid-size enterprise customers continue migrating from on-premise to colocation, and from colocation to public cloud, with both ends of the transition increasing Sydney's net capacity demand.
-
----
-
 - **超大規模業者 region 擴展。** AWS、Microsoft、Google 都已宣布數十億澳幣的澳洲基礎設施投資。Microsoft 2024 年承諾 **AUD 50 億** 給雲端與 AI 基礎設施擴展；AWS 宣布到 2027 年 **AUD 132 億** 擴展雪梨與墨爾本 region 加新的邊緣站點。
+  
+- **AI training and inference capacity.** Australian financial services, government, healthcare, and education sectors are all building substantial AI capacity, and increasingly demanding sovereign AI options — workloads that run on Australian soil rather than overseas.
 - **AI 訓練與推理容量。** 澳洲金融服務、政府、醫療、教育部門都在建構大量 AI 容量，並越來越要求主權 AI 選項 —— 工作負載跑在澳洲土地上而非海外。
+  
+- **Colocation and enterprise migration.** Mid-size enterprise customers continue migrating from on-premise to colocation, and from colocation to public cloud, with both ends of the transition increasing Sydney's net capacity demand.
 - **Colocation 與企業遷移。** 中型企業客戶持續從自建遷移到 Colocation、從 Colocation 遷移到公有雲，過渡兩端都增加雪梨的淨容量需求。
 
 ---
@@ -141,21 +140,14 @@ The star ratings run 1 to 6, calibrated to industry-relative performance:
 
 星等運行 1 到 6，校準到產業相對表現：
 
-- **1 star** — Poor (well below average)
-- **2 stars** — Below average
-- **3 stars** — Average
-- **4 stars** — Good
-- **5 stars** — Excellent
-- **6 stars** — Market leading
+- **1 star** — Poor (well below average) // 差（遠低於平均）
+- **2 stars** — Below average // 低於平均
+- **3 stars** — Average // 平均
+- **4 stars** — Good // 好
+- **5 stars** — Excellent // 優秀
+- **6 stars** — Market leading // 市場領先
 
----
 
-- **1 星** —— 差（遠低於平均）
-- **2 星** —— 低於平均
-- **3 星** —— 平均
-- **4 星** —— 好
-- **5 星** —— 優秀
-- **6 星** —— 市場領先
 
 ### Why NABERS actually matters commercially // 為什麼 NABERS 在商業上實際重要
 
@@ -164,16 +156,17 @@ The reason NABERS is more than a marketing badge:
 NABERS 不只是行銷標誌的原因：
 
 - **NSW government tenancy requirements** — Many NSW government tenants require 4.5 stars or higher for their hosting facility. Below that threshold, the facility cannot bid for those tenancies.
-- **Enterprise sustainability commitments** — Major Australian enterprises (banks, telcos, retailers) increasingly require NABERS minimum thresholds in their colocation contracts to support their own Scope 3 emissions reporting.
-- **Federal sustainability procurement** — Climate Active certification and federal procurement guidelines increasingly reference NABERS ratings.
-- **Industry credibility** — In the Australian market specifically, NABERS has accumulated enough industry credibility that "5-star NABERS" is recognized as a meaningful operational signal in a way that, say, a self-claimed PUE figure is not.
-
----
-
 - **NSW 政府租戶要求** —— 許多 NSW 政府租戶要求承載設施 4.5 星以上。低於那個門檻，設施不能投標那些租戶。
+  
+- **Enterprise sustainability commitments** — Major Australian enterprises (banks, telcos, retailers) increasingly require NABERS minimum thresholds in their colocation contracts to support their own Scope 3 emissions reporting.
 - **企業永續承諾** —— 主要澳洲企業（銀行、電信、零售）越來越在 Colocation 合約中要求 NABERS 最低門檻，以支持他們自己的範疇 3 排放報告。
+  
+- **Federal sustainability procurement** — Climate Active certification and federal procurement guidelines increasingly reference NABERS ratings.
 - **聯邦永續採購** —— Climate Active 認證與聯邦採購指引越來越參考 NABERS 評等。
+  
+- **Industry credibility** — In the Australian market specifically, NABERS has accumulated enough industry credibility that "5-star NABERS" is recognized as a meaningful operational signal in a way that, say, a self-claimed PUE figure is not.
 - **產業可信度** —— 在澳洲市場特別，NABERS 已累積足夠的產業可信度，「5 星 NABERS」被認可為有意義的運轉訊號，方式是自稱的 PUE 數字做不到的。
+
 
 For an operator entering the Sydney market, achieving NABERS certification at 4.5 stars or higher is effectively a commercial prerequisite, not an optional extra.
 
@@ -203,15 +196,11 @@ NSW's electricity has historically been supplied by a small number of very large
 
 NSW 電力歷史上由少數非常大的燃煤電廠供應。其中三座正在關閉或已關閉：
 
-- **Liddell (1,680 MW)** — Closed 2023
-- **Eraring (2,880 MW)** — Originally scheduled to close 2025, extended to 2027 due to grid reliability concerns
-- **Bayswater (2,640 MW)** — Scheduled closure 2033
+- **Liddell (1,680 MW)** — Closed 2023 // 2023 年關閉
+- **Eraring (2,880 MW)** — Originally scheduled to close 2025, extended to 2027 due to grid reliability concerns // 原本預定 2025 年關閉，因電網可靠性顧慮延長到 2027
+- **Bayswater (2,640 MW)** — Scheduled closure 2033 // 預定 2033 年關閉
 
----
 
-- **Liddell（1,680 MW）** —— 2023 年關閉
-- **Eraring（2,880 MW）** —— 原本預定 2025 年關閉，因電網可靠性顧慮延長到 2027
-- **Bayswater（2,640 MW）** —— 預定 2033 年關閉
 
 The replacement is meant to be a combination of renewables, storage, and limited new gas generation, coordinated under the **NSW Electricity Infrastructure Roadmap (2020)** — a state-level commitment to roughly **12 GW of new renewables and 2 GW of storage by 2030**, with an estimated AUD 32 billion of private investment.
 
@@ -256,15 +245,15 @@ The major operators have responded to grid constraints by signing renewable PPAs
 主要營運者透過直接跟發電商簽再生能源 PPA、繞過零售市場、透過 AEMO 連接流程加速他們自己的電網接入優先級，回應電網約束。
 
 - **AirTrunk** announced PPAs for over 1 GW of renewable energy in 2023–2024, primarily covering its Australian footprint
-- **NEXTDC** holds multiple solar and wind PPAs and is targeting 100% renewable by 2030 across its Australian operations
-- **Microsoft Australia** announced PPAs for Australian wind and solar projects supporting its Australian data center load
-- **AWS Australia** has signed PPAs for multiple gigawatt-scale projects in NSW and beyond
-
----
-
 - **AirTrunk** 在 2023–2024 宣布超過 1 GW 再生能源的 PPA，主要涵蓋其澳洲足跡
+  
+- **NEXTDC** holds multiple solar and wind PPAs and is targeting 100% renewable by 2030 across its Australian operations
 - **NEXTDC** 持有多個太陽能與風力 PPA，瞄準 2030 年澳洲運轉 100% 再生能源
+  
+- **Microsoft Australia** announced PPAs for Australian wind and solar projects supporting its Australian data center load
 - **Microsoft Australia** 宣布支持其澳洲數據中心負載的澳洲風力與太陽能專案的 PPA
+  
+- **AWS Australia** has signed PPAs for multiple gigawatt-scale projects in NSW and beyond
 - **AWS Australia** 已簽多個 GW 規模專案的 PPA，在 NSW 與更廣
 
 ---
@@ -480,16 +469,17 @@ The exercise below uses standard weights (Power 25%, Climate 15%, Water 10%, Net
 **解讀：**
 
 - **Eastern Creek wins on weighted total (3.95)** — strong on the heaviest-weighted criterion (Power), excellent on Land/Layout (room for hyperscale builds), and Community (industrial zoning means low resident objection).
-- **Mascot and Lane Cove West tie for second (3.45)** — strong on Network and Talent, but constrained on Land and Power.
-- **Homebush comes third (3.50)** — balanced profile, no major weaknesses, no major strengths.
-- **Macquarie Park (3.20)** and **Pyrmont (3.10)** trail despite their excellent network and talent scores because the heavy weight on Power penalizes their constrained grid positions.
-
----
-
 - **Eastern Creek 在加權總分上贏（3.95）** —— 在權重最重的準則（電力）上強、土地/佈局優秀（超大規模建設的空間）、社區優秀（工業區意味著低居民反對）。
+  
+- **Mascot and Lane Cove West tie for second (3.45)** — strong on Network and Talent, but constrained on Land and Power.
 - **Mascot 與 Lane Cove West 並列第二（3.45）** —— 網路與人才強，但土地與電力受限。
+  
+- **Homebush comes third (3.50)** — balanced profile, no major weaknesses, no major strengths.
 - **Homebush 第三（3.50）** —— 平衡組合、無重大弱點、無重大強項。
+  
+- **Macquarie Park (3.20)** and **Pyrmont (3.10)** trail despite their excellent network and talent scores because the heavy weight on Power penalizes their constrained grid positions.
 - **Macquarie Park（3.20）** 與 **Pyrmont（3.10）** 落後，儘管網路與人才分數優秀，因為電力的重權重懲罰了它們受限的電網位置。
+
 
 ### What changes when you adjust the weights // 調整權重時什麼改變
 
@@ -498,16 +488,17 @@ The standard weights are a starting point, not a universal answer. For specific 
 標準權重是起點，不是通用答案。對特定專案類型：
 
 - **For an AI training cluster (Power 35%, Network 5%, Climate 20%)** — Eastern Creek wins by even larger margin; the inner Sydney clusters drop further.
-- **For a financial colocation node (Network 25%, Power 15%, Talent 10%)** — Mascot or Pyrmont win; Eastern Creek drops to mid-pack.
-- **For an edge / CDN node (Network 30%, Power 10%, Talent 5%)** — Mascot wins decisively.
-- **For a sovereign-government EDC (Disaster 20%, Policy 15%, Community 10%)** — Macquarie Park rises sharply (established government cluster); Eastern Creek remains competitive.
-
----
-
 - **AI 訓練集群（電力 35%、網路 5%、氣候 20%）** —— Eastern Creek 以更大差距贏；內雪梨聚落進一步下降。
+  
+- **For a financial colocation node (Network 25%, Power 15%, Talent 10%)** — Mascot or Pyrmont win; Eastern Creek drops to mid-pack.
 - **金融 Colocation 節點（網路 25%、電力 15%、人才 10%）** —— Mascot 或 Pyrmont 贏；Eastern Creek 落到中段。
+  
+- **For an edge / CDN node (Network 30%, Power 10%, Talent 5%)** — Mascot wins decisively.
 - **邊緣 / CDN 節點（網路 30%、電力 10%、人才 5%）** —— Mascot 決定性地贏。
+  
+- **For a sovereign-government EDC (Disaster 20%, Policy 15%, Community 10%)** — Macquarie Park rises sharply (established government cluster); Eastern Creek remains competitive.
 - **主權政府 EDC（災害 20%、政策 15%、社區 10%）** —— Macquarie Park 急升（成熟政府聚落）；Eastern Creek 仍有競爭力。
+
 
 The framework's value, again, is not in producing a definitive answer. It is in forcing the trade-offs to be explicit, defensible, and consistent.
 
@@ -534,33 +525,36 @@ Four specific constraints could slow Sydney's growth below its demand trajectory
 四個特定約束可能讓雪梨成長放慢到低於其需求軌跡：
 
 - **Grid connection backlog** — Endeavour Energy's connection queue in Western Sydney is the binding constraint. The NSW Electricity Infrastructure Roadmap is meant to address this, but transmission buildout typically runs 5–10 years behind generation buildout.
-- **Renewable generation buildout timing** — The REZ program is on track but multiple projects have faced delays. If renewable generation comes online slower than coal closure, the gap is filled by gas — adding carbon liability that data center operators must then offset elsewhere.
-- **Water restrictions during drought cycles** — Sydney has a documented history of multi-year drought (most recently 2017–2020). New facilities specifying evaporative cooling face material risk during drought cycles.
-- **Skilled trades capacity** — The combined pressure of Sydney's ongoing construction boom (Western Sydney Airport, Sydney Metro, residential build-out) plus AI data center construction is straining the skilled electrical, mechanical, and commissioning workforce. Project delays from trades shortages are increasing.
-
----
-
 - **電網接入待辦** —— Endeavour Energy 在西雪梨的接入排隊是綁定約束。NSW Electricity Infrastructure Roadmap 是用來處理這個的，但輸電建設典型上落後發電建設 5–10 年。
+  
+- **Renewable generation buildout timing** — The REZ program is on track but multiple projects have faced delays. If renewable generation comes online slower than coal closure, the gap is filled by gas — adding carbon liability that data center operators must then offset elsewhere.
 - **再生能源建設時程** —— REZ 計畫進度正常但多個專案已面臨延遲。如果再生能源上線比燃煤關閉慢，缺口被天然氣填補 —— 增加碳責任，數據中心營運者必須在別處抵消。
+  
+- **Water restrictions during drought cycles** — Sydney has a documented history of multi-year drought (most recently 2017–2020). New facilities specifying evaporative cooling face material risk during drought cycles.
 - **乾旱週期間的水限制** —— 雪梨有多年乾旱的文件化歷史（最近是 2017–2020）。指定蒸發冷卻的新設施在乾旱週期間面臨實質風險。
+  
+- **Skilled trades capacity** — The combined pressure of Sydney's ongoing construction boom (Western Sydney Airport, Sydney Metro, residential build-out) plus AI data center construction is straining the skilled electrical, mechanical, and commissioning workforce. Project delays from trades shortages are increasing.
 - **熟練工種容量** —— 雪梨持續建築熱潮（西雪梨機場、雪梨地鐵、住宅建設）加上 AI 數據中心建設的合併壓力，正在拉緊熟練電氣、機械、調試人力。工種短缺造成的專案延誤正在增加。
+
 
 ### Investment and policy moves to watch // 值得關注的投資與政策動作
 
 - **NSW Net Zero Plan** — State commitment to net zero by 2050, with interim 2030 targets that increasingly affect data center procurement
-- **AEMO Integrated System Plan (ISP)** — Updated every two years; the current ISP shapes transmission investment decisions through 2050
-- **Federal Capacity Investment Scheme** — Federal underwriting of new dispatchable generation, intended to bridge the coal-to-renewables gap
-- **Snowy 2.0 pumped hydro** — Long-delayed but still proceeding; major potential firming asset for the entire NEM
-- **Offshore wind in Illawarra REZ** — Could become a major dedicated power source for southern Sydney data centers if it proceeds at scale
-- **Western Sydney Aerotropolis Phase 2 planning** — Will determine the next decade's data center cluster boundaries
-
----
-
 - **NSW Net Zero Plan** —— 州承諾 2050 年淨零，2030 年中期目標越來越影響數據中心採購
+  
+- **AEMO Integrated System Plan (ISP)** — Updated every two years; the current ISP shapes transmission investment decisions through 2050
 - **AEMO Integrated System Plan（ISP）** —— 每兩年更新；目前 ISP 塑造到 2050 年的輸電投資決策
+  
+- **Federal Capacity Investment Scheme** — Federal underwriting of new dispatchable generation, intended to bridge the coal-to-renewables gap
 - **聯邦 Capacity Investment Scheme** —— 聯邦核保新可調度發電，意圖橋接燃煤到再生能源的差距
+  
+- **Snowy 2.0 pumped hydro** — Long-delayed but still proceeding; major potential firming asset for the entire NEM
 - **Snowy 2.0 抽水蓄能** —— 長期延誤但仍進行；整個 NEM 的主要潛在穩定資產
+  
+- **Offshore wind in Illawarra REZ** — Could become a major dedicated power source for southern Sydney data centers if it proceeds at scale
 - **Illawarra REZ 的離岸風力** —— 如果規模化進行，可以成為南雪梨數據中心的主要專用電力來源
+  
+- **Western Sydney Aerotropolis Phase 2 planning** — Will determine the next decade's data center cluster boundaries
 - **西雪梨航空都會第二階段規劃** —— 將決定下個十年的數據中心聚落邊界
 
 ---
@@ -578,58 +572,62 @@ Before choosing a cluster, define the workload:
 選聚落前，定義工作負載：
 
 - **AI training** — Power-density is the dominant constraint; Eastern Creek or future Aerotropolis is the answer
-- **Cloud production / general enterprise** — Multiple clusters viable; balance Network and Power
-- **Financial trading / latency-sensitive** — Mascot or Pyrmont for IX proximity
-- **Government / sovereignty** — Macquarie Park or Mascot for established government infrastructure
-- **Edge / CDN** — Mascot for network density; multiple secondary clusters for distributed presence
-
----
-
 - **AI 訓練** —— 功率密度是主導約束；Eastern Creek 或未來航空都會是答案
+  
+- **Cloud production / general enterprise** — Multiple clusters viable; balance Network and Power
 - **雲端生產 / 一般企業** —— 多聚落可行；平衡網路與電力
+  
+- **Financial trading / latency-sensitive** — Mascot or Pyrmont for IX proximity
 - **金融交易 / 延遲敏感** —— Mascot 或 Pyrmont 為 IX 鄰近
+  
+- **Government / sovereignty** — Macquarie Park or Mascot for established government infrastructure
 - **政府 / 主權** —— Macquarie Park 或 Mascot 為成熟政府基礎設施
+  
+- **Edge / CDN** — Mascot for network density; multiple secondary clusters for distributed presence
 - **邊緣 / CDN** —— Mascot 為網路密度；多個次要聚落為分散存在
+
 
 ### Decision 2 — Build vs lease vs colocation // 決策二：建設 vs 租 vs Colocation
 
 - **Hyperscale build** (>50 MW) — Direct build or anchor-tenant arrangement; Western Sydney
-- **Mid-scale build** (10–50 MW) — Custom colocation with NEXTDC, AirTrunk, or Global Switch; multiple cluster options
-- **Small enterprise** (<10 MW) — Retail colocation with Equinix, NEXTDC, Macquarie; cluster choice based on network and operational proximity
-- **Edge** (<1 MW) — Pre-existing edge colocation or specialized edge operator; choice based on customer proximity
-
----
-
 - **超大規模建設**（>50 MW） —— 直接建設或錨定租戶安排；西雪梨
+  
+- **Mid-scale build** (10–50 MW) — Custom colocation with NEXTDC, AirTrunk, or Global Switch; multiple cluster options
 - **中等規模建設**（10–50 MW） —— 跟 NEXTDC、AirTrunk、Global Switch 客製 Colocation；多聚落選項
+  
+- **Small enterprise** (<10 MW) — Retail colocation with Equinix, NEXTDC, Macquarie; cluster choice based on network and operational proximity
 - **小型企業**（<10 MW） —— 跟 Equinix、NEXTDC、Macquarie 零售 Colocation；聚落選擇基於網路與運轉鄰近
+  
+- **Edge** (<1 MW) — Pre-existing edge colocation or specialized edge operator; choice based on customer proximity
 - **邊緣**（<1 MW） —— 既有邊緣 Colocation 或專門邊緣業者；選擇基於客戶鄰近
+
 
 ### Decision 3 — Power strategy // 決策三：電力策略
 
 - **Grid only** — Acceptable for sub-5 MW retail colocation tenants; impractical for new hyperscale build given connection backlog
-- **Grid + corporate PPA** — Standard pattern for mid-to-large enterprise builds; requires careful PPA structuring under Australian Renewable Energy Target rules
-- **Anchor-tenant PPA arrangement** — For hyperscale, PPAs are typically signed by the tenant rather than the facility operator, with the operator providing the grid connection
-- **Behind-the-meter generation** — Increasingly considered for new builds, particularly using solar + storage; faces local council and AEMO interconnection complexity
-
----
-
 - **僅電網** —— 5 MW 以下零售 Colocation 租戶可接受；對新超大規模建設不實際，鑑於接入待辦
+  
+- **Grid + corporate PPA** — Standard pattern for mid-to-large enterprise builds; requires careful PPA structuring under Australian Renewable Energy Target rules
 - **電網 + 企業 PPA** —— 中大型企業建設的標準模式；需要在澳洲再生能源目標規則下仔細結構化 PPA
+  
+- **Anchor-tenant PPA arrangement** — For hyperscale, PPAs are typically signed by the tenant rather than the facility operator, with the operator providing the grid connection
 - **錨定租戶 PPA 安排** —— 對超大規模，PPA 典型由租戶簽而不是設施營運者，營運者提供電網接入
+  
+- **Behind-the-meter generation** — Increasingly considered for new builds, particularly using solar + storage; faces local council and AEMO interconnection complexity
 - **電錶後發電** —— 越來越多新建設考慮，特別是用太陽能 + 儲能；面臨地方議會與 AEMO 互連複雜度
+
 
 ### Decision 4 — Sustainability positioning // 決策四：永續定位
 
 - **Minimum** — Meet NABERS 4 stars (entry threshold for most enterprise tenants and government work)
-- **Standard** — NABERS 4.5 stars + 100% renewable PPA + Climate Active organizational certification
-- **Premium** — NABERS 5.5+ stars + 100% renewable + carbon-neutral construction + water recycling
-
----
-
 - **最低** —— 達 NABERS 4 星（多數企業租戶與政府工作的入門門檻）
+  
+- **Standard** — NABERS 4.5 stars + 100% renewable PPA + Climate Active organizational certification
 - **標準** —— NABERS 4.5 星 + 100% 再生能源 PPA + Climate Active 組織認證
+  
+- **Premium** — NABERS 5.5+ stars + 100% renewable + carbon-neutral construction + water recycling
 - **頂級** —— NABERS 5.5+ 星 + 100% 再生能源 + 碳中和建設 + 水回收
+
 
 ### Decision 5 — Timeline realism // 決策五：時程現實
 
