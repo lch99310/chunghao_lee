@@ -81,18 +81,21 @@ The five mechanisms that produce the compression:
 產出壓縮的五個機制：
 
 - **Standardized module design** — No bespoke engineering per project; design time drops 50–80%
-- **Parallel factory production** — Equipment fabrication runs alongside site civil work, not after it
-- **Simplified civil work** — PMDC sites often use lightweight steel structures and reinforced slabs rather than full traditional buildings
-- **FAT before shipping** — Modules arrive 80% commissioned, with only integration testing remaining
-- **Shortened final commissioning** — Most functional tests are completed in the factory; site IST is much faster
-
----
-
 - **標準化模組設計** —— 每專案無客製工程；設計時間降 50–80%
+  
+- **Parallel factory production** — Equipment fabrication runs alongside site civil work, not after it
 - **平行工廠生產** —— 設備製造跟場地土建並行進行，不是在後
+  
+- **Simplified civil work** — PMDC sites often use lightweight steel structures and reinforced slabs rather than full traditional buildings
 - **簡化土建** —— PMDC 場地常用輕量鋼結構與強化樓板，而不是完整傳統建物
+  
+- **FAT before shipping** — Modules arrive 80% commissioned, with only integration testing remaining
 - **出貨前 FAT** —— 模組以 80% 調試完抵達，只剩整合測試
+  
+- **Shortened final commissioning** — Most functional tests are completed in the factory; site IST is much faster
 - **縮短最終調試** —— 多數功能測試在工廠完成；現場 IST 快得多
+
+
 
 The aggregate result: a 27-month traditional build compressed to **6 to 11 months** as a PMDC build. The compression has been validated at scale by deployments from Huawei, Vertiv, Schneider, and the Chinese hyperscalers.
 
