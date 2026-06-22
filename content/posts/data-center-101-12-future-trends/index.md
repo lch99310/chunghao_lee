@@ -132,17 +132,12 @@ The most aggressive PMDC adopters are not buying from vendors at all. They are d
 
 最積極的 PMDC 採用者根本沒在跟廠商買。他們自己內部設計模組化數據中心、簽台灣 ODM 製造。
 
-- **Meta** — Open Compute Project (OCP) modular designs, manufactured primarily by Quanta and Wiwynn
-- **Microsoft** — Custom modular designs for both Azure and the Stargate AI infrastructure
-- **Google** — Internal modular designs, with selective ODM contracting
-- **AWS** — Outposts (commercial) plus internal modular for new region buildouts
+- **Meta** — Open Compute Project (OCP) modular designs, manufactured primarily by Quanta and Wiwynn // Open Compute Project（OCP）模組化設計，主要由廣達與緯穎製造
+- **Microsoft** — Custom modular designs for both Azure and the Stargate AI infrastructure // Azure 與 Stargate AI 基礎設施的客製模組化設計
+- **Google** — Internal modular designs, with selective ODM contracting // 內部模組化設計，加上選擇性 ODM 簽約
+- **AWS** — Outposts (commercial) plus internal modular for new region buildouts // Outposts（商用）加新 region 擴建用的內部模組化
 
----
 
-- **Meta** —— Open Compute Project（OCP）模組化設計，主要由廣達與緯穎製造
-- **Microsoft** —— Azure 與 Stargate AI 基礎設施的客製模組化設計
-- **Google** —— 內部模組化設計，加上選擇性 ODM 簽約
-- **AWS** —— Outposts（商用）加新 region 擴建用的內部模組化
 
 ### Market share signal from Huawei // 來自華為的市佔訊號
 
