@@ -273,17 +273,12 @@ The heat that data centers reject to the atmosphere has been historically wasted
 
 數據中心排到大氣的熱歷史上被浪費。在寒冷氣候，越來越多設施回收那些熱用於區域供熱、熱水、工業製程熱。
 
-- **Stockholm Data Parks** — Stockholm initiative connecting data center waste heat to the city district heating network; supplied to thousands of residential apartments
-- **Equinix HE5 Helsinki** — Heat recovery providing district heating to roughly 11,000 households
-- **Microsoft Helsinki region** — Planned heat recovery for district heating
-- **Yandex Mäntsälä (Finland)** — Long-running heat recovery installation
+- **Stockholm Data Parks** — Stockholm initiative connecting data center waste heat to the city district heating network; supplied to thousands of residential apartments // 斯德哥爾摩主動連結數據中心廢熱到城市區域供熱網路；供應數千戶住宅
+- **Equinix HE5 Helsinki** — Heat recovery providing district heating to roughly 11,000 households // 熱回收提供區域供熱給約 11,000 戶
+- **Microsoft Helsinki region** — Planned heat recovery for district heating // 計畫熱回收做區域供熱
+- **Yandex Mäntsälä (Finland 芬蘭)** — Long-running heat recovery installation // 長期運轉的熱回收安裝
 
----
 
-- **Stockholm Data Parks** —— 斯德哥爾摩主動連結數據中心廢熱到城市區域供熱網路；供應數千戶住宅
-- **Equinix HE5 Helsinki** —— 熱回收提供區域供熱給約 11,000 戶
-- **Microsoft Helsinki 區域** —— 計畫熱回收做區域供熱
-- **Yandex Mäntsälä（芬蘭）** —— 長期運轉的熱回收安裝
 
 Waste heat recovery economics depend on the existence of a district heating network nearby. In countries without district heating (most of the US, most of Asia outside northern China), the technology is structurally constrained. In Northern Europe, where district heating is widespread, it is becoming routine.
 
