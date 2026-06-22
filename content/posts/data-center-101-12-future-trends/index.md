@@ -181,16 +181,18 @@ For data centers, this means:
 對數據中心而言這意味著：
 
 - **Steel and cement imported for construction** are tariffed at the carbon equivalent
-- **Aluminum used in cooling systems and busbars** is tariffed
-- **Electricity imported across EU borders** is tariffed if it does not meet renewable thresholds
-- **Future expansion to data center equipment categories** is being discussed
-
----
-
 - **建設用的進口鋼與水泥**按碳當量課關稅
+  
+- **Aluminum used in cooling systems and busbars** is tariffed
 - **冷卻系統與母線用的鋁**課關稅
+  
+- **Electricity imported across EU borders** is tariffed if it does not meet renewable thresholds
 - **跨歐盟邊境進口的電力**若未達再生能源門檻則課關稅
+  
+- **Future expansion to data center equipment categories** is being discussed
 - **未來擴展到數據中心設備類別**正在討論
+
+
 
 The practical effect is that low-carbon supply chains become commercially advantaged within the EU market. Equipment manufactured in jurisdictions with high-carbon power generation faces a tariff disadvantage when shipped to EU customers.
 
