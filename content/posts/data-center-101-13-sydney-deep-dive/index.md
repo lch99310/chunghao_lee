@@ -370,7 +370,7 @@ This is the most actively planned new cluster in Australia. Multiple operators h
 
 ## Part 6 — Major Operators in Sydney // 第六部分：雪梨主要營運者
 
-### AirTrunk // AirTrunk
+### AirTrunk
 
 Founded in 2015, headquartered in Sydney, AirTrunk became the dominant hyperscale-focused operator across Asia-Pacific within a decade. The August 2024 acquisition by **Blackstone and Canada Pension Plan Investment Board for AUD 24 billion** marked it as the largest data center transaction in Asia-Pacific history.
 
@@ -384,7 +384,7 @@ Customer model: hyperscaler wholesale only. AirTrunk does not serve retail coloc
 
 客戶模式：只做超大規模業者批發。AirTrunk 不服務零售 Colocation。
 
-### NEXTDC // NEXTDC
+### NEXTDC
 
 Sydney facilities: **S1** (Macquarie Park), **S2** (Macquarie Park), **S3** (Artarmon), **S4** (Eastern Creek, hyperscale).
 
@@ -394,7 +394,7 @@ Customer model: mixed colocation, retail through hyperscale wholesale. Strong NA
 
 客戶模式：混合 Colocation，從零售到超大規模批發。組合中強 NABERS 評等。
 
-### Equinix // Equinix
+### Equinix
 
 The global colocation leader, with the deepest Sydney portfolio: **SY1 through SY9**, spread across Mascot, Pyrmont, Lane Cove West, and Eastern Creek. Operates the **Equinix Sydney IX** internet exchange.
 
@@ -404,7 +404,7 @@ Customer model: retail colocation, network interconnection, with growing hypersc
 
 客戶模式：零售 Colocation、網路互連，加上成長中的超大規模關係。
 
-### Macquarie Data Centres // Macquarie Data Centres
+### Macquarie Data Centres
 
 Part of Macquarie Telecom Group, focused on Australian government and enterprise. Key facilities: **Intellicentre IC2, IC3** in Macquarie Park.
 
@@ -414,7 +414,7 @@ Strong government accreditation (cleared for sensitive Australian government wor
 
 強政府認證（清關給敏感澳洲政府工作負載）、Climate Active 認證。
 
-### Global Switch // Global Switch
+### Global Switch
 
 Long-established UK-headquartered colocation operator with major Pyrmont facilities (**Sydney West, Sydney East**). Strong financial-sector customer base.
 
