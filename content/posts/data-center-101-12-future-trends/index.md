@@ -299,24 +299,28 @@ A level-4 facility runs continuous AI optimization across power, cooling, and ca
 L4 機房在電力、冷卻、容量分配上同時跑連續 AI 優化，人類運維人員處在監督角色而不是主動控制角色。實務上這意味著什麼的具體例子：
 
 - **Cooling setpoints adjusted every few minutes** based on predicted IT load 30 minutes out
-- **Chiller staging decisions made by the system**, not by an operator following a schedule
-- **PdM models triggering work orders directly** for maintenance crews, with operator approval rather than operator authoring
-- **Capacity allocation across racks rebalanced by the system** to match workload patterns
-- **Failover decisions executed automatically** within pre-authorized envelopes
-- **Post-mortem reports drafted by LLM** from raw telemetry, with operator editing rather than authoring
-
----
-
 - **冷卻設定點每幾分鐘調整**，基於 30 分鐘外預測的 IT 負載
+  
+- **Chiller staging decisions made by the system**, not by an operator following a schedule
 - **冷水機分階決策由系統做**，不是運維人員照排程
+  
+- **PdM models triggering work orders directly** for maintenance crews, with operator approval rather than operator authoring
 - **PdM 模型直接觸發工單**給維護人員，運維人員核准而非撰寫
+  
+- **Capacity allocation across racks rebalanced by the system** to match workload patterns
 - **跨機櫃的容量分配由系統重新平衡**以符合工作負載模式
+  
+- **Failover decisions executed automatically** within pre-authorized envelopes
 - **故障切換決策自動執行**在預授權範圍內
+  
+- **Post-mortem reports drafted by LLM** from raw telemetry, with operator editing rather than authoring
 - **事後報告由 LLM 草擬**，從原始遙測，運維人員編輯而非撰寫
+
 
 The transition from L3 to L4 is fundamentally about **trust delegation** — the organization deciding which decisions the AI system is authorized to execute without prior human approval, and the AI system earning that trust through demonstrated reliability over time.
 
 L3 到 L4 的轉變根本上是關於**信任委派** —— 組織決定 AI 系統被授權執行哪些不需要事先人類核准的決策、AI 系統透過長期展現的可靠性贏得那個信任。
+
 
 ### Why level 5 remains theoretical // 為什麼 L5 仍是理論的
 
@@ -325,14 +329,14 @@ Level 5 — full autonomy without human oversight — is not yet realized at any
 L5 —— 完全自治不需人類監督 —— 還沒在任何生產機房實現，到那裡的時程仍不確定。三個障礙持續：
 
 - **Novel-event handling** — AI systems trained on past data handle known scenarios well but novel events (a chemistry change at a battery supplier, a regulatory shift in a region) require human judgment
-- **Regulatory accountability** — Insurance, regulatory bodies, and corporate governance still require a named human to be accountable for facility decisions
-- **Trust dynamics** — Even when AI systems demonstrably outperform human operators on average, the failure modes can be unfamiliar and concerning, and full delegation is socially slow to develop
-
----
-
 - **新事件處理** —— 用過去資料訓練的 AI 系統處理已知情境好，但新事件（電池供應商化學變更、區域法規轉變）需要人類判斷
+  
+- **Regulatory accountability** — Insurance, regulatory bodies, and corporate governance still require a named human to be accountable for facility decisions
 - **法規問責** —— 保險、法規機構、企業治理仍要求一個具名人類對機房決策負責
+  
+- **Trust dynamics** — Even when AI systems demonstrably outperform human operators on average, the failure modes can be unfamiliar and concerning, and full delegation is socially slow to develop
 - **信任動態** —— 即使 AI 系統平均上明顯優於人類運維人員，故障模式可以是不熟悉與令人擔心的，完全委派在社會上發展緩慢
+
 
 The realistic 2030 expectation is **most hyperscaler facilities at L3, leading hyperscalers at L4, L5 still aspirational**.
 
@@ -376,14 +380,14 @@ Three observations from the comparison:
 從比較得出三個觀察：
 
 - **Schneider plays an ecosystem strategy** — its EcoStruxure brand spans data center, building, industry, and grid. The competitive moat is not any single product but the integration across the portfolio. This is the same playbook Microsoft uses in enterprise software.
-- **Vertiv plays a focus strategy** — equipment depth, service network, deliberate avoidance of becoming a software ecosystem. This is the playbook a focused industrial company uses to defend share against a larger ecosystem player.
-- **Huawei plays a vertical integration strategy** — equipment, software, service, and AI optimization all under one roof. The competitive moat is the deep integration between subsystems that less-integrated vendors cannot match. The geopolitical restriction is the cost of this strategy in Western markets.
-
----
-
 - **Schneider 玩生態系統戰略** —— 它的 EcoStruxure 品牌跨數據中心、建築、工業、電網。競爭護城河不是任何單一產品，而是組合間的整合。這是 Microsoft 在企業軟體上用的同一手冊。
+  
+- **Vertiv plays a focus strategy** — equipment depth, service network, deliberate avoidance of becoming a software ecosystem. This is the playbook a focused industrial company uses to defend share against a larger ecosystem player.
 - **Vertiv 玩聚焦戰略** —— 設備深度、服務網路、刻意避免變成軟體生態系。這是聚焦的工業公司用來對抗較大生態系玩家保衛市佔的手冊。
+  
+- **Huawei plays a vertical integration strategy** — equipment, software, service, and AI optimization all under one roof. The competitive moat is the deep integration between subsystems that less-integrated vendors cannot match. The geopolitical restriction is the cost of this strategy in Western markets.
 - **華為玩垂直整合戰略** —— 設備、軟體、服務、AI 優化都在同一屋簷下。競爭護城河是子系統間的深度整合，較少整合的廠商無法匹配。地緣政治限制是這個戰略在西方市場的成本。
+
 
 > **No single vendor strategy is obviously right. The three approaches each have visible champions, visible customers, and visible commercial success. The data center buyer's choice between them increasingly reflects their own organizational structure — ecosystem buyers tend to choose Schneider, depth-focused buyers tend to choose Vertiv, vertically-integrated buyers tend to choose Huawei (where geopolitically possible).**
 >
@@ -468,18 +472,20 @@ The most-cited forward estimates from McKinsey, Goldman Sachs, and S&P Global, t
 McKinsey、Goldman Sachs、S&P Global 最常被引用的前向估計，三角驗證：
 
 - **Global data center capacity in 2030**: 171–219 GW (up from ~75 GW in 2024)
-- **Cumulative CapEx 2024–2030**: ~$6.7 trillion
-- **AI training share of new build by 2030**: 60%+
-- **Liquid cooling share of new build by 2030**: 50%+ overall, 80%+ for AI clusters
-- **Hyperscaler renewable PPA volume by 2030**: well over 200 GW signed
-
----
-
 - **2030 全球數據中心容量**：171–219 GW（從 2024 年的約 75 GW 上升）
+  
+- **Cumulative CapEx 2024–2030**: ~$6.7 trillion
 - **2024–2030 累計 CapEx**：約 \$6.7 兆
+  
+- **AI training share of new build by 2030**: 60%+
 - **2030 年 AI 訓練佔新建比例**：60%+
+  
+- **Liquid cooling share of new build by 2030**: 50%+ overall, 80%+ for AI clusters
 - **2030 年液冷佔新建比例**：整體 50%+、AI 集群 80%+
+  
+- **Hyperscaler renewable PPA volume by 2030**: well over 200 GW signed
 - **2030 年超大規模業者再生能源 PPA 簽訂量**：遠超 200 GW
+
 
 ### What the qualitative landscape looks like // 質性版圖看起來怎樣
 
@@ -488,19 +494,21 @@ By 2030, the typical narrative for what new data centers look like will have shi
 到 2030 年，新數據中心長什麼樣的典型敘事在幾個維度上會轉變：
 
 - **Build time is no longer the bottleneck.** PMDC has compressed it. Most new builds complete in 8 to 12 months. The bottleneck has moved upstream to grid connection and chip allocation.
-- **Air-cooled is the exception, not the rule.** Liquid cooling is mainstream for any cabinet above 20 kW. AI clusters running at 100+ kW per cabinet are common.
-- **Renewable power is the default.** 100% renewable PPAs cover most hyperscaler load. Nuclear (including SMRs) provides the baseload share. Gas turbines remain for emergency backup only.
-- **Carbon is priced into every decision.** CBAM-equivalent mechanisms have spread beyond the EU. Supply chains have visibly restructured to track carbon intensity.
-- **AI runs the operations.** L3 autonomy is the norm; L4 is common at hyperscalers. Operations teams have shrunk and shifted from execution to oversight.
-- **Vendor ecosystems remain bifurcated.** Western and Chinese tracks have not converged. Taiwan continues to bridge, with growing pressure.
-
----
-
 - **建設時間不再是瓶頸。** PMDC 已壓縮它。多數新建在 8 到 12 個月完成。瓶頸已上移到電網接入與晶片配額。
+  
+- **Air-cooled is the exception, not the rule.** Liquid cooling is mainstream for any cabinet above 20 kW. AI clusters running at 100+ kW per cabinet are common.
 - **氣冷是例外，不是規則。** 液冷對任何 20 kW 以上機櫃是主流。100+ kW/櫃跑的 AI 集群普遍。
+  
+- **Renewable power is the default.** 100% renewable PPAs cover most hyperscaler load. Nuclear (including SMRs) provides the baseload share. Gas turbines remain for emergency backup only.
 - **再生能源是預設。** 100% 再生能源 PPA 涵蓋多數超大規模業者負載。核能（含 SMR）提供基載份額。燃氣輪機只剩緊急備援。
+  
+- **Carbon is priced into every decision.** CBAM-equivalent mechanisms have spread beyond the EU. Supply chains have visibly restructured to track carbon intensity.
 - **碳被定價進每個決策。** CBAM 等效機制已擴散到歐盟以外。供應鏈已可見地重組以追蹤碳強度。
+  
+- **AI runs the operations.** L3 autonomy is the norm; L4 is common at hyperscalers. Operations teams have shrunk and shifted from execution to oversight.
 - **AI 跑運轉。** L3 自治是常態；L4 在超大規模業者普遍。運轉團隊已縮減並從執行轉到監督。
+  
+- **Vendor ecosystems remain bifurcated.** Western and Chinese tracks have not converged. Taiwan continues to bridge, with growing pressure. 
 - **廠商生態仍分裂。** 西方與中國軌道未收斂。台灣繼續橋接，壓力增加。
 
 The aggregate picture is an industry that has shifted from being primarily an engineering discipline to being a coordination problem across regulation, supply chain, software, and geopolitics. The engineering challenges remain, but they are no longer the binding constraint.
