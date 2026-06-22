@@ -1,5 +1,5 @@
 +++
-date = '2026-06-19T00:00:00+00:00'
+date = '2026-06-22T00:00:00+00:00'
 title = "【Data Center 101】Three Forces Reshaping Data Centers: Prefabrication, Sustainability, Autonomy, and the Vendor Wars"
 slug = "data-center-101-12-future-trends"
 aliases = ["/posts/data-center-101-future-trends/", "/posts/數據中心-101-未來趨勢/"]
