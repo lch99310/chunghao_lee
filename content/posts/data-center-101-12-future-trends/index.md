@@ -20,29 +20,27 @@ For most of the data center industry's history, change was incremental. Power sy
 
 數據中心產業多數歷史中，改變是漸進的。電力系統稍微更有效率。冷卻架構透過熟悉的變化演化。建築方法 2010 年看起來跟 1990 年一樣。過去五年的決定性特徵是三股加速力量**同時碰撞**，加上影響三者的地緣政治重組。
 
-The three forces:
+The three forces // 三股力量:
 
-三股力量：
+
 
 - **Prefabrication** — Compressing 27-month builds to 6 months by manufacturing the data center as a product, not constructing it as a building.
-- **Sustainability** — Carbon caps, water restrictions, ESG regulations, and renewable energy mandates moving from soft preferences to hard constraints.
-- **Autonomous operations** — AI-driven optimization and predictive maintenance moving from research curiosity to standard procurement.
-
----
-
 - **預製化** —— 把 27 個月建設壓縮到 6 個月，方法是把數據中心當產品製造，而不是當建物建造。
+  
+- **Sustainability** — Carbon caps, water restrictions, ESG regulations, and renewable energy mandates moving from soft preferences to hard constraints.
 - **永續** —— 碳上限、水資源限制、ESG 法規、再生能源強制要求從軟性偏好走向硬性約束。
+  
+- **Autonomous operations** — AI-driven optimization and predictive maintenance moving from research curiosity to standard procurement.
 - **自動駕駛運轉** —— AI 驅動優化與預測性維護從研究稀奇變成標準採購。
 
-And underneath all three:
 
-而三者之下：
+
+And underneath all three // 而三者之下:
+
 
 - **The geopolitical bifurcation** — The equipment vendor ecosystem has split into two near-incompatible tracks (Western and Chinese), and Taiwan sits at the bridge between them.
-
----
-
 - **地緣政治分裂** —— 設備廠商生態系已分裂成兩條幾乎不相容的軌道（西方與中國），台灣坐在兩者之間的橋樑上。
+
 
 This article works through each force, then closes with a comparative look at the major equipment vendor strategies and a 2030 outlook for the combined effect.
 
