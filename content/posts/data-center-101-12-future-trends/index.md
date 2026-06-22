@@ -149,6 +149,8 @@ In the years since, the practical reality has been a market split: Huawei holds 
 
 之後幾年，實務現實是市場分裂：華為在中國、一帶一路區域、中東、非洲持有主導市佔，Vertiv 與 Schneider 在北美、歐洲、日本、澳洲、其他 OECD 持有主導市佔。本文後面會回到這個地緣政治分裂。
 
+
+![](pic1.png)
 ---
 
 ## Part 3 — Sustainability: The Regulatory Wave // 第三部分：永續 —— 法規浪潮
@@ -203,7 +205,7 @@ The practical effect is that low-carbon supply chains become commercially advant
 > **CBAM 是第一個把供應鏈碳強度翻譯成直接商業成本的法規機制。數據中心產業從 2022 年起就在準備，主要透過推供應商驗證並降低其範疇 3 排放。**
 
 
-![](pic1.png)
+
 ---
 
 ## Part 4 — Water, Carbon, and Waste Heat // 第四部分：水、碳、廢熱
