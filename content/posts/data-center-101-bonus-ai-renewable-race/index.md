@@ -227,6 +227,8 @@ The fastest-changing category. Nuclear has three sub-paths for hyperscaler procu
 - **天然氣含 CCS** —— 比未捕集天然氣少見；技術繼續但無 hyperscaler 以此為基底主張清潔能源。
 
 ---
+![](pic1.png)
+
 
 ## Part 4 — Google: The 24/7 CFE Pioneer // 第四部分：Google —— 24/7 CFE 先驅
 
@@ -461,6 +463,9 @@ This is not necessarily permanent. xAI is a young company in an extreme growth p
 > **xAI's strategic posture is "ship fast, accept controversy, defer the environmental commitment to when the technology has won." Whether the bet pays off depends on whether the underlying AI product becomes valuable enough that enterprise customers absorb the reputational risk of buying from a vendor with a weak environmental record. The most likely path is that xAI will quietly catch up on renewables once Grok has established market position.**
 >
 > **xAI 的戰略姿態是「快速出貨、接受爭議、把環境承諾延後到技術勝出時」。賭注是否回本取決於底層 AI 產品是否變得夠有價值，讓企業客戶吸收向環境紀錄弱的廠商購買的聲譽風險。最可能的路徑是 xAI 在 Grok 建立市場位置後悄悄追上再生能源。**
+
+
+
 
 ---
 
