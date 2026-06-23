@@ -215,15 +215,15 @@ The fastest-changing category. Nuclear has three sub-paths for hyperscaler procu
 ### Technologies notably absent from the menu // 菜單上明顯缺席的技術
 
 - **Green hydrogen** — Still commercially uneconomic at the scales relevant for data center power (current production cost \$4–6/kg implies electricity cost well above \$200/MWh). Aspirational for the 2030s but not actionable today.
-- **Geothermal** — Commercially viable only at specific geographies (Iceland, parts of Kenya, US Geysers). Google has signed enhanced geothermal PPAs (Fervo Energy, Nevada) but the technology is still scaling.
-- **Coal with carbon capture (CCS)** — Not pursued by hyperscalers; commercially and politically untenable.
-- **Natural gas with CCS** — Less common than uncaptured gas; technology continues but no hyperscaler has based a clean-energy claim on it.
-
----
-
 - **綠氫** —— 在數據中心電力相關規模上仍商業不經濟（目前生產成本 \$4–6/kg 意味電力成本遠高於每 MWh \$200）。2030 年代抱負，但今天不可行動。
+  
+- **Geothermal** — Commercially viable only at specific geographies (Iceland, parts of Kenya, US Geysers). Google has signed enhanced geothermal PPAs (Fervo Energy, Nevada) but the technology is still scaling.
 - **地熱** —— 商業可行只在特定地理（冰島、肯亞部分地區、美國 Geysers）。Google 已簽強化地熱 PPA（Fervo Energy、內華達），但技術仍在擴大規模。
+  
+- **Coal with carbon capture (CCS)** — Not pursued by hyperscalers; commercially and politically untenable.
 - **燃煤含碳捕集（CCS）** —— hyperscaler 不追求；商業上、政治上站不住腳。
+  
+- **Natural gas with CCS** — Less common than uncaptured gas; technology continues but no hyperscaler has based a clean-energy claim on it. 
 - **天然氣含 CCS** —— 比未捕集天然氣少見；技術繼續但無 hyperscaler 以此為基底主張清潔能源。
 
 ---
@@ -507,15 +507,15 @@ A few patterns visible across the hyperscaler regional choices:
 跨 hyperscaler 區域選擇可見幾個模式：
 
 - **Texas concentration is structural** — ERCOT's independence from federal interconnection process gives it a fundamental advantage that the rest of the US grid cannot match
-- **Northern Virginia's stress is durable** — The DC alley's grid capacity problem will likely shape East Coast hyperscaler expansion through 2030
-- **Nordic appeal compounds** — Cool climate + clean grid + political stability + skilled workforce makes the Nordic region disproportionately attractive
-- **Singapore's constraints are permanent** — The combination of small geography, hot climate, and absent domestic renewables means Singapore will likely never be a primary hyperscaler region again
-
----
-
 - **德州集中是結構性的** —— ERCOT 跟聯邦互連流程獨立給它根本優勢，美國其他電網無法匹配
+  
+- **Northern Virginia's stress is durable** — The DC alley's grid capacity problem will likely shape East Coast hyperscaler expansion through 2030
 - **北維吉尼亞的壓力持久** —— DC 走廊的電網容量問題可能塑造東岸 hyperscaler 擴展到 2030 年
+  
+- **Nordic appeal compounds** — Cool climate + clean grid + political stability + skilled workforce makes the Nordic region disproportionately attractive
 - **北歐吸引力複合** —— 涼爽氣候 + 清潔電網 + 政治穩定 + 熟練人力讓北歐區域不成比例地有吸引力
+  
+- **Singapore's constraints are permanent** — The combination of small geography, hot climate, and absent domestic renewables means Singapore will likely never be a primary hyperscaler region again
 - **新加坡的約束永久** —— 小地理、熱氣候、缺乏國內再生能源的組合意味著新加坡可能不會再是主要 hyperscaler region
 
 ---
@@ -529,17 +529,18 @@ Australia occupies an unusual position in the global renewable energy and hypers
 ### The structural picture // 結構圖像
 
 - **Solar:** Australia's solar resource is among the best in the world by irradiance. Utility-scale projects in Queensland, New South Wales, and Victoria are economically very strong.
-- **Wind:** Strong onshore wind in southern New South Wales, Victoria, South Australia, and Tasmania. Bass Strait region between Victoria and Tasmania is one of the best offshore wind resources in the southern hemisphere.
-- **Hydro:** Limited but high quality. Snowy Mountains scheme (existing) plus the troubled Snowy 2.0 expansion.
-- **Nuclear:** Banned at the federal level by EPBC Act 1999 and ARPANS Act 1998. Reversal would require federal legislation that has not commanded majority support.
-- **Coal phase-out:** Major coal plants closing on a schedule that creates a multi-year reliability gap in the late 2020s.
-
----
-
 - **太陽能：** 澳洲太陽能資源以日照計是世界最好之一。昆士蘭、新南威爾斯、維多利亞的公用事業級專案經濟學非常強。
+  
+- **Wind:** Strong onshore wind in southern New South Wales, Victoria, South Australia, and Tasmania. Bass Strait region between Victoria and Tasmania is one of the best offshore wind resources in the southern hemisphere.
 - **風力：** 強陸域風力在新南威爾斯南部、維多利亞、南澳、塔斯馬尼亞。維多利亞與塔斯馬尼亞之間的巴斯海峽區域是南半球最好的離岸風力資源之一。
+  
+- **Hydro:** Limited but high quality. Snowy Mountains scheme (existing) plus the troubled Snowy 2.0 expansion.
 - **水力：** 有限但高品質。Snowy Mountains 計畫（既有）加上麻煩的 Snowy 2.0 擴展。
+  
+- **Nuclear:** Banned at the federal level by EPBC Act 1999 and ARPANS Act 1998. Reversal would require federal legislation that has not commanded majority support.
 - **核能：** 被 EPBC Act 1999 與 ARPANS Act 1998 聯邦級禁止。逆轉需要聯邦立法，未獲多數支持。
+  
+- **Coal phase-out:** Major coal plants closing on a schedule that creates a multi-year reliability gap in the late 2020s.
 - **煤電退場：** 主要煤電廠按時程關閉，在 2020 年代後期創造多年可靠性缺口。
 
 ### The federal renewable target // 聯邦再生能源目標
@@ -565,17 +566,18 @@ Eraring 關閉時失去的 2,880 MW 有意義：它約是 NSW 電力需求 5%，
 ### What the hyperscalers are doing in Australia // hyperscaler 在澳洲在做什麼
 
 - **AWS** committed AUD 13.2 billion to expanding Sydney and Melbourne regions through 2027. Multiple Australian renewable PPAs signed including with Spark Renewables and other developers.
-- **Microsoft** committed AUD 5 billion (announced October 2024) to Australian AI infrastructure through 2026, paired with renewable energy procurement commitments.
-- **Google Cloud** maintains a Sydney region and has signed multiple Australian solar PPAs to support its operations.
-- **Meta** has Australian region presence and uses standard Meta PPA frameworks for its smaller Australian operations.
-- **xAI** has no announced Australian presence as of mid-2025.
-
----
-
 - **AWS** 承諾 AUD 132 億到 2027 年擴展雪梨與墨爾本 region。簽多筆澳洲再生能源 PPA，包括 Spark Renewables 與其他開發商。
+  
+- **Microsoft** committed AUD 5 billion (announced October 2024) to Australian AI infrastructure through 2026, paired with renewable energy procurement commitments.
 - **Microsoft** 承諾 AUD 50 億（2024 年 10 月宣布）到 2026 年澳洲 AI 基礎設施，加上再生能源採購承諾。
+  
+- **Google Cloud** maintains a Sydney region and has signed multiple Australian solar PPAs to support its operations.
 - **Google Cloud** 維持雪梨 region，已簽多筆澳洲太陽能 PPA 支持其運轉。
+  
+- **Meta** has Australian region presence and uses standard Meta PPA frameworks for its smaller Australian operations.
 - **Meta** 有澳洲 region 存在，對其較小的澳洲運轉使用標準 Meta PPA 框架。
+  
+- **xAI** has no announced Australian presence as of mid-2025.
 - **xAI** 截至 2025 年中未宣布澳洲存在。
 
 ### What Sydney cannot do // 雪梨不能做什麼
@@ -595,19 +597,21 @@ The available levers for Sydney hyperscaler operations are:
 雪梨 hyperscaler 運轉可用槓桿是：
 
 - **Long-tenor solar and wind PPAs** signed with REZ projects, accepting the timing risk that REZ project delivery may slip
-- **Battery storage hybrid PPAs** that combine renewable generation with storage to provide firmer dispatch profiles
-- **Grid imports from other states** via Project EnergyConnect (NSW-SA interconnector) and HumeLink (NSW-Victoria), bringing in renewable energy from neighboring jurisdictions
-- **Behind-the-meter solar plus storage** for portions of campus load
-- **Carbon offset purchases** under the Climate Active framework for residual emissions
-- **Pumped hydro** if and when Snowy 2.0 actually commissions (currently targeted around 2028)
-
----
-
 - **長期太陽能與風力 PPA** 跟 REZ 專案簽訂，接受 REZ 專案交付可能滑移的時程風險
+  
+- **Battery storage hybrid PPAs** that combine renewable generation with storage to provide firmer dispatch profiles
 - **電池儲能混合 PPA** 結合再生能源發電與儲能，提供較堅實的調度概況
+  
+- **Grid imports from other states** via Project EnergyConnect (NSW-SA interconnector) and HumeLink (NSW-Victoria), bringing in renewable energy from neighboring jurisdictions
 - **跨州電網進口**透過 Project EnergyConnect（NSW-SA 互連）與 HumeLink（NSW-Victoria），從鄰近司法管轄區帶來再生能源
+  
+- **Behind-the-meter solar plus storage** for portions of campus load
 - **電錶後太陽能加儲能** 替園區部分負載
+  
+- **Carbon offset purchases** under the Climate Active framework for residual emissions
 - **碳抵消購買** 在 Climate Active 框架下替剩餘排放
+  
+- **Pumped hydro** if and when Snowy 2.0 actually commissions (currently targeted around 2028)
 - **抽蓄水力** 如果 Snowy 2.0 真的調試（目前目標約 2028 年）
 
 > **The Sydney case illustrates a broader pattern: regional renewable energy strategies for hyperscalers are increasingly distinct from one another, shaped by local resources, local politics, and local grid structure. A globally consistent renewable energy strategy is impossible to execute uniformly. The best operators adapt their playbook by jurisdiction.**
@@ -642,13 +646,12 @@ Most modern carbon accounting follows the Greenhouse Gas Protocol's three-scope 
 多數現代碳會計遵循溫室氣體議定書的三範疇框架：
 
 - **Scope 1** — Direct emissions from owned or controlled sources (e.g., on-site diesel gensets, refrigerant leaks)
-- **Scope 2** — Indirect emissions from purchased electricity, heat, and steam
-- **Scope 3** — Other indirect emissions across the value chain (e.g., embodied carbon in purchased equipment, contractor activities, business travel)
-
----
-
 - **範疇 1** —— 自有或控制來源的直接排放（如現場柴油發電機、冷媒洩漏）
+  
+- **Scope 2** — Indirect emissions from purchased electricity, heat, and steam
 - **範疇 2** —— 購買電力、熱、蒸汽的間接排放
+  
+- **Scope 3** — Other indirect emissions across the value chain (e.g., embodied carbon in purchased equipment, contractor activities, business travel) 
 - **範疇 3** —— 整個價值鏈的其他間接排放（如購買設備的含碳、承包商活動、商務旅行）
 
 For data centers, **Scope 2 dominates the carbon footprint** (electricity is most of the operating emissions). However, **Scope 3 is the harder-to-report and increasingly under regulatory pressure** category — specifically, the embodied carbon in the construction of the data center building and in the manufacturing of the IT equipment installed inside it.
@@ -670,15 +673,15 @@ The next five years will bring:
 未來五年將帶來：
 
 - **Convergence on 24/7 CFE methodology** — Even hyperscalers not currently committing to 24/7 will face pressure from enterprise customers (who themselves face regulatory pressure) to adopt the framework.
-- **Auditable Scope 3 reporting** — CBAM, CSRD, and equivalent regulations will require Scope 3 reporting to be independently verifiable, not self-reported.
-- **Tightening on additionality claims** — Regulators and standard-setters are increasingly distinguishing between PPAs that funded new renewable capacity versus PPAs that captured existing capacity.
-- **Carbon pricing convergence** — The major jurisdictions are converging toward carbon prices in the $50–100/tCO₂ range by 2030, which puts genuine economic weight on the carbon liability layer.
-
----
-
 - **24/7 CFE 方法論趨同** —— 即使目前不承諾 24/7 的 hyperscaler 也會面臨來自企業客戶（他們本身面臨法規壓力）的壓力採用該框架。
+  
+- **Auditable Scope 3 reporting** — CBAM, CSRD, and equivalent regulations will require Scope 3 reporting to be independently verifiable, not self-reported.
 - **可稽核範疇 3 報告** —— CBAM、CSRD、等效法規會要求範疇 3 報告獨立可驗證、不是自我報告。
+  
+- **Tightening on additionality claims** — Regulators and standard-setters are increasingly distinguishing between PPAs that funded new renewable capacity versus PPAs that captured existing capacity.
 - **附加性主張收緊** —— 監管者與標準制定者越來越區分資助新再生能源容量的 PPA 跟捕獲既有容量的 PPA。
+  
+- **Carbon pricing convergence** — The major jurisdictions are converging toward carbon prices in the $50–100/tCO₂ range by 2030, which puts genuine economic weight on the carbon liability layer.
 - **碳定價趨同** —— 主要司法管轄區到 2030 年朝 \$50–100/tCO₂ 區間的碳價趨同，把真正的經濟重量放在碳責任層上。
 
 ---
