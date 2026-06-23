@@ -1,5 +1,5 @@
 +++
-date = '2026-06-23T00:00:00+00:00'
+date = '2026-06-23T00:05:00+00:00'
 title = "【Data Center 101 Bonus】AI's Renewable Energy Race: From Solar Farms to Small Reactors"
 slug = "data-center-101-bonus-ai-renewable-race"
 aliases = ["/posts/data-center-101-bonus-ai-renewable-race/", "/posts/數據中心-101-番外篇-AI-再生能源競賽/"]
