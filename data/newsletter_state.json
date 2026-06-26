@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-06-19T20:26:27.652Z",
+  "last_sent_at": "2026-06-26T20:47:13.708Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -396,6 +396,38 @@
           "title": "【Data Center 101】Cooling Systems: From Room Air Conditioners to Direct-to-Chip Liquid",
           "link": "https://chunghaolee.com/posts/data-center-101-07-cooling/",
           "pubDate": "2026-06-13T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-06-26T20:47:13.708Z",
+      "broadcast_id": "b5499c05-1b4d-43d5-9f06-664766a65e53",
+      "item_count": 5,
+      "items": [
+        {
+          "title": "[External Article] - The Art of Loop Engineering",
+          "link": "https://chunghaolee.com/posts/external-article-the-art-of-loop-engineering/",
+          "pubDate": "2026-06-24T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - Loopcraft: The Art of Stacking Loops",
+          "link": "https://chunghaolee.com/posts/external-article---loopcraft-the-art-of-stacking-loops/",
+          "pubDate": "2026-06-24T00:00:00.000Z"
+        },
+        {
+          "title": "【Data Center 101 Bonus】AI's Renewable Energy Race: From Solar Farms to Small Reactors",
+          "link": "https://chunghaolee.com/posts/data-center-101-bonus-ai-renewable-race/",
+          "pubDate": "2026-06-23T00:05:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Sydney as a Data Center Market: A Complete Regional Deep-Dive",
+          "link": "https://chunghaolee.com/posts/data-center-101-13-sydney-deep-dive/",
+          "pubDate": "2026-06-22T00:05:00.000Z"
+        },
+        {
+          "title": "【Data Center 101】Three Forces Reshaping Data Centers: Prefabrication, Sustainability, Autonomy, and the Vendor Wars",
+          "link": "https://chunghaolee.com/posts/data-center-101-12-future-trends/",
+          "pubDate": "2026-06-22T00:00:00.000Z"
         }
       ]
     }
