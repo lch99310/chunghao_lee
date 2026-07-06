@@ -9,14 +9,14 @@ title = "Chung-Hao Lee"
 [params]
   dateFormat = "January 2, 2006"
   # mainSections = ["section1", "section2"]
-  description = "Chung-Hao Lee's Note"
+  description = "Chung-Hao (CH) Lee — bridging hardware supply chains and AI operations from Sydney. Essays on AI data centers, supply chain economics, and human-AI collaboration."
   favicon = "favicon.ico"
 
 [params.author]
   name = "Chung-Hao Lee"
   image = "img/author_CHLee.jpg"
-  headline = "AI Product @TikTok, MBA & MSIS @Uni of Maryland-College Park, BS @Tsinghua Uni"
-  bio = "AI Product @TikTok, MBA & MSIS @Uni of Maryland-College Park, BS @Tsinghua Uni"
+  headline = "AI Model Operations @TikTok · From Google Home production lines & industrial AI for Dell to models serving 1B+ users · Sydney"
+  bio = "AI Model Operations @TikTok · From Google Home production lines & industrial AI for Dell to models serving 1B+ users · Sydney"
   links = [
      { email = "mailto:lch99310@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },

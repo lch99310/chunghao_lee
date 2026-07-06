@@ -4,7 +4,7 @@
 
 I'm **Chung-Hao (CH) Lee** — based in Sydney.
 
-From factory floors at **Pegatron** and **Wistron** to operating 35 AI models at **TikTok** and building **RCA Copilot** 0→1 — work threading hardware supply chains into AI infrastructure.
+From factory floors at **Pegatron** (building Google Home, 2M units/yr in Suzhou) and **Wistron** (industrial AI for Dell laptop manufacturing) to operating 35 AI models at **TikTok** and building **RCA Copilot** 0→1 — work threading hardware supply chains into AI infrastructure.
 
 This site is where I write, build, and think in public.
 
