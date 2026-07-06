@@ -96,3 +96,9 @@ Four pillars that hold together everything on this site:
 
 ### National Tsing Hua University
 * Dean's List — 2011 Spring · 2011 Fall · 2012 Spring
+
+---
+
+## Let's Talk
+
+If you're working on AI infrastructure, data centers, or the supply chains behind them — especially in Sydney — I'd genuinely enjoy comparing notes. Reach me by [email](mailto:lch99310@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/lch99310/).
