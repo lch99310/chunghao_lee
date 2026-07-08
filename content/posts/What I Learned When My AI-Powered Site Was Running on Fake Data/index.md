@@ -117,11 +117,9 @@ Three things stayed with me.
 
 **Third — and this is the one I will carry forward — getting your hands dirty is not optional.** AI built the entire application from scratch. It parsed government data, configured CI/CD, and deployed a production site. But it could not do the one thing that only I could: understand my own problem well enough to know when something didn't add up.
 
-I had that feeling, early on, sitting in front of my own screen. The numbers felt wrong. I ignored it.
+Overlooking early data anomalies highlighted the evolving risk boundaries in human-AI collaboration, prompting a recalibration of verification ownership.
 
-I haven't stopped using AI — I use it more than ever. But I no longer treat it as a substitute for verification. Every pipeline I build now includes a mandatory validation gate: if the data source cannot be reached, the process halts — no silent fallback, no degraded mode reaching production. Every dataset I publish is spot-checked before I sign off on it.
-
-The mistake was mine. The correction was swift. And that correction has become a permanent part of how I build.
+My pipeline designs now place greater emphasis on strategic validation gates: as a rule, source failures trigger a system halt to prevent unverified, degraded data from slipping into production, supported by risk-based spot-checks prior to release. This approach has integrated seamlessly into my core framework for analysis and process management.
 
 <br>
 
@@ -133,11 +131,9 @@ The mistake was mine. The correction was swift. And that correction has become a
 
 **第三——也是我會一直帶在身上的教訓——把手弄髒，沒有捷徑。** AI 從零搭建了整個應用程式。它解析了政府資料、設定了 CI/CD、部署了正式網站。但它做不到那件只有我能做的事：對自己的問題理解得夠深，以至於當數字不對勁時，我能察覺。
 
-我其實很早就有了那種感覺，坐在自己的螢幕前面，覺得數字怪怪的。我忽略了它。
+忽視初期的數據異常，反映了人機協作中驗證邊界的模糊。這促使我重新優化分工，將核心驗證的權責更明確地收攏。
 
-我沒有因此停止使用 AI——事實上我用得比以前更多。但我再也不把 AI 當作驗證的替代品。現在每一條我建的資料管線，都有一個強制檢查閘門：如果資料來源無法連線，流程直接中止——沒有靜默降級，不允許 demo 模式流入正式環境。每一份對外提供的數據，在簽署信任之前，我都會親自抽樣確認。
-
-錯誤是我犯的。修正來得很快。而這道修正，已經成為我設計每一條管線的固定環節。
+在管線設計上，我更加看重關鍵節點的驗證閘門（Validation Gate）：原則上源頭異常即中止流程，以防範未經確認的靜默降級直接流入生產環境，並針對核心數據導入抽樣複核機制。這項實踐已成為我落實分析與流程時的架構準則。
 
 
 ---
