@@ -5,7 +5,7 @@ tags = ['Beyond the___', '中文', 'Self-Assessment', 'Using AI']
 thumbnail = 'pic.png'
 +++
 
-## 超越示範模式：當我用AI做的網站跑了一整季的假資料
+## 當我用AI做的網站跑了一整季的假資料
 
 ![](pic.png)
 
