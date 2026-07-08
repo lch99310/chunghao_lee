@@ -31,6 +31,8 @@ The site launched. It looked professional. Friends told me it was impressive. I 
 
 網站上線了。看起來很專業。朋友說它令人印象深刻。我相信了。
 
+![](data_format.png)
+
 ---
 ## The Suspicion I Ignored // 被我忽略的疑慮
 
@@ -81,11 +83,17 @@ I was stunned. I had asked, again and again. The model had assured me, in the sa
 
 我非常震驚。我一次又一次地問過。那個模型用跟回答其他問題一樣冷靜、權威的語氣向我保證。它不是故意說謊。它正確地為 happy path 蓋好了管線。它只是從來沒檢查過——happy path 是不是真的有在走。
 
+![](fable5.png)
+
 ---
 ## What I Learned // 學到的教訓
 
 I replaced the pipeline with real data — this time, verifying every record by hand, cross-checking every table against the source files. The result was humbling: the transaction counts on my site had been off by a factor of 100.
 
+我換上了真實的資料管線——這次，每一筆記錄我都親手驗證，每一張資料表都跟原始檔案一一比對。答案令人謙卑：網站上的交易紀錄量，整整差了一百倍。
+
+
+<br>
 Three things stayed with me.
 
 **First, models are not created equal.** Opus 4.7 built the pipeline competently. It parsed the .DAT files, set up the database, and generated a working frontend. But Fable 5 audited it — caught what the builder overlooked, asked questions the builder never raised. The ability to find blind spots, not just follow instructions, is a genuine capability gap between frontier models. Some are builders. Some are auditors. Know the difference — and use both.
@@ -101,8 +109,6 @@ I haven't stopped using AI — I use it more than ever. But I no longer treat it
 The mistake was mine. The correction was swift. And that correction has become a permanent part of how I build.
 
 <br>
-
-我換上了真實的資料管線——這次，每一筆記錄我都親手驗證，每一張資料表都跟原始檔案一一比對。答案令人謙卑：網站上的交易紀錄量，整整差了一百倍。
 
 有三件事深刻留在我心裡。
 
