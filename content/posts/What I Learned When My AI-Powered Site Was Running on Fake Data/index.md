@@ -97,12 +97,12 @@ I replaced the pipeline with real data — this time, verifying every record by 
 <div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: 16px; margin: 1.5em 0;">
   
   <figure style="margin: 0; text-align: center; max-width: 48%;">
-    <img src="new.png" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <img src="after.png" alt="Website after correcting with real data" loading="lazy" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">Website after correcting with real data</figcaption>
   </figure>
 
   <figure style="margin: 0; text-align: center; max-width: 48%;">
-    <img src="old.png" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <img src="before.png" alt="Website before correcting with fake data" loading="lazy" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
     <figcaption style="margin-top: 8px; font-size: 14px; color: #555;">Website before correcting with fake data</figcaption>
   </figure>
 
