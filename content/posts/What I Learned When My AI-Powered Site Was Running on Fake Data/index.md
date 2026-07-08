@@ -33,7 +33,7 @@ The site launched. It looked professional. Friends told me it was impressive. I 
 
 網站上線了。看起來很專業。朋友說它令人印象深刻。我相信了。
 
-![](data_format.png)
+![](data_format.png "house price data in .DAT format")
 
 ---
 ## The Suspicion I Ignored // 被我忽略的疑慮
@@ -85,7 +85,7 @@ I was stunned. I had asked, again and again. The model had assured me, in the sa
 
 我非常震驚。我一次又一次地問過。那個模型用跟回答其他問題一樣冷靜、權威的語氣向我保證。它不是故意說謊。它正確地為 happy path 蓋好了管線。它只是從來沒檢查過——happy path 是不是真的有在走。
 
-![](fable5.png)
+![](fable5.png "Fable 5 found out all data were simulating data and NOT real...")
 
 ---
 ## What I Learned // 學到的教訓
