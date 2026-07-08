@@ -7,6 +7,8 @@ thumbnail = 'pic.png'
 
 ## 超越示範模式：當我的 AI 網站跑了一整季的假資料
 
+![](pic.png)
+
 ## A Need, A Tool, and AI // 一個需求、一個工具、與 AI
 
 I wanted to buy a house in Sydney. That simple, expensive desire led me to build a website.
@@ -25,7 +27,7 @@ The site launched. It looked professional. Friends told me it was impressive. I 
 
 概念很簡單：用 NSW 政府的公開資料，把大雪梨地區的房產成交價格畫在地圖上。每個行政區的價格熱點圖、價格隨時間變化的散佈圖、獨立屋、公寓、透天厝的分類篩選——我需要知道哪些區我買得起，而唯一可靠的方法是數據。不是房仲的話術，不是「市場感覺」，是真實的數字。
 
-我叫它 Fiery Golden Eyes。這是一個全端網頁應用，有互動地圖、價格熱點圖、趨勢圖表——全部透過與 AI 協作完成。Claude Code 是我的工程夥伴，它的速度遠超過我一個人能達到的。資料管線解析了 NSW Valuer General 那種古老難解的 .DAT 格式，React 前端把成千上萬個座標點渲染到 Leaflet 地圖上，GitHub Actions 把一切串成每週自動更新的流程。
+我叫它 火眼金睛(Fiery Golden Eyes)。這是一個全端網頁應用，有互動地圖、價格熱點圖、趨勢圖表——全部透過與 AI 協作完成。Claude Code 是我的工程夥伴，它的速度遠超過我一個人能達到的。資料管線解析了 NSW Valuer General 那種古老難解的 .DAT 格式，React 前端把成千上萬個座標點渲染到 Leaflet 地圖上，GitHub Actions 把一切串成每週自動更新的流程。
 
 一開始我是謹慎的。我打開原始資料，掃過欄位名稱，追了幾筆記錄確認自己理解結構。一切看起來沒問題。確認過後，我把剩下的交給了 AI——當時的 Opus 4.7——讓它全權處理。
 
@@ -92,6 +94,21 @@ I replaced the pipeline with real data — this time, verifying every record by 
 
 我換上了真實的資料管線——這次，每一筆記錄我都親手驗證，每一張資料表都跟原始檔案一一比對。答案令人謙卑：網站上的交易紀錄量，整整差了一百倍。
 
+<div style="display: flex; flex-wrap: nowrap; justify-content: center; align-items: flex-start; gap: 16px; margin: 1.5em 0;">
+  
+  <!-- 左邊圖片與說明 -->
+  <figure style="margin: 0; text-align: center; max-width: 48%;">
+    <img src="new.png" title="Website after correcting with real data" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 8px; font-size: 14px; color: #555;"></figcaption>
+  </figure>
+
+  <!-- 右邊圖片與說明 -->
+  <figure style="margin: 0; text-align: center; max-width: 48%;">
+    <img src="old.png" title="Website before correcting with fake data" style="height: 250px; width: auto; max-width: 100%; object-fit: contain; display: block; margin: 0 auto;">
+    <figcaption style="margin-top: 8px; font-size: 14px; color: #555;"></figcaption>
+  </figure>
+
+</div>
 
 <br>
 Three things stayed with me.
