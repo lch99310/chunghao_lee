@@ -10,6 +10,10 @@ thumbnail = '01_example.png'
 
 ---
 
+*Baseball has been my long-running lens for learning data — from a [2023 paper on predicting MiLB-to-MLB debuts](https://chunghaolee.com/portfolio/baseball-informaticsfrom-milb-to-mlb-debut/), to a daily [underestimated-player web app](../daily_underestimated_mlbplayers_ranking/), and now to this. This piece introduces an original stat I've been building on the side, born from a simple Moneyball-shaped question: if the scarcest thing in baseball is an out, why don't we grade pitchers by how efficiently they buy them?*
+
+---
+
 Greg Maddux made an art form out of the cheap out. In his prime he would finish a complete game with his pitch count still in the 80s — barely a strikeout in sight, just soft contact and quick innings — and the feat became so linked to him that a complete-game shutout on under 100 pitches is now simply called a *Maddux*.
 
 We have always admired that kind of pitching. What we have never quite had is a *number* for it — a clean way to say how efficiently a pitcher turns his work into outs. ERA counts the runs that scored; strikeout rate counts the bats he missed; neither quite captures the thing Maddux did best.
