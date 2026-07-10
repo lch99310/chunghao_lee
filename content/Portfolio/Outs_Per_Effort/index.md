@@ -2,7 +2,7 @@
 date = '2026-07-10T00:00:00+08:00'
 title = 'Outs Per Effort (OPE): A Pitching Stat That Sees What ERA Misses'
 tags = ['Analytics', 'Baseball', 'Side_Project']
-thumbnail = '01_example.png'
+thumbnail = '11_legends.png'
 math = true
 +++
 
