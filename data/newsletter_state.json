@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-06-26T20:47:13.708Z",
+  "last_sent_at": "2026-07-10T20:23:16.456Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -428,6 +428,23 @@
           "title": "【Data Center 101】Three Forces Reshaping Data Centers: Prefabrication, Sustainability, Autonomy, and the Vendor Wars",
           "link": "https://chunghaolee.com/posts/data-center-101-12-future-trends/",
           "pubDate": "2026-06-22T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-07-10T20:23:16.456Z",
+      "broadcast_id": "a66f04f4-da9b-46a6-9d84-0d50b1e843a1",
+      "item_count": 2,
+      "items": [
+        {
+          "title": "Outs Per Effort (OPE): A Pitching Stat That Sees What ERA Misses",
+          "link": "https://chunghaolee.com/portfolio/outs_per_effort/",
+          "pubDate": "2026-07-09T16:00:00.000Z"
+        },
+        {
+          "title": "Beyond the Demo: What I Learned When My AI-Powered Site Was Running on Fake Data",
+          "link": "https://chunghaolee.com/posts/what-i-learned-when-my-ai-powered-site-was-running-on-fake-data/",
+          "pubDate": "2026-07-08T00:00:00.000Z"
         }
       ]
     }
