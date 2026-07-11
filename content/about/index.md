@@ -8,7 +8,9 @@ showAuthor = true
 
 ### Bridging atom factories and token factories.
 
-*Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. I've worked both ends: running Google Home production lines in Suzhou, bringing industrial AI to Dell laptop manufacturing in Taipei, and now operating 35 production AI models at TikTok.*
+*Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends: running Google Home production lines in Suzhou, sitting on the supplier side of Dell's hardware supply chain at Wistron, and now operating 35 production AI models at TikTok.*
+
+**35 production AI models** · **+38% adult-content F1** · **$1.2M annual savings** · **40B+ sensor records**
 
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
@@ -25,8 +27,8 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 ### At Work
 
-- **TikTok (2025 – present)** — Built **RCA Copilot 0→1**, integrating multi-agent orchestration, hallucination engineering, and dual GUI/CLI interfaces. Lifted adult-content model F1 by **+38%**. Established a three-tier inspection framework achieving **80%+ ground-truth consistency** and **95% model accuracy** across 35 models.
-- **Wistron (2022 – 2024)** — Three-phase industrial AI program (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams. **70% debug efficiency lift, 50% return-to-repair reduction, $1.2M annual savings.**
+- **TikTok (2025 – present)** — Built **RCA Copilot 0→1**, a human-AI platform that root-causes errors in live content-moderation models at scale (**35 models · ~12M reviews/week**). Evolved it across three generations into an agent-driven system: the copilot plans its own data pulls through purpose-built skills, humans steering via human-in-the-loop — one platform serving **agents through skills + CLI and people through a GUI**. *RCA is exactly the analytical work AI is starting to automate — so I build and own the automation.* Separately, lifted adult-content model **F1 by +38%** (to ~**95% accuracy**) through multi-agent orchestration and hallucination engineering (unbiased describe-then-verify).
+- **Wistron (2022 – 2024)** — Inside **Dell/HPE's Tier-1 ODM** — the supplier side of the hardware supply chain — ran a three-phase industrial AI program (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams and 40B+ sensor records. **70% debug efficiency lift, 50% return-to-repair reduction, $1.2M annual savings.**
 - **Pegatron (2018 – 2020)** — 15-person team, **2M AIoT units / year**, end-to-end SMT + FATP process control in Suzhou.
 
 
@@ -86,4 +88,4 @@ Four pillars that hold together everything on this site:
 
 ## Let's Talk
 
-If you're working on AI infrastructure, data centers, or the supply chains behind them — especially in Sydney — I'd genuinely enjoy comparing notes. Reach me by [email](mailto:lch99310@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/lch99310/).
+If you're working on AI infrastructure, data centers, or the supply chains and reliability operations behind them — especially in Sydney — I'd genuinely enjoy comparing notes. Reach me by [email](mailto:lch99310@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/lch99310/).
