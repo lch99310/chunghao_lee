@@ -52,12 +52,10 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 ---
 
-## Education & Credentials
+## Education
 
 - **MBA + MS Information Systems** — University of Maryland, College Park (2020 – 2022), Smith Fellow Scholarship
 - **BS + MS** — National Tsing Hua University, Taiwan
-- **Languages** — Native Mandarin · Professional English
-- **Publications** — Springer-published *MiLB → MLB Promotion Prediction Model*
 
 ---
 
