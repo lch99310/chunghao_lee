@@ -10,7 +10,6 @@ showAuthor = true
 
 *Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends: running Google Home production lines in Suzhou, sitting on the supplier side of Dell's hardware supply chain at Wistron, and now operating 35 production AI models at TikTok.*
 
-**35 production AI models** · **+38% adult-content F1** · **$1.2M annual savings** · **40B+ sensor records**
 
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
