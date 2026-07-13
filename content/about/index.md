@@ -14,7 +14,7 @@ showAuthor = true
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
 
-I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I ran a 15-person team operating the **Google Home** manufacturing line — 2M AIoT units per year. At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial AI to **Dell laptop manufacturing**, delivering **$1.2M in annual cost savings** through AI-driven predictive maintenance across **20B+ telemetry records, scaling to 40B+ sensor data records**, and deployed LLM for log analysis at scale. Now at **TikTok Sydney**, I built the **Live RCA Copilot** human-AI collaboration system and platform from 0 to 1.
+I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I led a 15-person cross-functional team operating the **Google Home** manufacturing line — 2M AIoT units per year. At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial AI to **Dell laptop manufacturing**, delivering **$1.2M in annual cost savings** through AI-driven predictive maintenance across **20B+ telemetry records, scaling to 40B+ sensor data records**, and deployed LLM for log analysis at scale. Now at **TikTok Sydney**, I built the **Live RCA Copilot** human-AI collaboration system and platform from 0 to 1.
 
 
 What carries across these roles isn't a domain — it's a method I've come to call **"Analysis + Process"**: deconstructing ambiguous problems into measurable parts (analysis), then designing repeatable workflows that close the loop (process). I wrote about [why these two keywords define my work](/posts/the-two-keywords-analysis-and-process/) — the Wistron "No Power recall plunge" case is the canonical example.
@@ -41,7 +41,7 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 #### Pegatron — Factory Project Manager · Suzhou · 2018 – 2020
 
-- Ran a 15-person team operating the **Google Home** manufacturing line — **2M AIoT units per year**.
+- Led a 15-person cross-functional team operating the **Google Home** manufacturing line — **2M AIoT units per year**.
 - Owned end-to-end **SMT + FATP** process control on the factory floor.
 
 #### University of Maryland — Graduate Research Assistant · College Park · 2020 – 2022
