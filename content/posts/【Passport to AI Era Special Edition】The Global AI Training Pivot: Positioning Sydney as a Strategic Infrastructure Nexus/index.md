@@ -3,8 +3,6 @@ date = '2026-04-25T00:00:00+00:00'
 title = "【Passport to AI Era Special Edition】The Global AI Training Pivot: Positioning Sydney as a Potential Strategic Infrastructure Nexus"
 tags = ['AI', 'Data Center', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
-slug = "sydney-global-AI-pivot"
-aliases = ["posts/【Passport%20to%20AI%20Era%20Special%20Edition】The%20Global%20AI%20Training%20Pivot%3A%20Positioning%20Sydney%20as%20a%20Strategic%20Infrastructure%20Nexus/"]
 +++
 
 ![](pic.png)
