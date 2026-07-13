@@ -64,7 +64,7 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 ## Selected Achievements
 
 - **TikTok Spot Bonus Award, 2025 Q4** — for leading RCA Copilot 0→1
-- **Dell Outstanding Leadership & Execution Award, 2023** — recognition from Wistron's key customer for the industrial AI program; also co-hosted the Dell–Wistron Joint Engineering Workshop that year
+- **Dell Outstanding Leadership & Execution Award, 2023** — presented to the Wistron AI Team for the program I led, signed by Dell's SVP of Worldwide Procurement
 - **Wistron Excellent Digital Transformation Project Award, 2023**
 - **Springer-published research** — *Baseball Informatics: From MiLB to MLB Debut*; featured in *Maryland Today* · UMD Outstanding Graduate Student Award nomination, 2022
 - **Impact Consulting Fellowship, 1st Place (2021)** · Hearst Data Competition, 3rd Place (2022) · Graduate Research Day, 2nd Place (2022)
@@ -86,7 +86,7 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 Four pillars that hold together everything on this site:
 
-- **AI Data Center Economics** → [Data Center 101 series](/tags/data-center-101/) (9 parts on PUE/WUE/GUE, cooling, power, supply chain, DCIM, RCA).
+- **AI Data Center Economics** → [Data Center 101 series](/tags/data-center-101/) (14 parts on PUE/WUE/GUE, cooling, power, supply chain, DCIM, RCA).
 - **Sydney as an AI Infrastructure Nexus** → [The Global AI Training Pivot: Positioning Sydney as a Strategic Infrastructure Nexus](/posts/passport-to-ai-era-special-editionthe-global-ai-training-pivot-positioning-sydney-as-a-strategic-infrastructure-nexus/) · [The AI Supply Chain Dividend](/posts/the-ai-supply-chain-dividend/).
 - **Atoms × Tokens — the hardware-AI bridge** → cross-cutting essays on supply-chain economics linking Taiwan ODM ecosystems to AI infrastructure deployment.
 - **Human-AI Collaboration & Agent Design** → [Beyond the Interface: Designing a Common Language for Humans and AI](/posts/beyond-the-interface-designing-a-common-language-for-humans-and-ai/).
