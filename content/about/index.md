@@ -31,7 +31,7 @@ What carries across these roles isn't a domain — it's a method I've come to ca
   - **v2 · Decision tree** — single-choice questions that walk a reviewer to exactly **one root cause per error**. Attribution became clean, but human throughput couldn't scale and every adjustment rolled out too slowly.
   - **v3 · RCA Copilot** — an AI agent working on a platform where all the data lives. The copilot **plans what evidence it needs, pulls it through purpose-built skills, and reasons its way to the root cause**. Scale unlocked — and when its analysis needs adjusting, humans correct it fast through human-in-the-loop.
 - The platform speaks both languages by design: **skills + CLI for AI agents, GUI for people** — humans and agents collaborating in one system, each through its native interface.
-- Separately, raised a critical review model's F1 score by +38%: multi-agent orchestration (specialist agents plus one arbiter making the final call), a describe-then-verify method that catches hallucination against an unbiased description, and a self-iterating loop where humans only review each round's summary.
+- Separately, raised a nudity-detection model's F1 score by +38%: multi-agent orchestration (specialist agents plus one arbiter making the final call), a describe-then-verify method that catches hallucination against an unbiased description, and a self-iterating loop where humans only review each round's summary.
 
 #### Wistron — AI Project Manager · Taipei · 2022 – 2024
 
