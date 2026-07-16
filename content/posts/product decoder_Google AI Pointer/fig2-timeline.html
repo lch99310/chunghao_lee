@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --slate:#4a6472; --node:#b3a893; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Arial,"PingFang TC",sans-serif;
+         color:var(--ink); position:relative; overflow:hidden; }
+  body::after { content:""; position:absolute; inset:0; pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity:0.025; mix-blend-mode:multiply; }
+  .wrap { padding:52px 64px 48px; position:relative; z-index:1; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Times New Roman",serif; font-size:40px; font-weight:700; letter-spacing:-0.2px; margin-top:10px; line-height:1.1; }
+  .deck { font-size:18.5px; color:var(--grey); margin-top:12px; max-width:860px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:24px; }
+
+  .tl { position:relative; margin-top:52px; }
+  .axis { position:absolute; left:1%; right:1%; top:91px; height:2px; background:var(--hair); }
+  .axis::after { content:""; position:absolute; right:-1px; top:-5px; border-left:11px solid var(--hair);
+                 border-top:6px solid transparent; border-bottom:6px solid transparent; }
+  .stops { display:flex; justify-content:space-between; position:relative; }
+  .stop { width:19%; display:flex; flex-direction:column; align-items:center; text-align:center; }
+  .yr { font-family:Georgia,serif; font-size:24px; font-weight:700; height:34px; }
+  .ic { height:40px; display:flex; align-items:flex-end; justify-content:center; margin-bottom:8px; }
+  .dotbox { height:20px; display:flex; align-items:center; justify-content:center; }
+  .dot { width:13px; height:13px; border-radius:50%; background:var(--node); border:3px solid var(--paper); }
+  .lb { margin-top:14px; font-size:17px; font-weight:600; color:var(--slate); }
+  .sub { margin-top:5px; font-size:14px; color:var(--grey2); }
+  .stop.on .yr { color:var(--amber-ink); }
+  .stop.on .dot { width:19px; height:19px; background:var(--amber); box-shadow:0 0 0 5px rgba(179,112,31,.16); }
+  .stop.on .lb { color:var(--amber-ink); }
+  .stop.on .sub { color:var(--amber); }
+
+  .annot { position:absolute; right:1%; top:150px; width:210px; text-align:right; }
+  .annot .t { font-size:14.5px; font-style:italic; color:var(--amber-ink); line-height:1.4; }
+
+  .note { margin-top:44px; padding-top:12px; border-top:1px solid var(--hair); font-size:12.5px; color:var(--grey2); line-height:1.4; }
+  .note b { color:var(--grey); font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">Sixty Years of Human–Machine Interaction</div>
+    <h1>The machine keeps yielding to us</h1>
+    <div class="deck">Every leap in interface design has moved the burden off the human and back onto the computer. The chat box briefly reversed that — the AI Pointer swings it back.</div>
+    <div class="rule"></div>
+
+    <div class="tl">
+      <div class="axis"></div>
+      <div class="stops">
+        <div class="stop">
+          <div class="yr">1961</div>
+          <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8f8878" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6 l4 4 -4 4"/><line x1="12" y1="15" x2="18" y2="15"/></svg></div>
+          <div class="dotbox"><div class="dot"></div></div>
+          <div class="lb">Command Line</div>
+          <div class="sub">memorize &amp; type</div>
+        </div>
+        <div class="stop">
+          <div class="yr">1984</div>
+          <div class="ic"><svg width="24" height="24" viewBox="0 0 24 24" fill="#8f8878"><path d="M5 3 L5 19 L9.5 14.8 L12.6 21 L15 19.9 L11.9 13.9 L18 13.6 Z"/></svg></div>
+          <div class="dotbox"><div class="dot"></div></div>
+          <div class="lb">Graphical UI</div>
+          <div class="sub">recognize &amp; click</div>
+        </div>
+        <div class="stop">
+          <div class="yr">2007</div>
+          <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8f8878" stroke-width="2" stroke-linecap="round"><path d="M5 8 a9 9 0 0 1 14 0"/><circle cx="12" cy="14" r="3.5" fill="#8f8878" stroke="none"/></svg></div>
+          <div class="dotbox"><div class="dot"></div></div>
+          <div class="lb">Multi-touch</div>
+          <div class="sub">reach out &amp; touch</div>
+        </div>
+        <div class="stop">
+          <div class="yr">2022</div>
+          <div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8f8878" stroke-width="2" stroke-linejoin="round"><path d="M4 5 h16 v11 h-9 l-4 3 v-3 h-3 Z"/></svg></div>
+          <div class="dotbox"><div class="dot"></div></div>
+          <div class="lb">Chat box</div>
+          <div class="sub">describe &amp; wait</div>
+        </div>
+        <div class="stop on">
+          <div class="yr">2026</div>
+          <div class="ic"><svg width="27" height="27" viewBox="0 0 26 26" fill="#b3701f"><path d="M5 3 L5 19 L9.5 14.8 L12.6 21 L15 19.9 L11.9 13.9 L18 13.6 Z"/><path d="M20 2 l0.9 2.4 2.4 0.9 -2.4 0.9 -0.9 2.4 -0.9 -2.4 -2.4 -0.9 2.4 -0.9 Z"/></svg></div>
+          <div class="dotbox"><div class="dot"></div></div>
+          <div class="lb">AI Pointer</div>
+          <div class="sub">point &amp; speak</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note"><b>Milestones:</b> Engelbart's "Mother of All Demos" (1968) · Apple Macintosh (1984) · Apple iPhone (2007) · ChatGPT (2022) · Google DeepMind AI Pointer (2026)</div>
+  </div>
+</body>
+</html>
