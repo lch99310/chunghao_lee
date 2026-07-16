@@ -1,7 +1,7 @@
 +++
 date = '2023-09-21T00:08:00+08:00'
 title = 'My research project was featured in Maryland Today !'
-tags = ['Sharing', 'Achievements']
+tags = ['Sharing', 'Achievements', 'Baseball']
 thumbnail = 'pic.jpg'
 +++
 
