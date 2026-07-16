@@ -49,19 +49,37 @@ Textbooks draw this as a straight, inevitable line. It was not. Every step of th
 
 教科書把這段寫成一條理所當然的直線。但回到現場，GUI 從誕生到勝出的每一步，都伴隨著激烈的反對——而且反對者不是外行，是當時最優秀的一批工程師。他們的論點，今天聽起來會非常耳熟：
 
-| The 1980s debate | The 2020s rerun | History's verdict |
-|---|---|---|
-| "GUIs are toys. Drawing graphics burns expensive memory and compute; real work doesn't need it." | "GUIs are baggage. For AI, text is enough; rendering an interface is overhead." | Compute cost has never decided the outcome. Hardware gets cheaper every year; human cognitive cost never does — the side that saves *human* effort wins. |
-| "A skilled operator types commands faster than anyone points a mouse." | "A skilled prompter gets more done in a chat box than anyone clicking around." | Apple ran the stopwatch in the 1980s: users *felt* keyboard commands were faster; the clock said the mouse won. Our intuition about our own efficiency is unreliable. |
-| "Commands compose and pipe together (Unix pipes) — menus and buttons will never match that expressive power." | "Natural language can express anything; buttons only do what a designer anticipated." | **Both sides were right** — and each side's "right" grew into an industry of its own (see below). |
-| "Using a computer is a skill. Learning commands is the user's responsibility." | "Can't prompt properly? That's on you — go take a prompt-engineering course." | Every single time, the machine has yielded to the human. Not once has the human permanently yielded to the machine. |
-
-| 1980 年代的論戰 | 2020 年代的重演 | 時間的裁決 |
-|---|---|---|
-| 「GUI 是玩具。畫圖形要吃掉昂貴的記憶體與運算資源，正經工作不需要。」 | 「GUI 是包袱。對 AI 來說文字就夠了，渲染介面是多餘的。」 | 運算成本從來不是勝負手。硬體年年降價，人的認知成本卻一毛不降——最後贏的都是替人省力的那邊。 |
-| 「熟手打指令比點滑鼠快得多。」 | 「會寫 prompt 的人，用對話框效率最高。」 | Apple 在 80 年代做過實測：使用者「感覺」鍵盤指令比較快，碼錶卻顯示滑鼠更快。人對自己效率的直覺，並不可靠。 |
-| 「指令可以組合、可以串接（Unix 管線），選單和按鈕永遠給不了這種表達力。」 | 「自然語言什麼都能表達，按鈕只能做設計者預想到的事。」 | **雙方都對**——而雙方的「對」，各自長成了一個行業（見下文）。 |
-| 「使用電腦本來就該受訓。學指令是使用者的責任。」 | 「不會下 prompt 是你的問題，該去上 prompt engineering 課。」 | 歷史上每一次，都是機器遷就人；沒有一次，是人遷就機器。 |
+<table>
+  <thead>
+    <tr>
+      <th style="width:30%; text-align:left; vertical-align:top;">The 1980s Debate<br><span style="font-weight:400; opacity:.7;">1980 年代的論戰</span></th>
+      <th style="width:30%; text-align:left; vertical-align:top;">The 2020s Rerun<br><span style="font-weight:400; opacity:.7;">2020 年代的重演</span></th>
+      <th style="width:40%; text-align:left; vertical-align:top;">History's Verdict<br><span style="font-weight:400; opacity:.7;">時間的裁決</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="vertical-align:top;">"GUIs are toys — drawing graphics burns expensive memory; real work doesn't need it."<br><span style="opacity:.7;">「GUI 是玩具，畫圖形要吃掉昂貴的運算資源，正經工作不需要。」</span></td>
+      <td style="vertical-align:top;">"GUIs are baggage — for AI, text is enough; rendering an interface is overhead."<br><span style="opacity:.7;">「GUI 是包袱，對 AI 來說文字就夠了，渲染介面是多餘的。」</span></td>
+      <td style="vertical-align:top;">Compute cost never decided the outcome. Hardware gets cheaper every year; human cognitive cost never does — the side that saves <em>human</em> effort wins.<br><span style="opacity:.7;">運算成本從來不是勝負手。硬體年年降價，人的認知成本卻一毛不降——最後贏的都是替人省力的那邊。</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align:top;">"A skilled operator types commands faster than anyone points a mouse."<br><span style="opacity:.7;">「熟手打指令比點滑鼠快得多。」</span></td>
+      <td style="vertical-align:top;">"A skilled prompter gets more done in a chat box than anyone clicking around."<br><span style="opacity:.7;">「會寫 prompt 的人，用對話框效率最高。」</span></td>
+      <td style="vertical-align:top;">Apple ran the stopwatch in the 1980s: users <em>felt</em> the keyboard was faster; the clock said the mouse won. Our intuition about our own efficiency is unreliable.<br><span style="opacity:.7;">Apple 在 80 年代做過實測：使用者「感覺」鍵盤指令比較快，碼錶卻顯示滑鼠更快。人對自己效率的直覺，並不可靠。</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align:top;">"Commands compose and pipe together — menus and buttons will never match that expressive power."<br><span style="opacity:.7;">「指令可以組合、可以串接（Unix 管線），選單和按鈕永遠給不了這種表達力。」</span></td>
+      <td style="vertical-align:top;">"Natural language can express anything; buttons only do what a designer anticipated."<br><span style="opacity:.7;">「自然語言什麼都能表達，按鈕只能做設計者預想到的事。」</span></td>
+      <td style="vertical-align:top;"><strong>Both sides were right</strong> — and each side's "right" grew into an industry of its own (see below).<br><span style="opacity:.7;"><strong>雙方都對</strong>——而雙方的「對」，各自長成了一個行業（見下文）。</span></td>
+    </tr>
+    <tr>
+      <td style="vertical-align:top;">"Using a computer is a skill. Learning commands is the user's responsibility."<br><span style="opacity:.7;">「使用電腦本來就該受訓，學指令是使用者的責任。」</span></td>
+      <td style="vertical-align:top;">"Can't prompt properly? That's on you — go take a prompt-engineering course."<br><span style="opacity:.7;">「不會下 prompt 是你的問題，該去上 prompt engineering 課。」</span></td>
+      <td style="vertical-align:top;">Every single time, the machine has yielded to the human. Not once has the human permanently yielded to the machine.<br><span style="opacity:.7;">歷史上每一次，都是機器遷就人；沒有一次，是人遷就機器。</span></td>
+    </tr>
+  </tbody>
+</table>
 
 The third row deserves its own paragraph. The skeptics were right: the expressive power of composition and piping is something menus will never match — which is why the CLI never died. It retreated into the terminal and remains an engineer's daily bread today. But the GUI camp was right too, and their "right" gave birth to an entirely new craft: UI/UX design. If buttons can only do what a designer anticipated, then anticipate everything the user will ever meet, and bury the complexity behind the interface. The purest expression of that lineage is iOS — pinch to zoom, slide to unlock, no manual anywhere in the box, and a three-year-old and an eighty-year-old both figure it out on their own. Steve Jobs's standard for his design team was that products be "intuitively obvious"; the folk version circulating in Chinese tech circles is blunter: *"What I build, even a fool can use."* One debate, two correct answers — and each side claimed its own half of the world: the CLI kept the expressive power, and the GUI took the three billion users.
 
@@ -140,7 +158,13 @@ In May 2026, Google DeepMind published something that looks almost trivially sma
 
 今年 5 月，Google DeepMind 發表了一個乍看不起眼的東西：把滑鼠游標——這個五十年沒變過的元件——重新設計了一遍。他們叫它 AI-enabled pointer，搭載在 Chrome 的 Gemini 與新款筆電上。
 
-> **See it in action //  親自看看 →** DeepMind's write-up, [*Shaping the future of AI interaction by reimagining the mouse pointer*](https://deepmind.google/blog/ai-pointer/), embeds a two-minute demo: the pointer selects an image, takes a spoken command like "turn this into a watercolor," and produces the result in place — no new window, no copy, no paste. They also released two hands-on prototypes in Google AI Studio that run in the browser and listen through your microphone, so you can try pointing-and-speaking yourself. // DeepMind 官方文章裡就嵌了一支兩分鐘的 demo 影片，並在 Google AI Studio 放了兩個可直接在瀏覽器裡玩、用麥克風下語音指令的互動 prototype——建議親手試一次，比讀十段文字都有感。
+<figure style="margin: 2em 0; text-align: center;">
+  <video controls playsinline preload="metadata" style="width: 100%; max-width: 860px; border-radius: 12px; display: block; margin: 0 auto;">
+    <source src="ai-pointer-demo.mp4" type="video/mp4">
+    Your browser does not support the video tag. <a href="https://deepmind.google/blog/ai-pointer/">Watch the demo on the DeepMind blog.</a>
+  </video>
+  <figcaption style="margin-top: 10px; font-size: 14px; color: #8a837a;">The AI Pointer in action — point at an object, speak a command, get the result in place.<br>AI Pointer 實際操作——指著物件、說一句話，結果就地生成。</figcaption>
+</figure>
 
 Following this series' convention, let's decode it twice — once as a user, once as a PM.
 
