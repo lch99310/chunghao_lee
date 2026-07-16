@@ -2,7 +2,7 @@
 date = '2026-07-16T00:00:00+00:00'
 title = "Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next"
 tags = ['Product Decoder', 'AI', 'PM', '中文']
-thumbnail = 'fig1-hero.png'
+thumbnail = 'pic.png'
 +++
 
 Picture one of the most ordinary moments in knowledge work: a quarterly revenue table sits on your screen, and you want to turn it into a pie chart.
@@ -21,6 +21,8 @@ The technology jumped forward a generation; the interaction fell back one. There
 
 明明是往前走了一個世代的技術，操作起來卻像倒退了一個世代。中文有句俗話講得傳神：**脫褲子放屁——多此一舉**。我把這個多出來的成本叫做**「描述稅」（description tax）：你被迫用文字，把你的眼睛和滑鼠早就知道的事，重新講一遍給 AI 聽。**
 
+![](pic.png)
+
 In my previous piece, [*Beyond the Interface*](/posts/beyond-the-interface-designing-a-common-language-for-humans-and-ai/), I argued that GUI and CLI share the same underlying substance — data — and differ only in who is looking. This piece asks the next question down: in the age of AI, what should human-machine interaction actually look like?
 
 上一篇[《Beyond the Interface》](/posts/beyond-the-interface-designing-a-common-language-for-humans-and-ai/)我談過：GUI 和 CLI 的底層都是資料，差別只在「誰在看」。這一篇想往下再問一層：在 AI 的時代，人與機器的交互，到底該長什麼樣？
@@ -30,7 +32,7 @@ The question matters because right now the entire industry has converged on one 
 因為現在整個行業給出的答案出奇地一致：一個對話框。打開 ChatGPT、Claude、Gemini、Copilot，撇除配色與圓角，它們是同一張臉——一個輸入框，一個送出鍵，一條不斷向上捲動的訊息流。彷彿人類四十年的介面設計積累，一夜之間被歸零了。
 
 <figure style="margin: 2em 0; text-align: center;">
-  <img src="fig1-hero.png" alt="The interfaces of the AI era all share the same face — one input box" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
+  <img src="pic1.png" alt="The interfaces of the AI era all share the same face — one input box" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
 </figure>
 
 Here is the interesting part: computing history has already fought this exact war once — typing versus pointing. It took a decade to settle.
@@ -94,7 +96,7 @@ This, incidentally, is my answer to the anxiety that "AI is now so strong it wil
 順帶一提，這也是我對「AI 太強、終將取代人」這類焦慮的回答。介面史上每一次，都是機器主動長出遷就人的形狀，因為需求的源頭是人，價值的裁判也是人。只要人還在，主體就是人。AI 再強，最終也得學會遷就我們——事實上，它已經在學了，這正是本文接下來要講的事。
 
 <figure style="margin: 2em 0; text-align: center;">
-  <img src="fig2-timeline.png" alt="Sixty years of human-machine interaction: CLI, GUI, multi-touch, chat box, AI pointer" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
+  <img src="pic2.png" alt="Sixty years of human-machine interaction: CLI, GUI, multi-touch, chat box, AI pointer" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
 </figure>
 
 ---
@@ -124,7 +126,7 @@ In one line: **the GUI is a manipulation engine — you know "what to do," and i
 一句話：**GUI 是一顆操作引擎（manipulation engine）——你知道「該做什麼」，它讓你用最短的路徑做到。**
 
 <figure style="margin: 2em 0; text-align: center;">
-  <img src="fig3-two-engines.png" alt="Two complementary engines: the intent engine (AI) and the manipulation engine (GUI)" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
+  <img src="pic3.png" alt="Two complementary engines: the intent engine (AI) and the manipulation engine (GUI)" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
 </figure>
 
 ## The Collision: Three Zones, Three Interfaces // 四、碰撞：三種狀況，三種介面
@@ -143,7 +145,7 @@ Set the two engines side by side, and "which task deserves which interaction" st
 - **意圖說得清、物件在眼前 → 整合帶。** 「把**這個**表格畫成圓餅圖」「把**這段**改得口語一點」。目的要用語言講，但對象明明就在螢幕上——這一帶過去被迫二選一：要嘛退回純手工，要嘛付描述稅。而這恰恰是日常工作裡最大的一帶。
 
 <figure style="margin: 2em 0; text-align: center;">
-  <img src="fig4-three-zones.png" alt="Three zones of interaction along the axis of intent clarity" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
+  <img src="pic4.png" alt="Three zones of interaction along the axis of intent clarity" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
 </figure>
 
 For the past four years, the industry has stuffed every task into zone two's chat box. The real opportunity sits in zone three — and last May, the first serious big-company attempt on zone three arrived.
@@ -154,9 +156,9 @@ For the past four years, the industry has stuffed every task into zone two's cha
 
 ## Product Decoder: Google's AI Pointer // 五、Product Decoder：拆解 Google 的 AI Pointer
 
-In May 2026, Google DeepMind published something that looks almost trivially small: a redesign of the mouse pointer — a component that has not changed in fifty years. They call it the AI-enabled pointer, shipping with Gemini in Chrome and Google's new laptop line.
+In May 2026, Google DeepMind published something that looks almost trivially small: a redesign of the mouse pointer — a component that has not changed in fifty years. They call it the [AI-enabled pointer](https://deepmind.google/blog/ai-pointer/), shipping with Gemini in Chrome and Google's new laptop line.
 
-今年 5 月，Google DeepMind 發表了一個乍看不起眼的東西：把滑鼠游標——這個五十年沒變過的元件——重新設計了一遍。他們叫它 AI-enabled pointer，搭載在 Chrome 的 Gemini 與新款筆電上。
+今年 5 月，Google DeepMind 發表了一個乍看不起眼的東西：把滑鼠游標——這個五十年沒變過的元件——重新設計了一遍。他們叫它 [AI-enabled pointer](https://deepmind.google/blog/ai-pointer/)，搭載在 Chrome 的 Gemini 與新款筆電上。
 
 <figure style="margin: 2em 0; text-align: center;">
   <video controls playsinline preload="metadata" style="width: 100%; max-width: 860px; border-radius: 12px; display: block; margin: 0 auto;">
@@ -203,7 +205,7 @@ The endgame of interface design is not a smarter chat box. It is AI dissolving i
 介面的終點，不是一個更聰明的對話框，而是讓 AI 溶解進每一個動作裡——好的介面會消失，就像好的翻譯讓你忘記語言的存在。
 
 <figure style="margin: 2em 0; text-align: center;">
-  <img src="fig5-dissolve.png" alt="From AI as a place you go to, to AI as a layer under everything" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
+  <img src="pic5.png" alt="From AI as a place you go to, to AI as a layer under everything" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
 </figure>
 
 But pull the camera back further, and "the interface on the screen" may only be the first half of this story. If the mission of every interface is to shorten the distance between intent and action, then the endpoint of that distance is zero. When that day comes — where does the interface retreat to? Your glasses? Your ears? Or straight into the brain?
