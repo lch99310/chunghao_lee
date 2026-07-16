@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="620" fill="#f7f4ee"/>
+  <text x="60" y="72" fill="#2c2a27" font-size="30" font-weight="700">Three Zones, Three Interfaces</text>
+  <text x="60" y="106" fill="#6b6560" font-size="19">Match the interaction to the task — it's derivable, not a matter of taste.</text>
+
+  <!-- three cards -->
+  <!-- Zone A: Direct manipulation -->
+  <g transform="translate(60,160)">
+    <rect width="330" height="300" rx="16" fill="#ffffff" stroke="#c3d0d6" stroke-width="2.5"/>
+    <text x="28" y="52" fill="#47606e" font-size="15" font-weight="700" letter-spacing="1">DIRECT MANIPULATION</text>
+    <line x1="28" y1="70" x2="302" y2="70" stroke="#e2e9ec" stroke-width="2"/>
+    <text x="28" y="118" fill="#2c2a27" font-size="20" font-weight="600">Clear intent</text>
+    <text x="28" y="146" fill="#2c2a27" font-size="20" font-weight="600">+ clear object</text>
+    <text x="28" y="196" fill="#8a837a" font-size="16">e.g. crop a photo,</text>
+    <text x="28" y="220" fill="#8a837a" font-size="16">change a date, adjust volume</text>
+    <text x="28" y="270" fill="#9c958c" font-size="15" font-style="italic">just point &amp; do — no AI needed</text>
+  </g>
+
+  <!-- Zone C: Integration (highlighted, center, taller) -->
+  <g transform="translate(420,140)">
+    <rect width="360" height="340" rx="16" fill="#fbf1e0" stroke="#bd7a2c" stroke-width="3"/>
+    <text x="28" y="52" fill="#bd7a2c" font-size="15" font-weight="700" letter-spacing="1">INTEGRATION ZONE &#9733;</text>
+    <line x1="28" y1="70" x2="332" y2="70" stroke="#e6d3b3" stroke-width="2"/>
+    <text x="28" y="118" fill="#2c2a27" font-size="20" font-weight="700">Speakable intent</text>
+    <text x="28" y="146" fill="#2c2a27" font-size="20" font-weight="700">+ visible object</text>
+    <text x="28" y="196" fill="#6b6560" font-size="16">e.g. "turn THIS table</text>
+    <text x="28" y="220" fill="#6b6560" font-size="16">into a pie chart"</text>
+    <rect x="28" y="252" width="304" height="56" rx="10" fill="#f3e2c8"/>
+    <text x="180" y="278" fill="#a06a2a" font-size="17" font-weight="700" text-anchor="middle">point the noun,</text>
+    <text x="180" y="300" fill="#a06a2a" font-size="17" font-weight="700" text-anchor="middle">speak the verb</text>
+  </g>
+
+  <!-- Zone B: Chat box -->
+  <g transform="translate(810,160)">
+    <rect width="330" height="300" rx="16" fill="#ffffff" stroke="#c3d0d6" stroke-width="2.5"/>
+    <text x="28" y="52" fill="#47606e" font-size="15" font-weight="700" letter-spacing="1">CHAT BOX</text>
+    <line x1="28" y1="70" x2="302" y2="70" stroke="#e2e9ec" stroke-width="2"/>
+    <text x="28" y="118" fill="#2c2a27" font-size="20" font-weight="600">Fuzzy intent,</text>
+    <text x="28" y="146" fill="#2c2a27" font-size="20" font-weight="600">synthesis needed</text>
+    <text x="28" y="196" fill="#8a837a" font-size="16">e.g. "find the weaknesses</text>
+    <text x="28" y="220" fill="#8a837a" font-size="16">in this proposal"</text>
+    <text x="28" y="270" fill="#9c958c" font-size="15" font-style="italic">no object to point at — language wins</text>
+  </g>
+
+  <!-- axis -->
+  <line x1="80" y1="524" x2="1120" y2="524" stroke="#d9d2c6" stroke-width="2.5"/>
+  <polygon points="1120,524 1106,517 1106,531" fill="#d9d2c6"/>
+  <text x="80" y="558" fill="#8a837a" font-size="15">intent clear · object in view</text>
+  <text x="1120" y="558" fill="#8a837a" font-size="15" text-anchor="end">intent fuzzy · no object</text>
+  <text x="600" y="600" fill="#a06a2a" font-size="16" font-weight="600" text-anchor="middle">Most daily work lives in the middle — the zone the industry skipped.</text>
+</svg>
