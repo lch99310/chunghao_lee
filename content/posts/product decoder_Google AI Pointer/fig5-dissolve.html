@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --slate:#4a6472; --skel:#e9e2d5; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Arial,"PingFang TC",sans-serif;
+         color:var(--ink); position:relative; overflow:hidden; }
+  body::after { content:""; position:absolute; inset:0; pointer-events:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.92' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    opacity:0.025; mix-blend-mode:multiply; }
+  .wrap { padding:52px 64px 48px; position:relative; z-index:1; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Times New Roman",serif; font-size:40px; font-weight:700; letter-spacing:-0.2px; margin-top:10px; line-height:1.1; }
+  .deck { font-size:18.5px; color:var(--grey); margin-top:12px; max-width:860px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:24px; }
+
+  .stage { display:flex; align-items:center; gap:40px; margin-top:44px; }
+  .side { flex:1; }
+  .phase { font-size:13px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; text-align:center; margin-bottom:22px; }
+  .side.today .phase { color:var(--slate); }
+  .side.tmrw .phase { color:var(--amber); }
+
+  .today .scene { display:flex; align-items:center; justify-content:center; gap:30px; height:220px; }
+  .door { width:120px; height:200px; border:3px solid var(--slate); border-radius:8px; background:#eef1f2;
+          display:flex; align-items:center; justify-content:center; position:relative; }
+  .door .k { font-family:Georgia,serif; font-size:34px; font-weight:800; color:var(--slate); }
+  .door .knob { position:absolute; right:14px; top:50%; width:7px; height:7px; border-radius:50%; background:var(--slate); }
+
+  .arrow { flex:none; width:70px; display:flex; align-items:center; justify-content:center; }
+
+  .tmrw .rows { display:flex; flex-direction:column; gap:12px; height:220px; justify-content:center; }
+  .uirow { position:relative; height:40px; }
+  .uirow .mem { position:absolute; left:0; right:0; top:6px; height:40px; background:#f6e6cd; border-radius:7px; }
+  .uirow .bar { position:absolute; left:0; right:0; top:0; height:40px; background:#fff; border:1px solid var(--hair);
+                border-radius:7px; display:flex; align-items:center; padding-left:18px; }
+  .uirow .bar .l { height:8px; border-radius:5px; background:var(--skel); }
+
+  .caps { display:flex; gap:40px; margin-top:8px; }
+  .capcell { flex:1; text-align:center; font-size:16.5px; }
+  .today .capcell { color:var(--slate); }
+  .tmrw .capcell { color:var(--amber-ink); font-weight:600; }
+  .arrowgap { width:70px; flex:none; }
+
+  .cap { text-align:center; font-size:17px; color:var(--grey); margin-top:34px; }
+  .cap b { color:var(--ink); font-weight:600; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="kicker">The Endgame</div>
+    <h1>The best interface disappears</h1>
+    <div class="deck">If every interface exists to shorten the distance between intent and action, the endpoint is zero — AI stops being a place you visit and becomes a layer woven under everything.</div>
+    <div class="rule"></div>
+
+    <div class="stage">
+      <div class="side today">
+        <div class="phase">Today</div>
+        <div class="scene">
+          <svg width="60" height="120" viewBox="0 0 60 120" fill="none" stroke="#8a837a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="30" cy="20" r="11" fill="#8a837a" stroke="none"/>
+            <line x1="30" y1="32" x2="30" y2="72"/>
+            <line x1="30" y1="46" x2="48" y2="58"/>
+            <line x1="30" y1="46" x2="14" y2="56"/>
+            <line x1="30" y1="72" x2="46" y2="104"/>
+            <line x1="30" y1="72" x2="16" y2="104"/>
+          </svg>
+          <div class="door"><span class="k">AI</span><span class="knob"></span></div>
+        </div>
+      </div>
+
+      <div class="arrow">
+        <svg width="70" height="30" viewBox="0 0 70 30" fill="none"><line x1="4" y1="15" x2="58" y2="15" stroke="#b3701f" stroke-width="3"/><path d="M58 15 L46 8 M58 15 L46 22" stroke="#b3701f" stroke-width="3" stroke-linecap="round"/></svg>
+      </div>
+
+      <div class="side tmrw">
+        <div class="phase">Tomorrow</div>
+        <div class="rows">
+          <div class="uirow"><div class="mem"></div><div class="bar"><span class="l" style="width:45%"></span></div></div>
+          <div class="uirow"><div class="mem"></div><div class="bar"><span class="l" style="width:62%"></span></div></div>
+          <div class="uirow"><div class="mem"></div><div class="bar"><span class="l" style="width:33%"></span></div></div>
+          <div class="uirow"><div class="mem"></div><div class="bar"><span class="l" style="width:52%"></span></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="caps">
+      <div class="capcell today-c" style="color:#4a6472;">A place you go to.</div>
+      <div class="arrowgap"></div>
+      <div class="capcell" style="color:#955c19; font-weight:600;">A layer under everything.</div>
+    </div>
+
+    <div class="cap">A good interface disappears — <b>the way a good translation makes you forget the language.</b></div>
+  </div>
+</body>
+</html>
