@@ -39,7 +39,7 @@ Here is the interesting part: computing history has already fought this exact wa
 
 ---
 
-## The Argument We Already Had, Forty Years Ago // 一、四十年前，我們吵過一模一樣的架
+## The Argument We Already Had, Forty Years Ago // 四十年前，我們吵過一模一樣的架
 
 Compress the history into four milestones. In 1962, Douglas Engelbart wrote *Augmenting Human Intellect*, arguing that the computer's mission was not calculation but the amplification of human intelligence. In 1968, he staged what was later named the Mother of All Demos — the mouse, windows, and hypertext, all shown publicly for the first time. In 1973, Xerox PARC built the Alto, the first computer organized around a graphical interface. In 1984, Apple packed it all into the Macintosh and sold it to the world.
 
@@ -97,7 +97,7 @@ This, incidentally, is my answer to the anxiety that "AI is now so strong it wil
 
 ---
 
-## AI's Value: An Intent Engine // 二、AI 的價值：一顆意圖引擎
+## AI's Value: An Intent Engine // AI 的價值：一顆意圖引擎
 
 To answer "what should the AI-era interface look like," resist picking a side. First, be precise about what each side is actually worth.
 
@@ -111,7 +111,7 @@ In one line: **AI is an intent engine — you give it the "what I want," and it 
 
 一句話：**AI 是一顆意圖引擎（intent engine）——你給它「想要什麼」，它負責推導「該做什麼」。**
 
-## GUI's Value: A Manipulation Engine // 三、GUI 的價值：一顆操作引擎
+## GUI's Value: A Manipulation Engine // GUI 的價值：一顆操作引擎
 
 The GUI's value is the precise complement. Its strengths all begin *after* intent is clear: **precise reference** (what you click is what you mean — no "which column did you mean?" ambiguity), **instant feedback** (every millisecond of a drag shows its result; errors are corrected on the spot), and **spatial memory** (tools live in fixed places; your muscles remember the route). When you know exactly what you want, pointing beats describing — not by habit, but by bandwidth: typing runs at a few dozen words per minute, while one glance-and-point runs in a few hundred milliseconds.
 
@@ -123,7 +123,7 @@ In one line: **the GUI is a manipulation engine — you know "what to do," and i
 
 ![](pic3.png)
 
-## The Collision: Three Zones, Three Interfaces // 四、碰撞：三種狀況，三種介面
+## The Collision: Three Zones, Three Interfaces // 碰撞：三種狀況，三種介面
 
 Set the two engines side by side, and "which task deserves which interaction" stops being a matter of taste and becomes a matter of derivation. Spread tasks along one axis — the clarity of intent — and three zones appear:
 
@@ -146,7 +146,7 @@ For the past four years, the industry has stuffed every task into zone two's cha
 
 ---
 
-## Product Decoder: Google's AI Pointer // 五、Product Decoder：拆解 Google 的 AI Pointer
+## Product Decoder: Google's AI Pointer // Product Decoder：拆解 Google 的 AI Pointer
 
 In May 2026, Google DeepMind published something that looks almost trivially small: a redesign of the mouse pointer — a component that has not changed in fifty years. They call it the [AI-enabled pointer](https://deepmind.google/blog/ai-pointer/), shipping with Gemini in Chrome and Google's new laptop line.
 
@@ -186,7 +186,7 @@ Following this series' convention, let's decode it twice — once as a user, onc
 
 ---
 
-## The Endgame: Interfaces That Disappear // 六、結語：介面的終點，是讓 AI 消失
+## The Endgame: Interfaces That Disappear // 結語：介面的終點，是讓 AI 消失
 
 History suggests how this plays out. Just as the CLI survived the GUI's victory by retreating to professional ground, the chat box will not disappear — open-ended, generate-from-nothing tasks will always need a free writing space. But it will step down from being "the front door of AI" to being one entrance among many. Mainstream interaction will return to the world of *see it, point at it* — except this time, behind every click and every circled selection stands a mind that understands intent.
 
