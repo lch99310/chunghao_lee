@@ -31,9 +31,7 @@ The question matters because right now the entire industry has converged on one 
 
 因為現在整個行業給出的答案出奇地一致：一個對話框。打開 ChatGPT、Claude、Gemini、Copilot，撇除配色與圓角，它們是同一張臉——一個輸入框，一個送出鍵，一條不斷向上捲動的訊息流。彷彿人類四十年的介面設計積累，一夜之間被歸零了。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="pic1.png" alt="The interfaces of the AI era all share the same face — one input box" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic1.png)
 
 Here is the interesting part: computing history has already fought this exact war once — typing versus pointing. It took a decade to settle.
 
@@ -95,9 +93,7 @@ This, incidentally, is my answer to the anxiety that "AI is now so strong it wil
 
 順帶一提，這也是我對「AI 太強、終將取代人」這類焦慮的回答。介面史上每一次，都是機器主動長出遷就人的形狀，因為需求的源頭是人，價值的裁判也是人。只要人還在，主體就是人。AI 再強，最終也得學會遷就我們——事實上，它已經在學了，這正是本文接下來要講的事。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="pic2.png" alt="Sixty years of human-machine interaction: CLI, GUI, multi-touch, chat box, AI pointer" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic2.png)
 
 ---
 
@@ -125,9 +121,7 @@ In one line: **the GUI is a manipulation engine — you know "what to do," and i
 
 一句話：**GUI 是一顆操作引擎（manipulation engine）——你知道「該做什麼」，它讓你用最短的路徑做到。**
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="pic3.png" alt="Two complementary engines: the intent engine (AI) and the manipulation engine (GUI)" style="width: 100%; max-width: 900px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic3.png)
 
 ## The Collision: Three Zones, Three Interfaces // 四、碰撞：三種狀況，三種介面
 
@@ -144,9 +138,7 @@ Set the two engines side by side, and "which task deserves which interaction" st
 - **Speakable intent, visible object → the integration zone.** "Turn *this* table into a pie chart." "Make *this* paragraph more conversational." The goal needs language, but the object is right there on screen. Until now this zone forced a bad choice: retreat to pure manual work, or pay the description tax. And it happens to be the largest zone in daily work.
 - **意圖說得清、物件在眼前 → 整合帶。** 「把**這個**表格畫成圓餅圖」「把**這段**改得口語一點」。目的要用語言講，但對象明明就在螢幕上——這一帶過去被迫二選一：要嘛退回純手工，要嘛付描述稅。而這恰恰是日常工作裡最大的一帶。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="pic4.png" alt="Three zones of interaction along the axis of intent clarity" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic4.png)
 
 For the past four years, the industry has stuffed every task into zone two's chat box. The real opportunity sits in zone three — and last May, the first serious big-company attempt on zone three arrived.
 
@@ -204,9 +196,7 @@ The endgame of interface design is not a smarter chat box. It is AI dissolving i
 
 介面的終點，不是一個更聰明的對話框，而是讓 AI 溶解進每一個動作裡——好的介面會消失，就像好的翻譯讓你忘記語言的存在。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="pic5.png" alt="From AI as a place you go to, to AI as a layer under everything" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic5.png)
 
 But pull the camera back further, and "the interface on the screen" may only be the first half of this story. If the mission of every interface is to shorten the distance between intent and action, then the endpoint of that distance is zero. When that day comes — where does the interface retreat to? Your glasses? Your ears? Or straight into the brain?
 
