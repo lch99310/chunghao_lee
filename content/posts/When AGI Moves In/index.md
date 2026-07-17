@@ -72,7 +72,7 @@ Hold today's AI against these three conditions: for senses, it has one text box;
 
 So AI's next leap has little to do with parameter counts. **It is about completing its perception.** And I believe that happens in two clearly distinct stages.
 
-所以 AI 的下一步，跟模型參數無關。**是把感知補齊。**而補齊的路徑，我認為會分成清楚的兩個階段。
+所以 AI 的下一步，跟模型參數無關。**是把感知補齊**。而補齊的路徑，我認為會分成清楚的兩個階段。
 
 <figure style="margin: 2em 0; text-align: center;">
   <img src="fig2-bandwidth.png" alt="Perception bandwidth: a human's six senses receiving in parallel versus AI's single text input box" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
@@ -90,20 +90,20 @@ Look at the hottest hardware of the moment, and a clear pattern appears: each pr
 
 看看現在最紅的幾樣硬體，會發現一個清楚的模式——每一樣，都剛好對應人的一根：
 
-- **Eye → AI glasses.** Meta's Ray-Ban partnership is the most successful category so far; the latest Ray-Ban Display even builds a screen into the lens. The camera sees what you see; the lens overlays AI's response onto your field of view.
-- **眼 → AI 眼鏡。** Meta 與 Ray-Ban 合作的智慧眼鏡是目前最成功的品類，最新的 Ray-Ban Display 甚至在鏡片裡內建了顯示器：鏡頭看見你所看，鏡片把 AI 的回應疊在你的視野上。
+- **Eye → AI glasses**: Meta's Ray-Ban partnership is the most successful category so far; the latest Ray-Ban Display even builds a screen into the lens. The camera sees what you see; the lens overlays AI's response onto your field of view.
+- **眼 → AI 眼鏡**: Meta 與 Ray-Ban 合作的智慧眼鏡是目前最成功的品類，最新的 Ray-Ban Display 甚至在鏡片裡內建了顯示器：鏡頭看見你所看，鏡片把 AI 的回應疊在你的視野上。
 
-- **Ear → smart earbuds.** AirPods Pro already do live translation and hearing assistance; Huawei's FreeClip uses a clip-on design you can wear all day. "All-day in-ear" is precisely the point — it is AI's resident microphone and speaker.
-- **耳 → 智慧耳機。** AirPods Pro 已經能做即時翻譯與助聽；華為的 FreeClip 用夾耳式設計讓耳機可以整天戴著不摘。「全天候在耳」正是重點——它是 AI 的常駐麥克風與喇叭。
+- **Ear → smart earbuds**: AirPods Pro already do live translation and hearing assistance; Huawei's FreeClip uses a clip-on design you can wear all day. "All-day in-ear" is precisely the point — it is AI's resident microphone and speaker.
+- **耳 → 智慧耳機**: AirPods Pro 已經能做即時翻譯與助聽；華為的 FreeClip 用夾耳式設計讓耳機可以整天戴著不摘。「全天候在耳」正是重點——它是 AI 的常駐麥克風與喇叭。
 
-- **Body → watches and rings.** Apple Watch, Galaxy Ring — devices pressed against your skin, reading heart rate, temperature, motion. Through them, AI "touches" the state of your body.
-- **身 → 手錶與指環。** Apple Watch、Galaxy Ring 這些貼著皮膚的裝置，量的是心率、體溫、動作——AI 藉此「摸到」你的身體狀態。
+- **Body → watches and rings**: Apple Watch, Galaxy Ring — devices pressed against your skin, reading heart rate, temperature, motion. Through them, AI "touches" the state of your body.
+- **身 → 手錶與指環**: Apple Watch、Galaxy Ring 這些貼著皮膚的裝置，量的是心率、體溫、動作——AI 藉此「摸到」你的身體狀態。
 
-- **The outpost of the mind → the neural wristband.** The most remarkable item is the Neural Band that ships with Ray-Ban Display: an EMG wristband that reads not movement but the **neural electrical signals** traveling from brain to wrist — the command is issued before the finger actually moves. It no longer reads behavior; it reads the downstream of intent.
-- **意的前哨 → 神經腕帶。** 最值得注意的是 Ray-Ban Display 附的 Neural Band：一條 EMG 腕帶，讀的不是動作，而是從大腦傳到手腕的**神經電訊號**——手指還沒真的動，指令已經發出。它讀的已經不是行為，是意圖的下游。
+- **The outpost of the mind → the neural wristband**: The most remarkable item is the Neural Band that ships with Ray-Ban Display: an EMG wristband that reads not movement but the **neural electrical signals** traveling from brain to wrist — the command is issued before the finger actually moves. It no longer reads behavior; it reads the downstream of intent.
+- **意的前哨 → 神經腕帶**: 最值得注意的是 Ray-Ban Display 附的 Neural Band：一條 EMG 腕帶，讀的不是動作，而是從大腦傳到手腕的**神經電訊號**——手指還沒真的動，指令已經發出。它讀的已經不是行為，是意圖的下游。
 
-- **Brain → the phone and laptop.** All these sensory streams converge on the compute hub in your pocket.
-- **腦 → 手機與筆電。** 這一整套感官的訊號，最後匯流到口袋裡那顆算力中樞。
+- **Brain → the phone and laptop**: All these sensory streams converge on the compute hub in your pocket.
+- **腦 → 手機與筆電**: 這一整套感官的訊號，最後匯流到口袋裡那顆算力中樞。
 
 Glasses are a prosthetic eye; earbuds a prosthetic ear; the watch a prosthetic body. **The essence of wearables is to graft the five senses onto AI.**
 
