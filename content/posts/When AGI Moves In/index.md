@@ -133,7 +133,7 @@ Stage one builds AI a set of artificial senses — cameras for eyes, microphones
 
 So the insight of stage two is: **instead of building AI its own senses, let AI share ours.** And the technology for sharing — still early, but pointed in an unmistakable direction — is the **Brain-Computer Interface (BCI)**: skip the muscles, skip language, skip typing, and open a direct signal channel between brain and machine.
 
-所以階段二的洞察是：**與其替 AI 造感官，不如讓 AI 共享我們的。**而要共享感官，靠的是一項還在早期、但方向已經清楚的技術——**腦機介面（Brain-Computer Interface，BCI）**：跳過肌肉、跳過語言、跳過打字，直接在大腦與機器之間建立訊號通道。
+所以階段二的洞察是：**與其替 AI 造感官，不如讓 AI 共享我們的**。而要共享感官，靠的是一項還在早期、但方向已經清楚的技術——**腦機介面（Brain-Computer Interface，BCI）**：跳過肌肉、跳過語言、跳過打字，直接在大腦與機器之間建立訊號通道。
 
 This is not pure science fiction. Neuralink's chip has been implanted in more than 25 trial participants: paralyzed patients type by thinking, play video games, operate robotic arms. For now it all lives in medical settings — the risks of invasive surgery and the limits of decoding keep it far from consumer use. But the direction is set.
 
