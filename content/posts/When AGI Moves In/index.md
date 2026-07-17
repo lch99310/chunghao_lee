@@ -31,7 +31,7 @@ In this piece, I want to run the timeline all the way to the end — a serious f
 
 ---
 
-## The Interface Is a Translation Layer // 一、介面的本質：一層翻譯
+## The Interface Is a Translation Layer // 介面的本質：一層翻譯
 
 Push the previous piece's conclusion one step further. An interface is, at its core, a **translation layer**. Human intent is continuous, fuzzy, multi-dimensional; machine execution is discrete, precise, single-threaded. The interface stands in between, translating the former into the latter.
 
@@ -47,7 +47,7 @@ Every generation of interface makes the translation layer thinner. So what comes
 
 ---
 
-## AI's Real Bottleneck: Perception, Not Intelligence // 二、AI 的根本瓶頸：不是智力，是感知
+## AI's Real Bottleneck: Perception, Not Intelligence // AI 的根本瓶頸：不是智力，是感知
 
 Today's AI has a trait that rarely gets stated plainly: it is **spoon-fed**. However powerful the model, everything it knows about your world comes from the fragment of text or the screenshot you actively hand it. Stop feeding it, and it is a brain floating in a vacuum — brilliant, but deaf and blind.
 
@@ -80,7 +80,7 @@ So AI's next leap has little to do with parameter counts. **It is about completi
 
 ---
 
-## Stage One: Prosthetic Senses — Wearables as AI's Sensory Organs // 三、階段一：外掛五根——穿戴裝置是 AI 的感官
+## Stage One: Prosthetic Senses — Wearables as AI's Sensory Organs // 階段一：外掛五根——穿戴裝置是 AI 的感官
 
 Stage one has already begun — you are probably wearing it.
 
@@ -127,7 +127,7 @@ Once those three lessons are learned, the mode of interaction flips at the root:
 
 ---
 
-## Stage Two: Straight to the Mind — You Are the Best Sensor // 四、階段二：直達意根——人自己，就是最好的感測器
+## Stage Two: Straight to the Mind — You Are the Best Sensor // 階段二：直達意根——人自己，就是最好的感測器
 
 Stage one builds AI a set of artificial senses — cameras for eyes, microphones for ears. But hiding in that logic is a question so obvious it sounds strange: why bother?
 
@@ -169,7 +169,7 @@ Honestly, there is a technical watershed here that splits stage two into an earl
 
 ---
 
-## After the Distance Hits Zero // 五、距離歸零之後
+## After the Distance Hits Zero // 距離歸零之後
 
 Return to the sixty-year curve. From punch cards to BCI, the history of interfaces has been doing one thing all along: moving technology step by step behind us, until it vanishes. When the distance truly hits zero, the word "interface" will fade from our language — the way "dial-up" did.
 
