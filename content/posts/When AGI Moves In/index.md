@@ -1,8 +1,8 @@
 +++
 date = '2026-07-17T00:00:00+00:00'
 title = "When AGI Moves In: The Two-Stage Roadmap to Human-AGI Coexistence"
-tags = ['AI', 'PM', '中文', 'Sharing']
-thumbnail = 'fig1-hero.png'
+tags = ['AI', '中文', 'Passport to AI Era']
+thumbnail = 'pic.png'
 +++
 
 Picture a family dinner. An elder is about to steer the conversation toward a sensitive topic. Across the table, your partner catches your eye, clears their throat softly, and taps a finger twice on the table. You understand instantly — change the subject, now.
@@ -17,9 +17,7 @@ Now run the same task through the smartest AI on earth: "If anyone brings up tha
 
 現在換一個場景：你想讓世界上最聰明的 AI 幫你做同一件事——「待會如果有人提到那件事，提醒我岔開」。你得先掏出手機、打開 App、打字描述整個背景：對方是誰、什麼算「那件事」、什麼叫「岔開」。等你按下送出，話題早就聊完了。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig1-hero.png" alt="A human reads a subtle cue in one second, while the same request to AI takes a cumbersome multi-step process" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic1.png)
 
 This is the absurdity of human-AI interaction today: the model's intelligence compounds by the month, while the bandwidth of the interaction is still stuck in the typewriter era. At the end of my previous piece, [*Product Decoder: Google's AI Pointer*](/posts/product-decoder_google-ai-pointer/), I left a question hanging: if the mission of every interface is to shorten the distance between intent and action, the endpoint of that distance is zero — and when that day comes, where does the interface retreat to?
 
@@ -74,9 +72,7 @@ So AI's next leap has little to do with parameter counts. **It is about completi
 
 所以 AI 的下一步，跟模型參數無關。**是把感知補齊**。而補齊的路徑，我認為會分成清楚的兩個階段。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig2-bandwidth.png" alt="Perception bandwidth: a human's six senses receiving in parallel versus AI's single text input box" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic2.png)
 
 ---
 
@@ -109,9 +105,7 @@ Glasses are a prosthetic eye; earbuds a prosthetic ear; the watch a prosthetic b
 
 眼鏡是外掛的眼，耳機是外掛的耳，手錶是外掛的身——**穿戴裝置的本質，是替 AI 外掛五根。**
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig3-wearables.png" alt="A wearable galaxy: a human figure at the center, each sense wired to its device — glasses, earbuds, watch, neural band — converging on the phone" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic3.png)
 
 But anyone who owns these products knows the experience today is fragmented: the glasses are glasses, the watch is a watch, the earbuds are earbuds — each minding its own business. What's missing is not hardware but three lessons, mapping exactly onto the dinner-table conditions: **sensor fusion** (what the glasses see and what the earbuds hear must assemble into one picture), **persistent memory** (AI must share your life's history to read your "glance"), and **proactivity** (speaking up softly at the right moment, instead of waiting to be summoned).
 
@@ -121,9 +115,7 @@ Once those three lessons are learned, the mode of interaction flips at the root:
 
 這三堂課補齊之後，交互的模式會發生一次根本的反轉：從 **pull**（我問、AI 答）變成 **ambient**（AI 感知、適時介入）。對話框不會消失，但它會從主入口退成 fallback——就像今天的 CLI。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig4-pull-ambient.png" alt="Pull versus ambient: on the left a person rings a bell to summon AI; on the right AI is ever-present, offering a soft nudge at the right moment" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic4.png)
 
 ---
 
@@ -137,9 +129,7 @@ Stage one builds AI a set of artificial senses — cameras for eyes, microphones
 
 **人的眼睛經過了幾億年的演化**：動態範圍、對焦速度、在雜訊裡鎖定重點的能力，至今沒有任何鏡頭能全面超越；耳朵能在嘈雜的餐廳裡單獨聽清一個人的聲音；皮膚、鼻子、舌頭，每一個都是精度與可靠性驚人的感測器。這套設備我們每個人隨身攜帶、終身保固。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig5-senses.png" alt="Human organs versus wearable hardware: eye vs camera glasses, ear vs earbuds, skin vs watch — the human organ wins on dynamic range, noise separation, precision and reliability" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic5.png)
 
 So the insight of stage two is: **instead of building AI its own senses, let AI share ours.** And the technology for sharing — still early, but pointed in an unmistakable direction — is the **Brain-Computer Interface (BCI)**: skip the muscles, skip language, skip typing, and open a direct signal channel between brain and machine.
 
@@ -163,9 +153,7 @@ Honestly, there is a technical watershed here that splits stage two into an earl
 - **The full-duplex period (the endgame): reading and writing both work.** When "writing" matures and information can be delivered straight into the sensory cortex, the translation layer of language dissolves entirely. Between you and your auxiliary brain runs a seamless, real-time, two-way synchronization of thought. The distance between intent and action reaches zero.
 - **全雙工期（終局）：讀寫皆通。** 當「寫」也成熟，資訊可以直接送進感覺皮層，語言這層翻譯就徹底消失了。你和你的外掛大腦之間，是無縫、即時、雙向的思想同步。意圖與行動的距離，歸零。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig6-duplex.png" alt="From half-duplex to full-duplex: on the left signals flow one way from brain to AI with replies routed through ears and eyes; on the right a two-way direct link, two circles beginning to overlap" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic6.png)
 
 ---
 
@@ -183,9 +171,7 @@ Douglas Engelbart wrote the epigraph for all of this back in 1962: the true miss
 
 早在 1962 年，Douglas Engelbart 就為這一切寫下了註腳：電腦真正的使命，不是計算，而是「增強人類的智力」（augmenting human intellect）。走了六十年，穿過 CLI、GUI、觸控、對話框，我們也許終於要抵達他當初想像的那個終點——那時，最好的科技，會像最好的感官一樣，讓你根本忘了它的存在。
 
-<figure style="margin: 2em 0; text-align: center;">
-  <img src="fig7-augmented.png" alt="A person wearing a brain-computer interface with a faded AI double standing behind them, and an Iron-Man-style robot at their side — technology amplifying, not replacing, the human" style="width: 100%; max-width: 950px; height: auto; display: block; margin: 0 auto;">
-</figure>
+![](pic.png)
 
 ### References // 參考資料
 
