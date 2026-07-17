@@ -1,6 +1,6 @@
 +++
 date = '2026-07-16T00:00:00+00:00'
-title = "Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next"
+title = "Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next: Point the Noun, Speak the Verb"
 tags = ['Product Decoder', 'AI', 'PM', '中文']
 thumbnail = 'pic.png'
 +++
@@ -19,7 +19,7 @@ In the most advanced AI chat box of 2026, the same task becomes: switch windows,
 
 The technology jumped forward a generation; the interaction fell back one. There is a Chinese saying that captures it perfectly: *taking your pants off to fart* — pure redundant effort. I call this overhead the **description tax: being forced to restate, in words, what your eyes and your mouse already know.**
 
-明明是往前走了一個世代的技術，操作起來卻像倒退了一個世代。中文有句俗話講得傳神：**脫褲子放屁——多此一舉**。我把這個多出來的成本叫做**「描述稅」（description tax）：你被迫用文字，把你的眼睛和滑鼠早就知道的事，重新講一遍給 AI 聽。**
+明明是往前走了一個世代的技術，操作起來卻像倒退了一個世代。中文有句俗話講得傳神：**脫褲子放屁——多此一舉**。我把這個多出來的成本叫做**描述稅（description tax）：你被迫用文字，把你的眼睛和滑鼠早就知道的事，重新講一遍給 AI 聽。**
 
 ![](pic.png)
 
