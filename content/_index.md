@@ -1,10 +1,10 @@
 ### Bridging atom factories and token factories.
-##### AI Application & Operation · Data Centers · Supply Chain Analytics.
-###### Product = Analysis + Process.
+##### Supply-chain risk · AI operations · Data centers
+###### I find the physical single points of failure behind complex systems — then build the systems that manage them.
 
 I'm **Chung-Hao (CH) Lee** — based in Sydney.
 
-From factory floors at **Pegatron** (building Google Home, 2M units/yr in Suzhou) and **Wistron** (industrial AI for Dell laptop manufacturing) to operating safety-critical AI models at **TikTok** and building **RCA Copilot** 0→1 — work threading hardware supply chains into AI infrastructure.
+From factory floors at Pegatron (building Google Home, ~2M units/yr in Suzhou) and the supplier side of Dell's supply chain at Wistron, to building TikTok Live's RCA system 0→1 — work threading hardware supply chains into AI operations.
 
 This site is where I write, build, and think in public.
 
