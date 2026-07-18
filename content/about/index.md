@@ -8,16 +8,23 @@ showAuthor = true
 
 ### Bridging atom factories and token factories.
 
-*Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends: running Google Home production lines in Suzhou, sitting on the supplier side of Dell's hardware supply chain at Wistron, and now operating 35 production AI models at TikTok.*
-
+Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends.
 
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
 
-I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I led a 15-person cross-functional team operating the **Google Home** manufacturing line — 2M AIoT units per year. At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial AI to **Dell laptop manufacturing**, delivering **$1.2M in annual cost savings** through AI-driven predictive maintenance across **20B+ telemetry records, scaling to 40B+**, and deployed LLM for log analysis at scale. Now at **TikTok Sydney**, I built the **Live RCA Copilot** human-AI collaboration system and platform from 0 to 1.
+Since 2018, my work has followed one thread: find the physical single points of failure behind complex systems, then build the systems that manage them.
+
+I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I led a 15-person cross-functional team operating the **Google Home** manufacturing line — 2M AIoT units per year. 
+
+As a Supply Chain Analyst at the University of Maryland, I owned the semiconductor portion of a National Defense Industrial Association (NDIA) study — mapping raw-material, supplier, and logistics risk and the single points of failure inside them, using public data only. The work was covered by National Defense Magazine. 
+
+At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial AI to **Dell laptop manufacturing**, delivering **$1.2M in annual cost savings** through AI-driven predictive maintenance across **20B+ telemetry records, scaling to 40B+**, and deployed LLM for log analysis at scale. Dell's SVP of Worldwide Procurement signed the 2023 award for the project I led.
+
+Now at TikTok Sydney, I point the same method at AI itself: I built TikTok Live's Root Cause Analysis system — process and platform — from 0 to 1, tracing why content-moderation models fail and routing each fix to the team that owns it. Its third generation, RCA Copilot, is an AI agent where humans and agents collaborate in one system.
 
 
-What carries across these roles isn't a domain — it's a method I've come to call **"Analysis + Process"**: deconstructing ambiguous problems into measurable parts (analysis), then designing repeatable workflows that close the loop (process). I wrote about [why these two keywords define my work](/posts/the-two-keywords-analysis-and-process/) — the Wistron "No Power recall plunge" case is the canonical example.
+The through-line isn't a domain — it's the method. I deconstruct ambiguous problems into measurable parts, then design repeatable workflows that close the loop.
 
 ---
 
