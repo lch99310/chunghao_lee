@@ -25,13 +25,23 @@ What carries across these roles isn't a domain — it's a method I've come to ca
 
 #### TikTok — Product Operation Manager, Model Operation (AI/ML) · Sydney · 2025 – present
 
-- TikTok Live deploys AI models to review content at platform scale. When a model errs, my team traces the error to its root cause, fixes it, and restores normal operations.
-- That root-cause work is my main line: I built the Root Cause Analysis (RCA) system from 0 to 1 — the process and the platform — and evolved it through three generations:
-  - **v1 · Checklists** — humans ticked multi-select boxes to record error reasons. Fatal flaw: an unticked box could mean "no issue" *or* "reviewer missed it" — the data couldn't be trusted.
-  - **v2 · Decision tree** — single-choice questions that walk a reviewer to exactly **one root cause per error**. Attribution became clean, but human throughput couldn't scale and every adjustment rolled out too slowly.
-  - **v3 · RCA Copilot** — an AI agent working on a platform where all the data lives. The copilot **plans what evidence it needs, pulls it through purpose-built skills, and reasons its way to the root cause**. Scale unlocked — and when its analysis needs adjusting, humans correct it fast through human-in-the-loop.
-- The platform speaks both languages by design: **skills + CLI for AI agents, GUI for people** — humans and agents collaborating in one system, each through its native interface.
-- Separately, raised a safety critical AI model's F1 score by +38%: multi-agent orchestration (specialist agents plus one arbiter making the final call), a describe-then-verify method that catches hallucination against an unbiased description, and a self-iterating loop where humans only review each round's summary.
+I own Root Cause Analysis for TikTok Live's content-moderation AI — the process, the platform, the models that evaluate it, and the day-to-day operation that keeps production models improving.
+
+##### RCA process + platform — built both from 0→1
+- Designed the end-to-end RCA process from scratch: how issues surface, how the right cases are found, how root cause is analysed, and how each finding is routed to the owning team — algorithm, labeling base, engineering, or policy — for the fix.
+- Built the platform that operationalizes that process: consolidated data scattered across disconnected systems into one standardized workspace, unifying discovery, investigation, analysis, and issue hand-off in one place. Authored 15+ PRDs across Engineering, Data, Ops, and Policy.
+- Cut end-to-end RCA time ~56% across the core team; 40+ active users, 10,000+ monthly queries, adoption spreading beyond RCA to adjacent functions.
+- Third generation, RCA Copilot: an AI agent that plans the evidence it needs, retrieves it through purpose-built skills, and traces every model error to a single root cause — humans steering via human-in-the-loop. Evolved from human checklists → decision-tree attribution → agent platform.
+
+##### AI model building + evaluation pipeline — from 0→1
+- Built AI models from scratch to clean and validate data at scale (prompt engineering, multi-agent orchestration, agent-looping), producing the high-quality datasets used to evaluate production models.
+- Stood up the team's first systematic, repeatable model-evaluation pipeline: 1M+ cases across 62 iterations at ~99% labeling accuracy over 13 batches.
+
+##### RCA operation — 35 live models
+- In the system's early days, ran RCA across all 35 production models moderating live content (nudity, hate speech, bullying, and more) — broad coverage while the process was still forming.
+- As the RCA platform matured and the operation scaled across the organisation, my scope focused to owning nudity detection end-to-end in greater depth — raising that model's F1 score 38% (to 80%+) through multi-agent orchestration with an arbiter agent and describe-then-verify hallucination control.
+- Established a recurring Product–Ops–Policy review that turns root-cause findings into owned fixes — replacing case-by-case escalation with a systematic feedback loop from risk discovery to downstream ownership.
+- TikTok Spot Bonus Award, 2025 Q4 — for independently leading the RCA platform with minimal supervision, strong ownership, and cross-functional delivery.
 
 #### Wistron — AI Project Manager · Taipei · 2022 – 2024
 
