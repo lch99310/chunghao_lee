@@ -15,8 +15,8 @@ title = "Chung-Hao Lee"
 [params.author]
   name = "Chung-Hao Lee"
   image = "img/author_CHLee.jpg"
-  headline = "AI Model Operations @TikTok · From Google Home production lines & industrial AI for Dell to models serving 1B+ users · Sydney"
-  bio = "AI Model Operations @TikTok · From Google Home production lines & industrial AI for Dell to models serving 1B+ users · Sydney"
+  headline = "Hardware supply chains × AI operations · From Google Home production lines & industrial AI for Dell to AI models at consumer scale · Sydney"
+  bio = "Hardware supply chains × AI operations · From Google Home production lines & industrial AI for Dell to AI models at consumer scale · Sydney"
   links = [
      { email = "mailto:lch99310@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
