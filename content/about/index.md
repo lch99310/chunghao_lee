@@ -15,7 +15,7 @@ Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
 
 Since 2018, my work has followed one thread: find the physical single points of failure behind complex systems, then build the systems that manage them.
 
-I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I led a 15-person cross-functional team operating the **Google Home** manufacturing line — 2M AIoT units per year. 
+I started on factory floors and grew into AI systems. At **Pegatron Suzhou**, I led a 15-person cross-functional team operating the **Google Home** manufacturing line — ~2M AIoT units per year. 
 
 As a Supply Chain Analyst at the University of Maryland, I owned the semiconductor portion of a National Defense Industrial Association (NDIA) study — mapping raw-material, supplier, and logistics risk and the single points of failure inside them, using public data only. The work was covered by National Defense Magazine. 
 
