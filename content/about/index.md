@@ -43,7 +43,7 @@ I own Root Cause Analysis for TikTok Live's content-moderation AI — the proces
 - Established a recurring Product–Ops–Policy review that turns root-cause findings into owned fixes — replacing case-by-case escalation with a systematic feedback loop from risk discovery to downstream ownership.
 
 
-- **TikTok Spot Bonus Award, 2025 Q4** — for independently leading the RCA platform with minimal supervision, strong ownership, and cross-functional delivery.
+- **TikTok Spot Bonus Award, 2025 Q4** — for independently leading the RCA platform with strong ownership, and cross-functional delivery.
 
 #### Wistron — AI Project Manager · Taipei · 2022 – 2024
 
