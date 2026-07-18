@@ -42,7 +42,8 @@ I own Root Cause Analysis for TikTok Live's content-moderation AI — the proces
 - As the RCA platform matured and the operation scaled across the organisation, my scope focused to owning nudity detection end-to-end in greater depth — raising that model's F1 score 38% (to 80%+) through multi-agent orchestration with an arbiter agent and describe-then-verify hallucination control.
 - Established a recurring Product–Ops–Policy review that turns root-cause findings into owned fixes — replacing case-by-case escalation with a systematic feedback loop from risk discovery to downstream ownership.
 
-- TikTok Spot Bonus Award, 2025 Q4 — for independently leading the RCA platform with minimal supervision, strong ownership, and cross-functional delivery.
+
+- **TikTok Spot Bonus Award, 2025 Q4** — for independently leading the RCA platform with minimal supervision, strong ownership, and cross-functional delivery.
 
 #### Wistron — AI Project Manager · Taipei · 2022 – 2024
 
