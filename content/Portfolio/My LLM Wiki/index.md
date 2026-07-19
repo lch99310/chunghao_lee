@@ -71,6 +71,7 @@ Iterate.** Ingest another source. Ask another question. Run a lint pass every fe
 
 
 Git handles version control. The LLM handles curation. Obsidian handles visualization. Each layer does what it does best, and because everything is plain markdown, the system will survive whatever comes next. The barrier to entry is not technical — it is a shift in how you think about your relationship with AI. From disposable queries to a stateful, cumulative knowledge practice.
+
 Git 管版本，LLM 管整理，Obsidian 管可視化。每一層做自己擅長的事，而且因為全是純粹的 markdown，換了下一個工具也不會壞。這套方法的門檻不在技術——而在心態的轉變：從把 AI 對話當作一次性查詢，轉向一種持續累積、有狀態的知識實踐。
 
 ---
