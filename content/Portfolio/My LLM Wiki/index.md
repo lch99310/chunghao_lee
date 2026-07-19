@@ -5,6 +5,7 @@ tags = ['Using AI', 'AI', 'Side_Project', 'AI Practice Journal']
 thumbnail = 'pic.png'
 +++
 
+![](pic.png)
 
 ## The Pain Point // 痛點
 
