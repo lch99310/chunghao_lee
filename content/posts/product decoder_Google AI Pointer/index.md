@@ -1,7 +1,7 @@
 +++
 date = '2026-07-16T00:00:00+00:00'
 title = "Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next: Point the Noun, Speak the Verb"
-tags = ['Product Decoder', 'AI', 'PM', '中文']
+tags = ['Product Decoder', 'AI', 'PM', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
 
