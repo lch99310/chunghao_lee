@@ -1,11 +1,13 @@
 +++
-date = '2026-07-26T00:00:00+00:00'
-title = "AI 時代可能不是需要一台新裝置，而是需要一套新的分工思維"
+date = '2026-07-25T00:00:00+00:00'
+title = "The AI Era May Need a New Division of Labor, Not a New Device"
 tags = ['AI', '中文', 'Passport to AI Era']
 thumbnail = 'pic.png'
 +++
 
-*The AI Era May Need a New Division of Labor, Not a New Device*
+
+## AI 時代可能不是需要一台新裝置，而是需要一套新的分工思維
+
 
 Imagine an ordinary morning.
 
@@ -31,7 +33,7 @@ This may be what personal AI looks like when it finally enters everyday life.
 
 這或許就是個人 AI 真正進入日常生活後的樣子。
 
-![](pic.png)
+![](pic1.png)
 
 What matters is that almost none of this requires an entirely new category of hardware. The smartphone, wireless earbuds, mobile networks and cloud AI are already mature. Smart glasses are earlier, but their role is becoming clear.
 
@@ -212,7 +214,7 @@ Models are replaceable. Memory must be portable.
 
 模型可以更換，記憶必須能夠延續。
 
-![](pic2.png)
+![](pic.png)
 
 ---
 
