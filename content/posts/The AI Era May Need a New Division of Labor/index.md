@@ -171,6 +171,8 @@ AI no longer starts from zero each time. The more useful the interaction, the ri
 
 AI 因此不再每次都從零開始。互動越多，它對使用者的理解也越完整。
 
+![](pic2.png)
+
 ---
 
 ## The Cloud Thinks. The Phone Remembers. // 雲端是大腦，手機是記憶
