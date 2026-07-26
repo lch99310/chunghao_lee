@@ -69,7 +69,18 @@ async function fetchRSS(rssUrl) {
   const r = await fetch(rssUrl, { headers: { 'User-Agent': 'chunghao-lee-newsletter/1.0' } });
   if (!r.ok) throw new Error(`RSS fetch failed: ${r.status}`);
   const xml = await r.text();
-  const parser = new XMLParser({ ignoreAttributes: false, attributeNamePrefix: '@_' });
+  // fast-xml-parser (>=4.5) caps *total* entity expansions across the whole
+  // document at 1000 by default (a "billion laughs" guard). Our feed is our
+  // own trusted Hugo output, and every escaped char in the post descriptions
+  // (&amp; &lt; &#39; …) counts toward that limit — a feed with enough posts
+  // trips it (e.g. "1010 > 1000") and parsing aborts before we see any item.
+  // Passing processEntities as an object lifts maxTotalExpansions while
+  // keeping the other per-entity safety limits (size/depth/expanded length).
+  const parser = new XMLParser({
+    ignoreAttributes: false,
+    attributeNamePrefix: '@_',
+    processEntities: { maxTotalExpansions: 1_000_000 },
+  });
   const parsed = parser.parse(xml);
   const channel = parsed?.rss?.channel;
   if (!channel) throw new Error('Invalid RSS: no <channel>');
