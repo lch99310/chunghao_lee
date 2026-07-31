@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-07-17T20:05:42.652Z",
+  "last_sent_at": "2026-07-31T20:20:41.043Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -462,6 +462,38 @@
           "title": "Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next: Point the Noun, Speak the Verb",
           "link": "https://chunghaolee.com/posts/product-decoder_google-ai-pointer/",
           "pubDate": "2026-07-16T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-07-31T20:20:41.043Z",
+      "broadcast_id": "ab88c51d-f8bf-4ec1-b377-e1fa11de340d",
+      "item_count": 5,
+      "items": [
+        {
+          "title": "[External Article] - 橋水的“AI改革”：全球最大對沖基金如何搭建Agent",
+          "link": "https://chunghaolee.com/reading-notes/external-article---%E6%A9%8B%E6%B0%B4%E7%9A%84ai%E6%94%B9%E9%9D%A9/",
+          "pubDate": "2026-07-28T00:00:00.000Z"
+        },
+        {
+          "title": "The AI Era May Need a New Division of Labor, Not a New Device",
+          "link": "https://chunghaolee.com/posts/the-ai-era-may-need-a-new-division-of-labor/",
+          "pubDate": "2026-07-25T00:00:00.000Z"
+        },
+        {
+          "title": "From Disposable Queries to a Knowledge Base That Accumulates: My LLM Wiki",
+          "link": "https://chunghaolee.com/portfolio/my-llm-wiki/",
+          "pubDate": "2026-07-18T16:00:00.000Z"
+        },
+        {
+          "title": "[External Article] - 喜茶怎麼做產品",
+          "link": "https://chunghaolee.com/reading-notes/external-article---%E5%96%9C%E8%8C%B6%E6%80%8E%E9%BA%BC%E5%81%9A%E7%94%A2%E5%93%81/",
+          "pubDate": "2026-07-18T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - 當一個年輕人空降：改造騰訊混元的 300 天",
+          "link": "https://chunghaolee.com/reading-notes/external-article---%E7%95%B6%E4%B8%80%E5%80%8B%E5%B9%B4%E8%BC%95%E4%BA%BA%E7%A9%BA%E9%99%8D%E6%94%B9%E9%80%A0%E9%A8%B0%E8%A8%8A%E6%B7%B7%E5%85%83%E7%9A%84-300-%E5%A4%A9/",
+          "pubDate": "2026-07-18T00:00:00.000Z"
         }
       ]
     }
