@@ -1,6 +1,6 @@
-### Bridging atom factories and token factories.
-##### Supply-chain risk · AI operations · Data centers
-###### I find the physical single points of failure behind complex systems — then build the systems that manage them.
+### From atoms to tokens: map the supply chain, find the bottleneck, build the loop.
+##### Bridging atom factories and token factories.
+###### Product = Analysis + Process.
 
 I'm **Chung-Hao (CH) Lee** — based in Sydney.
 

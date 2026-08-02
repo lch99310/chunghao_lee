@@ -6,9 +6,13 @@ showPagination = false
 showAuthor = true
 +++
 
-### Bridging atom factories and token factories.
+### From atoms to tokens: map the supply chain, find the bottleneck, build the loop.
 
-Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends.
+**Bridging atom factories and token factories.** Atom factories build AI's hardware — chips, servers, power. Token factories (data centers) turn that hardware into intelligence. My work lives in the translation between the two — between the physical constraints of supply and the AI workloads that run on top. I've worked both ends.
+
+> **Product = Analysis + Process.**
+>
+> Analysis maps the supply chain and finds the bottleneck. Process turns the answer into a repeatable loop that can scale beyond one person.
 
 
 Hi, I'm **Chung-Hao (CH) Lee 李崇豪** — based in Sydney.
@@ -24,7 +28,7 @@ At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial 
 Now at TikTok Sydney, I point the same method at AI itself: I built TikTok Live's Root Cause Analysis system — process and platform — from 0 to 1, tracing why content-moderation models fail and routing each fix to the team that owns it. Its third generation, RCA Copilot, is an AI agent where humans and agents collaborate in one system.
 
 
-The through-line isn't a domain — it's the method. I deconstruct ambiguous problems into measurable parts, then design repeatable workflows that close the loop.
+The through-line isn't a domain — it's the method: map the supply chain, find the bottleneck, then design repeatable workflows that close the loop.
 
 ---
 
