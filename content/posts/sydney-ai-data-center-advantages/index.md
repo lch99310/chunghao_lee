@@ -1,5 +1,5 @@
 +++
-date = '2026-08-09T00:00:00+00:00'
+date = '2026-08-09T00:05:00+00:00'
 title = "【Passport to AI Era】Why Global Capital Is Betting on Sydney's AI Data Centers: The Advantage That Compounds Up the AI Ladder"
 slug = "sydney-ai-data-center-advantages"
 aliases = ["/posts/sydney-ai-data-center-compounding-advantage/"]
