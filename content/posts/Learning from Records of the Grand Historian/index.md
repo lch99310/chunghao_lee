@@ -6,6 +6,8 @@ tags = ['AI', '中文', 'Passport to AI Era']
 
 ## 借鑑《史記》的智慧：記憶、壓縮、保留矛盾，未來的 AI 方向
 
+![](pic1.png)
+
 ## What People Want Is Jarvis // 大家想要的是賈維斯
 
 What people want from personal AI is not another chat window.
@@ -168,6 +170,8 @@ Not because every angle is equally true, but because different angles may preser
 
 不是因為所有角度都同樣正確，而是因為不同角度可能保留了真相的不同切面。最後仍然需要判斷，需要證據權重，需要交叉比對；但比起太早磨平矛盾，保留可檢查的材料，通常是對未來更負責的做法。
 
+![](pic2.png)
+
 ---
 
 ## Jarvis Needs a Traceable Back End // 賈維斯的前台，需要一個可追溯的後台
@@ -255,6 +259,8 @@ If intelligence is compression, then higher intelligence may not mean compressin
 It may mean keeping the ability to trace, compare, revise, and preserve the right to overturn today's version of ourselves tomorrow.
 
 而是讓我們在不同版本的自己之間，仍然能追溯、比較、修正，並保留未來推翻今天的權利。
+
+![](pic3.png)
 
 ---
 
