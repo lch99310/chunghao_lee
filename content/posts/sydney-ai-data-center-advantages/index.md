@@ -4,7 +4,7 @@ title = "【Passport to AI Era】Why Global Capital Is Betting on Sydney's AI Da
 slug = "sydney-ai-data-center-advantages"
 aliases = ["/posts/sydney-ai-data-center-compounding-advantage/"]
 tags = ['AI', 'Data Center', 'Passport to AI Era', '中文']
-thumbnail = 'pic.png'
+thumbnail = 'pic2.png'
 +++
 
 In the twelve months to mid-2026, three of the most disciplined capital allocators on earth wrote the same address on their cheques. Anthropic committed A$21.6 billion to Australian compute. Microsoft pledged A$25 billion, the largest investment in its four decades in the country. Amazon put down A$20 billion. Add the A$24 billion Blackstone and a Canadian pension fund paid for AirTrunk in 2024 — the biggest data-centre deal in Asia-Pacific history — and a pattern stops looking like coincidence.
