@@ -2,6 +2,7 @@
 date = '2026-08-09T00:00:00+10:00'
 title = "Learning from Records of the Grand Historian (史記): Memory, Compression, and the Future of Personal AI"
 tags = ['AI', '中文', 'Passport to AI Era']
+thumbnail = 'pic3.png'
 +++
 
 ## 借鑑《史記》的智慧：記憶、壓縮、保留矛盾，未來的 AI 方向
