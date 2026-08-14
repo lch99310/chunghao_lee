@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-07-31T20:20:41.043Z",
+  "last_sent_at": "2026-08-14T19:48:37.054Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -494,6 +494,33 @@
           "title": "[External Article] - 當一個年輕人空降：改造騰訊混元的 300 天",
           "link": "https://chunghaolee.com/reading-notes/external-article---%E7%95%B6%E4%B8%80%E5%80%8B%E5%B9%B4%E8%BC%95%E4%BA%BA%E7%A9%BA%E9%99%8D%E6%94%B9%E9%80%A0%E9%A8%B0%E8%A8%8A%E6%B7%B7%E5%85%83%E7%9A%84-300-%E5%A4%A9/",
           "pubDate": "2026-07-18T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-08-14T19:48:37.054Z",
+      "broadcast_id": "53a68da7-fe78-4b70-b946-db1e3d8c8385",
+      "item_count": 4,
+      "items": [
+        {
+          "title": "[External Article] - 字節跳動 SeedRealtime：音視頻全雙工大模型",
+          "link": "https://chunghaolee.com/reading-notes/external-article---seedrealtime%E9%9F%B3%E8%A6%96%E9%A0%BB%E5%85%A8%E9%9B%99%E5%B7%A5%E5%A4%A7%E6%A8%A1%E5%9E%8B/",
+          "pubDate": "2026-08-09T00:05:00.000Z"
+        },
+        {
+          "title": "【Passport to AI Era】Why Global Capital Is Betting on Sydney's AI Data Centers: The Advantage That Compounds Up the AI Ladder",
+          "link": "https://chunghaolee.com/posts/sydney-ai-data-center-advantages/",
+          "pubDate": "2026-08-09T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - 字節討論訓超 5 萬億參數模型",
+          "link": "https://chunghaolee.com/reading-notes/external-article----%E5%AD%97%E7%AF%80%E8%A8%8E%E8%AB%96%E8%A8%93%E8%B6%85-5-%E8%90%AC%E5%84%84%E5%8F%83%E6%95%B8%E6%A8%A1%E5%9E%8B/",
+          "pubDate": "2026-08-09T00:00:00.000Z"
+        },
+        {
+          "title": "Learning from Records of the Grand Historian (史記): Memory, Compression, and the Future of Personal AI",
+          "link": "https://chunghaolee.com/posts/learning-from-records-of-the-grand-historian/",
+          "pubDate": "2026-08-08T14:00:00.000Z"
         }
       ]
     }
