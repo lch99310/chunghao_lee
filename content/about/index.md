@@ -27,7 +27,7 @@ At **Wistron Taipei** — a global Tier-1 ODM for Dell — I brought industrial 
 
 Now at TikTok Sydney, I point the same method at AI itself: I built TikTok Live's Root Cause Analysis system — process and platform — from 0 to 1, tracing why content-moderation models fail and routing each fix to the team that owns it. Its third generation, RCA Copilot, is an AI agent where humans and agents collaborate in one system.
 
-Two years ago I started reading down the stack — from the models I operate, to the servers under them, to the power and land under those. That reading became the [Data Center](/tags/data-center/) series, an Australian siting framework, and a daily intelligence feed I run for myself. It's the direction I'm heading: the buying side of data centre capacity — what it costs, where it goes, and what the deal says.
+Two years ago I started reading down the stack — from the models I operate, to the servers under them, to the power and land under those. That reading became the [Data Center 101](/tags/data-center-101/) series, an Australian siting framework, and a daily intelligence feed I run for myself. It's the direction I'm heading: the buying side of data centre capacity — what it costs, where it goes, and what the deal says.
 
 The through-line isn't a domain — it's the method: map the supply chain, find the bottleneck, then design repeatable workflows that close the loop.
 
@@ -39,7 +39,9 @@ Most people who buy have only ever bought. I've done both, and the second half i
 
 Contract manufacturing runs on a two-sided relationship. At **Pegatron** I was the factory — the one holding the line, chasing suppliers, and carrying the cost when something upstream failed. At **Wistron** I was the supplier — the one building the quote, defending the price, and asking a Tier-1 customer to pay for something. The two jobs look at the same contract from opposite ends.
 
-Sitting on the supplier side is what teaches you where a quote is soft, when a counterparty genuinely can't deliver, and when they are simply holding a position. Two examples of what that looked like in practice are in the Pegatron and Wistron sections below.
+Sitting on the supplier side is what teaches you where a quote is soft, when a counterparty genuinely can't deliver, and when they are simply holding a position.
+
+Buying capacity is the same job at a different scale — securing supply from a counterparty you don't control, at a price you can defend, under a contract that decides who carries the risk. Two examples of what that looked like in practice are in the Pegatron and Wistron sections below.
 
 ---
 
@@ -86,26 +88,34 @@ I own Root Cause Analysis for TikTok Live's content-moderation AI — the proces
 - Led a three-phase industrial AI program for Dell laptop manufacturing (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams and **20B+ telemetry records, scaling to 40B+**; also deployed LLMs for log analysis at scale.
 - Results: **70% faster debugging · 50% fewer return-to-repairs · $1.2M annual savings.**
 
-##### Asking a Tier-1 customer to share greater capacity
+##### Sizing an expansion, and settling who pays for it
 
-The programme ran on telemetry streaming off machines in the field, stored in the cloud on our side of the relationship. It worked well enough on laptops that the customer wanted desktops added too — which meant far more data than the storage we were paying for could hold. The analysis could not be extended until someone bought more capacity, and nobody had budgeted for it.
+Every capacity expansion eventually becomes an argument about who pays for it.
 
-I sized the expected growth, chose the option that fitted the existing stack rather than the cheapest one, and put the number in front of the customer. Their opening position was that the storage sat on our infrastructure, so it was our cost to carry. I rebuilt the case from the record — why the expansion was needed, why that option, and how the price was derived — and we landed on a shared cost. **Neither side won the argument. Both sides kept the programme running.**
+The programme ran on telemetry streaming off machines in the field and stored in the cloud on our side of the relationship. It worked well enough on laptops that the customer wanted desktops added — several times the data volume, and more storage than we were paying for. Nothing further could run until someone bought the capacity, and nobody had budgeted for it.
+
+I sized the expected growth, then chose the option that fitted the existing stack rather than the cheapest one, on the view that migrating later would cost more than the difference now. The customer's opening position was that the storage sat on our infrastructure, so it was our cost to carry. I rebuilt the case from the record — why the expansion was needed, why that option and not the cheaper one, and how the price was derived — and we settled on a shared cost.
+
+**Neither side won the argument, and that was the point. The programme kept running, and the next expansion started from a precedent instead of a fight.**
 
 #### Pegatron — Factory Project Manager · Suzhou · 2018 – 2020
 
 - Led a 15-person cross-functional team operating the **Google Home** manufacturing line — **2M AIoT units per year**.
 - Owned end-to-end **SMT + FATP** process control on the factory floor.
 
-##### When the supplier isn't yours
+##### Negotiating without leverage
 
-One of the optical modules on a line I ran started failing the customer's cosmetic inspection — a visible haze inside the lens — and we had to stop shipping. A stopped line is expensive in a specific way: the fixed cost keeps running whether or not anything comes off it, and the delivery commitment belongs to the customer, not to us.
+The hardest supplier problems are the ones where you hold no contractual claim on the counterparty.
 
-The usual next step is to go to the supplier, demand the process records, and find what changed. That route was closed. The module supplier had been **nominated by the customer, not contracted to us** — we had no right to its records, and it had no obligation to open them. Our own line checked clean within a week, which narrowed the cause to the module, and there we stalled.
+An optical module on a line I ran began failing the customer's cosmetic inspection, and we stopped shipping. A stopped line is expensive in a specific way: fixed cost accrues every day whether or not anything comes off it, and the delivery commitment sat with the customer, not with us.
 
-So I ran two things in parallel. I qualified a **second-source module** as a genuine alternative — not as a threat, as a real option we were prepared to use — and worked through the customer's own supply-chain team to press the incumbent. With an alternative on the table, the change history came out. The cause was an **adhesive-vendor change** a month earlier: the new adhesive outgassed during vacuum assembly and condensed on the lens. The second source never carried full volume and was never meant to; the incumbent stayed in the supply base. **The alternative was the leverage, not the replacement.**
+The normal next step is to go to the supplier, demand the process records, and find what changed. That route was closed. The module supplier had been **nominated by the customer and had no contract with us** — no audit right, no information right, no obligation to open anything. Our own line checked clean within a week, which narrowed the cause to the module and left us with a diagnosis we had no standing to reach.
 
-Then came the money. The line had been down about a month, and I built the factory's claim against the customer line by line — materials, rework, idle direct labour, overhead — rather than as one number. The customer disputed full liability. The claim held where it was evidenced, and we conceded the idle-labour line on purpose, because those operators could be redeployed and the account was worth more than that item. **In a commercial dispute the currency is a defensible breakdown, not grievance — and knowing which line to give up is part of the negotiation.**
+So I stopped trying to compel and started building an alternative. I qualified a **second-source module** — not as a threat, as an option we were genuinely prepared to take — and worked through the customer's own supply-chain team to press the incumbent. With a credible alternative on the table, the change history came out: the supplier had switched adhesive vendors a month earlier, and the new adhesive outgassed during vacuum assembly and condensed inside the lens.
+
+The second source never carried full volume and was never meant to. **A qualified alternative you don't intend to use is still the only real leverage a buyer has — and it buys information at least as often as it buys price.**
+
+Then the cost. With the line down about a month, I built the claim against the customer line by line — materials, rework, idle direct labour, overhead — rather than as a single figure, because one number invites one argument while a breakdown forces the conversation onto each line. The customer disputed full liability. The claim held wherever it was evidenced, and we gave up the idle-labour line deliberately: those operators could be redeployed, and the account was worth more than the item. **What you recover is what you can evidence, and what you concede should be chosen rather than surrendered.**
 
 #### University of Maryland — Supply Chain Analyst & Research Assistant · College Park · 2020 – 2022
 
