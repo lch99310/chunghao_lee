@@ -1,7 +1,7 @@
 +++
 date = '2026-08-24T00:05:00+00:00'
 title = "Beyond Just Talking: Communication Starts Before You Speak"
-tags = ['Beyond The＿＿＿', 'PM', 'Sharing', '中文']
+tags = ['Beyond the___', 'PM', 'Sharing', '中文']
 thumbnail = 'pic.png'
 +++
 
