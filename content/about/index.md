@@ -96,7 +96,7 @@ I operate the workload that data centres exist to serve. Running 35 production m
 - Led a three-phase industrial AI program for Dell laptop manufacturing (smart diagnosis → predictive forecasting → knowledge consolidation) across 6 cross-functional teams and **20B+ telemetry records, scaling to 40B+**; also deployed LLMs for log analysis at scale.
 - Results: **70% faster debugging · 50% fewer return-to-repairs · $1.2M annual savings.**
 
-#### Sizing an expansion, and settling who pays for it
+#### Story Sharing - Sizing an expansion, and settling who pays for it
 
 **The goal was never to win the argument. It was to keep the programme funded.**
 
@@ -116,7 +116,7 @@ I did not argue about whose infrastructure it was. Arguing over ownership only p
 - Led a 15-person cross-functional team operating the **Google Home** manufacturing line — **2M AIoT units per year**.
 - Owned end-to-end **SMT + FATP** process control on the factory floor.
 
-#### Restarting a line when you have no hold on the supplier
+#### Story Sharing - Restarting a line when you have no hold on the supplier
 
 **The goal was to get the line running again. Replacing the supplier was never the way to do it.**
 
