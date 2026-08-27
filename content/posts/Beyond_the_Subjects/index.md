@@ -5,6 +5,7 @@ tags = ['Beyond the___', 'PM', 'Sharing', '中文']
 thumbnail = 'pic.png'
 +++
 
+![](pic.png)
 
 ## Different fields, the same problem // 不同的領域，同一道題
 
@@ -20,6 +21,7 @@ A rocket works the same way. In 1946, a Convair engineer named Karel Bossart des
 
 火箭也是這麼一回事。1946 年，Convair 的工程師 Karel Bossart 就照這個原理設計了 Atlas 飛彈：不鏽鋼外殼比一枚硬幣還薄，薄到不充壓就會被自己的重量壓垮，平常得灌氮氣撐著形狀。七十多年後，馬斯克把 Starship 從碳纖維改回不鏽鋼，有人問他這個決定，他拿來當參照的不是任何一枚現役火箭，就是 Atlas。
 
+
 A container for soda and a container for people headed to orbit sit an entire industry apart. Underneath, they are the same problem: hold the most pressure with the least material. The first principles are shared. Only the vocabulary differs.
 
 裝汽水的容器和載人上太空的容器，中間隔著一整個產業。但底層是同一道題：怎麼用最少的材料，關住最大的壓力。第一性原理是共用的，不一樣的只有名字。
@@ -28,6 +30,7 @@ I've had that "oh — it's the same thing" moment a few times in my own work.
 
 這種「原來是同一件事」的時刻，我在自己身上遇過幾次。
 
+![](pic1.png)
 ---
 ## Installing a production line inside a labeling panel // 把一條產線裝進標注面板
 
@@ -91,6 +94,7 @@ Different industries, the same underlying logic — and the idea transfers direc
 
 產業不同，底層邏輯是通的——而且想法可以直接搬過去用。
 
+![](pic2.png)
 
 ---
 ## That clause // 那一段條文
