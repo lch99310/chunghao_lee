@@ -765,3 +765,51 @@ MW 寫在合約首頁。容量的真實價值，藏在它能不能被交付、�
 ### Disclaimer
 
 本文僅供一般研究、教育與 commercial analysis 使用，不構成法律、投資、會計、稅務或採購建議。實際交易應由具資格的法律、技術、財務與保險專業人員，依完整合約、附件、資料室內容與具體事實進行審查。
+
+
+
+### Decks
+
+<div style="text-align: center; margin: 20px 0;">
+    <a href="from-40-mw-to-usable-capacity.pdf" download class="download-button" style="display: inline-block; padding: 12px 24px; background-color: #f9d367; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s;">
+        📥 Download Portfolio PDF
+    </a>
+</div>
+
+<style>
+.download-button:hover {
+    background-color: #f9d367 !important;
+}
+
+.pdf-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.pdf-embed {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.pdf-page-image {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+@media (max-width: 768px) {
+    .pdf-embed {
+        height: 600px;
+    }
+}
+</style>
+
+<div class="pdf-container">
