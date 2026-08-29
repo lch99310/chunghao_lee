@@ -17,7 +17,7 @@ featureAlt = '抽象化的公開合約、電力與冷卻系統共同構成一座
 {{< /alert >}}
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 32px;">
-  <a href="https://www.sec.gov/Archives/edgar/data/1854368/000121390026053566/ea028958501ex10-1.htm" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:11px 18px;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;font-weight:700;">查看 SEC 合約原文</a>
+  <a href="https://www.sec.gov/Archives/edgar/data/1854368/000121390026053566/ea028958501ex10-1.htm" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:11px 18px;border-radius:8px;background:#be7e4a;color:#fff;text-decoration:none;font-weight:700;">查看 SEC 合約原文</a>
   <a href="/portfolio/data-center-contract-case-study/public-data-center-contract.pdf" download style="display:inline-block;padding:11px 18px;border:1px solid #be7e4a;border-radius:8px;color:inherit;text-decoration:none;font-weight:700;">下載公開合約 PDF</a>
 </div>
 
@@ -82,7 +82,7 @@ Customer 擁有自己的 IT 設備，卻不擁有設備所在的土地與建築�
 > - 商業意義：Customer 的持續使用權依賴合約、Operator 履約，以及 lender 是否承認這些權利。
 > - Acquisition action：確認 access、security、operator entry、lender recognition 和 termination 後設備搬離機制。
 
-![資料中心合約中的 Customer、Operator、Facility、Lender 與供應體系關係圖](figures/specs/01-entity-transaction-map.svg)
+![資料中心合約中的 Customer、Operator、Facility、Lender 與供應體系關係圖](pic1.svg)
 
 *圖 1｜Contract Entity and Transaction Map。Customer 透過合約取得 capacity、access 與 services；Operator 保留底層資產控制，lender recognition 則決定接管後的連續性。*
 
@@ -168,7 +168,7 @@ Customer-Caused Delay 包括未按時提供 approvals、specifications 或 decis
 > - 商業意義：交付權利的價值，取決於通知、證據和 deadline 是否被正確管理。
 > - Acquisition action：在簽約前就設計 RFS governance，不要等 RFS Notice 到達才臨時找人。
 
-![40 MW 從合約承諾轉換成可營運容量所需通過的商業與技術閘門](figures/02-capacity-gates.svg)
+![40 MW 從合約承諾轉換成可營運容量所需通過的商業與技術閘門](pic2.svg)
 
 *圖 2｜From 40 MW Commitment to Operating Capacity。Headline capacity 必須通過 phase condition、construction、commissioning、RFS evidence 與 acceptance，才會轉化為可營運容量。*
 
@@ -410,7 +410,7 @@ Specific performance 代表要求對方實際履行，而不只是付錢；但�
 
 合約也特別處理設備內資料的安全：存放、移轉、抹除與銷毀需要適當的 physical security 和 data destruction controls。這提醒 acquisition manager，exit plan 必須同時涵蓋 workload migration、physical removal、data sanitization、vendor access 和 chain of custody。
 
-![資料中心事故從 SLA 偏差、證據蒐集到違約救濟的流程](figures/03-incident-remedy-flow.svg)
+![資料中心事故從 SLA 偏差、證據蒐集到違約救濟的流程](pic3.svg)
 
 *圖 3｜Incident-to-Remedy Ladder。事故本身只是起點；證據、排除項目、權利分類、正式通知與 cure 共同決定最後能否主張 remedies。*
 
@@ -527,7 +527,7 @@ Operator 也不能任意轉讓。它可以在 merger、acquisition、reorganizat
 
 接著再看 Facility specifications、technical requirements、responsibility／cost breakdown、physical security 和 escrow arrangement。主合約定義治理邏輯，附件才放著大量會決定實際結果的 operational truth。
 
-![資料中心合約的交付、經濟、營運、風險與退出五大控制系統](figures/04-contract-operating-system.svg)
+![資料中心合約的交付、經濟、營運、風險與退出五大控制系統](pic4.svg)
 
 *圖 4｜Contract Operating-System Map。條款不是一份線性清單，而是五個互相連動的控制系統；acquisition governance 把它們變成可管理的日常流程。*
 
