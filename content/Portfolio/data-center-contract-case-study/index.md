@@ -8,7 +8,6 @@ showTableOfContents = true
 showReadingTime = true
 collapseMobileToc = true
 featureAlt = '抽象化的公開合約、電力與冷卻系統共同構成一座資料中心'
-translationKey = 'data-center-contract-case-study'
 +++
 
 {{< alert "circle-info" >}}
