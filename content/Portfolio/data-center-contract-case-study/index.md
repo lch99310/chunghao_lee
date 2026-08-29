@@ -18,7 +18,7 @@ featureAlt = '抽象化的公開合約、電力與冷卻系統共同構成一座
 
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 32px;">
   <a href="https://www.sec.gov/Archives/edgar/data/1854368/000121390026053566/ea028958501ex10-1.htm" target="_blank" rel="noopener noreferrer" style="display:inline-block;padding:11px 18px;border-radius:8px;background:#2563eb;color:#fff;text-decoration:none;font-weight:700;">查看 SEC 合約原文</a>
-  <a href="/portfolio/data-center-contract-case-study/public-data-center-contract.pdf" download style="display:inline-block;padding:11px 18px;border:1px solid #64748b;border-radius:8px;color:inherit;text-decoration:none;font-weight:700;">下載公開合約 PDF</a>
+  <a href="/portfolio/data-center-contract-case-study/public-data-center-contract.pdf" download style="display:inline-block;padding:11px 18px;border:1px solid #be7e4a;border-radius:8px;color:inherit;text-decoration:none;font-weight:700;">下載公開合約 PDF</a>
 </div>
 
 ---
@@ -82,7 +82,7 @@ Customer 擁有自己的 IT 設備，卻不擁有設備所在的土地與建築�
 > - 商業意義：Customer 的持續使用權依賴合約、Operator 履約，以及 lender 是否承認這些權利。
 > - Acquisition action：確認 access、security、operator entry、lender recognition 和 termination 後設備搬離機制。
 
-![資料中心合約中的 Customer、Operator、Facility、Lender 與供應體系關係圖](figures/01-entity-transaction-map.svg)
+![資料中心合約中的 Customer、Operator、Facility、Lender 與供應體系關係圖](figures/specs/01-entity-transaction-map.svg)
 
 *圖 1｜Contract Entity and Transaction Map。Customer 透過合約取得 capacity、access 與 services；Operator 保留底層資產控制，lender recognition 則決定接管後的連續性。*
 
