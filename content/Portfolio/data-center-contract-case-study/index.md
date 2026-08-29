@@ -813,3 +813,14 @@ MW 寫在合約首頁。容量的真實價值，藏在它能不能被交付、�
 </style>
 
 <div class="pdf-container">
+  
+### 📄 Full Portfolio Document
+
+<!-- Option 1: Using iframe embed (works if PDF is in static folder) -->
+<iframe src="from-40-mw-to-usable-capacity.pdf" class="pdf-embed" type="application/pdf">
+    <p>Your browser doesn't support PDF viewing. Please <a href="from-40-mw-to-usable-capacity.pdf">download the PDF</a> to view it.</p>
+</iframe>
+
+
+</div>
+---
