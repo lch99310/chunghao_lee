@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">從 40 MW 承諾到可營運容量</title>
+  <desc id="desc">40 MW 先拆成第一期 15 MW 與有條件的第二期 25 MW，再通過施工、commissioning、RFS、檢查與接受才成為營運容量。</desc>
+  <defs>
+    <marker id="ab" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2563EB"/></marker>
+    <marker id="ag" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748B"/></marker>
+    <style>
+      .headline{font:700 31px Georgia,'Noto Serif TC','PingFang TC',serif;fill:#111827}
+      .subline{font:400 17px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .kicker{font:700 13px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;letter-spacing:.6px;fill:#2563EB}
+      .label{font:700 18px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#15296B}
+      .body{font:400 14px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#334155}
+      .small{font:400 12px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .tiny{font:400 11px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#64748B}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="#fff"/>
+  <text x="64" y="58" class="headline">40 MW 必須通過商業條件與技術驗收，才會成為可營運容量</text>
+  <text x="64" y="89" class="subline">Headline capacity 是起點；RFS evidence、inspection 與 acceptance 才決定何時交付、何時開始計費</text>
+
+  <!-- Headline -->
+  <rect x="64" y="135" width="184" height="92" rx="8" fill="#15296B"/>
+  <text x="156" y="171" text-anchor="middle" style="font:700 31px Georgia,serif;fill:#fff">40 MW</text>
+  <text x="156" y="201" text-anchor="middle" style="font:600 14px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#DBEAFE">Headline capacity</text>
+  <path d="M248 181 L302 181" stroke="#2563EB" stroke-width="3" marker-end="url(#ab)"/>
+
+  <!-- Phase split -->
+  <rect x="312" y="124" width="212" height="114" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="332" y="151" class="kicker">PHASE 1</text>
+  <text x="332" y="184" class="label">15 MW</text>
+  <text x="332" y="210" class="body">第一期承諾容量</text>
+
+  <rect x="312" y="268" width="212" height="140" rx="8" fill="#FFF7ED" stroke="#B91C1C" stroke-width="2"/>
+  <text x="332" y="295" class="kicker" style="fill:#991B1B">PHASE 2</text>
+  <text x="332" y="328" class="label" style="fill:#991B1B">＋25 MW</text>
+  <text x="332" y="354" class="body">有條件的額外容量</text>
+  <text x="332" y="380" class="small">融資完成＋Customer 書面批准</text>
+  <path d="M248 190 C278 235 278 333 304 333" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#ag)"/>
+
+  <!-- Merge -->
+  <path d="M524 181 C555 181 555 244 584 244" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <path d="M524 338 C555 338 555 266 584 266" fill="none" stroke="#B91C1C" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#ab)"/>
+
+  <!-- Shared delivery chain -->
+  <rect x="594" y="202" width="128" height="104" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="658" y="239" text-anchor="middle" class="label">Construction</text>
+  <text x="658" y="267" text-anchor="middle" class="small">工程完成</text>
+
+  <path d="M722 254 L753 254" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <rect x="763" y="202" width="144" height="104" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="835" y="239" text-anchor="middle" class="label">Commissioning</text>
+  <text x="835" y="267" text-anchor="middle" class="small">整合測試與驗證</text>
+
+  <path d="M907 254 L938 254" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <rect x="948" y="202" width="150" height="104" rx="7" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="1023" y="234" text-anchor="middle" class="label">RFS Notice</text>
+  <text x="1023" y="260" text-anchor="middle" class="small">＋commissioning report</text>
+  <text x="1023" y="282" text-anchor="middle" class="small">符合 Exhibits B／C／F</text>
+
+  <path d="M1098 254 L1129 254" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <rect x="1139" y="202" width="100" height="104" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="1189" y="238" text-anchor="middle" class="label">Inspect</text>
+  <text x="1189" y="265" text-anchor="middle" class="small">檢查與異議</text>
+
+  <!-- Acceptance loop -->
+  <path d="M1189 306 L1189 365 L1046 365" fill="none" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <rect x="858" y="333" width="178" height="82" rx="7" fill="#EEF2FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="947" y="366" text-anchor="middle" class="label">Acceptance</text>
+  <text x="947" y="392" text-anchor="middle" class="small">或 cure 後重新驗證</text>
+  <path d="M858 374 L772 374" stroke="#2563EB" stroke-width="2.5" marker-end="url(#ab)"/>
+  <rect x="574" y="333" width="188" height="82" rx="7" fill="#15296B"/>
+  <text x="668" y="366" text-anchor="middle" style="font:700 18px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#fff">Operating capacity</text>
+  <text x="668" y="392" text-anchor="middle" style="font:400 12px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#DBEAFE">可部署、可計費、可依 SLA 管理</text>
+
+  <!-- Warning -->
+  <rect x="64" y="468" width="558" height="120" rx="7" fill="#FFF7ED" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="88" y="500" class="label" style="fill:#991B1B">管理風險：deemed acceptance</text>
+  <text x="88" y="530" class="body">若 Customer 未在合約期限內提出書面 deficiency，該 Phase 可能被視為已接受。</text>
+  <text x="88" y="558" class="body">因此 RFS Notice 必須觸發明確的 owner、inspection、evidence 與 deadline workflow。</text>
+
+  <!-- Evidence strip -->
+  <rect x="650" y="468" width="589" height="120" rx="7" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="674" y="500" class="label">Acquisition control points</text>
+  <text x="674" y="530" class="body">① Phase 2 financing approval　② commissioning evidence　③ RFS Criteria</text>
+  <text x="674" y="558" class="body">④ inspection window　⑤ cure tracker　⑥ independent engineer escalation</text>
+
+  <text x="64" y="641" class="small" style="font-weight:700;fill:#15296B">核心判斷</text>
+  <text x="151" y="641" class="body">「簽了 40 MW」不能直接翻譯成「可以使用 40 MW」；每個 gate 都要有 owner、證據與截止日。</text>
+  <text x="64" y="697" class="tiny">Source: Digi Power X–Cerebras public agreement, §§2.5 and 4.2–4.5 (SEC Exhibit 10.1); author analysis. Redacted deadlines are not inferred.</text>
+</svg>

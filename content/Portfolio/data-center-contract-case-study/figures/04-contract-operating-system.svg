@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">資料中心合約的五個控制系統</title>
+  <desc id="desc">交付、經濟、營運、風險與連續性、違約與退出五個系統共同控制可持續運算容量。</desc>
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#94A3B8"/></marker>
+    <style>
+      .headline{font:700 31px Georgia,'Noto Serif TC','PingFang TC',serif;fill:#111827}
+      .subline{font:400 17px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .kicker{font:700 12px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;letter-spacing:.7px;fill:#2563EB}
+      .label{font:700 18px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#15296B}
+      .body{font:400 13px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#334155}
+      .small{font:400 12px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .tiny{font:400 11px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#64748B}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="#fff"/>
+  <text x="64" y="58" class="headline">17 個章節，本質上是五個彼此連動的控制系統</text>
+  <text x="64" y="89" class="subline">任何一個系統失效，都可能讓「已簽約容量」無法被交付、維持或在危機中保住</text>
+
+  <!-- connectors -->
+  <path d="M382 239 C475 220 516 216 550 235" fill="none" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M898 239 C804 220 764 216 730 235" fill="none" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M382 435 C475 458 516 462 550 443" fill="none" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M898 435 C804 458 764 462 730 443" fill="none" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arr)"/>
+  <path d="M640 530 L640 474" fill="none" stroke="#CBD5E1" stroke-width="2" marker-end="url(#arr)"/>
+
+  <!-- Delivery -->
+  <rect x="64" y="154" width="318" height="166" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2"/>
+  <text x="88" y="184" class="kicker">CONTROL SYSTEM 1</text>
+  <text x="88" y="216" class="label">Delivery／交付</text>
+  <text x="88" y="247" class="body">Phases · financing condition · construction</text>
+  <text x="88" y="272" class="body">commissioning · RFS · inspection · acceptance</text>
+  <text x="88" y="299" class="small" style="font-weight:700;fill:#1D4ED8">輸出：何時有多少容量真正可用</text>
+
+  <!-- Economics -->
+  <rect x="898" y="154" width="318" height="166" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="922" y="184" class="kicker">CONTROL SYSTEM 2</text>
+  <text x="922" y="216" class="label">Economics／經濟</text>
+  <text x="922" y="247" class="body">NRC · prepaid fees · take-or-pay</text>
+  <text x="922" y="272" class="body">escalation · pass-through · tax · true-up</text>
+  <text x="922" y="299" class="small" style="font-weight:700;fill:#15296B">輸出：誰出資、何時起算、成本如何變動</text>
+
+  <!-- Risk -->
+  <rect x="64" y="354" width="318" height="166" rx="8" fill="#FFF7ED" stroke="#B91C1C" stroke-width="1.5"/>
+  <text x="88" y="384" class="kicker" style="fill:#991B1B">CONTROL SYSTEM 4</text>
+  <text x="88" y="416" class="label" style="fill:#991B1B">Risk＋Continuity／風險與連續性</text>
+  <text x="88" y="447" class="body">insurance · indemnity · liability · Force Majeure</text>
+  <text x="88" y="472" class="body">financing · RNDA · non-disturbance · attornment</text>
+  <text x="88" y="499" class="small" style="font-weight:700;fill:#991B1B">輸出：事故或接管後，服務是否仍可持續</text>
+
+  <!-- Default -->
+  <rect x="898" y="354" width="318" height="166" rx="8" fill="#F8FAFC" stroke="#94A3B8" stroke-width="1.5"/>
+  <text x="922" y="384" class="kicker">CONTROL SYSTEM 5</text>
+  <text x="922" y="416" class="label">Default＋Exit／違約與退出</text>
+  <text x="922" y="447" class="body">evidence · formal notice · cure · escalation</text>
+  <text x="922" y="472" class="body">credits · remedies · termination · equipment removal</text>
+  <text x="922" y="499" class="small" style="font-weight:700;fill:#15296B">輸出：何時可求償、介入、終止或撤出</text>
+
+  <!-- Center -->
+  <circle cx="640" cy="338" r="150" fill="#15296B"/>
+  <text x="640" y="273" text-anchor="middle" style="font:700 12px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;letter-spacing:.8px;fill:#93C5FD">CONTROL SYSTEM 3</text>
+  <text x="640" y="309" text-anchor="middle" style="font:700 21px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#fff">Operations／營運</text>
+  <text x="640" y="340" text-anchor="middle" style="font:400 13px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#DBEAFE">responsibility split · SLA · maintenance</text>
+  <text x="640" y="363" text-anchor="middle" style="font:400 13px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#DBEAFE">incident response · reporting · Service Credits</text>
+  <line x1="567" y1="386" x2="713" y2="386" stroke="#60A5FA"/>
+  <text x="640" y="416" text-anchor="middle" style="font:700 17px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#fff">可持續運算容量</text>
+  <text x="640" y="440" text-anchor="middle" style="font:400 12px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#BFDBFE">available · maintainable · recoverable</text>
+
+  <!-- Governance base -->
+  <rect x="408" y="548" width="464" height="82" rx="8" fill="#EEF2FF" stroke="#2563EB" stroke-width="1.5"/>
+  <text x="640" y="578" text-anchor="middle" class="label">Acquisition／Commercial Governance</text>
+  <text x="640" y="605" text-anchor="middle" class="body">contract calendar · RACI · evidence log · notice register · remedy tracker</text>
+
+  <text x="64" y="658" class="small" style="font-weight:700;fill:#15296B">關鍵連動</text>
+  <text x="145" y="658" class="body">RFS 觸發費用；責任邊界改變 SLA 歸因；Force Majeure 影響 credits；RNDA 決定 lender 接管後的 continuity。</text>
+  <text x="64" y="697" class="tiny">Source: Digi Power X–Cerebras public agreement (SEC Exhibit 10.1); author synthesis across Articles 2–17.</text>
+</svg>

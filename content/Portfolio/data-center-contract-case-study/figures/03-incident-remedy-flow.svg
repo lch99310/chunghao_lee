@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="停機不會直接跳到終止；證據、分類與補救決定救濟能否成立">
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="80.0" y="96.0" font-family="Georgia, 'Times New Roman', 'Hiragino Mincho ProN', 'Yu Mincho', serif" font-size="40" fill="#000000" font-weight="bold" text-anchor="start">停機不會直接跳到終止；證據、</text>
+  <text x="80.0" y="148.0" font-family="Georgia, 'Times New Roman', 'Hiragino Mincho ProN', 'Yu Mincho', serif" font-size="40" fill="#000000" font-weight="bold" text-anchor="start">分類與補救決定救濟能否成立</text>
+  <text x="80.0" y="176.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="20" fill="#6B7280" font-weight="normal" text-anchor="start">Service Credit、breach 與 Event of Default 是不同層級，不應混為一談</text>
+  <rect x="80.0" y="308.0" width="203.2" height="152.0" fill="#F3F4F6" stroke="none"/>
+  <text x="96.0" y="330.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#2563EB" font-weight="bold" text-anchor="start">01</text>
+  <text x="96.0" y="354.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">事故／SLA 偏差</text>
+  <text x="96.0" y="390.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">先確認影響範圍、</text>
+  <text x="96.0" y="414.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">時間與受影響的</text>
+  <text x="96.0" y="438.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">Service Order</text>
+  <path d="M 289.2 376.0 L 303.2 384.0 L 289.2 392.0 Z" fill="#6B7280"/>
+  <rect x="309.2" y="308.0" width="203.2" height="152.0" fill="#F3F4F6" stroke="none"/>
+  <text x="325.2" y="330.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#2563EB" font-weight="bold" text-anchor="start">02</text>
+  <text x="325.2" y="354.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">證據與排除測試</text>
+  <text x="325.2" y="390.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">logs、tickets、</text>
+  <text x="325.2" y="414.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">maintenance、</text>
+  <text x="325.2" y="438.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">Customer cause、FM</text>
+  <path d="M 518.4 376.0 L 532.4 384.0 L 518.4 392.0 Z" fill="#6B7280"/>
+  <rect x="538.4" y="308.0" width="203.2" height="152.0" fill="#15296B" stroke="none"/>
+  <text x="554.4" y="330.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#E5E7EB" font-weight="bold" text-anchor="start">03</text>
+  <text x="554.4" y="354.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#FFFFFF" font-weight="bold" text-anchor="start">權利分類</text>
+  <text x="554.4" y="390.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#E5E7EB" font-weight="normal" text-anchor="start">Service Credit、</text>
+  <text x="554.4" y="414.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#E5E7EB" font-weight="normal" text-anchor="start">一般 breach 或</text>
+  <text x="554.4" y="438.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#E5E7EB" font-weight="normal" text-anchor="start">material breach</text>
+  <path d="M 747.6 376.0 L 761.6 384.0 L 747.6 392.0 Z" fill="#6B7280"/>
+  <rect x="767.6" y="308.0" width="203.2" height="152.0" fill="#F3F4F6" stroke="none"/>
+  <text x="783.6" y="330.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#2563EB" font-weight="bold" text-anchor="start">04</text>
+  <text x="783.6" y="354.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">Formal Notice</text>
+  <text x="783.6" y="384.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">＋Cure</text>
+  <text x="783.6" y="420.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">按 §17.2 送達；</text>
+  <text x="783.6" y="444.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">啟動 cure 與</text>
+  <text x="783.6" y="468.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">escalation</text>
+  <path d="M 976.8 376.0 L 990.8 384.0 L 976.8 392.0 Z" fill="#6B7280"/>
+  <rect x="996.8" y="308.0" width="203.2" height="152.0" fill="#F3F4F6" stroke="none"/>
+  <text x="1012.8" y="330.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#2563EB" font-weight="bold" text-anchor="start">05</text>
+  <text x="1012.8" y="354.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">Default／</text>
+  <text x="1012.8" y="384.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#000000" font-weight="bold" text-anchor="start">Remedies</text>
+  <text x="1012.8" y="420.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">termination、</text>
+  <text x="1012.8" y="444.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">refund、specific</text>
+  <text x="1012.8" y="468.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="18" fill="#6B7280" font-weight="normal" text-anchor="start">performance</text>
+  <text x="80.0" y="630.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#15296B" font-weight="600" text-anchor="start"><title>分類是整條救濟鏈的樞紐：沒有 Service Credit 不等於沒有 breach；一次 SLA failure 也不當然構成 termination right。</title>分類是整條救濟鏈的樞紐：沒有 Service Credit 不等於沒有 breach；</text>
+  <text x="80.0" y="660.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="22" fill="#15296B" font-weight="600" text-anchor="start"><title>分類是整條救濟鏈的樞紐：沒有 Service Credit 不等於沒有 breach；一次 SLA failure 也不當然構成 termination right。</title>一次 SLA failure 也不當然構成 termination right。</text>
+  <text x="80.0" y="692.0" font-family="'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Meiryo', sans-serif" font-size="13" fill="#6B7280" font-weight="normal" text-anchor="start">Source: Digi Power X–Cerebras public agreement, Articles 7, 12, 13, 14 and 17 (SEC Exhibit 10.1); author analysis.</text>
+</svg>

@@ -1,0 +1,22 @@
+languageCode = "zh-TW"
+languageName = "繁體中文"
+languageDirection = "ltr"
+weight = 2
+
+title = "Chung-Hao Lee"
+
+[params]
+  dateFormat = "2006 年 1 月 2 日"
+  description = "Chung-Hao (CH) Lee — 從雪梨出發，研究硬體供應鏈、AI 營運與資料中心。"
+  favicon = "favicon.ico"
+
+[params.author]
+  name = "Chung-Hao Lee"
+  image = "img/author_CHLee.jpg"
+  headline = "硬體供應鏈 × AI 營運 · 雪梨"
+  bio = "硬體供應鏈 × AI 營運 · 雪梨"
+  links = [
+    { email = "mailto:lch99310@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/lch99310/" },
+    { tiktok = "https://tiktok.com/@chunghao_lee" },
+  ]

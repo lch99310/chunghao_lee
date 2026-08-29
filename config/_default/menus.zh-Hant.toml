@@ -1,0 +1,20 @@
+[[main]]
+  name = "首頁"
+  url = "/zh-hant/"
+  weight = 10
+
+[[main]]
+  name = "作品集"
+  url = "/zh-hant/portfolio/"
+  weight = 20
+
+[[main]]
+  name = "英文網站"
+  url = "/"
+  weight = 30
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"
