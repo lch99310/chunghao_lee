@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">資料中心合約的實體與交易關係圖</title>
+  <desc id="desc">Customer 透過合約取得容量與服務，但 Facility 與土地仍由 Operator 控制，Lender 透過融資與擔保影響權利連續性。</desc>
+  <defs>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2563EB"/></marker>
+    <marker id="arrowGray" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#64748B"/></marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#B91C1C"/></marker>
+    <style>
+      .headline{font:700 31px Georgia,'Noto Serif TC','PingFang TC',serif;fill:#111827}
+      .subline{font:400 17px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .label{font:700 20px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#15296B}
+      .body{font:400 15px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#334155}
+      .small{font:400 13px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#475569}
+      .tiny{font:400 11px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#64748B}
+      .arrowLabel{font:600 12px 'PingFang TC','Noto Sans CJK TC','Microsoft JhengHei',Arial,sans-serif;fill:#334155}
+    </style>
+  </defs>
+  <rect width="1280" height="720" fill="#FFFFFF"/>
+  <text x="64" y="58" class="headline">Customer 買的是合約化容量；底層資產與融資控制仍留在 Operator 體系</text>
+  <text x="64" y="89" class="subline">服務權利與資產權利是兩條不同的鏈；RNDA 把 lender 接管風險接回 Customer 的營運連續性</text>
+
+  <!-- Lender -->
+  <rect x="486" y="122" width="308" height="78" rx="7" fill="#FFF7ED" stroke="#B91C1C" stroke-width="2"/>
+  <text x="640" y="153" text-anchor="middle" class="label" fill="#991B1B">Lender／融資方</text>
+  <text x="640" y="178" text-anchor="middle" class="small">debt · collateral · foreclosure rights</text>
+
+  <!-- Operator -->
+  <rect x="432" y="260" width="416" height="286" rx="8" fill="#F8FAFC" stroke="#15296B" stroke-width="2.5"/>
+  <rect x="432" y="260" width="416" height="58" rx="8" fill="#15296B"/>
+  <rect x="432" y="302" width="416" height="16" fill="#15296B"/>
+  <text x="640" y="296" text-anchor="middle" style="font:700 22px 'PingFang TC','Noto Sans CJK TC',Arial,sans-serif;fill:#FFFFFF">Operator／營運方</text>
+  <text x="456" y="350" class="label">Land＋Facility</text>
+  <text x="456" y="374" class="body">保有 ownership、possession、control</text>
+  <line x1="456" y1="395" x2="824" y2="395" stroke="#CBD5E1"/>
+  <text x="456" y="429" class="label">Operator Infrastructure</text>
+  <text x="456" y="453" class="body">電力 · 冷卻 · 監控 · security · managed services</text>
+  <line x1="456" y1="474" x2="824" y2="474" stroke="#CBD5E1"/>
+  <rect x="456" y="492" width="368" height="36" rx="4" fill="#DBEAFE"/>
+  <text x="640" y="516" text-anchor="middle" class="body" style="font-weight:700;fill:#1D4ED8">Customer Equipment 位於設施內，但所有權仍屬 Customer</text>
+
+  <!-- Customer -->
+  <rect x="958" y="300" width="258" height="184" rx="8" fill="#EFF6FF" stroke="#2563EB" stroke-width="2.5"/>
+  <text x="1087" y="337" text-anchor="middle" class="label">Customer／客戶方</text>
+  <text x="982" y="370" class="body">取得：</text>
+  <text x="1000" y="397" class="body">• 24／7 access</text>
+  <text x="1000" y="424" class="body">• Colocation space license</text>
+  <text x="1000" y="451" class="body">• Capacity＋services</text>
+
+  <!-- Ecosystem -->
+  <rect x="64" y="238" width="250" height="86" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="189" y="271" text-anchor="middle" class="label">Utility／Grid</text>
+  <text x="189" y="298" text-anchor="middle" class="small">供電與 grid charges</text>
+  <rect x="64" y="356" width="250" height="86" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="189" y="389" text-anchor="middle" class="label">Suppliers／Contractors</text>
+  <text x="189" y="416" text-anchor="middle" class="small">設計、採購、建設、commissioning</text>
+  <rect x="64" y="474" width="250" height="86" rx="7" fill="#F8FAFC" stroke="#94A3B8"/>
+  <text x="189" y="507" text-anchor="middle" class="label">Insurers</text>
+  <text x="189" y="534" text-anchor="middle" class="small">各自承保設施、責任與設備</text>
+
+  <!-- Arrows -->
+  <path d="M640 200 L640 252" stroke="#64748B" stroke-width="2.2" marker-end="url(#arrowGray)"/>
+  <text x="652" y="228" class="arrowLabel">financing＋security</text>
+  <path d="M794 158 C960 158 1035 224 1065 292" fill="none" stroke="#B91C1C" stroke-width="2.2" stroke-dasharray="7 5" marker-end="url(#arrowRed)"/>
+  <text x="927" y="172" class="arrowLabel" style="fill:#991B1B">RNDA：recognition＋non-disturbance</text>
+
+  <path d="M848 350 C900 350 919 350 950 350" fill="none" stroke="#2563EB" stroke-width="3" marker-end="url(#arrowBlue)"/>
+  <text x="899" y="335" text-anchor="middle" class="arrowLabel" style="fill:#1D4ED8">access · capacity · services</text>
+  <path d="M958 446 C904 446 886 446 856 446" fill="none" stroke="#64748B" stroke-width="2.3" marker-end="url(#arrowGray)"/>
+  <text x="906" y="469" text-anchor="middle" class="arrowLabel">NRC＋recurring fees</text>
+
+  <path d="M314 281 L424 335" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <text x="350" y="289" class="arrowLabel">power</text>
+  <path d="M314 399 L424 399" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <text x="368" y="389" text-anchor="middle" class="arrowLabel">buildout</text>
+  <path d="M314 517 L424 489" fill="none" stroke="#64748B" stroke-width="2" marker-end="url(#arrowGray)"/>
+  <text x="365" y="524" class="arrowLabel">coverage</text>
+
+  <!-- Key takeaway -->
+  <rect x="64" y="590" width="1152" height="78" rx="6" fill="#EEF2FF"/>
+  <text x="88" y="619" class="body" style="font-weight:700;fill:#15296B">Acquisition implication</text>
+  <text x="88" y="647" class="body">只確認 Operator 願意提供服務還不夠；還要確認 lender 接管後，Customer 的 access、equipment operation 與 services 是否仍被承認。</text>
+  <text x="64" y="697" class="tiny">Source: Digi Power X–Cerebras public agreement, §§2 and 16 (SEC Exhibit 10.1); author analysis. Public-document case study; not legal advice.</text>
+</svg>
