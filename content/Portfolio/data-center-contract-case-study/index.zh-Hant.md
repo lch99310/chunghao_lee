@@ -1,10 +1,9 @@
 +++
 date = '2026-08-29T18:00:00+10:00'
-draft = true
 title = '從 40 MW 到可用容量：一份公開資料中心合約的商業解讀'
 description = '以 Digi Power X 與 Cerebras 公開申報的資料中心合約為案例，拆解容量交付、RFS、SLA、風險分配、融資連續性與 DC acquisition 管理重點。'
 summary = '40 MW 不等於 40 MW 已經可用。這份公開合約案例說明，資料中心容量如何經過融資、興建、commissioning、RFS、驗收與營運治理，才成為真正可執行的商業權利。'
-tags = ['Data Center', 'Contract', 'Commercial', 'Case Study']
+tags = ['Data Center', 'Contract', 'Commercial', 'Case Study','中文']
 showTableOfContents = true
 showReadingTime = true
 collapseMobileToc = true
