@@ -1,0 +1,30 @@
+{
+  "pattern": "process_flow",
+  "headline": "停機不會直接跳到終止；證據、分類與補救決定救濟能否成立",
+  "subline": "Service Credit、breach 與 Event of Default 是不同層級，不應混為一談",
+  "steps": [
+    {
+      "label": "事故／SLA 偏差",
+      "detail": "先確認影響範圍、時間與受影響的 Service Order"
+    },
+    {
+      "label": "證據與排除測試",
+      "detail": "logs、tickets、maintenance、Customer cause、FM"
+    },
+    {
+      "label": "權利分類",
+      "detail": "Service Credit、一般 breach 或 material breach"
+    },
+    {
+      "label": "Formal Notice＋Cure",
+      "detail": "按 §17.2 送達；啟動 cure 與 escalation"
+    },
+    {
+      "label": "Default／Remedies",
+      "detail": "termination、refund、specific performance"
+    }
+  ],
+  "highlight": 2,
+  "annotation": "分類是整條救濟鏈的樞紐：沒有 Service Credit 不等於沒有 breach；一次 SLA failure 也不當然構成 termination right。",
+  "source": "Source: Digi Power X–Cerebras public agreement, Articles 7, 12, 13, 14 and 17 (SEC Exhibit 10.1); author analysis."
+}
