@@ -1,6 +1,6 @@
 +++
 date = '2026-09-04T00:05:00+00:00'
-title = "AI's Next Battle Isn't Intelligence. It's Experience."
+title = "AI's Next Battle may Not be Intelligence, but Experience."
 tags = ['Beyond the___', 'PM', 'Passport to AI Era', 'History as Mirror', '中文']
 thumbnail = 'pic.png'
 +++
@@ -11,9 +11,9 @@ OpenAI dropped a line at its launch event: "Welcome to the AGI era." Asked wheth
 
 近日，OpenAI 在發布會上丟下一句：「Welcome to the AGI era。」被問到 Astra 本身算不算 AGI 時，官方的回應是：「I do think we're there。」同一天，Artificial Analysis 把 GPT-6 Astra 排進它的 Intelligence Index——61 分，跟上一代 GPT-5.6 Sol 打平；Coding Agent Index 上，67 分，也只比 Sol 的 65 高一點點，甚至不是本代最高分。一邊是「AGI 元年」的宣言，一邊是動也不動的排行榜。
 
-That gap isn't a fluke. It's a signal. For a decade, the industry's script has been simple: AI competes on intelligence, and every new model has to out-think the last one. This leaderboard says something different — **the fight over IQ may already be over, ahead of schedule**. What comes next is a different battlefield: not how smart the model is, but how well it understands you.
+That gap isn't a fluke. It's a signal. For past years, the industry's script has been simple: AI competes on intelligence, and every new model has to out-think the last one. This leaderboard says something different — **the fight over IQ may already be over, ahead of schedule**. What comes next is a different battlefield: not how smart the model is, but how well it understands you.
 
-這個落差不是烏龍，是訊號。過去十年我們習慣的劇本是：AI 產業永遠在比誰更聰明，下一代模型永遠要比上一代聰明一截。但這張排行榜說了另一件事——**比智商這場仗，可能已經提前打完了**。接下來要打的，換了戰場：不是模型有多聰明，是體驗有多懂你。
+這個落差不是烏龍，是訊號。過去幾年我們習慣的劇本是：AI 產業永遠在比誰更聰明，下一代模型永遠要比上一代聰明一截。但這張排行榜說了另一件事——**比智商這場仗，可能已經提前打完了**。接下來要打的，換了戰場：不是模型有多聰明，是體驗有多懂你。
 
 ![](pic.png)
 
