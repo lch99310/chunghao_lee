@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-09-04T21:16:40.209Z",
+  "last_sent_at": "2026-09-11T21:33:22.651Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -582,6 +582,23 @@
           "title": "從 40 MW 到可用容量：一份公開資料中心合約的商業解讀",
           "link": "https://chunghaolee.com/portfolio/data-center-contract-case-study/",
           "pubDate": "2026-08-29T08:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-09-11T21:33:22.651Z",
+      "broadcast_id": "05c7ff35-e016-4c84-9f5f-353b8cbcdc89",
+      "item_count": 2,
+      "items": [
+        {
+          "title": "[External Article] - 智元的 18 枚金牌，和工廠里的另一場考試",
+          "link": "https://chunghaolee.com/reading-notes/external-article----%E6%99%BA%E5%85%83%E7%9A%84-18-%E6%9E%9A%E9%87%91%E7%89%8C%E5%92%8C%E5%B7%A5%E5%BB%A0%E9%87%8C%E7%9A%84%E5%8F%A6%E4%B8%80%E5%A0%B4%E8%80%83%E8%A9%A6/",
+          "pubDate": "2026-09-05T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - 汽車企業用 AI，為什麼從飛書開始？",
+          "link": "https://chunghaolee.com/reading-notes/external-article---%E6%B1%BD%E8%BB%8A%E4%BC%81%E6%A5%AD%E7%94%A8-ai%E7%82%BA%E4%BB%80%E9%BA%BC%E5%BE%9E%E9%A3%9B%E6%9B%B8%E9%96%8B%E5%A7%8B/",
+          "pubDate": "2026-09-05T00:00:00.000Z"
         }
       ]
     }
