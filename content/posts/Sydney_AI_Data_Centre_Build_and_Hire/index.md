@@ -1,7 +1,7 @@
 +++
 date = '2026-09-13T00:05:00+00:00'
 title = "Beyond the Announcement — Sydney's AI Data Centre Build, Read Through Who Is Being Hired"
-tags = ['AI', 'Data Center', 'Passport to AI Era', '中文']
+tags = ['AI', 'Data Center', 'Passport to AI Era', '中文', 'Beyond The___', 'Analytics']
 thumbnail = 'pic.png'
 +++
 
