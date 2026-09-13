@@ -2,7 +2,7 @@
 date = '2026-09-13T00:05:00+00:00'
 title = "Beyond the Announcement — Sydney's AI Data Centre Build, Read Through Who Is Being Hired"
 tags = ['AI', 'Data Center', 'Passport to AI Era', '中文']
-thumbnail = 'pic2.png'
+thumbnail = 'pic.png'
 +++
 
 
@@ -105,6 +105,8 @@ When a market starts needing people to handle *taking the old thing out*, it has
 
 一個市場開始需要人處理「怎麼把舊的換掉」，代表它已經過了空談的階段。
 
+![](pic1.png)
+
 ### 2. The Supply Chain Has Moved With Them. // 二、整條產業鏈跟著動起來了
 
 In *The AI Supply Chain Dividend* I argued that AI's wealth does not stop at the hyperscalers' income statements. It travels down the chain — chips, memory, power and heavy industry — and lands, eventually, in real payroll. That piece described the global transmission. In Sydney I saw its local shape for the first time: **six unrelated layers opened data-center-specific roles in the same window.**
@@ -185,7 +187,7 @@ This city's economy has long stood on two pillars: resources and finance. Data c
 
 長期以來，這座城市的經濟骨幹是礦業與金融兩根柱子。數據中心與 AI，有機會成為第三根，而且它的分佈比前兩根都更廣。
 
-*[Figure 2]*
+![](pic2.png)
 
 Then there is permanence. Of the seven stages, construction (②③④) ends. Operations and refresh (⑥⑦) do not. **A finished data center runs for twenty years, and the people it needs have to be there every one of those days.** That matters more than any headline figure: construction delivers a wave of orders; operations delivers a generation of careers.
 
