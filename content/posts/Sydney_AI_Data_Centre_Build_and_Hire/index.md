@@ -38,9 +38,9 @@ So over the past two months I read every publicly posted data center role in Syd
 
 ## An Investment Is Not One Action. It Is Seven Stages. // 一筆投資不是一個動作，是七個階段
 
-In ![*Data Center 101*](https://chunghaolee.com/tags/data-center-101/) I wrote that a hyperscale facility typically takes 27 months from decision to service. Those 27 months are not uniform. They break into seven stages with entirely different characters, and each one needs a different kind of person.
+In [*Data Center 101*](https://chunghaolee.com/tags/data-center-101/) I wrote that a hyperscale facility typically takes 27 months from decision to service. Those 27 months are not uniform. They break into seven stages with entirely different characters, and each one needs a different kind of person.
 
-我在 ![<Data Center 101>](https://chunghaolee.com/tags/data-center-101/) 裡寫過，一座超大規模數據中心從拍板到啟用，典型是 27 個月。但這 27 個月並不均勻——它由七個性質完全不同的階段組成，每一段需要的人完全不一樣。
+我在 [<Data Center 101>](https://chunghaolee.com/tags/data-center-101/) 裡寫過，一座超大規模數據中心從拍板到啟用，典型是 27 個月。但這 27 個月並不均勻——它由七個性質完全不同的階段組成，每一段需要的人完全不一樣。
 
 | Stage 階段 | What happens here 這一段在做什麼 | Who it needs 需要什麼樣的人 |
 |---|---|---|
