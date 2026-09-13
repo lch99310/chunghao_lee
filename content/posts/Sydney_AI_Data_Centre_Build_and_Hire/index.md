@@ -5,7 +5,7 @@ tags = ['AI', 'Data Center', 'Passport to AI Era', '中文']
 thumbnail = 'pic.png'
 +++
 
-
+![](pic.png)
 
 In April, Satya Nadella stood up in Sydney and committed A$25 billion. It was the largest investment Microsoft had made in Australia in its forty years there — enough to expand its local data center footprint by 140% before the end of 2029.
 
