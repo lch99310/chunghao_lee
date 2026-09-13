@@ -203,17 +203,9 @@ I don't know when A$21.6 billion turns into 1.4GW. The investment decision still
 
 ## A Note on Method // 關於方法
 
-This piece covers companies that have publicly announced Australian data center investment or already operate here. The material is publicly posted Sydney job listings I tracked from early August to mid-September 2026, read individually and classified by lifecycle stage. No listing text, reference number or link is quoted, and no individual is named. Investment figures and tender details are drawn from public reporting.
+This piece covers companies that have publicly announced Australian data center investment or already operate here. The material is publicly posted Sydney job listings I tracked from early August to mid-September 2026. Investment figures and tender details are drawn from public reporting.
 
-本文涵蓋的是已公開宣布澳洲數據中心投資、或已在澳洲設有相關營運的公司。素材為 2026 年 8 月初至 9 月中，我持續追蹤的悉尼公開招聘資訊，逐則閱讀後依生命週期階段分類彙整。文中不引用任何職缺原文、編號或連結，也不涉及任何個人。投資金額與招標細節引自公開報導。
-
-Three limits are worth stating. First, this captures *new* hiring inside a two-month window; seats filled earlier don't appear, so the stage coverage above is a floor, not a full picture. Second, this is my tracking range, not a market census — it supports claims about structure and direction, not about totals. Third, the tracking channel carries personalization bias: while writing this, I discovered a role that had been open for roughly a month and had only just surfaced for me. "I didn't see it" is not the same as "it isn't there."
-
-三項侷限必須寫下來。其一，這是兩個月窗口內的**新增**招聘，更早之前已經補齊的位置不會出現，所以文中的階段覆蓋是下限而非全貌。其二，這是我個人的追蹤範圍，不是市場普查——可以談結構與方向，不能用來推估總量。其三，追蹤管道本身帶有個人化推薦的偏誤：寫作期間我才發現，一則已存在約一個月的職缺，直到近期才進入我的視野。所以「我沒看到」，不等於「不存在」。
-
-None of these limits were fixed. They were written down. An honest account of a sample beats a sample pretending to be complete.
-
-這三項侷限沒有被修掉，只是被寫下來。一份誠實的樣本說明，比一個假裝完整的樣本有用。
+本文涵蓋的是已公開宣布澳洲數據中心投資、或已在澳洲設有相關營運的公司。素材為 2026 年 8 月初至 9 月中，我追蹤的悉尼公開招聘資訊。投資金額與招標細節引自公開報導。
 
 
 ---
