@@ -29,9 +29,9 @@ There were companies working across thermal control, liquid cooling, power equip
 
 現場可以看到 thermal control、液冷、電力設備、能源系統、工業控制與連接元件等不同方向的方案。這些產品分屬基礎設施的不同層次，但回應的其實是同一個底層需求：如何支撐密度越來越高、要求越來越複雜的運算環境。
 
-In *The AI Supply Chain Dividend*, I argued that AI spending would not remain inside the financial statements of software companies and cloud providers. It would travel down into power, cooling, equipment, manufacturing and other physical industries.
+In [*The AI Supply Chain Dividend*](https://chunghaolee.com/posts/the-ai-supply-chain-dividend/), I argued that AI spending would not remain inside the financial statements of software companies and cloud providers. It would travel down into power, cooling, equipment, manufacturing and other physical industries.
 
-我在 [The AI Supply Chain Dividend](https://chunghaolee.com/posts/the-ai-supply-chain-dividend/) 中曾經寫過，AI 的支出不會只停留在軟體公司與雲端業者的財報裡，而會一路向下傳導到電力、冷卻、設備、製造與其他實體產業。
+我在 [*The AI Supply Chain Dividend*](https://chunghaolee.com/posts/the-ai-supply-chain-dividend/) 中曾經寫過，AI 的支出不會只停留在軟體公司與雲端業者的財報裡，而會一路向下傳導到電力、冷卻、設備、製造與其他實體產業。
 
 At the conference, that argument was no longer just a diagram or a macroeconomic idea. It was represented by different suppliers, products and technical conversations across the exhibition floor.
 
@@ -55,9 +55,9 @@ This is not proof that every planned project will be delivered. But it is still 
 
 這當然不能證明每一個規劃中的專案都一定會落地，但仍然是一個有意義的第一手訊號。Sydney 被討論的方式，已經不是一個等待成熟的市場，而是一個業者正在提前布局、準備持續成長的市場。
 
-That matched the structural analysis in my [Sydney data-center deep dive](https://chunghaolee.com/posts/data-center-101-13-sydney-deep-dive/), which looked at Sydney’s connectivity, existing capacity, hyperscaler presence and financial and government demand.
+That matched the structural analysis in my [Sydney Data Center deep dive](https://chunghaolee.com/posts/data-center-101-13-sydney-deep-dive/), which looked at Sydney’s connectivity, existing capacity, hyperscaler presence and financial and government demand.
 
-這與我在 [Data Center 101 #13: Sydney Deep Dive](https://chunghaolee.com/posts/data-center-101-13-sydney-deep-dive/) 中做的結構性分析相互呼應。那篇文章討論了 Sydney 的網路連接、既有容量、hyperscaler presence，以及金融與政府需求所形成的本地基礎。
+這與我在 [Sydney Data Center deep dive](https://chunghaolee.com/posts/data-center-101-13-sydney-deep-dive/) 中做的結構性分析相互呼應。那篇文章討論了 Sydney 的網路連接、既有容量、hyperscaler presence，以及金融與政府需求所形成的本地基礎。
 
 It also connected with my earlier observation in [Sydney AI Data Centre Build and Hire](https://chunghaolee.com/posts/sydney_ai_data_centre_build_and_hire/): a market becomes more real not only through investment announcements, but also through the appearance of new roles, suppliers and decision-making functions.
 
