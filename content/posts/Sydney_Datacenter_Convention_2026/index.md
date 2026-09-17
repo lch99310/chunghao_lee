@@ -2,7 +2,7 @@
 date = '2026-09-17T00:00:00+00:00'
 title = 'Sydney Cloud & Datacenter Convention 2026: Three Signals I Saw on the Ground'
 tags = ['Sharing', 'Networking', '中文', 'Data Center']
-thumbnail = 'pic.jpg'
+thumbnail = 'pic.png'
 +++
 
 ![](pic.png)
