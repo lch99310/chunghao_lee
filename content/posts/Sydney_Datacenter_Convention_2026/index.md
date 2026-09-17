@@ -5,7 +5,7 @@ tags = ['Sharing', 'Networking', '中文', 'Data Center']
 thumbnail = 'pic.jpg'
 +++
 
-
+![](pic.png)
 
 Attending the Cloud & Datacenter Convention at ICC Sydney brought me back to an earlier event: Sydney Build Expo 2026.
 
@@ -101,6 +101,8 @@ A data center that can be built is one thing. A data center that can remain flex
 >
 > 資本可以蓋出容量，但 operational readiness 才能把容量轉成真正可用的服務。
 
+
+![](pic1.png)
 
 ---
 
