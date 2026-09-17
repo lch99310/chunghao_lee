@@ -77,9 +77,9 @@ One speaker with an operations background highlighted two points that stayed wit
 
 其中一位具有營運背景的講者，提到兩個讓我印象深刻的觀點。第一，設施必須保留彈性，因為幾年後使用的設備與技術，可能會和今天完全不同。第二，隨著 data center 建設速度加快，operational readiness 也成為最大的挑戰之一。
 
-That raises an uncomfortable but practical question: data centers are being built faster and in greater numbers, but are their operating models ready for the same scale?
+That raises an uncomfortable but practical question: data centers are being built faster and in greater numbers, but are their operation ready for the same scale?
 
-這也帶出一個不算舒服、但很實際的問題：數據中心越蓋越快、數量越來越多，但它們的營運模式，真的已經準備好承接同樣的規模了嗎？
+這也帶出一個不算舒服、但很實際的問題：數據中心越蓋越快、數量越來越多，但它們的運營，真的已經準備好承接同樣的規模了嗎？
 
 This is not an argument against construction speed. It is an argument for thinking further ahead during the planning and design stages.
 
