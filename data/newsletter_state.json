@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-09-11T21:33:22.651Z",
+  "last_sent_at": "2026-09-18T21:26:48.902Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -599,6 +599,28 @@
           "title": "[External Article] - 汽車企業用 AI，為什麼從飛書開始？",
           "link": "https://chunghaolee.com/reading-notes/external-article---%E6%B1%BD%E8%BB%8A%E4%BC%81%E6%A5%AD%E7%94%A8-ai%E7%82%BA%E4%BB%80%E9%BA%BC%E5%BE%9E%E9%A3%9B%E6%9B%B8%E9%96%8B%E5%A7%8B/",
           "pubDate": "2026-09-05T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-09-18T21:26:48.902Z",
+      "broadcast_id": "8fdb229e-b6da-467f-84f5-2e6ad769c4e7",
+      "item_count": 3,
+      "items": [
+        {
+          "title": "[External Article] - Anthropic、OpenAI 的反蒸餾：封賬號、藏思維鏈，但防不住逼近",
+          "link": "https://chunghaolee.com/reading-notes/anthropic%E7%9A%84%E5%8F%8D%E8%92%B8%E9%A4%BE/",
+          "pubDate": "2026-09-17T00:00:00.000Z"
+        },
+        {
+          "title": "Sydney Cloud & Datacenter Convention 2026: Three Signals I Saw on the Ground",
+          "link": "https://chunghaolee.com/posts/sydney_datacenter_convention_2026/",
+          "pubDate": "2026-09-17T00:00:00.000Z"
+        },
+        {
+          "title": "Beyond the Announcement — Sydney's AI Data Centre Build, Read Through Who Is Being Hired",
+          "link": "https://chunghaolee.com/posts/sydney_ai_data_centre_build_and_hire/",
+          "pubDate": "2026-09-13T00:05:00.000Z"
         }
       ]
     }
