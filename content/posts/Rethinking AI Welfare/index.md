@@ -2,6 +2,7 @@
 date = '2026-10-08T00:00:00+08:00'
 title = 'From Chain of Thought to a Right to Rest: Rethinking AI Welfare'
 tags = ['AI', 'Welfare', '中文']
+thumbnail = 'pic.png'
 +++
 
 <div style="text-align: center; margin: 20px 0;">
