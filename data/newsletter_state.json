@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-09-18T21:26:48.902Z",
+  "last_sent_at": "2026-10-09T23:03:29.234Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -621,6 +621,23 @@
           "title": "Beyond the Announcement — Sydney's AI Data Centre Build, Read Through Who Is Being Hired",
           "link": "https://chunghaolee.com/posts/sydney_ai_data_centre_build_and_hire/",
           "pubDate": "2026-09-13T00:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-10-09T23:03:29.234Z",
+      "broadcast_id": "81ed8e03-0bb5-4573-898d-66f86a1b410d",
+      "item_count": 2,
+      "items": [
+        {
+          "title": "[External Article] - 大模型的效率之戰，一塊錢如何買到更多智能",
+          "link": "https://chunghaolee.com/reading-notes/external-article----%E5%A4%A7%E6%A8%A1%E5%9E%8B%E7%9A%84%E6%95%88%E7%8E%87%E4%B9%8B%E6%88%B0_%E4%B8%80%E5%A1%8A%E9%8C%A2%E5%A6%82%E4%BD%95%E8%B2%B7%E5%88%B0%E6%9B%B4%E5%A4%9A%E6%99%BA%E8%83%BD/",
+          "pubDate": "2026-10-08T00:00:00.000Z"
+        },
+        {
+          "title": "From Chain of Thought to a Right to Rest: Rethinking AI Welfare",
+          "link": "https://chunghaolee.com/posts/rethinking-ai-welfare/",
+          "pubDate": "2026-10-07T16:00:00.000Z"
         }
       ]
     }
