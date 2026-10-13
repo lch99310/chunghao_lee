@@ -19,9 +19,14 @@ Red envelopes can win this round. But as I wrote in [*Beyond Just Talking*](/pos
 
 ![](pic.png)
 
-*The entrance layer is thin; the weight sits in the industries beneath it. Personal devices perceive and anticipate. Delivery still belongs to every industry below.*
+<figure style="margin: 2em 0;">
+  <img src="pic.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
+  <figcaption style="margin-top: .6em; font-size: .82em; line-height: 1.55; opacity: .7; text-align: left;">
+    The entrance layer is thin; the weight sits in the industries beneath it. Personal devices perceive and anticipate. Delivery still belongs to every industry below.<br>
+    入口層很薄，真正的重量在下面的各行各業。隨身裝置負責感知與預判，交付仍然靠每一個行業。
+  </figcaption>
+</figure>
 
-*入口層很薄，真正的重量在下面的各行各業。隨身裝置負責感知與預判，交付仍然靠每一個行業。*
 ---
 
 ## The Entrance Won't Swallow Everything // 入口吃不掉一切
@@ -85,9 +90,13 @@ Nor will this be one app's story. It will play out inside industry after industr
 
 ![](pic1.png)
 
-*Figure 1 | Three eras of information. a, Internet era: people search for information and pay the full description tax. b, Mobile era: information is pushed to people based on a fixed profile. c, AI era: context signals feed an anticipation layer that acts at the right moment, and the description tax approaches zero. Bottom bars show the description tax in each era (schematic).*
-
-*圖 1｜資訊的三個時代。a，網路時代：人找資訊，描述稅全額由人支付。b，行動時代：資訊依固定的偏好標籤推給人。c，AI 時代：情境訊號匯入預判層，在對的時機出手，描述稅趨近於零。底部長條為各時代的描述稅（示意）。*
+<figure style="margin: 2em 0;">
+  <img src="pic1.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
+  <figcaption style="margin-top: .6em; font-size: .82em; line-height: 1.55; opacity: .7; text-align: left;">
+    <strong>Figure 1 | Three eras of information.</strong> <strong>a</strong>, Internet era: people search for information and pay the full description tax. <strong>b</strong>, Mobile era: information is pushed to people based on a fixed profile. <strong>c</strong>, AI era: context signals feed an anticipation layer that acts at the right moment, and the description tax approaches zero. Bottom bars show the description tax in each era (schematic).<br>
+    <strong>圖 1｜資訊的三個時代。</strong><strong>a</strong>，網路時代：人找資訊，描述稅全額由人支付。<strong>b</strong>，行動時代：資訊依固定的偏好標籤推給人。<strong>c</strong>，AI 時代：情境訊號匯入預判層，在對的時機出手，描述稅趨近於零。底部長條為各時代的描述稅（示意）。
+  </figcaption>
+</figure>
 
 ---
 
@@ -145,9 +154,13 @@ And notice what the four share. In [*Beyond the Subjects*](/posts/beyond_the_sub
 
 ![](pic2.png)
 
-*Figure 2 | Four industries, one mechanism. The same sequence (predict, time it, execute) plugs into recommendation, moderation, logistics and production, moving from information on screens (left) to physical goods (right).*
-
-*圖 2｜四個行業，同一個機制。預測、抓時機、執行，同一套流程插進推薦、審核、物流與生產，從螢幕上的資訊（左）一路走到實體商品（右）。*
+<figure style="margin: 2em 0;">
+  <img src="pic2.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
+  <figcaption style="margin-top: .6em; font-size: .82em; line-height: 1.55; opacity: .7; text-align: left;">
+    <strong>Figure 2 | Four industries, one mechanism.</strong> The same sequence (predict, time it, execute) plugs into recommendation, moderation, logistics and production, moving from information on screens (left) to physical goods (right).<br>
+    <strong>圖 2｜四個行業，同一個機制。</strong>預測、抓時機、執行，同一套流程插進推薦、審核、物流與生產，從螢幕上的資訊（左）一路走到實體商品（右）。
+  </figcaption>
+</figure>
 
 ---
 
@@ -176,9 +189,14 @@ So both constraints loosen at once: more free time, lower prices. Consumption in
 
 ![](pic3.png)
 
-*Figure 3 | AI loosens both constraints on consumption. a, Time: hours once spent on chores (searching, comparing prices, tracking parcels, screening scams) shrink and flow to content, entertainment and experiences. b, Price: lower production costs shift supply outward; prices fall and quantity rises. Schematic, not actual data.*
+<figure style="margin: 2em 0;">
+  <img src="pic3.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
+  <figcaption style="margin-top: .6em; font-size: .82em; line-height: 1.55; opacity: .7; text-align: left;">
+    <strong>Figure 3 | AI loosens both constraints on consumption.</strong> <strong>a</strong>, Time: hours once spent on chores (searching, comparing prices, tracking parcels, screening scams) shrink and flow to content, entertainment and experiences. <strong>b</strong>, Price: lower production costs shift supply outward; prices fall and quantity rises. Schematic, not actual data.<br>
+    <strong>圖 3｜AI 同時鬆開消費的兩條約束。</strong><strong>a</strong>，時間：花在搜尋、比價、追包裹、辨別詐騙的瑣事時間縮短，流向內容、娛樂與體驗。<strong>b</strong>，價格：生產成本下降，供給曲線右移，價格下降、成交量上升。示意圖，非實際數據。
+  </figcaption>
+</figure>
 
-*圖 3｜AI 同時鬆開消費的兩條約束。a，時間：花在搜尋、比價、追包裹、辨別詐騙的瑣事時間縮短，流向內容、娛樂與體驗。b，價格：生產成本下降，供給曲線右移，價格下降、成交量上升。示意圖，非實際數據。*
 ---
 
 ## Not the Door, but What's Behind It // 不是那扇門，而是門後面
