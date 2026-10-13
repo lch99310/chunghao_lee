@@ -17,7 +17,6 @@ Red envelopes can win this round. But as I wrote in [*Beyond Just Talking*](/pos
 
 紅包買得到這一局。但我在[《Beyond Just Talking》](/posts/beyond_just_talking/)寫過，要贏的從來不是這一局，而是讓對方還願意有下一局。而這場入口之爭，我認為從一開始就押錯了假設。
 
-![](pic.png)
 
 <figure style="margin: 2em 0;">
   <img src="pic.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
@@ -88,7 +87,6 @@ Nor will this be one app's story. It will play out inside industry after industr
 這也不會只是某一個 App 的故事。它會在一個又一個行業裡，用各自的語言上演。
 
 
-![](pic1.png)
 
 <figure style="margin: 2em 0;">
   <img src="pic1.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
@@ -152,7 +150,6 @@ And notice what the four share. In [*Beyond the Subjects*](/posts/beyond_the_sub
 也注意它們的共同點。我在[《Beyond the Subjects》](/posts/beyond_the_subjects/)寫過，牆在組織圖裡，不在世界裡。這裡又是同一件事：四個行業，同一個機制，就是預測、抓準時機、在你看不見的地方執行。所以 AI 不需要是一個應用：同一個原理，換個名字，就能插進每一個行業。
 
 
-![](pic2.png)
 
 <figure style="margin: 2em 0;">
   <img src="pic2.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
@@ -187,7 +184,6 @@ So both constraints loosen at once: more free time, lower prices. Consumption in
 時間和錢這兩條約束，同時鬆開了。AI 時代的消費不會萎縮，反而應該成長。這也正好說明了體驗為什麼重要：被釋放出來的時間和錢，會流向體驗做得最絲滑的那一方。
 
 
-![](pic3.png)
 
 <figure style="margin: 2em 0;">
   <img src="pic3.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
