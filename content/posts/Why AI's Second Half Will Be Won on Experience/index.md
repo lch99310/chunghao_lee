@@ -17,6 +17,11 @@ Red envelopes can win this round. But as I wrote in [*Beyond Just Talking*](/pos
 
 紅包買得到這一局。但我在[《Beyond Just Talking》](/posts/beyond_just_talking/)寫過，要贏的從來不是這一局，而是讓對方還願意有下一局。而這場入口之爭，我認為從一開始就押錯了假設。
 
+![](pic.png)
+
+*The entrance layer is thin; the weight sits in the industries beneath it. Personal devices perceive and anticipate. Delivery still belongs to every industry below.*
+
+*入口層很薄，真正的重量在下面的各行各業。隨身裝置負責感知與預判，交付仍然靠每一個行業。*
 ---
 
 ## The Entrance Won't Swallow Everything // 入口吃不掉一切
@@ -77,6 +82,13 @@ Nor will this be one app's story. It will play out inside industry after industr
 
 這也不會只是某一個 App 的故事。它會在一個又一個行業裡，用各自的語言上演。
 
+
+![](pic1.png)
+
+*Figure 1 | Three eras of information. a, Internet era: people search for information and pay the full description tax. b, Mobile era: information is pushed to people based on a fixed profile. c, AI era: context signals feed an anticipation layer that acts at the right moment, and the description tax approaches zero. Bottom bars show the description tax in each era (schematic).*
+
+*圖 1｜資訊的三個時代。a，網路時代：人找資訊，描述稅全額由人支付。b，行動時代：資訊依固定的偏好標籤推給人。c，AI 時代：情境訊號匯入預判層，在對的時機出手，描述稅趨近於零。底部長條為各時代的描述稅（示意）。*
+
 ---
 
 ## Four Industries, One Mechanism // 四個行業，同一個機制
@@ -130,6 +142,13 @@ And notice what the four share. In [*Beyond the Subjects*](/posts/beyond_the_sub
 
 也注意它們的共同點。我在[《Beyond the Subjects》](/posts/beyond_the_subjects/)寫過，牆在組織圖裡，不在世界裡。這裡又是同一件事：四個行業，同一個機制，就是預測、抓準時機、在你看不見的地方執行。所以 AI 不需要是一個應用：同一個原理，換個名字，就能插進每一個行業。
 
+
+![](pic2.png)
+
+*Figure 2 | Four industries, one mechanism. The same sequence (predict, time it, execute) plugs into recommendation, moderation, logistics and production, moving from information on screens (left) to physical goods (right).*
+
+*圖 2｜四個行業，同一個機制。預測、抓時機、執行，同一套流程插進推薦、審核、物流與生產，從螢幕上的資訊（左）一路走到實體商品（右）。*
+
 ---
 
 ## Where the Time Goes // 省下來的，去了哪裡
@@ -154,6 +173,12 @@ So both constraints loosen at once: more free time, lower prices. Consumption in
 
 時間和錢這兩條約束，同時鬆開了。AI 時代的消費不會萎縮，反而應該成長。這也正好說明了體驗為什麼重要：被釋放出來的時間和錢，會流向體驗做得最絲滑的那一方。
 
+
+![](pic3.png)
+
+*Figure 3 | AI loosens both constraints on consumption. a, Time: hours once spent on chores (searching, comparing prices, tracking parcels, screening scams) shrink and flow to content, entertainment and experiences. b, Price: lower production costs shift supply outward; prices fall and quantity rises. Schematic, not actual data.*
+
+*圖 3｜AI 同時鬆開消費的兩條約束。a，時間：花在搜尋、比價、追包裹、辨別詐騙的瑣事時間縮短，流向內容、娛樂與體驗。b，價格：生產成本下降，供給曲線右移，價格下降、成交量上升。示意圖，非實際數據。*
 ---
 
 ## Not the Door, but What's Behind It // 不是那扇門，而是門後面
