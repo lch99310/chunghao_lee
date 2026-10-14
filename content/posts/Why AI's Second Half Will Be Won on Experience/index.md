@@ -205,17 +205,6 @@ Ask someone who has worked with a great assistant what that assistant actually d
 
 問一個和頂尖助理共事過的人，那位助理到底做了什麼，多半說不上來。只記得，事情都辦好了。
 
----
-
-### References // 參考資料
-
-- Chung-Hao Lee, [*Beyond Just Talking: Communication Starts Before You Speak*](/posts/beyond_just_talking/) (2026)
-- Chung-Hao Lee, [*The AI Era May Need a New Division of Labor, Not a New Device*](/posts/the-ai-era-may-need-a-new-division-of-labor/) (2026)
-- Chung-Hao Lee, [*When AGI Moves In: The Two-Stage Roadmap to Human-AGI Coexistence*](/posts/when-agi-moves-in/) (2026)
-- Chung-Hao Lee, [*AI's Next Battle may Not be Intelligence, but Experience.*](/posts/ai_next_battle_is_experience/) (2026)
-- Chung-Hao Lee, [*Beyond the Hype: Human Insight + AI is the Real Competitive Edge*](/posts/2025-09-23_human-insight-+-ai-is-the-real-competitive-edge/) (2025)
-- Chung-Hao Lee, [*Product Decoder: Google's AI Pointer — Where Human-AI Interaction Goes Next*](/posts/product-decoder_google-ai-pointer/) (2026)
-- Chung-Hao Lee, [*Beyond the Subjects: The Walls Are in the Org Chart, Not in the World*](/posts/beyond_the_subjects/) (2026)
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
