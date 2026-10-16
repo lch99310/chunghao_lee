@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-10-09T23:03:29.234Z",
+  "last_sent_at": "2026-10-16T21:56:10.133Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -638,6 +638,38 @@
           "title": "From Chain of Thought to a Right to Rest: Rethinking AI Welfare",
           "link": "https://chunghaolee.com/posts/rethinking-ai-welfare/",
           "pubDate": "2026-10-07T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-10-16T21:56:10.133Z",
+      "broadcast_id": "a2ff17e8-cea5-47f5-9043-99879ae17a47",
+      "item_count": 5,
+      "items": [
+        {
+          "title": "[External Article] - 美國和中國，為什麼都在推動數位貨幣？",
+          "link": "https://chunghaolee.com/reading-notes/-%E7%BE%8E%E5%9C%8B%E5%92%8C%E4%B8%AD%E5%9C%8B%E7%82%BA%E4%BB%80%E9%BA%BC%E9%83%BD%E5%9C%A8%E6%8E%A8%E5%8B%95%E6%95%B8%E4%BD%8D%E8%B2%A8%E5%B9%A3/",
+          "pubDate": "2026-10-14T00:10:00.000Z"
+        },
+        {
+          "title": "[External Article] - What if automating AI R&D triggers an intelligence explosion?",
+          "link": "https://chunghaolee.com/reading-notes/what-if-automating-ai-rd-triggers-an-intelligence-explosion/",
+          "pubDate": "2026-10-14T00:00:00.000Z"
+        },
+        {
+          "title": "Not One Super App, but Every Industry: Why AI's Second Half Will Be Won on Experience",
+          "link": "https://chunghaolee.com/posts/why-ais-second-half-will-be-won-on-experience/",
+          "pubDate": "2026-10-13T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - 流量不再是直播電商最重要的事情",
+          "link": "https://chunghaolee.com/reading-notes/%E6%B5%81%E9%87%8F%E4%B8%8D%E5%86%8D%E6%98%AF%E7%9B%B4%E6%92%AD%E9%9B%BB%E5%95%86%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%E6%83%85/",
+          "pubDate": "2026-10-12T00:05:00.000Z"
+        },
+        {
+          "title": "[External Article] - 抖音電商有了更大自主權",
+          "link": "https://chunghaolee.com/reading-notes/%E6%8A%96%E9%9F%B3%E9%9B%BB%E5%95%86%E6%9C%89%E4%BA%86%E6%9B%B4%E5%A4%A7%E8%87%AA%E4%B8%BB%E6%AC%8A/",
+          "pubDate": "2026-10-12T00:00:00.000Z"
         }
       ]
     }
