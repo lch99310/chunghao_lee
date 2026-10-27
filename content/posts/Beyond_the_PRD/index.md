@@ -5,6 +5,8 @@ tags = ['Beyond the___', 'PM', '中文']
 thumbnail = 'pic.png'
 +++
 
+![](pic.png)
+
 In September I wrote that [*AI's Next Battle may Not be Intelligence, but Experience.*](/posts/ai_next_battle_is_experience/) Smartphones ran the same course. While rivals competed on megapixels and battery capacity, the iPhone won on how smooth it felt. Every swipe was designed to disappear.
 
 九月，我寫過一篇[《AI's Next Battle may Not be Intelligence, but Experience.》](/posts/ai_next_battle_is_experience/)。智慧型手機走過同一條路：規格戰打得最兇的那幾年，各家比畫素、比電池毫安，iPhone 卻靠 iOS 那套絲滑的操作勝出。每一個動作都讓人越用越無感。
@@ -26,7 +28,7 @@ For most of this year I have stood on both sides of one product. At work I lead 
 今年大部分時間，我同時站在一個產品的兩邊。工作上，我負責一個內部分析平台；同時我也是它的使用者，常常一用就是一整天。平台上有兩個功能，都直接來自我當使用者時的不耐煩，也都不會出現在任何一張需求單上。
 
 <figure style="margin: 2em 0;">
-  <img src="pic.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
+  <img src="pic1.png" alt="" style="width: 100%; display: block; border-radius: 8px;">
   <figcaption style="margin-top: .6em; font-size: .82em; line-height: 1.55; opacity: .7; text-align: left;">
     A blueprint shows how a house should work. Only living in it shows where it doesn't.<br>
     藍圖畫的是房子該怎麼運作；住進去，才知道哪裡不對勁。
