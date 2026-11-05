@@ -54,9 +54,9 @@ Scale describes where you are now, not how far you can go.
 
 ## One Year On // 一年之後
 
-A little over a year ago, I had just moved from Taiwan to Sydney and went to [my first industry event in Australia]({{< ref "/posts/2025-11-01_1st_AU_networking" >}}), knowing almost no one. In July this year, I met Steve at Bellwether's Sydney gathering. A few months later, I flew to Brisbane for their 15th anniversary.
+A little over a year ago, I had just moved from Taiwan to Sydney and went to my first industry event in Australia, knowing almost no one. In July this year, I met Steve at Bellwether's Sydney gathering. A few months later, I flew to Brisbane for their 15th anniversary.
 
-一年多前，我剛從台灣搬到悉尼，[第一次參加澳洲的業界活動]({{< ref "/posts/2025-11-01_1st_AU_networking" >}})，幾乎誰都不認識。今年 7 月，我在 Bellwether 的悉尼聚會上認識了 Steve。幾個月後，我飛了一趟布里斯本，參加他們的 15 週年。
+一年多前，我剛從台灣搬到悉尼，第一次參加澳洲的業界活動，幾乎誰都不認識。今年 7 月，我在 Bellwether 的悉尼聚會上認識了 Steve。幾個月後，我飛了一趟布里斯本，參加他們的 15 週年。
 
 I'm still near the starting line. What Bellwether's fifteen years made clear to me is that starting from zero isn't the problem. The question is whether you keep going, year after year.
 
@@ -72,11 +72,6 @@ Congratulations to Steve and the whole Bellwether team on fifteen years.
 >
 > 15 週年的慶祝只有一個晚上，撐起這個晚上的，是之前的五千多個日子。
 
----
-
-## Further Reading
-
-- [AI-Human Synergy in Project Delivery: Reflections on Australia's Construction Industry Networking Event]({{< ref "/posts/2025-11-01_1st_AU_networking" >}})
 
 ---
 *© Chung-Hao Lee. All Rights Reserved.
