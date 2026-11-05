@@ -2,10 +2,10 @@
 date = '2026-11-05T00:00:00+00:00'
 title = 'Bellwether 15th Anniversary: Fifteen Years, Built from the Ground Up'
 tags = ['Sharing', 'Networking', '中文']
-thumbnail = 'pic.jpg'
+thumbnail = 'pic.png'
 +++
 
-![](pic.jpg)
+![](pic.png)
 
 Last Friday, I flew from Sydney to Brisbane for one evening: Bellwether's 15th anniversary. Thank you, Steve, for having me.
 
