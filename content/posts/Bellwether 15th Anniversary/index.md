@@ -32,9 +32,10 @@ I'm still tuning my ear to the Aussie accent, so I didn't catch every word. What
 我的耳朵還在適應澳洲口音，那晚沒能聽懂每一句。下面兩句是我記下的大意，不是原話。如果理解有偏差，那是我耳朵的問題，不是 Steve 的：
 
 - **Luck tends to find the people who have already put in the work.**
-- **Don't let your current size set the limit on your ambition.**
-
 - **運氣，往往落在已經把功夫做足的人身上。**
+ 
+    
+- **Don't let your current size set the limit on your ambition.**
 - **不要讓現在的規模，決定你野心的上限。**
 
 ## Scale Is a Starting Point, Not a Ceiling // 規模是起點，不是天花板
