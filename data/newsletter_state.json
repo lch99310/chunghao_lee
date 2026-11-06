@@ -1,5 +1,5 @@
 {
-  "last_sent_at": "2026-10-30T22:48:53.538Z",
+  "last_sent_at": "2026-11-06T23:40:03.189Z",
   "history": [
     {
       "sent_at": "2026-05-09T03:02:04.013Z",
@@ -682,6 +682,23 @@
           "title": "Beyond the PRD: Why the Best Builders Are Also Users",
           "link": "https://chunghaolee.com/posts/beyond_the_prd/",
           "pubDate": "2026-10-27T00:05:00.000Z"
+        }
+      ]
+    },
+    {
+      "sent_at": "2026-11-06T23:40:03.189Z",
+      "broadcast_id": "b5de3117-f256-4dae-abbc-031979246350",
+      "item_count": 2,
+      "items": [
+        {
+          "title": "Bellwether 15th Anniversary: Fifteen Years, Built from the Ground Up",
+          "link": "https://chunghaolee.com/posts/bellwether-15th-anniversary/",
+          "pubDate": "2026-11-05T00:00:00.000Z"
+        },
+        {
+          "title": "[External Article] - 下一次大分流？",
+          "link": "https://chunghaolee.com/reading-notes/external-article----%E4%B8%8B%E4%B8%80%E6%AC%A1%E5%A4%A7%E5%88%86%E6%B5%81/",
+          "pubDate": "2026-11-04T00:10:00.000Z"
         }
       ]
     }
