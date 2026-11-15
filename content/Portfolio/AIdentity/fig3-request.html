@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --amber-bg:#fbf2e2; --amber-line:#e4c79a; --slate:#4a6472; --slate-bg:#eef2f3; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 44px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; }
+  .deck { font-size:18px; color:var(--grey); margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:22px; }
+  .brand { font-family:Georgia,"Liberation Serif",serif; }
+
+  .stage { position:relative; width:1088px; height:850px; margin-top:20px; }
+  .lane { position:absolute; top:0; bottom:0; border-radius:10px; }
+  .lane .lh { position:absolute; top:12px; left:0; right:0; text-align:center; font-size:12.5px; font-weight:700; letter-spacing:1.8px; text-transform:uppercase; }
+  .l1 { left:0; width:300px; background:#efebe2; } .l1 .lh { color:var(--grey); }
+  .l2 { left:324px; width:440px; background:var(--amber-bg); border:1.5px solid var(--amber-line); } .l2 .lh { color:var(--amber-ink); }
+  .l3 { left:788px; width:300px; background:var(--slate-bg); } .l3 .lh { color:var(--slate); }
+
+  .card { position:absolute; background:var(--card); border:1px solid var(--hair); border-radius:10px; padding:14px 16px; box-shadow:0 1px 0 rgba(0,0,0,.03); }
+  .n { position:absolute; top:-12px; left:-12px; width:26px; height:26px; border-radius:13px; background:var(--ink); color:#fff; font-size:13.5px; font-weight:700; text-align:center; line-height:26px; }
+  .who { font-size:12px; font-weight:700; letter-spacing:1.4px; text-transform:uppercase; color:var(--grey2); }
+  .say { font-size:17px; line-height:1.38; margin-top:6px; font-weight:600; }
+  .t { font-size:15px; line-height:1.42; margin-top:6px; color:var(--ink); }
+  .m { font-size:13.5px; color:var(--grey); margin-top:6px; line-height:1.4; }
+  .chip { margin-top:8px; background:#fff; border:1px solid var(--amber-line); border-left:4px solid var(--amber); border-radius:6px; padding:7px 10px; font-size:14px; line-height:1.35; }
+  .chip span { color:var(--grey); font-size:12.5px; display:block; }
+  .ok { margin-top:10px; font-size:13.5px; color:#3f6b3a; font-weight:600; }
+  .packet { position:absolute; background:#fff; border:1.5px dashed var(--slate); border-radius:8px; padding:10px 12px; font-size:14px; line-height:1.4; }
+  .packet b { color:var(--slate); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 3 · One request, end to end</div>
+  <h1>The cloud gets a slice. The memory stays in your pocket.</h1>
+  <div class="deck">"What did we decide about the second supplier?" asked out loud while walking, with no unlock, no app and no typing.</div>
+  <div class="rule"></div>
+
+  <div class="stage">
+    <div class="lane l1"><div class="lh">Earbuds · any maker</div></div>
+    <div class="lane l2"><div class="lh"><span class="brand" style="text-transform:none; letter-spacing:0; font-size:15px;">AIdentity</span> · in your pocket</div></div>
+    <div class="lane l3"><div class="lh">Cloud model · any model</div></div>
+
+    <svg width="1088" height="850" style="position:absolute; left:0; top:0; pointer-events:none;">
+      <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#1a1714"/></marker>
+            <marker id="as" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4a6472"/></marker></defs>
+      <path d="M290,150 C320,150 320,120 352,120" fill="none" stroke="#1a1714" stroke-width="2" marker-end="url(#a)"/>
+      <path d="M744,412 C780,412 780,380 812,380" fill="none" stroke="#4a6472" stroke-width="2.2" marker-end="url(#as)"/>
+      <path d="M940,500 C940,560 800,590 746,590" fill="none" stroke="#4a6472" stroke-width="2.2" marker-end="url(#as)"/>
+      <path d="M352,680 C320,680 320,712 290,712" fill="none" stroke="#1a1714" stroke-width="2" marker-end="url(#a)"/>
+    </svg>
+
+    <!-- 1 -->
+    <div class="card" style="left:16px; top:56px; width:268px;">
+      <div class="n">1</div>
+      <div class="who">You say</div>
+      <div class="say">"What did we decide about the second supplier?"</div>
+      <div class="m">No names, no project, no date. Memory will fill those in.</div>
+    </div>
+
+    <!-- 2 -->
+    <div class="card" style="left:350px; top:56px; width:390px;">
+      <div class="n">2</div>
+      <div class="who">Retrieve</div>
+      <div class="t">Searches <b>12,480</b> memories. <b>3</b> match:</div>
+      <div class="chip">Chose Supplier B for the second slot<span>Decision · Oct 3 meeting · confirmed with a pinch</span></div>
+      <div class="chip">Their lead time was 3 weeks shorter<span>Reason · Oct 3 meeting</span></div>
+      <div class="chip">Revisit if their price rises more than 5%<span>Trigger · Oct 3 meeting</span></div>
+      <div class="ok">✓ All three are "shareable". No private memory included.</div>
+    </div>
+
+    <!-- 3 packet -->
+    <div class="packet" style="left:350px; top:366px; width:390px;">
+      <b>3 · Sends</b> the question + 3 memories (about 600 tokens).<br>
+      <b>Keeps</b> the other 12,477 memories. The cloud never sees the archive.
+    </div>
+
+    <!-- 4 -->
+    <div class="card" style="left:812px; top:330px; width:262px; border-color:#9fb2bb;">
+      <div class="n" style="background:#4a6472;">4</div>
+      <div class="who" style="color:#4a6472;">Reason</div>
+      <div class="t">Reads the question and the three memories, and drafts a short answer.</div>
+      <div class="m">Any model can do this step. Switching models changes nothing for you.</div>
+    </div>
+
+    <!-- 5 -->
+    <div class="card" style="left:350px; top:520px; width:390px;">
+      <div class="n">5</div>
+      <div class="who">Route</div>
+      <div class="t">The answer is short and nothing needs to be looked at, so it goes to your <b>ears</b>. Your glasses stay clear.</div>
+      <div class="m">Long or visual answers would go to the glasses; a nudge would go to the wrist.</div>
+    </div>
+
+    <!-- 6 -->
+    <div class="card" style="left:16px; top:640px; width:268px;">
+      <div class="n">6</div>
+      <div class="who">You hear</div>
+      <div class="say" style="font-size:16px;">"On October 3 you chose Supplier B. Their lead time was three weeks shorter. You asked to revisit if their price rose more than 5%."</div>
+      <div class="m">Source: Oct 3 meeting.</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

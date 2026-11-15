@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --amber-bg:#fbf2e2; --amber-line:#e4c79a; --slate:#4a6472; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 44px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; }
+  .deck { font-size:18px; color:var(--grey); margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:22px; }
+  .brand { font-family:Georgia,"Liberation Serif",serif; }
+
+  .row { display:grid; grid-template-columns:200px 1fr 250px; gap:22px; align-items:center; background:var(--card); border:1px solid var(--hair); border-radius:10px; padding:20px 22px; margin-top:16px; }
+  .row.hi { background:var(--amber-bg); border:2px solid var(--amber); }
+  .era { font-size:12px; font-weight:700; letter-spacing:1.6px; text-transform:uppercase; color:var(--grey2); }
+  .era-t { font-size:20px; font-weight:700; margin-top:4px; line-height:1.2; }
+  .steps { font-size:13.5px; color:var(--grey); margin-top:8px; line-height:1.4; }
+  .box { background:#fff; border:1px solid #d8d1c3; border-radius:8px; padding:12px 14px; font-size:15px; line-height:1.45; font-family:"DejaVu Sans Mono",Menlo,monospace; font-size:13.5px; color:#2b2724; }
+  .caret { display:inline-block; width:2px; height:15px; background:var(--ink); vertical-align:-2px; }
+  .seq { display:flex; align-items:center; gap:14px; }
+  .act { display:flex; align-items:center; gap:10px; background:#fff; border:1px solid #d8d1c3; border-radius:10px; padding:10px 14px; font-size:15px; }
+  .act .v { font-size:11px; font-weight:700; letter-spacing:1.5px; color:var(--grey2); display:block; }
+  .plus { font-size:20px; color:var(--grey2); }
+  .bubble { background:#efebe2; color:#1a1714; border:1px solid #d8d1c3; border-radius:10px; padding:10px 14px; font-size:15px; line-height:1.4; max-width:330px; font-style:italic; }
+  .bubble .lab { font-size:10.5px; letter-spacing:1.6px; color:#6f685d; font-weight:700; font-style:normal; }
+  .meter .num { font-family:Georgia,"Liberation Serif",serif; font-size:44px; font-weight:700; line-height:1; }
+  .meter .unit { font-size:14px; color:var(--grey); margin-left:6px; }
+  .bar { height:12px; border-radius:0 4px 4px 0; margin-top:10px; background:#4a6472; }
+  .track { background:#ece6da; border-radius:4px; height:12px; margin-top:10px; position:relative; }
+  .track .bar { position:absolute; left:0; top:0; margin:0; }
+  .formula { margin-top:22px; background:var(--ink); color:#f6f3ec; border-radius:10px; padding:18px 24px; display:flex; justify-content:space-between; align-items:center; }
+  .formula .f { font-family:Georgia,"Liberation Serif",serif; font-size:24px; }
+  .formula .f b { color:#f0b866; }
+  .formula .s { font-size:14px; color:#c9c1b2; text-align:right; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 5 · The grammar</div>
+  <h1>Every memory saves a sentence.</h1>
+  <div class="deck">One task, saving the outcome of a 10 a.m. meeting, done three ways.</div>
+  <div class="rule"></div>
+
+  <div class="row">
+    <div><div class="era">Today</div><div class="era-t">A chat box</div><div class="steps">Unlock → open the app → type → send</div></div>
+    <div class="box" id="prompt">Please save the decisions from the 10 a.m. meeting with Alex Chen on the packaging project: we agreed to switch to the recycled carton spec, and to move the Q1 forecast review to Friday. Add a follow-up for me to send the spec to the supplier.<span class="caret"></span></div>
+    <div class="meter"><span class="num" id="n1">46</span><span class="unit">words typed</span><div class="track"><div class="bar" style="width:100%;"></div></div></div>
+  </div>
+
+  <div class="row">
+    <div><div class="era">With glasses</div><div class="era-t">Look and say</div><div class="steps">The glasses see the whiteboard, so you only name the action</div></div>
+    <div class="seq">
+      <div class="act"><svg width="34" height="22" viewBox="0 0 34 22"><path d="M2,11 Q17,-3 32,11 Q17,25 2,11 Z" fill="none" stroke="#1a1714" stroke-width="2"/><circle cx="17" cy="11" r="4.5" fill="#1a1714"/></svg><div><span class="v">LOOK</span>at the whiteboard</div></div>
+      <span class="plus">+</span>
+      <div class="act"><svg width="28" height="26" viewBox="0 0 28 26"><path d="M3,3 H25 V18 H12 L6,24 V18 H3 Z" fill="none" stroke="#1a1714" stroke-width="2" stroke-linejoin="round"/></svg><div><span class="v">SAY</span>"Save this."</div></div>
+    </div>
+    <div class="meter"><span class="num">2</span><span class="unit">words spoken</span><div class="track"><div class="bar" style="width:4.3%; min-width:6px;"></div></div></div>
+  </div>
+
+  <div class="row hi">
+    <div><div class="era" style="color:#955c19;">With <span class="brand" style="text-transform:none; letter-spacing:0; font-size:14px;">AIdentity</span></div><div class="era-t">Propose and nod</div><div class="steps" style="color:#6b5b3f;">It already knows the project, the meeting and who was in it</div></div>
+    <div class="seq">
+      <div class="bubble"><div class="lab">IN YOUR EARBUDS, AS THE MEETING ENDS</div>"Two decisions and one follow-up from the meeting with Alex. Save them?"</div>
+      <span class="plus">→</span>
+      <div class="act"><svg width="30" height="30" viewBox="0 0 30 30"><path d="M8,26 C4,20 4,14 8,10 L14,4" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linecap="round"/><path d="M14,26 C18,22 22,16 20,10 L18,6" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linecap="round"/><circle cx="16" cy="5" r="2.6" fill="#b3701f"/></svg><div><span class="v">PINCH</span>yes</div></div>
+    </div>
+    <div class="meter"><span class="num" style="color:#955c19;">0</span><span class="unit">words</span><div class="track"><div class="bar" style="width:0;"></div></div></div>
+  </div>
+
+  <div class="formula">
+    <div class="f">What you have to say = what you mean − <b>what the system already knows</b></div>
+    <div class="s">Memory moves the dial.<br>At the far end, the interface reaches the brain.</div>
+  </div>
+</div>
+<script>
+  const w = document.getElementById('prompt').textContent.trim().split(/\s+/).length;
+  document.getElementById('n1').textContent = w;
+  window.__done = true;
+</script>
+</body>
+</html>
