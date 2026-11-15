@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --amber-bg:#fbf2e2; --amber-line:#e4c79a; --slate:#4a6472; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 44px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; }
+  .deck { font-size:18px; color:var(--grey); margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:22px; }
+  .brand { font-family:Georgia,"Liberation Serif",serif; }
+  .grid { display:grid; grid-template-columns:repeat(4, 1fr); gap:16px; margin-top:24px; }
+  .p { background:var(--card); border:1px solid var(--hair); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+  .p svg.scene { display:block; width:100%; height:auto; }
+  .meta { padding:12px 14px 4px; }
+  .time { font-size:12px; font-weight:700; letter-spacing:1.6px; color:var(--amber); text-transform:uppercase; }
+  .ttl { font-size:17px; font-weight:700; margin-top:2px; }
+  .act { margin:10px 14px 14px; display:flex; align-items:center; gap:10px; background:#f3efe6; border-radius:10px; padding:9px 11px; }
+  .act.hi { background:var(--amber-bg); border:1.5px solid var(--amber-line); }
+  .act svg { flex:0 0 34px; }
+  .act .v { font-size:11px; font-weight:800; letter-spacing:1.6px; color:var(--amber-ink); display:block; }
+  .act .l { font-size:13.5px; line-height:1.35; }
+  .legend { display:flex; gap:24px; margin-top:18px; font-size:13.5px; color:var(--grey); align-items:center; flex-wrap:wrap; }
+  .sw { display:inline-block; width:14px; height:14px; border-radius:3px; vertical-align:-2px; margin-right:6px; }
+  svg text { font-family:"Helvetica Neue",Inter,Arial,sans-serif; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 4 · A day with <span class="brand" style="text-transform:none; letter-spacing:0; font-size:15px;">AIdentity</span></div>
+  <h1>Eight moments. You touch the cube twice.</h1>
+  <div class="deck">Where you are, what you see in your glasses, what you hear in your earbuds, and the one thing you do.</div>
+  <div class="rule"></div>
+
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <!-- cube, front view, normal (white seam) -->
+      <g id="cube">
+        <rect x="-15" y="-8" width="30" height="22" rx="4" fill="#5d5a55"/>
+        <rect x="-14.5" y="-10.5" width="29" height="2.5" rx="1.2" fill="#fff1d6"/>
+        <rect x="-15" y="-17" width="30" height="7" rx="2.5" fill="#f1ede6" stroke="#cfc6b6" stroke-width=".8"/>
+      </g>
+      <g id="cubeAmber">
+        <ellipse cx="0" cy="-9" rx="22" ry="5" fill="#f0a640" opacity=".35"/>
+        <rect x="-15" y="-8" width="30" height="22" rx="4" fill="#5d5a55"/>
+        <rect x="-14.5" y="-10.5" width="29" height="2.5" rx="1.2" fill="#f0a640"/>
+        <rect x="-15" y="-17" width="30" height="7" rx="2.5" fill="#f1ede6" stroke="#cfc6b6" stroke-width=".8"/>
+      </g>
+      <g id="person">
+        <circle cx="0" cy="-30" r="9"/>
+        <path d="M-16,8 C-16,-12 -10,-18 0,-18 C10,-18 16,-12 16,8 Z"/>
+      </g>
+      <g id="ear">
+        <path d="M0,-9 C-7,-9 -9,-3 -9,1 C-9,6 -5,7 -5,11 C-5,14 -2,15 0,13" fill="none" stroke="#1a1714" stroke-width="2" stroke-linecap="round"/>
+        <path d="M5,-4 q4,4 0,8 M9,-8 q8,8 0,16" fill="none" stroke="#b3701f" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </defs>
+  </svg>
+
+  <div class="grid">
+
+    <!-- 1 Day one -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#efe7da"/>
+        <rect y="112" width="260" height="58" fill="#d9ccb6"/>
+        <!-- objects on desk -->
+        <g transform="translate(130,118)"><use href="#cube"/></g>
+        <g transform="translate(58,122)" fill="none" stroke="#1a1714" stroke-width="2"><rect x="-22" y="-6" width="18" height="12" rx="5"/><rect x="4" y="-6" width="18" height="12" rx="5"/><path d="M-4,-1 q4,-3 8,0"/></g>
+        <g transform="translate(196,122)" fill="#f6f3ec" stroke="#1a1714" stroke-width="1.6"><ellipse cx="-7" cy="-4" rx="5" ry="6"/><path d="M-5,1 l2,9" fill="none"/><ellipse cx="9" cy="-4" rx="5" ry="6"/><path d="M7,1 l-2,9" fill="none"/></g>
+        <g transform="translate(232,124)" fill="none" stroke="#1a1714" stroke-width="2"><rect x="-12" y="-5" width="24" height="10" rx="5"/><rect x="-5" y="-8" width="10" height="16" rx="2.5" fill="#efe7da"/></g>
+        <!-- dotted pairing links -->
+        <g stroke="#b3701f" stroke-width="1.6" stroke-dasharray="3 3" fill="none"><path d="M112,112 Q90,96 70,114"/><path d="M148,112 Q172,98 192,114"/><path d="M150,114 Q200,90 228,116"/></g>
+        <!-- HUD -->
+        <rect x="14" y="12" width="232" height="66" rx="10" fill="#20262a" opacity=".93"/>
+        <text x="26" y="30" font-size="9.5" font-weight="700" fill="#8fa7ad" letter-spacing="1.4">IN YOUR GLASSES</text>
+        <text x="26" y="48" font-size="13" fill="#fff" font-weight="700">Found: earbuds · glasses · band</text>
+        <rect x="26" y="56" width="132" height="16" rx="8" fill="none" stroke="#f0b866"/>
+        <text x="92" y="68" font-size="10.5" fill="#f0b866" text-anchor="middle" font-weight="700">Pinch to connect all</text>
+      </svg>
+      <div class="meta"><div class="time">Day one</div><div class="ttl">Set up</div></div>
+      <div class="act"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M10,30 C5,24 5,16 10,11 L16,5" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><path d="M17,30 C22,25 26,18 23,11 L20,6" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><circle cx="18" cy="6" r="3.2" fill="#b3701f"/></svg><div><span class="v">PINCH</span><span class="l">Everything connects. Your old chats, photos and calendar come along.</span></div></div>
+    </div>
+
+    <!-- 2 Walking -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6dfb6"/><stop offset="1" stop-color="#e9ecea"/></linearGradient></defs>
+        <rect width="260" height="170" fill="url(#sky)"/>
+        <g fill="#c9c2b4"><rect x="0" y="52" width="48" height="66"/><rect x="52" y="34" width="36" height="84"/><rect x="176" y="40" width="40" height="78"/><rect x="220" y="60" width="40" height="58"/></g>
+        <g fill="#b7ae9e"><rect x="92" y="70" width="30" height="48"/><rect x="140" y="62" width="32" height="56"/></g>
+        <path d="M0,170 L104,118 L156,118 L260,170 Z" fill="#9f9788"/>
+        <path d="M130,122 L130,130 M130,140 L130,152 M130,160 L130,170" stroke="#f6f3ec" stroke-width="3"/>
+        <!-- station sign -->
+        <rect x="186" y="84" width="58" height="18" rx="3" fill="#2f5f8a"/><text x="215" y="97" font-size="10" fill="#fff" text-anchor="middle" font-weight="700">STATION →</text>
+        <!-- earbud bubble -->
+        <rect x="12" y="12" width="236" height="66" rx="10" fill="#fffdf9" stroke="#d8d1c3"/>
+        <g transform="translate(30,44)"><use href="#ear"/></g>
+        <text x="50" y="30" font-size="9.5" font-weight="700" fill="#6f685d" letter-spacing="1.4">IN YOUR EARBUDS</text>
+        <text x="50" y="47" font-size="12" fill="#1a1714" font-style="italic">"Oct 3: you chose Supplier B.</text>
+        <text x="50" y="63" font-size="12" fill="#1a1714" font-style="italic">Lead time 3 weeks shorter."</text>
+      </svg>
+      <div class="meta"><div class="time">08:10</div><div class="ttl">Walking to the station</div></div>
+      <div class="act"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M4,5 H30 V23 H15 L8,30 V23 H4 Z" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linejoin="round"/><path d="M10,12 H24 M10,17 H20" stroke="#b3701f" stroke-width="2.2" stroke-linecap="round"/></svg><div><span class="v">SAY</span><span class="l">"What did we decide about the second supplier?"</span></div></div>
+    </div>
+
+    <!-- 3 Meeting -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#e7e4dd"/>
+        <!-- wall screen -->
+        <rect x="150" y="20" width="96" height="62" rx="4" fill="#2b2f35"/>
+        <text x="160" y="36" font-size="9" fill="#9fb2bb" font-weight="700">SUPPLIER B · QUOTE</text>
+        <rect x="162" y="62" width="14" height="12" fill="#6d8b92"/><rect x="182" y="50" width="14" height="24" fill="#6d8b92"/><rect x="202" y="48" width="14" height="26" fill="#f0a640"/>
+        <text x="222" y="42" font-size="11" fill="#f0b866" font-weight="700">+6%</text>
+        <!-- people -->
+        <g fill="#7e766a" transform="translate(70,112)"><use href="#person"/></g>
+        <g fill="#8f877b" transform="translate(196,116) scale(.9)"><use href="#person"/></g>
+        <!-- table -->
+        <path d="M20,170 L60,118 L230,118 L250,170 Z" fill="#c4b49b"/>
+        <rect x="104" y="126" width="34" height="22" rx="2" fill="#f6f3ec" transform="rotate(-6 121 137)"/>
+        <!-- HUD -->
+        <rect x="10" y="12" width="132" height="76" rx="10" fill="#20262a" opacity=".94"/>
+        <text x="20" y="28" font-size="9" font-weight="700" fill="#8fa7ad" letter-spacing="1.3">IN YOUR GLASSES</text>
+        <text x="20" y="44" font-size="11.5" fill="#fff" font-weight="700">Quote +6%</text>
+        <text x="20" y="60" font-size="10.5" fill="#f0b866">Oct 3 rule:</text>
+        <text x="20" y="74" font-size="10.5" fill="#f0b866">revisit above 5%</text>
+        <!-- filed chips -->
+        <g font-size="9" font-weight="700">
+          <rect x="146" y="92" width="50" height="15" rx="7.5" fill="#fbf2e2" stroke="#e4c79a"/><text x="171" y="102.5" text-anchor="middle" fill="#955c19">price ✓</text>
+          <rect x="200" y="92" width="52" height="15" rx="7.5" fill="#fbf2e2" stroke="#e4c79a"/><text x="226" y="102.5" text-anchor="middle" fill="#955c19">2 to-dos ✓</text>
+        </g>
+      </svg>
+      <div class="meta"><div class="time">10:00</div><div class="ttl">A meeting</div></div>
+      <div class="act hi"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M10,30 C5,24 5,16 10,11 L16,5" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><path d="M17,30 C22,25 26,18 23,11 L20,6" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><circle cx="18" cy="6" r="3.2" fill="#b3701f"/></svg><div><span class="v">PINCH</span><span class="l">Facts were filed by themselves. Only the decision asks: "Reopen the comparison?"</span></div></div>
+    </div>
+
+    <!-- 4 New model -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#ece8e0"/>
+        <rect y="132" width="260" height="38" fill="#d6c9b2"/>
+        <!-- laptop -->
+        <rect x="50" y="22" width="160" height="104" rx="6" fill="#2b2f35"/>
+        <rect x="58" y="30" width="144" height="88" rx="2" fill="#f7f6f2"/>
+        <path d="M34,132 L226,132 L214,140 L46,140 Z" fill="#9a958c"/>
+        <rect x="64" y="36" width="56" height="12" rx="6" fill="#4a6472"/><text x="92" y="45" font-size="8.5" fill="#fff" text-anchor="middle" font-weight="700">MODEL B</text>
+        <text x="64" y="62" font-size="9.5" fill="#1a1714">Q1 variance, using your</text>
+        <text x="64" y="74" font-size="9.5" fill="#955c19" font-weight="700">"landed cost" definition</text>
+        <g stroke="#bdb6a8" stroke-width="1"><rect x="64" y="82" width="132" height="30" fill="#fff"/><line x1="108" y1="82" x2="108" y2="112"/><line x1="152" y1="82" x2="152" y2="112"/><line x1="64" y1="92" x2="196" y2="92"/><line x1="64" y1="102" x2="196" y2="102"/></g>
+        <!-- arrival of context -->
+        <g transform="translate(232,104)"><use href="#cube"/></g>
+        <path d="M218,92 C214,72 214,60 206,52" fill="none" stroke="#b3701f" stroke-width="1.8" stroke-dasharray="3 3"/>
+        <text x="236" y="70" font-size="8.5" fill="#955c19" text-anchor="middle" font-weight="700">your</text>
+        <text x="236" y="80" font-size="8.5" fill="#955c19" text-anchor="middle" font-weight="700">context</text>
+      </svg>
+      <div class="meta"><div class="time">13:30</div><div class="ttl">A different model</div></div>
+      <div class="act"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M6,11 H26 l-5,-5 M28,23 H8 l5,5" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg><div><span class="v">SWITCH</span><span class="l">No setup. Its first reply already knows your terms and your format.</span></div></div>
+    </div>
+
+    <!-- 5 Conflict -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#f1eee7"/>
+        <!-- calendar -->
+        <rect x="16" y="64" width="228" height="96" rx="6" fill="#fff" stroke="#d8d1c3"/>
+        <g font-size="9" fill="#9a9284" font-weight="700"><text x="58" y="78">MON</text><text x="104" y="78">TUE</text><text x="150" y="78">WED</text><text x="196" y="78">THU</text></g>
+        <g font-size="8.5" fill="#9a9284"><text x="22" y="100">9:00</text><text x="20" y="128">10:00</text></g>
+        <line x1="48" y1="124" x2="240" y2="124" stroke="#b3701f" stroke-width="1.4" stroke-dasharray="4 3"/>
+        <text x="236" y="152" font-size="8.5" fill="#955c19" text-anchor="end" font-weight="700">July rule: nothing before 10</text>
+        <g fill="#4a6472"><rect x="100" y="90" width="40" height="20" rx="3"/><rect x="146" y="90" width="40" height="20" rx="3"/><rect x="192" y="90" width="40" height="20" rx="3"/></g>
+        <g font-size="8.5" fill="#fff" font-weight="700"><text x="104" y="103">9:00</text><text x="150" y="103">9:00</text><text x="196" y="103">9:00</text></g>
+        <!-- earbud bubble -->
+        <rect x="12" y="10" width="236" height="46" rx="10" fill="#fffdf9" stroke="#d8d1c3"/>
+        <g transform="translate(28,33) scale(.85)"><use href="#ear"/></g>
+        <text x="46" y="28" font-size="11" fill="#1a1714" font-style="italic">"Three 9:00 meetings this week.</text>
+        <text x="46" y="44" font-size="11" fill="#1a1714" font-style="italic">Make 9:00 the new rule?"</text>
+      </svg>
+      <div class="meta"><div class="time">15:00</div><div class="ttl">A conflict</div></div>
+      <div class="act hi"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M10,30 C5,24 5,16 10,11 L16,5" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><path d="M17,30 C22,25 26,18 23,11 L20,6" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><circle cx="18" cy="6" r="3.2" fill="#b3701f"/></svg><div><span class="v">PINCH</span><span class="l">9:00 becomes current. July's rule stays as history, with the reason.</span></div></div>
+    </div>
+
+    <!-- 6 Dinner -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#4a3a33"/>
+        <circle cx="230" cy="56" r="20" fill="#f0b866" opacity=".22"/><rect x="228" y="30" width="4" height="16" fill="#2e2420"/><path d="M218,46 L242,46 L237,55 L223,55 Z" fill="#f0b866"/>
+        <g fill="#2e2420" transform="translate(52,108)"><use href="#person"/></g>
+        <g fill="#2e2420" transform="translate(212,110) scale(.95)"><use href="#person"/></g>
+        <path d="M0,170 L20,112 L240,112 L260,170 Z" fill="#8a6a52"/>
+        <ellipse cx="86" cy="138" rx="24" ry="8" fill="#f1ede6"/><ellipse cx="176" cy="138" rx="24" ry="8" fill="#f1ede6"/>
+        <path d="M118,120 l4,14 h-8 z M138,120 l4,14 h-8 z" fill="#d9b8b0" opacity=".8"/>
+        <g transform="translate(130,140) scale(1.25)"><use href="#cubeAmber"/></g>
+        <path d="M108,112 A26,9 0 0 1 152,112" fill="none" stroke="#f0b866" stroke-width="2.2"/>
+        <path d="M152,112 l-7,-4 m7,4 l-3,-7" stroke="#f0b866" stroke-width="2.2" stroke-linecap="round"/>
+        <text x="130" y="96" font-size="10.5" fill="#f0b866" text-anchor="middle" font-weight="700">¼ turn → amber</text>
+        <text x="16" y="22" font-size="10" fill="#f1ede6">Glasses and earbuds stop feeding memory</text>
+      </svg>
+      <div class="meta"><div class="time">19:30</div><div class="ttl">Dinner with friends</div></div>
+      <div class="act hi"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M28,17 A11,11 0 1 1 22,7" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round"/><path d="M22,7 l-7,-1 m7,1 l-2,7" stroke="#b3701f" stroke-width="2.4" stroke-linecap="round"/></svg><div><span class="v">TURN · TOUCH 1</span><span class="l">Private. Your friends can see the amber line too.</span></div></div>
+    </div>
+
+    <!-- 7 Dock -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#1f2a3a"/>
+        <circle cx="210" cy="34" r="14" fill="#e9e2cf"/><circle cx="216" cy="30" r="13" fill="#1f2a3a"/>
+        <g fill="#e9e2cf"><circle cx="40" cy="26" r="1.4"/><circle cx="90" cy="16" r="1.2"/><circle cx="160" cy="22" r="1.3"/><circle cx="120" cy="40" r="1"/></g>
+        <rect x="40" y="128" width="180" height="42" fill="#3a3a44"/>
+        <ellipse cx="130" cy="128" rx="34" ry="6" fill="#d3ccbf"/>
+        <ellipse cx="130" cy="112" rx="40" ry="18" fill="#fff1d6" opacity=".12"/>
+        <g transform="translate(130,116) scale(1.35)"><use href="#cube"/></g>
+        <text x="160" y="84" font-size="13" fill="#e9e2cf" font-weight="700">z z</text>
+        <g font-size="9.5" font-weight="700" fill="#cfe0e3">
+          <rect x="16" y="56" width="74" height="16" rx="8" fill="#2c3a4e"/><text x="53" y="67" text-anchor="middle">merge 14</text>
+          <rect x="16" y="78" width="74" height="16" rx="8" fill="#2c3a4e"/><text x="53" y="89" text-anchor="middle">link 31</text>
+          <rect x="16" y="100" width="74" height="16" rx="8" fill="#2c3a4e"/><text x="53" y="111" text-anchor="middle">1 question</text>
+        </g>
+      </svg>
+      <div class="meta"><div class="time">23:00</div><div class="ttl">On the dock</div></div>
+      <div class="act hi"><svg width="34" height="34" viewBox="0 0 34 34"><path d="M17,4 V20 m-6,-6 l6,6 6,-6" fill="none" stroke="#1a1714" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M6,28 H28" stroke="#b3701f" stroke-width="3" stroke-linecap="round"/></svg><div><span class="v">SET DOWN · TOUCH 2</span><span class="l">It sleeps and consolidates. Sunday brings the weekly statement.</span></div></div>
+    </div>
+
+    <!-- 8 Lost -->
+    <div class="p">
+      <svg class="scene" viewBox="0 0 260 170">
+        <rect width="260" height="170" fill="#dfe3e4"/>
+        <rect x="16" y="18" width="104" height="54" rx="10" fill="#b9cdd6"/><rect x="140" y="18" width="104" height="54" rx="10" fill="#b9cdd6"/>
+        <path d="M16,60 L120,40 M140,62 L244,36" stroke="#e6eef1" stroke-width="6" opacity=".6"/>
+        <rect x="20" y="96" width="220" height="48" rx="10" fill="#4f6b7a"/>
+        <rect x="20" y="84" width="220" height="18" rx="8" fill="#5f7d8c"/>
+        <g transform="translate(78,104)"><use href="#cube"/></g>
+        <g transform="translate(78,70)"><rect x="-9" y="0" width="18" height="13" rx="2.5" fill="#1a1714"/><path d="M-5,0 v-4 a5,5 0 0 1 10,0 v4" fill="none" stroke="#1a1714" stroke-width="2.4"/></g>
+        <text x="78" y="160" font-size="10" fill="#1a1714" text-anchor="middle" font-weight="700">sealed</text>
+        <path d="M110,100 C140,80 160,80 186,96" fill="none" stroke="#b3701f" stroke-width="2" stroke-dasharray="4 3"/>
+        <path d="M186,96 l-8,-1 m8,1 l-4,-7" stroke="#b3701f" stroke-width="2" stroke-linecap="round"/>
+        <g transform="translate(200,112)"><use href="#cube"/></g>
+        <text x="200" y="160" font-size="10" fill="#1a1714" text-anchor="middle" font-weight="700">new cube, restored</text>
+        <text x="148" y="80" font-size="9" fill="#955c19" text-anchor="middle" font-weight="700">encrypted backup</text>
+      </svg>
+      <div class="meta"><div class="time">Some day</div><div class="ttl">Left on a train</div></div>
+      <div class="act"><svg width="34" height="34" viewBox="0 0 34 34"><rect x="8" y="15" width="18" height="14" rx="3" fill="none" stroke="#1a1714" stroke-width="2.2"/><path d="M12,15 v-4 a5,5 0 0 1 10,0" fill="none" stroke="#b3701f" stroke-width="2.2"/></svg><div><span class="v">NOTHING TO DO</span><span class="l">A finder holds a block of aluminium. You restore a new one.</span></div></div>
+    </div>
+  </div>
+
+  <div class="legend">
+    <span><span class="sw" style="background:#20262a;"></span>Shown in your glasses</span>
+    <span><span class="sw" style="background:#fffdf9; border:1px solid #d8d1c3;"></span>Heard in your earbuds</span>
+    <span><span class="sw" style="background:#fbf2e2; border:1px solid #e4c79a;"></span>Your one action</span>
+    <span>Names and figures are illustrative.</span>
+  </div>
+</div>
+</body>
+</html>

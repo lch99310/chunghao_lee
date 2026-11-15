@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>AIdentity hero render</title>
+<style>
+  html,body{margin:0;padding:0;background:#efeae0;}
+  canvas{display:block;}
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<script type="module">
+import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+
+// Units: 1 = 1 mm. Product: 38 mm cube; 6 mm ceramic top cap; 0.8 mm light seam.
+const W = 1600, H = 900;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(1);
+renderer.setSize(W, H);
+renderer.shadowMap.enabled = true;
+renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.05;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0xefeae0);
+const pmrem = new THREE.PMREMGenerator(renderer);
+scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.02).texture;
+
+const camera = new THREE.PerspectiveCamera(24, W / H, 1, 2000);
+camera.position.set(118, 62, 150);
+camera.lookAt(0, 17, 0);
+
+// Floor
+const floor = new THREE.Mesh(new THREE.PlaneGeometry(2000, 2000),
+  new THREE.MeshStandardMaterial({ color: 0xebe5d9, roughness: 0.95 }));
+scene.fog = new THREE.Fog(0xefeae0, 260, 700);
+floor.rotation.x = -Math.PI / 2;
+floor.receiveShadow = true;
+scene.add(floor);
+
+// Dock: low stone disc
+const dock = new THREE.Mesh(new THREE.CylinderGeometry(31, 32, 4, 128),
+  new THREE.MeshPhysicalMaterial({ color: 0xd3ccbf, roughness: 0.7, metalness: 0.0, clearcoat: 0.1 }));
+dock.position.y = 2; dock.castShadow = true; dock.receiveShadow = true;
+scene.add(dock);
+
+const S = 38, CAP = 6, SEAM = 0.8, R = 6;
+const bodyH = S - CAP - SEAM;
+const group = new THREE.Group();
+group.position.y = 4;
+group.rotation.y = -0.42;
+scene.add(group);
+
+// Rounded-square prism: generous vertical corner radius, small bevel on horizontal edges
+function prism(size, height, radius, bevel) {
+  const s = size / 2 - bevel, r = radius - bevel;
+  const sh = new THREE.Shape();
+  sh.moveTo(-s + r, -s); sh.lineTo(s - r, -s); sh.quadraticCurveTo(s, -s, s, -s + r);
+  sh.lineTo(s, s - r); sh.quadraticCurveTo(s, s, s - r, s); sh.lineTo(-s + r, s);
+  sh.quadraticCurveTo(-s, s, -s, s - r); sh.lineTo(-s, -s + r); sh.quadraticCurveTo(-s, -s, -s + r, -s);
+  const g = new THREE.ExtrudeGeometry(sh, { depth: height - 2 * bevel, bevelEnabled: true, bevelThickness: bevel, bevelSize: bevel, bevelSegments: 6, curveSegments: 24 });
+  g.rotateX(-Math.PI / 2); g.translate(0, bevel, 0);
+  return g;
+}
+
+// Body: anodized aluminium, graphite
+const alu = new THREE.MeshPhysicalMaterial({ color: 0x8f8b84, metalness: 0.9, roughness: 0.33, envMapIntensity: 2.2, clearcoat: 0.25, clearcoatRoughness: 0.3 });
+const body = new THREE.Mesh(prism(S, bodyH, R, 1.2), alu);
+body.castShadow = true; body.receiveShadow = true;
+group.add(body);
+
+// Light seam: emissive band, slightly inset
+const glow = new THREE.MeshStandardMaterial({ color: 0xfff6e6, emissive: 0xfff0d2, emissiveIntensity: 3.0 });
+const seam = new THREE.Mesh(prism(S - 1.4, SEAM + 0.4, R - 0.7, 0.1), glow);
+seam.position.y = bodyH - 0.2;
+group.add(seam);
+
+// Top cap: matte ceramic, off-white
+const ceramic = new THREE.MeshPhysicalMaterial({ color: 0xf3efe8, roughness: 0.38, metalness: 0.0, clearcoat: 0.6, clearcoatRoughness: 0.2, envMapIntensity: 1.0 });
+const cap = new THREE.Mesh(prism(S, CAP, R, 1.4), ceramic);
+cap.position.y = bodyH + SEAM; cap.castShadow = true;
+group.add(cap);
+
+// Alignment notches (front face): cap and body aligned = normal mode
+const notchCap = new THREE.Mesh(new THREE.BoxGeometry(1.0, 2.4, 0.5), new THREE.MeshStandardMaterial({ color: 0x3a3632, roughness: 0.6 }));
+notchCap.position.set(0, bodyH + SEAM + 2.2, S / 2 + 0.02);
+group.add(notchCap);
+const notchBody = new THREE.Mesh(new THREE.BoxGeometry(1.0, 2.4, 0.5), new THREE.MeshStandardMaterial({ color: 0xe6e0d4, roughness: 0.5 }));
+notchBody.position.set(0, bodyH - 2.4, S / 2 + 0.02);
+group.add(notchBody);
+
+// Antenna breaks: thin insulating lines down two vertical corners
+const breakMat = new THREE.MeshStandardMaterial({ color: 0x2f2c29, roughness: 0.8 });
+for (const sx of [1, -1]) {
+  const b = new THREE.Mesh(new THREE.BoxGeometry(0.6, bodyH - 3.2, 0.6), breakMat);
+  const off = S / 2 - R + R * Math.SQRT1_2 + 0.05;
+  b.position.set(sx * off, bodyH / 2, off);
+  group.add(b);
+}
+
+// Soft glow halo on the cap underside
+const glowLight = new THREE.PointLight(0xfff1d6, 60, 40, 2);
+glowLight.position.set(0, bodyH + 0.4, S / 2 + 3);
+group.add(glowLight);
+
+// Key light with soft shadow
+const key = new THREE.DirectionalLight(0xffffff, 2.6);
+key.position.set(-80, 160, 90);
+key.castShadow = true;
+key.shadow.mapSize.set(4096, 4096);
+key.shadow.camera.left = -120; key.shadow.camera.right = 120;
+key.shadow.camera.top = 120; key.shadow.camera.bottom = -120;
+key.shadow.radius = 8; key.shadow.bias = -0.0004;
+scene.add(key);
+const fill = new THREE.DirectionalLight(0xfff4e8, 0.6);
+fill.position.set(140, 60, 40);
+scene.add(fill);
+const rim = new THREE.DirectionalLight(0xffffff, 1.4);
+rim.position.set(-120, 40, -60);
+scene.add(rim);
+
+renderer.render(scene, camera);
+window.__done = true;
+</script>
+</body>
+</html>

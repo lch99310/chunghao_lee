@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --ink:#1c2a36; --grey:#5a6772; --hair:#d9d4c8; --amber:#b3701f; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 44px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; color:#1a1714; }
+  .deck { font-size:18px; color:#6f685d; margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:#e4dccc; margin-top:22px; }
+  .row { display:flex; gap:24px; margin-top:18px; }
+  .stage { position:relative; width:600px; height:900px; background:#fbfaf6; border:1.5px solid var(--ink); }
+  .stage canvas { position:absolute; left:0; top:0; }
+  .stage svg { position:absolute; left:0; top:0; }
+  .parts { flex:1; }
+  .parts table { width:100%; border-collapse:collapse; background:#fbfaf6; border:1.5px solid var(--ink); font-size:14px; }
+  .parts th { text-align:left; font-size:11px; letter-spacing:1.4px; color:var(--grey); padding:8px 10px; border-bottom:1.5px solid var(--ink); }
+  .parts td { padding:9px 10px; border-top:1px solid var(--hair); vertical-align:top; line-height:1.4; }
+  .parts td.n { width:34px; }
+  .ball { display:inline-block; width:24px; height:24px; border:1.5px solid var(--ink); border-radius:12px; text-align:center; line-height:21px; font-weight:700; font-size:12.5px; background:#fff; }
+  .parts .p { font-weight:700; }
+  .parts .d { color:var(--grey); font-size:13px; }
+  .out { margin-top:14px; background:#fbf2e2; border:1.5px solid #e4c79a; border-radius:8px; padding:12px 14px; font-size:13.5px; line-height:1.5; color:#5b4a2c; }
+  .out b { color:#955c19; }
+  .brand { font-family:Georgia,"Liberation Serif",serif; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 9 · Exploded view</div>
+  <h1>Nine parts. Every one is in production today.</h1>
+  <div class="deck">What is inside <span class="brand">AIdentity</span>, and what was deliberately left out.</div>
+  <div class="rule"></div>
+  <div class="row">
+    <div class="stage" id="stage"><svg id="ov" width="600" height="900"></svg></div>
+    <div class="parts">
+      <table>
+        <tr><th>NO.</th><th>PART · WHAT IT DOES</th></tr>
+        <tr><td class="n"><span class="ball">1</span></td><td><span class="p">Top cap</span> · zirconia ceramic<div class="d">Turns 90° on a magnetic detent to go private. Lets radio and light through.</div></td></tr>
+        <tr><td class="n"><span class="ball">2</span></td><td><span class="p">Light guide + LEDs</span><div class="d">The seam of light: off, soft white, blue pulse, amber.</div></td></tr>
+        <tr><td class="n"><span class="ball">3</span></td><td><span class="p">Hall sensor + detent magnets</span><div class="d">Reads the cap's position. No button, no app toggle.</div></td></tr>
+        <tr><td class="n"><span class="ball">4</span></td><td><span class="p">Logic board</span><div class="d">Wearable-class SoC with NPU · 5G RedCap modem + eSIM · Wi-Fi 7 / Bluetooth LE Audio · UWB · 1 TB storage · secure element for keys.</div></td></tr>
+        <tr><td class="n"><span class="ball">5</span></td><td><span class="p">Thermal spreader</span> · graphite + copper<div class="d">Carries heat into the aluminium shell.</div></td></tr>
+        <tr><td class="n"><span class="ball">6</span></td><td><span class="p">Battery</span> · ≈ 10 Wh pouch cell<div class="d">About three days at an average 0.13 W (estimate).</div></td></tr>
+        <tr><td class="n"><span class="ball">7</span></td><td><span class="p">Body shell</span> · anodized aluminium<div class="d">Two 0.6 mm antenna breaks on opposite vertical corners.</div></td></tr>
+        <tr><td class="n"><span class="ball">8</span></td><td><span class="p">Qi2 coil + magnet ring</span><div class="d">Snaps onto the dock. Charging is when memory is consolidated.</div></td></tr>
+        <tr><td class="n"><span class="ball">9</span></td><td><span class="p">Base plate</span> · zirconia ceramic<div class="d">Transparent to the charging field.</div></td></tr>
+      </table>
+      <div class="out"><b>Left out on purpose:</b> camera · microphone · speaker · display · a large model on the device. Each would add heat, cost or other people's suspicion, and your glasses, earbuds and cloud models already do those jobs.</div>
+    </div>
+  </div>
+</div>
+<script type="module">
+import * as THREE from 'three';
+const Wd = 600, Ht = 900;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true, alpha: true });
+renderer.setPixelRatio(2); renderer.setSize(Wd, Ht);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.getElementById('stage').prepend(renderer.domElement);
+const scene = new THREE.Scene();
+scene.add(new THREE.HemisphereLight(0xffffff, 0xcfc8ba, 2.2));
+const dl = new THREE.DirectionalLight(0xffffff, 1.6); dl.position.set(-60, 120, 80); scene.add(dl);
+
+// Orthographic isometric camera (units mm)
+const half = 105, aspect = Wd / Ht;
+const cam = new THREE.OrthographicCamera(-half * aspect * 1.0, half * aspect * 1.0, half, -half, 1, 2000);
+cam.position.set(220, 180, 220); cam.lookAt(0, 0, 0);
+
+function rsShape(size, radius) {
+  const s = size / 2, r = radius, sh = new THREE.Shape();
+  sh.moveTo(-s + r, -s); sh.lineTo(s - r, -s); sh.quadraticCurveTo(s, -s, s, -s + r);
+  sh.lineTo(s, s - r); sh.quadraticCurveTo(s, s, s - r, s); sh.lineTo(-s + r, s);
+  sh.quadraticCurveTo(-s, s, -s, s - r); sh.lineTo(-s, -s + r); sh.quadraticCurveTo(-s, -s, -s + r, -s);
+  return sh;
+}
+function rsPath(size, radius) { const sh = rsShape(size, radius); const p = new THREE.Path(); p.curves = sh.curves; return p; }
+function slab(size, h, radius, hole) {
+  const sh = rsShape(size, radius);
+  if (hole) sh.holes.push(rsPath(hole[0], hole[1]));
+  const g = new THREE.ExtrudeGeometry(sh, { depth: h, bevelEnabled: false, curveSegments: 20 });
+  g.rotateX(-Math.PI / 2); return g;
+}
+function ring(ro, ri, h) {
+  const sh = new THREE.Shape(); sh.absarc(0, 0, ro, 0, Math.PI * 2, false);
+  const hp = new THREE.Path(); hp.absarc(0, 0, ri, 0, Math.PI * 2, true); sh.holes.push(hp);
+  const g = new THREE.ExtrudeGeometry(sh, { depth: h, bevelEnabled: false, curveSegments: 48 }); g.rotateX(-Math.PI / 2); return g;
+}
+const edgeMat = new THREE.LineBasicMaterial({ color: 0x1c2a36 });
+function part(geom, color, y, opts = {}) {
+  const m = new THREE.Mesh(geom, new THREE.MeshStandardMaterial({ color, roughness: 0.7, metalness: 0.0, transparent: !!opts.op, opacity: opts.op || 1, polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1 }));
+  m.position.y = y; scene.add(m);
+  const e = new THREE.LineSegments(new THREE.EdgesGeometry(geom, 30), edgeMat); e.position.y = y; scene.add(e);
+  return m;
+}
+// Stack from top to bottom with exploded gaps; y is the bottom of each part
+const gap = 13;
+const parts = [];
+let y = 0;
+function add(no, h, build) { parts.push({ no, h, build }); }
+add(9, 2.0, (yy) => part(slab(38, 2.0, 6), 0xeee9df, yy));
+add(8, 1.6, (yy) => part(ring(15, 9, 1.6), 0xc9935a, yy));
+add(7, 31.2, (yy) => part(slab(38, 31.2, 6, [35.6, 4.8]), 0xb9b5ae, yy));
+add(6, 12.5, (yy) => part(slab(33.5, 12.5, 4.5), 0xe2ded4, yy));
+add(5, 0.8, (yy) => part(slab(34, 0.8, 4.8), 0xb7865a, yy));
+add(4, 1.4, (yy) => { const b = part(slab(33.5, 1.4, 4.5), 0x9fb4bf, yy);
+  const chip = (w, d, x, z, c) => { const g = new THREE.BoxGeometry(w, 1.4, d); g.translate(0, 0.7, 0); const m = part(g, c, yy + 1.4); m.position.x = x; m.position.z = z; scene.children[scene.children.length - 1].position.set(x, yy + 1.4, z); };
+  chip(11, 11, -6, -5, 0x3d4a52); chip(8, 9, 8, -7, 0x55636b); chip(11, 8, 5, 8, 0x4a575f); chip(6, 6, -9, 9, 0x6b777e); return b; });
+add(3, 1.0, (yy) => { part(slab(30, 1.0, 4), 0xdfe6ea, yy);
+  for (const [x, z] of [[-11, -11], [11, -11], [11, 11], [-11, 11]]) { const g = new THREE.CylinderGeometry(1.6, 1.6, 2, 20); g.translate(0, 1, 0); const m = part(g, 0x8a9399, yy + 1.0); m.position.x = x; m.position.z = z; scene.children[scene.children.length - 1].position.set(x, yy + 1.0, z); } });
+add(2, 1.0, (yy) => part(slab(37.2, 1.0, 5.6, [33, 4]), 0xf2cf72, yy, { op: 0.95 }));
+add(1, 6.0, (yy) => part(slab(38, 6.0, 6), 0xf3efe8, yy));
+
+const anchors = {};
+let total = parts.reduce((a, p) => a + p.h, 0) + gap * (parts.length - 1);
+y = -total / 2 + 6;
+for (const p of parts) {
+  p.build(y);
+  anchors[p.no] = new THREE.Vector3(p.no === 8 ? 15 : (p.no === 4 ? 16.75 : 18.5), y + p.h / 2, p.no === 8 ? 0 : 0);
+  y += p.h + gap;
+}
+renderer.render(scene, cam);
+
+// Balloons with leaders
+const ov = document.getElementById('ov'); const NS = 'http://www.w3.org/2000/svg';
+const pts = Object.entries(anchors).map(([no, v]) => { const q = v.clone().project(cam); return { no: +no, x: (q.x + 1) / 2 * Wd, y: (1 - q.y) / 2 * Ht }; }).sort((a, b) => a.y - b.y);
+const bx = 540;
+pts.forEach((p) => {
+  const by = p.y;
+  const ln = document.createElementNS(NS, 'line'); ln.setAttribute('x1', p.x); ln.setAttribute('y1', p.y); ln.setAttribute('x2', bx - 13); ln.setAttribute('y2', by);
+  ln.setAttribute('stroke', '#1c2a36'); ln.setAttribute('stroke-width', '1'); ov.appendChild(ln);
+  const dot = document.createElementNS(NS, 'circle'); dot.setAttribute('cx', p.x); dot.setAttribute('cy', p.y); dot.setAttribute('r', '2.2'); dot.setAttribute('fill', '#1c2a36'); ov.appendChild(dot);
+  const c = document.createElementNS(NS, 'circle'); c.setAttribute('cx', bx); c.setAttribute('cy', by); c.setAttribute('r', '13'); c.setAttribute('fill', '#fff'); c.setAttribute('stroke', '#1c2a36'); c.setAttribute('stroke-width', '1.5'); ov.appendChild(c);
+  const t = document.createElementNS(NS, 'text'); t.setAttribute('x', bx); t.setAttribute('y', by + 4.5); t.setAttribute('text-anchor', 'middle'); t.setAttribute('font-size', '13'); t.setAttribute('font-weight', '700'); t.setAttribute('fill', '#1c2a36'); t.textContent = p.no; ov.appendChild(t);
+});
+const cap = document.createElementNS(NS, 'text'); cap.setAttribute('x', 16); cap.setAttribute('y', 884); cap.setAttribute('font-size', '11.5'); cap.setAttribute('fill', '#5a6772'); cap.textContent = 'Isometric, exploded along the vertical axis. Concept design; dimensions in mm.'; ov.appendChild(cap);
+window.__done = true;
+</script>
+</body>
+</html>

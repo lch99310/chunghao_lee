@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --amber-bg:#fbf2e2; --amber-line:#e4c79a; --slate:#4a6472; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,"PingFang TC",sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 40px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif","Times New Roman",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; }
+  .deck { font-size:18px; color:var(--grey); margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:22px; }
+  svg text { font-family:"Helvetica Neue",Inter,Arial,sans-serif; }
+  .lbl { font-size:17px; font-weight:700; fill:var(--ink); }
+  .note { font-size:14px; fill:var(--grey); }
+  .ax { font-size:15px; font-weight:700; fill:var(--ink); letter-spacing:.3px; }
+  .axs { font-size:13px; fill:var(--grey2); }
+  .src { font-size:12.5px; color:var(--grey2); margin-top:6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 1 · The landscape</div>
+  <h1>Everyone built new senses. Nobody built the memory you own.</h1>
+  <div class="deck">Today's AI devices on the two axes that matter now. Author's assessment.</div>
+  <div class="rule"></div>
+
+  <svg width="1088" height="660" viewBox="0 0 1088 660" style="margin-top:14px; display:block;">
+    <defs>
+      <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+        <path d="M0,0 L10,5 L0,10 z" fill="#1a1714"/>
+      </marker>
+    </defs>
+    <!-- plot area: x 100..1060, y 30..580 -->
+    <!-- the empty corner -->
+    <rect x="772" y="30" width="288" height="168" rx="6" fill="#fbf2e2" stroke="#e4c79a" stroke-dasharray="5 4"/>
+    <text x="1050" y="186" text-anchor="end" style="font-size:12.5px; font-weight:700; letter-spacing:1.5px; fill:#955c19;">THE EMPTY CORNER</text>
+
+    <!-- light grid -->
+    <line x1="580" y1="30" x2="580" y2="580" stroke="#e4dccc"/>
+    <line x1="100" y1="305" x2="1060" y2="305" stroke="#e4dccc"/>
+
+    <!-- axes -->
+    <line x1="100" y1="580" x2="1068" y2="580" stroke="#1a1714" stroke-width="1.6" marker-end="url(#arr)"/>
+    <line x1="100" y1="580" x2="100" y2="22" stroke="#1a1714" stroke-width="1.6" marker-end="url(#arr)"/>
+
+    <text class="ax" x="1060" y="610" text-anchor="end">KNOWS YOU →</text>
+    <text class="axs" x="100" y="610">Starts from zero every time</text>
+    <text class="axs" x="1060" y="630" text-anchor="end">Remembers you, and the memory is yours</text>
+
+    <g transform="translate(46,305) rotate(-90)">
+      <text class="ax" x="0" y="0" text-anchor="middle">STAYS OUT OF YOUR WAY →</text>
+    </g>
+    <text class="axs" x="108" y="574">Unlock a screen and type</text>
+    <text class="axs" x="108" y="46">No screen, no typing</text>
+
+    <!-- Phone + chat app (0.38, 0.12) -->
+    <circle cx="465" cy="514" r="9" fill="#4a6472" stroke="#f6f3ec" stroke-width="2"/>
+    <text class="lbl" x="482" y="511">Phone + chat app</text>
+    <text class="note" x="482" y="530">Remembers, but inside each company's walls. You unlock and type.</text>
+
+    <!-- Rabbit R1 (0.08, 0.28) -->
+    <circle cx="177" cy="426" r="9" fill="#4a6472" stroke="#f6f3ec" stroke-width="2"/>
+    <text class="lbl" x="194" y="423">Rabbit R1</text>
+    <text class="note" x="194" y="442">A screen and a scroll wheel; its core ran as an Android app.</text>
+
+    <!-- Humane AI Pin (0.12, 0.52) -->
+    <circle cx="215" cy="294" r="9" fill="#4a6472" stroke="#f6f3ec" stroke-width="2"/>
+    <text class="lbl" x="232" y="291">Humane AI Pin</text>
+    <text class="note" x="232" y="310">No screen, but a palm projector, heat on your chest, and no memory.</text>
+
+    <!-- Meta Orion (0.16, 0.74) -->
+    <circle cx="254" cy="173" r="9" fill="#4a6472" stroke="#f6f3ec" stroke-width="2"/>
+    <text class="lbl" x="271" y="170">Meta Orion (prototype)</text>
+    <text class="note" x="271" y="189">Glasses, wristband and a compute puck.</text>
+    <text class="note" x="271" y="207">The puck computes; it does not remember.</text>
+
+    <!-- OpenAI device: unknown position on x -->
+    <line x1="177" y1="98" x2="620" y2="98" stroke="#4a6472" stroke-width="2" stroke-dasharray="6 5"/>
+    <circle cx="398" cy="98" r="11" fill="#f6f3ec" stroke="#4a6472" stroke-width="2"/>
+    <text x="398" y="103" text-anchor="middle" style="font-size:13px; font-weight:700; fill:#4a6472;">?</text>
+    <text class="lbl" x="177" y="76">OpenAI device (not shipped)</text>
+    <text class="note" x="177" y="126">Reportedly screenless. How it remembers, and who owns it, is not yet known.</text>
+
+    <!-- Memory pendants (0.55, 0.66) -->
+    <circle cx="628" cy="217" r="9" fill="#4a6472" stroke="#f6f3ec" stroke-width="2"/>
+    <text class="lbl" x="645" y="252">Memory pendants (Bee, Limitless)</text>
+    <text class="note" x="645" y="271">Recorded and summarised, inside a platform's account.</text>
+    <text class="note" x="645" y="289">Bought by Amazon and Meta in 2025.</text>
+
+    <!-- AIdentity (0.9, 0.9) -->
+    <circle cx="964" cy="85" r="14" fill="#b3701f" stroke="#f6f3ec" stroke-width="3"/>
+    <text class="lbl" x="944" y="74" text-anchor="end" style="fill:#955c19; font-size:18px;"><tspan style="font-family:Georgia,'Liberation Serif',serif; font-size:20px;">AIdentity</tspan> + your wearables</text>
+    <text class="note" x="944" y="93" text-anchor="end">Senses stay on your body.</text>
+    <text class="note" x="944" y="111" text-anchor="end">Memory and identity stay with you.</text>
+  </svg>
+  <div class="src">Sources: The Verge and Tom's Guide (AI Pin), Android Authority (Rabbit R1), Meta (Orion), 9to5Mac (OpenAI device), GeekWire (Bee), Meta (Limitless).</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --paper:#f6f3ec; --card:#fffdf9; --ink:#1a1714; --grey:#6f685d; --grey2:#9a9284; --hair:#e4dccc;
+          --amber:#b3701f; --amber-ink:#955c19; --amber-bg:#fbf2e2; --amber-line:#e4c79a; --slate:#4a6472; }
+  body { width:1200px; background:var(--paper); font-family:"Helvetica Neue",Inter,Arial,sans-serif; color:var(--ink); }
+  .wrap { padding:48px 56px 40px; }
+  .kicker { font-size:13px; font-weight:700; letter-spacing:2.5px; text-transform:uppercase; color:var(--amber); }
+  h1 { font-family:Georgia,"Liberation Serif",serif; font-size:38px; font-weight:700; margin-top:10px; line-height:1.12; }
+  .deck { font-size:18px; color:var(--grey); margin-top:10px; line-height:1.45; }
+  .rule { height:1px; background:var(--hair); margin-top:22px; }
+  svg text { font-family:"Helvetica Neue",Inter,Arial,sans-serif; }
+  .row { font-size:15.5px; font-weight:600; fill:var(--ink); }
+  .h { font-size:19px; font-weight:700; fill:var(--ink); }
+  .s { font-size:14.5px; fill:var(--grey); }
+  .brand { font-family:Georgia,"Liberation Serif",serif; }
+  .tag { font-size:12px; font-weight:700; letter-spacing:1.6px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">Fig. 2 · Unbundling the phone</div>
+  <h1>Every interface is leaving the phone. What stays is the hub.</h1>
+  <div class="deck">Where each job of today's phone goes when wearables and cloud models take over.</div>
+  <div class="rule"></div>
+
+  <svg width="1088" height="720" viewBox="0 0 1088 720" style="margin-top:18px; display:block;">
+    <!-- Phone outline -->
+    <rect x="30" y="14" width="300" height="690" rx="40" fill="#fffdf9" stroke="#1a1714" stroke-width="2.2"/>
+    <rect x="140" y="30" width="80" height="14" rx="7" fill="#1a1714"/>
+    <text class="tag" x="180" y="74" text-anchor="middle" style="fill:#9a9284;">TODAY'S PHONE</text>
+
+    <!-- rows: y centers 112 + i*58 -->
+    <g id="rows">
+      <rect x="50" y="90" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="117">Screen</text>
+      <rect x="50" y="148" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="175">Camera</text>
+      <rect x="50" y="206" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="233">Speaker</text>
+      <rect x="50" y="264" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="291">Microphone</text>
+      <rect x="50" y="322" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="349">Motion &amp; health sensors</text>
+      <rect x="50" y="380" width="260" height="44" rx="8" fill="#f6f3ec" stroke="#e4dccc"/><text class="row" x="66" y="407">AI reasoning</text>
+      <rect x="50" y="438" width="260" height="44" rx="8" fill="#fbf2e2" stroke="#e4c79a"/><text class="row" x="66" y="465">Cellular radio</text>
+      <rect x="50" y="496" width="260" height="44" rx="8" fill="#fbf2e2" stroke="#e4c79a"/><text class="row" x="66" y="523">Storage</text>
+      <rect x="50" y="554" width="260" height="44" rx="8" fill="#fbf2e2" stroke="#e4c79a"/><text class="row" x="66" y="581">Accounts &amp; keys</text>
+      <rect x="50" y="612" width="260" height="44" rx="8" fill="#fbf2e2" stroke="#e4c79a"/><text class="row" x="66" y="639">Your memory, scattered</text>
+    </g>
+
+    <!-- connectors -->
+    <g fill="none" stroke-width="2">
+      <path d="M310,112 C470,112 470,86 620,86" stroke="#9a9284"/>
+      <path d="M310,170 C470,170 470,112 620,112" stroke="#9a9284"/>
+      <path d="M310,228 C470,228 470,214 620,214" stroke="#9a9284"/>
+      <path d="M310,286 C470,286 470,240 620,240" stroke="#9a9284"/>
+      <path d="M310,344 C470,344 470,330 620,330" stroke="#9a9284"/>
+      <path d="M310,402 C470,402 470,428 620,428" stroke="#4a6472"/>
+      <path d="M310,460 C470,460 470,540 620,540" stroke="#b3701f" stroke-width="2.4"/>
+      <path d="M310,518 C470,518 470,566 620,566" stroke="#b3701f" stroke-width="2.4"/>
+      <path d="M310,576 C470,576 470,592 620,592" stroke="#b3701f" stroke-width="2.4"/>
+      <path d="M310,634 C470,634 470,618 620,618" stroke="#b3701f" stroke-width="2.4"/>
+    </g>
+    <g fill="#1a1714">
+      <circle cx="310" cy="112" r="3.5"/><circle cx="310" cy="170" r="3.5"/><circle cx="310" cy="228" r="3.5"/>
+      <circle cx="310" cy="286" r="3.5"/><circle cx="310" cy="344" r="3.5"/><circle cx="310" cy="402" r="3.5"/>
+      <circle cx="310" cy="460" r="3.5" fill="#b3701f"/><circle cx="310" cy="518" r="3.5" fill="#b3701f"/>
+      <circle cx="310" cy="576" r="3.5" fill="#b3701f"/><circle cx="310" cy="634" r="3.5" fill="#b3701f"/>
+    </g>
+
+    <!-- Destination: Glasses -->
+    <rect x="620" y="56" width="460" height="88" rx="10" fill="#fffdf9" stroke="#e4dccc"/>
+    <g transform="translate(642,82)" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linecap="round">
+      <rect x="0" y="6" width="26" height="20" rx="7"/><rect x="34" y="6" width="26" height="20" rx="7"/>
+      <path d="M26,14 Q30,10 34,14"/><path d="M0,12 L-6,8"/><path d="M60,12 L66,8"/>
+    </g>
+    <text class="h" x="730" y="92">Glasses</text>
+    <text class="s" x="730" y="114">See what you see; show what you need to see.</text>
+
+    <!-- Earbuds -->
+    <rect x="620" y="184" width="460" height="88" rx="10" fill="#fffdf9" stroke="#e4dccc"/>
+    <g transform="translate(652,204)" fill="none" stroke="#1a1714" stroke-width="2.2" stroke-linecap="round">
+      <ellipse cx="10" cy="12" rx="10" ry="11"/><path d="M14,22 L18,46"/>
+      <ellipse cx="38" cy="12" rx="10" ry="11"/><path d="M34,22 L30,46"/>
+    </g>
+    <text class="h" x="730" y="220">Earbuds</text>
+    <text class="s" x="730" y="242">Hear you; speak short answers back.</text>
+
+    <!-- Band / ring -->
+    <rect x="620" y="292" width="460" height="76" rx="10" fill="#fffdf9" stroke="#e4dccc"/>
+    <g transform="translate(646,310)" fill="none" stroke="#1a1714" stroke-width="2.2">
+      <rect x="0" y="6" width="56" height="26" rx="13"/><rect x="18" y="0" width="20" height="38" rx="5"/>
+    </g>
+    <text class="h" x="730" y="325">Band or ring</text>
+    <text class="s" x="730" y="347">Read the body, and the pinch that says "yes".</text>
+
+    <!-- Cloud -->
+    <rect x="620" y="388" width="460" height="80" rx="10" fill="#fffdf9" stroke="#4a6472"/>
+    <g transform="translate(644,404)" fill="none" stroke="#4a6472" stroke-width="2.2" stroke-linejoin="round">
+      <path d="M12,40 L50,40 Q62,40 62,28 Q62,17 50,17 Q47,2 32,2 Q18,2 16,16 Q4,16 4,28 Q4,40 12,40 Z"/>
+    </g>
+    <text class="h" x="730" y="423">Cloud models</text>
+    <text class="s" x="730" y="445">Reason. Any model, rented for the task.</text>
+
+    <!-- AIdentity -->
+    <rect x="620" y="500" width="460" height="204" rx="12" fill="#fbf2e2" stroke="#b3701f" stroke-width="2"/>
+    <g transform="translate(642,526)">
+      <rect x="0" y="12" width="52" height="40" rx="9" fill="#5d5a55"/>
+      <rect x="2" y="9" width="48" height="3" rx="1.5" fill="#fff1d6"/>
+      <rect x="0" y="0" width="52" height="10" rx="4" fill="#f1ede6" stroke="#cfc6b6"/>
+    </g>
+    <text class="h" x="730" y="540" style="fill:#955c19; font-size:22px;"><tspan class="brand">AIdentity</tspan></text>
+    <text class="s" x="730" y="562" style="fill:#6b5b3f;">Remembers, connects, and holds who you are.</text>
+    <text class="s" x="730" y="596" style="fill:#1a1714;">· its own 5G link</text>
+    <text class="s" x="730" y="620" style="fill:#1a1714;">· 1 TB of memory, organized by Engram</text>
+    <text class="s" x="730" y="644" style="fill:#1a1714;">· your keys, in a secure element</text>
+    <text class="s" x="730" y="668" style="fill:#1a1714;">· no camera, no microphone, no screen</text>
+
+    <!-- ownership tags -->
+    <text class="tag" x="1066" y="80" text-anchor="end" style="fill:#9a9284;">ANY MAKER</text>
+    <text class="tag" x="1066" y="208" text-anchor="end" style="fill:#9a9284;">ANY MAKER</text>
+    <text class="tag" x="1066" y="314" text-anchor="end" style="fill:#9a9284;">ANY MAKER</text>
+    <text class="tag" x="1066" y="412" text-anchor="end" style="fill:#4a6472;">RENTED</text>
+    <text class="tag" x="1066" y="526" text-anchor="end" style="fill:#955c19;">OWNED BY YOU</text>
+  </svg>
+</div>
+</body>
+</html>
